@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/fonts/BebasNeue-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VariableFont_opsz,wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Italic-VariableFont_opsz,wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satisfy";
+  src: url("/fonts/Satisfy-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-decoration: "Satisfy", cursive;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+}
+
+:root {
+  --background: #122327;
+  --foreground: #fff;
+  --primary: #0cb3db;
+  --primary-foreground: #ffffff;
+  --secondary: #122327;
+  --secondary-foreground: #ffffff;
+  --card: #1c2d31;
+  --muted: #6b7d82;
+  --surface: #1a2f34;
+  --border: #2a3f44;
+}
+
+@layer base {
+  body {
+    @apply text-base sm:text-lg leading-relaxed;
+    font-family: var(--font-body);
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
+
+/* Text */
+
+/* Containers */
+@utility uw-container {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+@utility uw-section {
+  @apply py-16 sm:py-24;
+}
