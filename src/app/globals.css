@@ -63,7 +63,7 @@
 
 @layer base {
   body {
-    @apply text-base sm:text-lg leading-relaxed;
+    @apply text-[clamp(16rem,14.571rem+3.571vw,18rem)];
     font-family: var(--font-body);
     background-color: var(--background);
     color: var(--foreground);
@@ -71,6 +71,25 @@
 }
 
 /* Text */
+
+@utility uw-heading-test {
+  @apply font-heading text-[1.875rem] leading-[1.2];
+}
+
+@utility uw-heading {
+  @apply font-heading leading-6.5 tracking-wider;
+  font-size: clamp(0.938rem, 0.804rem + 0.335vw, 1.125rem);
+}
+
+@utility uw-heading-sm {
+  @apply font-heading leading-[0.95] tracking-normal;
+  font-size: clamp(1.563rem, -0.892rem + 6.138vw, 5rem);
+}
+
+@utility uw-heading-lg {
+  @apply font-heading leading-none tracking-normal;
+  font-size: clamp(2rem, -2rem + 10vw, 8rem);
+}
 
 /* Containers */
 @utility uw-container {
