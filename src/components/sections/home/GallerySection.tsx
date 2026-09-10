@@ -18,7 +18,7 @@ export default function GallerySection() {
 
   return (
     <section className="w-full overflow-hidden">
-      <div className="uw-container uw-section pb-0">
+      <div className="uw-container">
         <div className="mb-7.5 lg:mb-9.5">
           <div className="flex flex-col xl:flex-row gap-6 justify-between items-start xl:items-end">
             <h2 className="xl:w-1/2 font-heading text-white leading-[0.95]">

@@ -18,7 +18,7 @@ const features = [
 export default function AboutSection() {
   return (
     <section className="w-full overflow-hidden">
-      <div className="uw-container uw-section">
+      <div className="uw-container uw-section pt-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-10 items-center">
           <div className="relative mx-auto w-full max-w-130  aspect-4/5 sm:aspect-4/3 lg:aspect-3/4">
             <div className="absolute -inset-3 -rotate-2 rounded-4xl bg-primary/10" />

@@ -4,7 +4,7 @@ import { tours } from "@/src/data/tours";
 export default function PopularToursSection() {
   return (
     <section className="w-full overflow-hidden">
-      <div className="uw-container uw-section">
+      <div className="uw-container uw-section pt-0">
         <div className="mb-7.5 lg:mb-9.5">
           <div className="flex flex-col gap-6 items-center text-center">
             <h2 className="font-heading text-white leading-[0.95]">

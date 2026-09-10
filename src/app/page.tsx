@@ -4,6 +4,7 @@ import AboutSection from "@/src/components/sections/home/AboutSection";
 import PopularToursSection from "@/src/components/sections/home/PopularToursSection";
 import GallerySection from "@/src/components/sections/home/GallerySection";
 import TestimonialsSection from "@/src/components/sections/home/TestimonialsSection";
+import CertificationsSection from "@/src/components/sections/home/CertificationsSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <PopularToursSection/>
       <GallerySection />
       <TestimonialsSection />
+      <CertificationsSection />
     </>
   );
 }

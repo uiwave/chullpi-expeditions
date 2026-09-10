@@ -25,7 +25,7 @@ export default function TestimonialsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
           {testimonials.map((testimonial) => (
-<figure
+            <figure
               key={testimonial.name}
               className="relative w-full overflow-hidden rounded-2xl bg-card border border-border p-6 flex flex-col gap-4"
             >
@@ -41,13 +41,14 @@ export default function TestimonialsSection() {
                   <figcaption className="font-heading text-white tracking-wider">
                     {testimonial.name}
                   </figcaption>
-                  <span className="text-muted text-sm">
-                    {testimonial.from}
-                  </span>
+                  <span className="text-muted text-sm">{testimonial.from}</span>
                 </div>
                 <div className="ml-auto flex items-center gap-0.5">
                   {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <Star key={i} className="size-4 text-primary fill-primary" />
+                    <Star
+                      key={i}
+                      className="size-4 text-primary fill-primary"
+                    />
                   ))}
                 </div>
               </div>
