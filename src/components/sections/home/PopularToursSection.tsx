@@ -1,4 +1,4 @@
-import { destinations } from "@/src/data/destinations";
+import { tours } from "@/src/data/tours";
 
 export default function PopularToursSection() {
   return (
@@ -17,24 +17,40 @@ export default function PopularToursSection() {
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 w-full">
-          {destinations.map((destination) => (
+          {tours.map((tour) => (
             <a
-              key={destination.slug}
-              href={destination.slug}
-              className="group flex flex-col w-full overflow-hidden rounded-2xl bg-card border border-border"
+              key={tour.slug}
+              href={tour.slug}
+              className="group flex flex-col w-full overflow-hidden rounded-2xl bg-card border border-border p-5"
             >
-              <div className="relative aspect-4/4 w-full overflow-hidden">
+              <span className="text-center font-heading text-[3.125rem] leading-none tracking-widest text-primary mb-3.75">
+                {tour.destination}
+              </span>
+
+              <div className="relative aspect-video w-full overflow-hidden rounded-xl">
                 <img
-                  src={destination.image}
-                  alt={destination.title}
-                  className="h-full w-full object-cover object-center"
+                  src={tour.image}
+                  alt={tour.title}
+                  className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <div className="flex flex-col p-5">
-                <h3 className="font-heading text-[1.875rem] leading-[1.2] text-white">
-                  {destination.title}
-                </h3>
-              </div>
+
+              <h3 className="font-heading text-[1.875rem] leading-[1.2] text-white">
+                {tour.title}
+              </h3>
+
+              <p className="text-base">
+                <span className="font-heading text-white text-2xl">
+                  ${tour.price}.00
+                </span>{" "}
+                / Per Person
+              </p>
+
+              <div className="border-t border-border" />
+
+              <span className="font-heading text-white">
+                🕒 {tour.duration}
+              </span>
             </a>
           ))}
         </div>
