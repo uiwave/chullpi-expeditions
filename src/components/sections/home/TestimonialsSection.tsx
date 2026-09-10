@@ -30,7 +30,7 @@ export default function TestimonialsSection() {
               className="relative w-full overflow-hidden rounded-2xl bg-card border border-border p-6 flex flex-col gap-4"
             >
               <Quote className="size-8 text-primary" />
-              <p className="text-foreground">"{testimonial.comment}"</p>
+              <p className="text-foreground">&ldquo;{testimonial.comment}&rdquo;</p>
               <div className="border-t border-border pt-4 mt-auto flex items-center gap-4">
                 <img
                   src={testimonial.image}

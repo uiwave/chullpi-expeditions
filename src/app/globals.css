@@ -68,6 +68,21 @@
   }
 }
 
+@utility uw-heading {
+  @apply font-heading leading-6.5 tracking-wider;
+  font-size: clamp(0.938rem, 0.804rem + 0.335vw, 1.125rem);
+}
+
+@utility uw-heading-sm {
+  @apply font-heading leading-[0.95] tracking-normal;
+  font-size: clamp(1.563rem, -0.892rem + 6.138vw, 5rem);
+}
+
+@utility uw-heading-lg {
+  @apply font-heading leading-none tracking-normal;
+  font-size: clamp(2rem, -2rem + 10vw, 8rem);
+}
+
 @utility uw-container {
   @apply container mx-auto px-4 sm:px-6 lg:px-8;
 }
