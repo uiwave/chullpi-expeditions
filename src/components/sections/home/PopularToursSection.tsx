@@ -1,24 +1,19 @@
 import { destinations } from "@/src/data/destinations";
 
-export default function DestinationsSection() {
+export default function PopularToursSection() {
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section">
         <div className="mb-7.5 lg:mb-9.5">
-          <div className="flex flex-col xl:flex-row gap-6 justify-between items-start xl:items-end">
-            <h2 className="xl:w-1/2 font-heading text-white leading-[0.95]">
+          <div className="flex flex-col gap-6 items-center text-center">
+            <h2 className="font-heading text-white leading-[0.95]">
               <span className="block font-decoration text-primary text-[clamp(1.5rem,0.5rem+3.5vw,3rem)] leading-none mb-1">
-                Lo mejor de Perú
+                No te pierdas
               </span>
               <span className="block text-[clamp(1.875rem,-0.5rem+6vw,4.5rem)]">
-                Explora nuestros destinos
+                Nuestros Tours Destacados en Perú
               </span>
             </h2>
-            <p className="xl:w-[38%]">
-              Descubre los destinos más impresionantes de Perú. Desde paisajes
-              majestuosos hasta sitios históricos, vive experiencias auténticas
-              y memorables en cada rincón del país.
-            </p>
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 w-full">
