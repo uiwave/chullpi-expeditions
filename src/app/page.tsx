@@ -3,6 +3,7 @@ import HeroSection from "@/src/components/sections/home/HeroSection";
 import AboutSection from "@/src/components/sections/home/AboutSection";
 import PopularToursSection from "@/src/components/sections/home/PopularToursSection";
 import GallerySection from "@/src/components/sections/home/GallerySection";
+import TestimonialsSection from "@/src/components/sections/home/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutSection/>
       <PopularToursSection/>
       <GallerySection />
+      <TestimonialsSection />
     </>
   );
 }
