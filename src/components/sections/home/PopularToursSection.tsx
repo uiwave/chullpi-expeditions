@@ -1,3 +1,4 @@
+import { Clock } from "lucide-react";
 import { tours } from "@/src/data/tours";
 
 export default function PopularToursSection() {
@@ -21,7 +22,7 @@ export default function PopularToursSection() {
             <a
               key={tour.slug}
               href={tour.slug}
-              className="group flex flex-col w-full overflow-hidden rounded-2xl bg-card border border-border p-5"
+              className="group flex flex-col w-full overflow-hidden rounded-2xl bg-card border border-border p-5 gap-3"
             >
               <span className="text-center font-heading text-[3.125rem] leading-none tracking-widest text-primary mb-3.75">
                 {tour.destination}
@@ -39,7 +40,7 @@ export default function PopularToursSection() {
                 {tour.title}
               </h3>
 
-              <p className="text-base">
+              <p className="text-base mt-auto">
                 <span className="font-heading text-white text-2xl">
                   ${tour.price}.00
                 </span>{" "}
@@ -48,8 +49,9 @@ export default function PopularToursSection() {
 
               <div className="border-t border-border" />
 
-              <span className="font-heading text-white">
-                🕒 {tour.duration}
+              <span className="font-heading text-white inline-flex items-center gap-2">
+                <Clock className="size-4 text-primary" />
+                {tour.duration}
               </span>
             </a>
           ))}
