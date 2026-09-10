@@ -2,6 +2,7 @@ import DestinationsSection from "@/src/components/sections/home/DestinationsSect
 import HeroSection from "@/src/components/sections/home/HeroSection";
 import AboutSection from "@/src/components/sections/home/AboutSection";
 import PopularToursSection from "@/src/components/sections/home/PopularToursSection";
+import GallerySection from "@/src/components/sections/home/GallerySection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <DestinationsSection />
       <AboutSection/>
       <PopularToursSection/>
+      <GallerySection />
     </>
   );
 }
