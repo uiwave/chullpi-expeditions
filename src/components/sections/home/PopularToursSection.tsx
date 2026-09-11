@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Clock } from "lucide-react";
 import { tours } from "@/src/data/tours";
 
@@ -19,9 +20,9 @@ export default function PopularToursSection() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 w-full">
           {tours.map((tour) => (
-            <a
+            <Link
               key={tour.slug}
-              href={tour.slug}
+              href={`/tours/${tour.slug}`}
               className="group flex flex-col w-full overflow-hidden rounded-2xl bg-card border border-border p-5 gap-3"
             >
               <span className="text-center font-heading text-[3.125rem] leading-none tracking-widest text-primary mb-3.75">
@@ -53,7 +54,7 @@ export default function PopularToursSection() {
                 <Clock className="size-4 text-primary" />
                 {tour.duration}
               </span>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
