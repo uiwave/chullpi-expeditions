@@ -1,14 +1,23 @@
-import type { ItineraryDay } from "@/src/data/tours";
+"use client";
+
+import { useTranslations } from "next-intl";
+interface ItineraryDay {
+  day: number;
+  title: string;
+  description: string;
+}
 
 interface ItinerarySectionProps {
   itinerary: ItineraryDay[];
 }
 
 export default function ItinerarySection({ itinerary }: ItinerarySectionProps) {
+  const t = useTranslations("tour_detail");
+
   return (
     <section>
       <h2 className="font-heading text-2xl tracking-wider text-white mb-8">
-        Itinerario Detallado
+        {t("itinerary_title")}
       </h2>
 
       <div className="relative">
@@ -23,7 +32,7 @@ export default function ItinerarySection({ itinerary }: ItinerarySectionProps) {
 
               <div className="flex-1 bg-surface border border-border rounded-xl p-5">
                 <h3 className="font-heading text-lg tracking-wider text-white mb-2">
-                  Día {day.day}: {day.title}
+                  {t("day", { number: day.day })}: {day.title}
                 </h3>
                 <p className="text-foreground leading-relaxed">
                   {day.description}

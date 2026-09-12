@@ -1,0 +1,45 @@
+{
+  "title": "SACRED VALLEY & RAINBOW MOUNTAIN",
+  "description": "Descubre la magia del Valle Sagrado de los Incas y la impressionante Montaña de Colores. Este tour combina historia, cultura y naturaleza en un solo viaje inolvidable.",
+  "shortItinerary": [
+    "Día 1: Cusco - Ollantaytambo - Pisac",
+    "Día 2: Valle Sagrado - Chinchero - Moray - Maras",
+    "Día 3: Montaña de Colores - Retorno a Cusco"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Cusco - Ollantaytambo - Pisac",
+      "description": "Recogida en el hotel y traslado al Valle Sagrado. Visitaremos las ruinas de Ollantaytambo y la incansable Pisac con su mercado artesanal."
+    },
+    {
+      "day": 2,
+      "title": "Valle Sagrado - Chinchero - Moray - Maras",
+      "description": "Exploraremos los centros ceremoniales de Chinchero, las terrazas agrícolas de Moray y las salineras ancestrales de Maras."
+    },
+    {
+      "day": 3,
+      "title": "Montaña de Colores - Retorno a Cusco",
+      "description": "Trekking hacia la famosa Vinicunca o Montaña de Colores, con vistas panorámicas de 360°. Retorno a Cusco por la tarde."
+    }
+  ],
+  "includes": [
+    "Transporte turístico todo el tour",
+    "Guía profesional bilingüe",
+    "Entradas a todas las atracciones",
+    "Almuerzo buffet en Valle Sagrado",
+    "Agua mineral durante el tour"
+  ],
+  "notIncludes": [
+    "Alojamiento",
+    "Cenas y desayunos",
+    "Propinas",
+    "Seguro de viaje"
+  ],
+  "recommendations": [
+    "Usar zapatillas de trekking cómodas",
+    "Llevar chompa o chaqueta para las tardes frescas",
+    "Protector solar obligatorio por la altitud",
+    "Llevar efectivo para compras en mercados"
+  ]
+}

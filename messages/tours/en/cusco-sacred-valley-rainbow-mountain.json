@@ -1,0 +1,45 @@
+{
+  "title": "SACRED VALLEY & RAINBOW MOUNTAIN",
+  "description": "Discover the magic of the Sacred Valley of the Incas and the impressive Rainbow Mountain. This tour combines history, culture, and nature in a single unforgettable journey.",
+  "shortItinerary": [
+    "Day 1: Cusco - Ollantaytambo - Pisac",
+    "Day 2: Sacred Valley - Chinchero - Moray - Maras",
+    "Day 3: Rainbow Mountain - Return to Cusco"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Cusco - Ollantaytambo - Pisac",
+      "description": "Hotel pickup and transfer to the Sacred Valley. We'll visit the ruins of Ollantaytambo and the bustling Pisac with its artisan market."
+    },
+    {
+      "day": 2,
+      "title": "Sacred Valley - Chinchero - Moray - Maras",
+      "description": "We'll explore the ceremonial centers of Chinchero, the agricultural terraces of Moray, and the ancestral salt mines of Maras."
+    },
+    {
+      "day": 3,
+      "title": "Rainbow Mountain - Return to Cusco",
+      "description": "Trek to the famous Vinicunca or Rainbow Mountain, with 360° panoramic views. Return to Cusco in the afternoon."
+    }
+  ],
+  "includes": [
+    "Tourist transport for the entire tour",
+    "Professional bilingual guide",
+    "Entrance to all attractions",
+    "Buffet lunch in Sacred Valley",
+    "Mineral water during the tour"
+  ],
+  "notIncludes": [
+    "Accommodation",
+    "Dinners and breakfasts",
+    "Tips",
+    "Travel insurance"
+  ],
+  "recommendations": [
+    "Wear comfortable trekking shoes",
+    "Bring a sweater or jacket for cool afternoons",
+    "Sunscreen mandatory due to altitude",
+    "Bring cash for market purchases"
+  ]
+}

@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { AlertTriangle } from "lucide-react";
 
 interface RecommendationsSectionProps {
@@ -5,11 +8,13 @@ interface RecommendationsSectionProps {
 }
 
 export default function RecommendationsSection({ recommendations }: RecommendationsSectionProps) {
+  const t = useTranslations("tour_detail");
+
   return (
     <section>
       <h2 className="font-heading text-2xl tracking-wider text-white mb-4 flex items-center gap-2">
         <AlertTriangle className="w-6 h-6 text-primary" />
-        Recomendaciones
+        {t("recommendations")}
       </h2>
 
       <div className="bg-surface border border-border rounded-xl p-5">

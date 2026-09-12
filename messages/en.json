@@ -1,0 +1,195 @@
+{
+  "common": {
+    "per_person": "/ Person",
+    "phone": "+51 123 456 789",
+    "location": "Cusco, Peru",
+    "hours": "Mon – Sun: 8:00 – 19:00",
+    "logo_alt": "Chullpi Expeditions Logo",
+    "close_menu": "Close Menu",
+    "open_menu": "Open Menu",
+    "menu": "Menu",
+    "tours": "Tours",
+    "loading": "Loading..."
+  },
+  "nav": {
+    "home": "Home",
+    "destinos": "Destinations",
+    "nosotros": "About Us",
+    "contacto": "Contact",
+    "cusco": "Cusco",
+    "arequipa": "Arequipa",
+    "puno": "Puno",
+    "ica": "Ica"
+  },
+  "topbar": {
+    "reservations": "Reservations: "
+  },
+  "lang": {
+    "es": "Español",
+    "en": "English",
+    "pt": "Português"
+  },
+  "hero_home": {
+    "subtitle": "Unique Expeditions in Peru",
+    "title": "Adventure",
+    "video_fallback": "Your browser does not support the video format."
+  },
+  "home": {
+    "destinations": {
+      "label": "The best of Peru",
+      "title": "Explore our destinations",
+      "description": "Discover the most stunning destinations in Peru. From majestic landscapes to historic sites, experience authentic and unforgettable moments in every corner of the country."
+    },
+    "about": {
+      "label": "About us",
+      "title": "Discover the world travel smart with us",
+      "description": "We combine local expertise and technology to make every trip through Peru simple, safe, and memorable from start to finish.",
+      "feature1_title": "Personalized Trip Planning",
+      "feature1_desc": "We design every itinerary to your needs, combining your interests with the best destinations in Peru.",
+      "feature2_title": "Flexible Cancellation Options",
+      "feature2_desc": "Change plans hassle-free. Cancel or reschedule your trip with complete peace of mind.",
+      "cta": "More about us"
+    },
+    "popular_tours": {
+      "label": "Don't miss out",
+      "title": "Our Featured Tours in Peru"
+    },
+    "gallery": {
+      "label": "Moments",
+      "title": "Experience Gallery",
+      "description": "Discover the most stunning destinations in Peru. From majestic landscapes to historic sites, experience authentic and unforgettable moments in every corner of the country.",
+      "alt": "Gallery destination"
+    },
+    "testimonials": {
+      "label": "What they say",
+      "title": "Traveler Testimonials",
+      "description": "The experiences of those who have already traveled with us speak for themselves. Real stories, unique moments, and memories that last forever."
+    },
+    "certifications": {
+      "title": "Tourist Safety"
+    }
+  },
+  "tours": {
+    "hero": {
+      "alt": "Tours in Peru",
+      "subtitle": "Explore Peru",
+      "title": "Our Tours",
+      "description": "Discover the best adventure, culture, and nature experiences in Peru's most incredible destinations."
+    },
+    "filter": {
+      "title": "Filter Tours",
+      "clear": "Clear filters",
+      "destination": "Destination",
+      "duration": "Duration",
+      "type": "Experience Type",
+      "price_range": "Price Range (USD)",
+      "min": "Min",
+      "max": "Max",
+      "all": "All",
+      "days_1_2": "1-2 Days",
+      "days_3_4": "3-4 Days",
+      "days_5_plus": "5+ Days",
+      "aventura": "Adventure",
+      "cultural": "Cultural",
+      "trekking": "Trekking",
+      "naturaleza": "Nature"
+    },
+    "grid": {
+      "found": "{count} tours found",
+      "found_one": "1 tour found",
+      "not_found": "No tours found",
+      "try_adjust": "Try adjusting the filters to find more tour options in Peru."
+    }
+  },
+  "tour_detail": {
+    "breadcrumb_tours": "Tours",
+    "description_title": "About this Tour",
+    "short_itinerary": "Itinerary Summary",
+    "itinerary_title": "Detailed Itinerary",
+    "day": "Day {number}",
+    "includes_title": "What's included?",
+    "includes": "Includes",
+    "not_includes": "Not Included",
+    "recommendations": "Recommendations",
+    "book_now": "Book Now",
+    "contact_hint": "Or contact us at +51 123 456 789",
+    "duration": "Duration",
+    "destination": "Destination",
+    "type": "Type",
+    "meta_title": "{title} | Chullpi Expeditions"
+  },
+  "about": {
+    "hero": {
+      "label": "Who we are",
+      "title": "About Us",
+      "description": "An expedition agency passionate about connecting travelers with Peru's culture, history, and landscapes."
+    },
+    "page": {
+      "label": "About us",
+      "title": "Discover Peru authentically and meaningfully",
+      "description_part1": "At Chullpi Expeditions we design unique experiences that connect travelers with the culture, history, and landscapes of this wonderful country. Every journey is carefully planned so you can live a ",
+      "description_bold": "safe and personalized adventure",
+      "description_part2": " from start to finish.",
+      "cta": "Explore, discover, and let Peru amaze you with Chullpi Expeditions!",
+      "feature1_title": "Expert guides and passionate team",
+      "feature1_desc": "Carefully planned tours by local guides who know every corner and secret of Peru.",
+      "feature2_title": "Adventures tailored to you",
+      "feature2_desc": "Every itinerary is designed around your interests, so you discover the Peru you dreamed of at your own pace.",
+      "feature3_title": "Safety and trust",
+      "feature3_desc": "Safe, personalized, and worry-free trips, designed so you can simply enjoy the experience."
+    },
+    "vision": {
+      "number": "01",
+      "label": "Vision",
+      "title": "The journey we want to inspire",
+      "description": "To be recognized as the leading agency in authentic tourism in Peru, standing out for our excellence, environmental commitment, and deep respect for local culture. We want to inspire travelers to explore, learn, and love our country."
+    },
+    "mission": {
+      "number": "02",
+      "label": "Mission",
+      "title": "Our reason for being",
+      "description": "To offer authentic and personalized travel experiences that connect travelers with Peru's cultural, historical, and natural richness, promoting sustainable tourism and enriching the lives of our clients and local communities."
+    },
+    "values": {
+      "number": "03",
+      "label": "Values",
+      "title": "The values that guide us",
+      "description": "Every experience we design is born from five principles that care for the traveler, people, and the planet.",
+      "authenticity": "Authenticity",
+      "authenticity_desc": "Experiences that reflect the true essence of Peru.",
+      "excellence": "Excellence",
+      "excellence_desc": "High-quality service in every detail.",
+      "sustainability": "Sustainability",
+      "sustainability_desc": "We care for the environment and support communities.",
+      "passion": "Passion",
+      "passion_desc": "We love what we do and share it with you.",
+      "respect": "Respect",
+      "respect_desc": "We honor every culture, tradition, and person."
+    },
+    "alt": {
+      "sumbay": "Rock Art Caves in Sumbay",
+      "vinicunca": "Vinicunca Rainbow Mountain",
+      "machu_picchu": "Cusco to Machu Picchu in three days",
+      "ausangate": "Seven Lakes of Ausangate"
+    }
+  },
+  "footer": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "about": "About Us",
+    "contact": "Contact",
+    "description": "Unique expeditions across Peru. We design tailor-made trips, combining local expertise and technology so every experience is safe and memorable.",
+    "newsletter_title": "Subscribe to our newsletter for the latest updates and special offers.",
+    "email_placeholder": "Your email address",
+    "subscribe": "Subscribe",
+    "links": "Links",
+    "social_aria": "Social network"
+  },
+  "certifications": {
+    "gercetur": "GERCETUR",
+    "promperu": "PromPerú",
+    "safe_travels": "Safe Travels",
+    "tripadvisor": "TripAdvisor",
+    "peru": "Peru"
+  }
+}

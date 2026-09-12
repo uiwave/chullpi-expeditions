@@ -1,0 +1,55 @@
+{
+  "title": "MACHU PICCHU CLASSIC TREK",
+  "description": "Experience the ultimate trekking adventure to Machu Picchu. This 4-day tour takes you through ancient trails surrounded by stunning landscapes, high mountain passes, and the Amazon rainforest. Arriving at the Sun Gate at dawn, you'll witness the sacred Incan citadel shrouded in morning mist.",
+  "shortItinerary": [
+    "Day 1: Cusco - Ollantaytambo - Aguas Calientes",
+    "Day 2: Inca Trek to Machu Picchu",
+    "Day 3: Machu Picchu Exploration - Aguas Calientes",
+    "Day 4: Return to Cusco"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Cusco - Ollantaytambo - Aguas Calientes",
+      "description": "We depart early from Cusco towards Ollantaytambo, where we begin a 3-hour walk through Inca trails surrounded by Andean landscapes. We arrive in Aguas Calientes in the afternoon, where we spend the night in a hotel."
+    },
+    {
+      "day": 2,
+      "title": "Inca Trek to Machu Picchu",
+      "description": "We wake up with energy for the big day. We cross the Inca Bridge and begin the 1.5-hour ascent to the Sun Gate. From there, we gaze at the citadel wrapped in mist. We have the whole day to explore temples, plazas, and Huayna Picchu."
+    },
+    {
+      "day": 3,
+      "title": "Machu Picchu Exploration - Aguas Calientes",
+      "description": "Second day in Machu Picchu to explore areas we didn't visit the day before. Optionally we can visit Huayna Picchu or Machu Picchu Mountain. In the afternoon we descend to Aguas Calientes to celebrate."
+    },
+    {
+      "day": 4,
+      "title": "Return to Cusco",
+      "description": "In the morning we take the train back to Ollantaytambo and then a private transfer to Cusco. We arrive in the afternoon with free time to explore the imperial city."
+    }
+  ],
+  "includes": [
+    "Round-trip train transport",
+    "Professional tourism guide",
+    "Machu Picchu entrance",
+    "3-star hotel accommodation",
+    "Full board (breakfast, lunch, dinner)",
+    "Basic trekking equipment",
+    "First aid kit"
+  ],
+  "notIncludes": [
+    "Round-trip flights to Cusco",
+    "First day lunch",
+    "Tips for guides and team",
+    "Travel insurance",
+    "Alcoholic beverages"
+  ],
+  "recommendations": [
+    "Bring warm clothing for cold mountain nights",
+    "Comfortable footwear for walking on stone trails",
+    "Sunscreen and sunglasses for the altitude",
+    "Bring original identity documents",
+    "Acclimatize at least 2 days in Cusco before trekking"
+  ]
+}

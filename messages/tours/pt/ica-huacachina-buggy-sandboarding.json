@@ -1,0 +1,34 @@
+{
+  "title": "HUACACHINA BUGGY & SANDBOARDING",
+  "description": "Adrenalina pura no deserto de Huacachina. Aproveite empolgantes passeios de buggy pelas dunas e deslize sobre a areia com sandboarding.",
+  "shortItinerary": [
+    "Passeio de buggy pelas dunas do deserto",
+    "Sandboarding nas dunas mais altas",
+    "Pôr do sol mágico do topo"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Aventura em Huacachina",
+      "description": "Nos encontramos em Huacachina, o oásis do deserto. Começamos com um empolgante passeio de buggy em alta velocidade pelas dunas. Depois praticaremos sandboarding nas dunas mais altas. Finalizamos com um pôr do sol espetacular do topo."
+    }
+  ],
+  "includes": [
+    "Passeio de buggy compartilhado (4 pessoas)",
+    "Pranchas de sandboarding",
+    "Guia motorista",
+    "Seguro básico",
+    "Busca e retorno ao hotel"
+  ],
+  "notIncludes": [
+    "Transporte até Huacachina",
+    "Almoço",
+    "Gorjetas"
+  ],
+  "recommendations": [
+    "Usar roupas que possam sujar",
+    "Levar óculos de sol e lenço para a areia",
+    "Protetor solar obrigatório",
+    "Não é adequado para pessoas com problemas nas costas"
+  ]
+}

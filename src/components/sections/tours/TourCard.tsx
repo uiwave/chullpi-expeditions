@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
 import { Clock } from "lucide-react";
 import type { Tour } from "@/src/data/tours";
 
@@ -7,9 +10,12 @@ interface TourCardProps {
 }
 
 export default function TourCard({ tour }: TourCardProps) {
+  const t = useTranslations("common");
+  const locale = useLocale();
+
   return (
     <Link
-      href={`/tours/${tour.slug}`}
+      href={`/${locale}/tours/${tour.slug}`}
       className="group flex flex-col w-full overflow-hidden rounded-2xl bg-card border border-border p-5 gap-3"
     >
       <span className="text-center font-heading text-[3.125rem] leading-none tracking-widest text-primary mb-3.75">
@@ -35,7 +41,7 @@ export default function TourCard({ tour }: TourCardProps) {
         <span className="font-heading text-white text-2xl">
           ${tour.price}.00
         </span>{" "}
-        / Per Person
+        {t("per_person")}
       </p>
 
       <div className="border-t border-border" />

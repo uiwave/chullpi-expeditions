@@ -1,0 +1,48 @@
+{
+  "title": "7 LAGUNAS DEL AUSANGATE",
+  "description": "Epic trekking through the 7 Ausangate Lakes, a high mountain circuit with turquoise-colored lakes and imposing snow-capped peaks. The least traveled route in Peru.",
+  "shortItinerary": [
+    "Day 1: Cusco - Tinki - Upis",
+    "Day 2: Ausangate Lakes - Travisique",
+    "Day 3: Qomercocha - Tinki - Cusco"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Cusco - Tinki - Upis",
+      "description": "We depart from Cusco to Tinki (4,000 m) where the trekking begins. We'll walk 4 hours to Upis, passing through high-altitude landscapes and Andean grasslands."
+    },
+    {
+      "day": 2,
+      "title": "Ausangate Lakes - Travisique",
+      "description": "The most epic day: we'll visit the 7 colored lakes (emerald green, turquoise, deep blue) with the Ausangate snow-capped peak as backdrop. Camp in Travisique."
+    },
+    {
+      "day": 3,
+      "title": "Qomercocha - Tinki - Cusco",
+      "description": "We descend through Qomercocha and other panoramic viewpoints to Tinki. Transfer back to Cusco in the afternoon."
+    }
+  ],
+  "includes": [
+    "Round-trip transport from Cusco",
+    "Certified mountain guide",
+    "Camping equipment (tent, sleeping bag)",
+    "Full board during trekking",
+    "Pack horses",
+    "Altitude first aid kit",
+    "Protected area entrance"
+  ],
+  "notIncludes": [
+    "Personal trekking gear",
+    "Energy drinks",
+    "Team tips",
+    "Travel insurance"
+  ],
+  "recommendations": [
+    "Minimum 2 days acclimatization in Cusco",
+    "Good physical condition (altitude up to 5,000 m)",
+    "Thermal and waterproof clothing",
+    "Trekking poles",
+    "Bring energy snacks"
+  ]
+}

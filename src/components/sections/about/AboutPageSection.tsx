@@ -1,27 +1,17 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Compass, ShieldCheck, MapPinned } from "lucide-react";
 
-const features = [
-  {
-    icon: Compass,
-    title: "Guías expertos y equipo apasionado",
-    description:
-      "Recorridos cuidadosamente planificados por guías locales que conocen cada rincón y secreto de Perú.",
-  },
-  {
-    icon: MapPinned,
-    title: "Aventuras a tu medida",
-    description:
-      "Cada itinerario se diseña según tus intereses, para que descubras el Perú que soñaste a tu propio ritmo.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Seguridad y confianza",
-    description:
-      "Viajes seguros, personalizados y sin preocupaciones, pensados para que solo disfrutes la experiencia.",
-  },
-];
-
 export default function AboutPageSection() {
+  const t = useTranslations("about.page");
+
+  const features = [
+    { icon: Compass, titleKey: "feature1_title", descKey: "feature1_desc" },
+    { icon: MapPinned, titleKey: "feature2_title", descKey: "feature2_desc" },
+    { icon: ShieldCheck, titleKey: "feature3_title", descKey: "feature3_desc" },
+  ];
+
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section">
@@ -41,41 +31,38 @@ export default function AboutPageSection() {
           <div className="flex flex-col items-start gap-6">
             <h2 className="font-heading text-white leading-[0.95]">
               <span className="block font-decoration text-primary text-[clamp(1.5rem,0.5rem+3.5vw,3rem)] leading-none mb-1">
-                Sobre nosotros
+                {t("label")}
               </span>
               <span className="block text-[clamp(1.875rem,-0.5rem+6vw,4.5rem)]">
-                Descubre Perú de forma auténtica y enriquecedora
+                {t("title")}
               </span>
             </h2>
 
             <p>
-              En Chullpi Expeditions diseñamos experiencias únicas que conectan
-              a los viajeros con la cultura, la historia y los paisajes de este
-              maravilloso país. Cada recorrido está planificado con detalle para
-              que vivas una <strong className="text-white">aventura segura y
-              personalizada</strong> de principio a fin.
+              {t("description_part1")}
+              <strong className="text-white">{t("description_bold")}</strong>
+              {t("description_part2")}
             </p>
 
             <div className="flex flex-col gap-6 w-full">
               {features.map((feature) => (
                 <div
-                  key={feature.title}
+                  key={feature.titleKey}
                   className="flex items-start gap-4 pl-4 border-l-2 border-primary"
                 >
                   <feature.icon className="size-6 text-primary shrink-0 mt-1" />
                   <div className="flex flex-col gap-1">
                     <h3 className="font-heading sm:text-2xl tracking-wider text-white">
-                      {feature.title}
+                      {t(feature.titleKey)}
                     </h3>
-                    <p className="text-base">{feature.description}</p>
+                    <p className="text-base">{t(feature.descKey)}</p>
                   </div>
                 </div>
               ))}
             </div>
 
             <p className="font-decoration text-primary text-[clamp(1.375rem,1.018rem+0.893vw,2rem)]">
-              ¡Explora, descubre y déjate sorprender por Perú con Chullpi
-              Expeditions!
+              {t("cta")}
             </p>
           </div>
         </div>

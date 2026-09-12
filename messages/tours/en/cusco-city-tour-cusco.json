@@ -1,0 +1,31 @@
+{
+  "title": "CITY TOUR CUSCO",
+  "description": "Explore the imperial city of Cusco and discover its rich history blending Incan culture with Spanish colonial heritage. A perfect tour for your first day of acclimatization.",
+  "shortItinerary": [
+    "Morning: Plaza de Armas, Cathedral, Qoricancha",
+    "Afternoon: Sacsayhuamán, Qenqo, Puka Pukara, Tambomachay"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Full City Tour",
+      "description": "We start at the Plaza de Armas, visit the Cathedral and the Qoricancha temple. In the afternoon we ascend to the ruins of Sacsayhuamán, Qenqo, Puka Pukara, and Tambomachay."
+    }
+  ],
+  "includes": [
+    "Tourist transport",
+    "Professional guide",
+    "Entrance to archaeological sites",
+    "Lunch at tourist restaurant"
+  ],
+  "notIncludes": [
+    "Beverages",
+    "Tips",
+    "Personal purchases"
+  ],
+  "recommendations": [
+    "Wear comfortable clothes and sneakers",
+    "Bring a rain jacket in case of rain",
+    "Drink Coca Tea for acclimatization"
+  ]
+}

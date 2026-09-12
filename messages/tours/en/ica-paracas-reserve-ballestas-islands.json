@@ -1,0 +1,38 @@
+{
+  "title": "PARACAS RESERVE & BALLESTAS ISLANDS",
+  "description": "Explore the Paracas National Reserve and the Ballestas Islands, home to penguins, sea lions, and thousands of birds. A natural paradise on the Peruvian coast.",
+  "shortItinerary": [
+    "Day 1: Ballestas Islands - Paracas National Reserve",
+    "Day 2: Cañón de los Pérez - Return"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Ballestas Islands - National Reserve",
+      "description": "Boat trip to the Ballestas Islands to observe penguins, sea lions, and bird colonies. In the afternoon we'll visit the Paracas National Reserve with its beaches and wildlife."
+    },
+    {
+      "day": 2,
+      "title": "Cañón de los Pérez - Return",
+      "description": "Excursion to Cañón de los Pérez with rock formations and marine fauna. Return to Lima in the afternoon."
+    }
+  ],
+  "includes": [
+    "Transport from Lima (round trip)",
+    "Boat to Ballestas Islands",
+    "Naturalist guide",
+    "Oceanfront hotel accommodation",
+    "Breakfast and lunch"
+  ],
+  "notIncludes": [
+    "Dinners",
+    "Tips",
+    "Optional activities"
+  ],
+  "recommendations": [
+    "Bring a sweater or jacket for sea wind",
+    "Camera with zoom for birds",
+    "Sunscreen",
+    "Bring hair protector for salty wind"
+  ]
+}

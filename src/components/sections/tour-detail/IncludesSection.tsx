@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { CircleCheck, CircleX } from "lucide-react";
 
 interface IncludesSectionProps {
@@ -6,12 +9,14 @@ interface IncludesSectionProps {
 }
 
 export default function IncludesSection({ includes, notIncludes }: IncludesSectionProps) {
+  const t = useTranslations("tour_detail");
+
   if (!includes && !notIncludes) return null;
 
   return (
     <section>
       <h2 className="font-heading text-2xl tracking-wider text-white mb-6">
-        ¿Qué incluye?
+        {t("includes_title")}
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -19,7 +24,7 @@ export default function IncludesSection({ includes, notIncludes }: IncludesSecti
           <div className="bg-surface border border-border rounded-xl p-5">
             <h3 className="font-heading text-lg tracking-wider text-primary mb-4 flex items-center gap-2">
               <CircleCheck className="w-5 h-5" />
-              Incluye
+              {t("includes")}
             </h3>
             <ul className="space-y-2.5">
               {includes.map((item, index) => (
@@ -36,7 +41,7 @@ export default function IncludesSection({ includes, notIncludes }: IncludesSecti
           <div className="bg-surface border border-border rounded-xl p-5">
             <h3 className="font-heading text-lg tracking-wider text-red-400 mb-4 flex items-center gap-2">
               <CircleX className="w-5 h-5" />
-              No Incluye
+              {t("not_includes")}
             </h3>
             <ul className="space-y-2.5">
               {notIncludes.map((item, index) => (

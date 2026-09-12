@@ -1,0 +1,55 @@
+{
+  "title": "MACHU PICCHU CLASSIC TREK",
+  "description": "Vive la experiencia definitiva trekking hacia Machu Picchu. Este tour de 4 días te lleva por senderos ancestrales rodeados de paisajes impresionantes, passes de alta montaña y la selva amazónica. Al llegar a la Puerta del Sol al amanecer, contemplarás la ciudadela sagrada de los incas envuelta en la niebla matutina.",
+  "shortItinerary": [
+    "Día 1: Cusco - Ollantaytambo - Aguas Calientes",
+    "Día 2: Trekking Inca hacia Machu Picchu",
+    "Día 3: Exploración de Machu Picchu - Aguas Calientes",
+    "Día 4: Retorno a Cusco"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Cusco - Ollantaytambo - Aguas Calientes",
+      "description": "Partimos temprano desde Cusco hacia Ollantaytambo, donde iniciaremos una caminata de 3 horas por senderos incas rodeados de paisajes andinos. Llegaremos a Aguas Calientes por la tarde, donde passaremos la noche en un hotel."
+    },
+    {
+      "day": 2,
+      "title": "Trekking Inca hacia Machu Picchu",
+      "description": "Amanecemos con energía para el gran día. Cruzaremos el Puente del Inca y comenzaremos el ascenso de 1.5 horas hasta la Puerta del Sol. Desde allí, contemplaremos la ciudadela envuelta en niebla. Tendremos todo el día para explorar templos, plazas y la Huayna Picchu."
+    },
+    {
+      "day": 3,
+      "title": "Exploración de Machu Picchu - Aguas Calientes",
+      "description": "Segundo día en Machu Picchu para explorar áreas que no visitamos el día anterior. Opcionalmente podemos visitar la Huayna Picchu o el Monte Machu Picchu. Por la tarde descendemos a Aguas Calientes para celebrar."
+    },
+    {
+      "day": 4,
+      "title": "Retorno a Cusco",
+      "description": "Por la mañana tomaremos el tren de regreso a Ollantaytambo y luego un traslado privado hasta Cusco. Llegaremos por la tarde con tiempo libre para explorar la ciudad imperial."
+    }
+  ],
+  "includes": [
+    "Transporte ida y vuelta por tren",
+    "Guía profesional de turismo",
+    "Entrada a Machu Picchu",
+    "Alojamiento en hotel 3 estrellas",
+    "Alimentación completa (desayuno, almuerzo, cena)",
+    "Equipo de trekking básico",
+    "Botiquín de primeros auxilios"
+  ],
+  "notIncludes": [
+    "Vuelos de ida y regreso a Cusco",
+    "Almuerzo del primer día",
+    "Propinas para guías y equipo",
+    "Seguro de viaje",
+    "Bebidas alcohólicas"
+  ],
+  "recommendations": [
+    "Llevar ropa de abrigo por las noches frías en montaña",
+    "Calzado cómodo para caminar en senderos de piedra",
+    "Crema solar y lentes de sol por la altitud",
+    "Llevar documentos de identidad originales",
+    "Acclimatarse al menos 2 días en Cusco antes del trekking"
+  ]
+}

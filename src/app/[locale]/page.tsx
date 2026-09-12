@@ -11,8 +11,8 @@ export default function Home() {
     <>
       <HeroSection />
       <DestinationsSection />
-      <AboutSection/>
-      <PopularToursSection/>
+      <AboutSection />
+      <PopularToursSection />
       <GallerySection />
       <TestimonialsSection />
       <CertificationsSection />

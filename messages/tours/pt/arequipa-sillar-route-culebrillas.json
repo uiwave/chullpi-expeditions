@@ -1,0 +1,33 @@
+{
+  "title": "SILLAR ROUTE & CULEBRILLAS",
+  "description": "Percorra a Rota do Sillar e descubra como a pedra vulcânica branca dá forma à arquitetura arequipeña. Termine com um banho nas águas termais de Culebrillas.",
+  "shortItinerary": [
+    "Visita a pedreiras de sillar e oficinas artesanais",
+    "Caminhada pelo Canyon de Culebrillas",
+    "Banho em águas termais"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Rota do Sillar e Culebrillas",
+      "description": "Percorrido pelas pedreiras onde o sillar é extraído, oficinas de escultores, o Canyon de Culebrillas com pinturas rupestres e banho final nas águas termais."
+    }
+  ],
+  "includes": [
+    "Transporte turístico",
+    "Guia local",
+    "Entrada para pedreiras",
+    "Almoço típico",
+    "Toalhas e armário nas águas termais"
+  ],
+  "notIncludes": [
+    "Maiô (trazer o próprio)",
+    "Bebidas adicionais",
+    "Gorjetas"
+  ],
+  "recommendations": [
+    "Usar roupas confortáveis e calçado fechado",
+    "Levar maiô e roupa para trocar",
+    "Protetor solar"
+  ]
+}

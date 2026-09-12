@@ -1,18 +1,22 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { SlidersHorizontal } from "lucide-react";
 import type { TourType } from "@/src/data/tours";
 
-const destinations = ["Todos", "Cusco", "Arequipa", "Ica", "Puno"];
-
-const durations = [
-  { label: "Todos", value: "all" },
-  { label: "1-2 Días", value: "1-2" },
-  { label: "3-4 Días", value: "3-4" },
-  { label: "5+ Días", value: "5+" },
+const durationOptions = [
+  { value: "all", labelKey: "all" },
+  { value: "1-2", labelKey: "days_1_2" },
+  { value: "3-4", labelKey: "days_3_4" },
+  { value: "5+", labelKey: "days_5_plus" },
 ];
 
-const types: TourType[] = ["Aventura", "Cultural", "Trekking", "Naturaleza"];
+const typeOptions: { value: TourType; labelKey: string }[] = [
+  { value: "Aventura", labelKey: "aventura" },
+  { value: "Cultural", labelKey: "cultural" },
+  { value: "Trekking", labelKey: "trekking" },
+  { value: "Naturaleza", labelKey: "naturaleza" },
+];
 
 interface FilterToursProps {
   selectedDestination: string;
@@ -41,6 +45,17 @@ export default function FilterTours({
   onMaxPriceChange,
   onReset,
 }: FilterToursProps) {
+  const t = useTranslations("tours.filter");
+  const tNav = useTranslations("nav");
+
+  const destinations = [
+    { value: "Todos", labelKey: "all" },
+    { value: "Cusco", labelKey: "cusco" },
+    { value: "Arequipa", labelKey: "arequipa" },
+    { value: "Ica", labelKey: "ica" },
+    { value: "Puno", labelKey: "puno" },
+  ];
+
   const hasActiveFilters =
     selectedDestination !== "Todos" ||
     selectedDuration !== "all" ||
@@ -54,7 +69,7 @@ export default function FilterTours({
         <div className="flex items-center gap-3">
           <SlidersHorizontal className="w-5 h-5 text-primary" />
           <h3 className="font-heading text-xl tracking-wider text-white">
-            Filtrar Tours
+            {t("title")}
           </h3>
         </div>
         {hasActiveFilters && (
@@ -62,7 +77,7 @@ export default function FilterTours({
             onClick={onReset}
             className="text-sm text-primary hover:text-white transition-colors cursor-pointer"
           >
-            Limpiar filtros
+            {t("clear")}
           </button>
         )}
       </div>
@@ -70,20 +85,20 @@ export default function FilterTours({
       <div className="space-y-5">
         <div>
           <h4 className="font-heading text-sm tracking-wider text-foreground mb-3">
-            Destino
+            {t("destination")}
           </h4>
           <div className="flex flex-wrap gap-2">
             {destinations.map((dest) => (
               <button
-                key={dest}
-                onClick={() => onDestinationChange(dest)}
+                key={dest.value}
+                onClick={() => onDestinationChange(dest.value)}
                 className={`px-4 py-2 rounded-full font-heading text-sm tracking-wider transition-all cursor-pointer ${
-                  selectedDestination === dest
+                  selectedDestination === dest.value
                     ? "bg-primary text-white"
                     : "bg-surface text-foreground hover:bg-primary/20 hover:text-white border border-border"
                 }`}
               >
-                {dest}
+                {dest.labelKey === "all" ? t("all") : tNav(dest.labelKey)}
               </button>
             ))}
           </div>
@@ -91,10 +106,10 @@ export default function FilterTours({
 
         <div>
           <h4 className="font-heading text-sm tracking-wider text-foreground mb-3">
-            Duración
+            {t("duration")}
           </h4>
           <div className="flex flex-wrap gap-2">
-            {durations.map((dur) => (
+            {durationOptions.map((dur) => (
               <button
                 key={dur.value}
                 onClick={() => onDurationChange(dur.value)}
@@ -104,7 +119,7 @@ export default function FilterTours({
                     : "bg-surface text-foreground hover:bg-primary/20 hover:text-white border border-border"
                 }`}
               >
-                {dur.label}
+                {t(dur.labelKey)}
               </button>
             ))}
           </div>
@@ -112,7 +127,7 @@ export default function FilterTours({
 
         <div>
           <h4 className="font-heading text-sm tracking-wider text-foreground mb-3">
-            Tipo de Experiencia
+            {t("type")}
           </h4>
           <div className="flex flex-wrap gap-2">
             <button
@@ -123,19 +138,19 @@ export default function FilterTours({
                   : "bg-surface text-foreground hover:bg-primary/20 hover:text-white border border-border"
               }`}
             >
-              Todos
+              {t("all")}
             </button>
-            {types.map((type) => (
+            {typeOptions.map((type) => (
               <button
-                key={type}
-                onClick={() => onTypeChange(type)}
+                key={type.value}
+                onClick={() => onTypeChange(type.value)}
                 className={`px-4 py-2 rounded-full font-heading text-sm tracking-wider transition-all cursor-pointer ${
-                  selectedType === type
+                  selectedType === type.value
                     ? "bg-primary text-white"
                     : "bg-surface text-foreground hover:bg-primary/20 hover:text-white border border-border"
                 }`}
               >
-                {type}
+                {t(type.labelKey)}
               </button>
             ))}
           </div>
@@ -143,12 +158,12 @@ export default function FilterTours({
 
         <div>
           <h4 className="font-heading text-sm tracking-wider text-foreground mb-3">
-            Rango de Precio (USD)
+            {t("price_range")}
           </h4>
           <div className="flex items-center gap-3">
             <input
               type="number"
-              placeholder="Mín"
+              placeholder={t("min")}
               value={minPrice}
               onChange={(e) => onMinPriceChange(e.target.value)}
               className="w-full px-4 py-2 rounded-lg bg-surface border border-border text-white font-heading tracking-wider placeholder:text-muted focus:outline-none focus:border-primary transition-colors"
@@ -156,7 +171,7 @@ export default function FilterTours({
             <span className="text-muted">—</span>
             <input
               type="number"
-              placeholder="Máx"
+              placeholder={t("max")}
               value={maxPrice}
               onChange={(e) => onMaxPriceChange(e.target.value)}
               className="w-full px-4 py-2 rounded-lg bg-surface border border-border text-white font-heading tracking-wider placeholder:text-muted focus:outline-none focus:border-primary transition-colors"

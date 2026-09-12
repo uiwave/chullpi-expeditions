@@ -1,11 +1,20 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
 import type { Tour } from "@/src/data/tours";
+import type { TourData } from "@/src/data/tour-data";
 
 interface HeroTourDetailProps {
   tour: Tour;
+  tourData?: TourData | null;
 }
 
 export default function HeroTourDetail({ tour }: HeroTourDetailProps) {
+  const t = useTranslations("tour_detail");
+  const tCommon = useTranslations("common");
+  const locale = useLocale();
+
   return (
     <section className="relative flex min-h-[70vh] w-full items-end overflow-hidden">
       <div className="absolute inset-0 z-0">
@@ -19,12 +28,12 @@ export default function HeroTourDetail({ tour }: HeroTourDetailProps) {
 
       <div className="uw-container relative z-20 pb-12 pt-40 w-full">
         <nav className="mb-6 text-sm font-heading tracking-wider">
-          <Link href="/tours" className="text-primary hover:text-white transition-colors">
-            Tours
+          <Link href={`/${locale}/tours`} className="text-primary hover:text-white transition-colors">
+            {t("breadcrumb_tours")}
           </Link>
           <span className="text-muted mx-2">/</span>
           <Link
-            href={`/tours?destination=${tour.destination}`}
+            href={`/${locale}/tours?destination=${tour.destination}`}
             className="text-primary hover:text-white transition-colors"
           >
             {tour.destination}
@@ -49,7 +58,7 @@ export default function HeroTourDetail({ tour }: HeroTourDetailProps) {
         <div className="mt-4 flex flex-wrap items-center gap-6 text-foreground">
           <span className="font-heading text-3xl text-white">
             ${tour.price}.00
-            <span className="text-sm text-muted ml-1">/ Persona</span>
+            <span className="text-sm text-muted ml-1">{tCommon("per_person")}</span>
           </span>
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-primary" />

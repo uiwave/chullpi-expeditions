@@ -1,0 +1,45 @@
+{
+  "title": "WHITE CITY & VOLCANOES",
+  "description": "Discover the White City of Arequipa and challenge the surrounding volcanoes. A tour that combines colonial architecture with high mountain adventure.",
+  "shortItinerary": [
+    "Day 1: Arequipa City Tour - Santa Catalina Monastery",
+    "Day 2: Misti Volcano Ascent",
+    "Day 3: Imata Canyon - Return"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arequipa City Tour",
+      "description": "Tour of the white city: Plaza de Armas, Cathedral, Santa Catalina Monastery, and viewpoints with volcano views."
+    },
+    {
+      "day": 2,
+      "title": "Misti Volcano Ascent",
+      "description": "Full-day trekking to the crater of Misti volcano (5,822 m). Impressive volcanic landscapes and panoramic views."
+    },
+    {
+      "day": 3,
+      "title": "Imata Canyon - Return",
+      "description": "Visit to the impressive Imata Canyon with unique rock formations. Return to Arequipa in the afternoon."
+    }
+  ],
+  "includes": [
+    "Tourist transport",
+    "Professional mountain guide",
+    "Trekking equipment (poles, crampons)",
+    "Mountain lunch",
+    "Santa Catalina entrance"
+  ],
+  "notIncludes": [
+    "Accommodation",
+    "Dinners and breakfasts",
+    "Personal high mountain gear",
+    "Tips"
+  ],
+  "recommendations": [
+    "Good physical condition for the ascent",
+    "Thermal clothing for altitude",
+    "SPF 50+ sunscreen",
+    "Bring energy snacks"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "PARACAS RESERVE & BALLESTAS ISLANDS",
+  "description": "Explore a Reserva Nacional de Paracas e as Ilhas Ballestas, lar de pinguins, leões-marinhos e milhares de aves. Um paraíso natural na costa peruana.",
+  "shortItinerary": [
+    "Dia 1: Ilhas Ballestas - Reserva Nacional de Paracas",
+    "Dia 2: Cañón de los Pérez - Retorno"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Ilhas Ballestas - Reserva Nacional",
+      "description": "Embarcação rumo às Ilhas Ballestas para observar pinguins, leões-marinhos e colônias de aves. À tarde visitaremos a Reserva Nacional de Paracas com suas praias e fauna silvestre."
+    },
+    {
+      "day": 2,
+      "title": "Cañón de los Pérez - Retorno",
+      "description": "Excursão ao Cañón de los Pérez com formações rochosas e fauna marinha. Retorno a Lima à tarde."
+    }
+  ],
+  "includes": [
+    "Transporte de Lima (ida e volta)",
+    "Embarcação para Ilhas Ballestas",
+    "Guia naturalista",
+    "Hospedagem em hotel à beira-mar",
+    "Café da manhã e almoço"
+  ],
+  "notIncludes": [
+    "Jantares",
+    "Gorjetas",
+    "Atividades opcionais"
+  ],
+  "recommendations": [
+    "Levar suéter ou jaqueta pelo vento do mar",
+    "Câmera com zoom para aves",
+    "Protetor solar",
+    "Levar protetor para o cabelo pelo vento salgado"
+  ]
+}

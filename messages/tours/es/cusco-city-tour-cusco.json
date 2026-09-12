@@ -1,0 +1,31 @@
+{
+  "title": "CITY TOUR CUSCO",
+  "description": "Recorre la imperial ciudad de Cusco y descubre su rica historia que fusiona la cultura inca con la colonia española. Un tour perfecto para tu primer día de adaptación.",
+  "shortItinerary": [
+    "Mañana: Plaza de Armas, Catedral, Qoricancha",
+    "Tarde: Sacsayhuamán, Qenqo, Puka Pukara, Tambomachay"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "City Tour Completo",
+      "description": "Iniciamos en la Plaza de Armas, visitamos la Catedral y el templo del Qoricancha. Por la tarde ascendemos a las ruinas de Sacsayhuamán, Qenqo, Puka Pukara y Tambomachay."
+    }
+  ],
+  "includes": [
+    "Transporte turístico",
+    "Guía profesional",
+    "Entradas a los sitios arqueológicos",
+    "Almuerzo en restaurante turístico"
+  ],
+  "notIncludes": [
+    "Bebidas",
+    "Propinas",
+    "Compras personales"
+  ],
+  "recommendations": [
+    "Usar ropa cómoda y zapatillas",
+    "Llevar impermeable por si llueve",
+    "Tomar Coca Tea para la adaptación"
+  ]
+}

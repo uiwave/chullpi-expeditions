@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 const galleryImages = [
   "/images/Tour-a-Machu-Picchu-03.webp",
@@ -15,6 +16,7 @@ const galleryImages = [
 
 export default function GallerySection() {
   const [stopScroll, setStopScroll] = useState(false);
+  const t = useTranslations("home.gallery");
 
   return (
     <section className="w-full overflow-hidden">
@@ -23,16 +25,14 @@ export default function GallerySection() {
           <div className="flex flex-col xl:flex-row gap-6 justify-between items-start xl:items-end">
             <h2 className="xl:w-1/2 font-heading text-white leading-[0.95]">
               <span className="block font-decoration text-primary text-[clamp(1.5rem,0.5rem+3.5vw,3rem)] leading-none mb-1">
-                Momentos
+                {t("label")}
               </span>
               <span className="block text-[clamp(1.875rem,-0.5rem+6vw,4.5rem)]">
-                Galería de Experiencias
+                {t("title")}
               </span>
             </h2>
             <p className="xl:w-[38%]">
-              Descubre los destinos más impresionantes de Perú. Desde paisajes
-              majestuosos hasta sitios históricos, vive experiencias auténticas
-              y memorables en cada rincón del país.
+              {t("description")}
             </p>
           </div>
         </div>
@@ -65,7 +65,7 @@ export default function GallerySection() {
             >
               <img
                 src={image}
-                alt="Galería destino"
+                alt={t("alt")}
                 className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-300 hover:scale-105"
               />
             </figure>

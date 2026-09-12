@@ -1,0 +1,33 @@
+{
+  "title": "SILLAR ROUTE & CULEBRILLAS",
+  "description": "Explore the Sillar Route and discover how white volcanic stone shapes Arequipa's architecture. End with a bath in the Culebrillas hot springs.",
+  "shortItinerary": [
+    "Visit to sillar quarries and artisan workshops",
+    "Hike through Culebrillas Canyon",
+    "Hot springs bath"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Sillar Route & Culebrillas",
+      "description": "Tour through the quarries where sillar is extracted, sculptor workshops, Culebrillas Canyon with cave paintings, and final bath in hot springs."
+    }
+  ],
+  "includes": [
+    "Tourist transport",
+    "Local guide",
+    "Quarry entrance",
+    "Traditional lunch",
+    "Towels and locker at hot springs"
+  ],
+  "notIncludes": [
+    "Swimsuit (bring your own)",
+    "Additional beverages",
+    "Tips"
+  ],
+  "recommendations": [
+    "Wear comfortable clothes and closed shoes",
+    "Bring swimsuit and change of clothes",
+    "Sunscreen"
+  ]
+}

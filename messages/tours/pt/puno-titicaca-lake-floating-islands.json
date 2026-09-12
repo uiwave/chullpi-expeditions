@@ -1,0 +1,39 @@
+{
+  "title": "TITICACA LAKE & FLOATING ISLANDS",
+  "description": "Conheça a cultura Uros e Taquile no Lago Titicaca, o lago navegável mais alto do mundo. Viva uma experiência cultural única nas ilhas flutuantes de totora.",
+  "shortItinerary": [
+    "Dia 1: Puno - Ilhas Flutuantes dos Uros",
+    "Dia 2: Ilha Taquile - Retorno a Puno"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Ilhas Flutuantes dos Uros",
+      "description": "Embarcação do porto de Puno rumo às ilhas flutuantes de totora dos Uros. Aprenderemos sobre seu modo de vida ancestral e construiremos nossa própria ilha."
+    },
+    {
+      "day": 2,
+      "title": "Ilha Taquile",
+      "description": "Visita à Ilha Taquile, conhecida por seus têxteis premiados pela UNESCO. Caminhada pela vila e almoço com vista para o lago. Retorno a Puno à tarde."
+    }
+  ],
+  "includes": [
+    "Transporte do hotel",
+    "Embarcação turística",
+    "Guia local Uros",
+    "Entrada para Ilhas Uros e Taquile",
+    "Almoço na Ilha Taquile",
+    "Hospedagem em Puno"
+  ],
+  "notIncludes": [
+    "Cafés da manhã e jantares",
+    "Gorjetas",
+    "Compras artesanais"
+  ],
+  "recommendations": [
+    "Levar roupas de abrigo (as tardes são frias)",
+    "Calçado confortável para caminhar nas ilhas",
+    "Levar dinheiro em espécie para artesanatos locais",
+    "Protetor solar e boné"
+  ]
+}

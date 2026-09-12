@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Clock, MapPin, Tag } from "lucide-react";
 import type { Tour } from "@/src/data/tours";
 
@@ -6,13 +9,16 @@ interface TourInfoProps {
 }
 
 export default function TourInfo({ tour }: TourInfoProps) {
+  const t = useTranslations("tour_detail");
+  const tCommon = useTranslations("common");
+
   return (
     <div className="bg-card border border-border rounded-2xl p-6">
       <div className="mb-6">
         <span className="font-heading text-4xl text-primary">
           ${tour.price}.00
         </span>
-        <span className="text-muted text-sm ml-2">/ Persona</span>
+        <span className="text-muted text-sm ml-2">{tCommon("per_person")}</span>
       </div>
 
       <div className="space-y-4 mb-6">
@@ -20,7 +26,7 @@ export default function TourInfo({ tour }: TourInfoProps) {
           <Clock className="w-5 h-5 text-primary shrink-0" />
           <div>
             <p className="text-xs text-muted font-heading tracking-wider uppercase">
-              Duración
+              {t("duration")}
             </p>
             <p className="text-white font-heading tracking-wider">
               {tour.duration}
@@ -32,7 +38,7 @@ export default function TourInfo({ tour }: TourInfoProps) {
           <MapPin className="w-5 h-5 text-primary shrink-0" />
           <div>
             <p className="text-xs text-muted font-heading tracking-wider uppercase">
-              Destino
+              {t("destination")}
             </p>
             <p className="text-white font-heading tracking-wider">
               {tour.destination}
@@ -44,7 +50,7 @@ export default function TourInfo({ tour }: TourInfoProps) {
           <Tag className="w-5 h-5 text-primary shrink-0" />
           <div>
             <p className="text-xs text-muted font-heading tracking-wider uppercase">
-              Tipo
+              {t("type")}
             </p>
             <p className="text-white font-heading tracking-wider">
               {tour.type}
@@ -55,10 +61,10 @@ export default function TourInfo({ tour }: TourInfoProps) {
 
       <div className="border-t border-border pt-6">
         <button className="w-full bg-primary hover:bg-primary/90 text-white font-heading tracking-wider text-lg py-3 rounded-xl transition-colors cursor-pointer">
-          Reservar Ahora
+          {t("book_now")}
         </button>
         <p className="text-center text-muted text-xs mt-3">
-          O contáctanos al +51 123 456 789
+          {t("contact_hint")}
         </p>
       </div>
     </div>

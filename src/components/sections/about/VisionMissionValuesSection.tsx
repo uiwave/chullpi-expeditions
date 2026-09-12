@@ -1,32 +1,10 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Award, Gem, Handshake, Heart, Leaf } from "lucide-react";
 
-const values = [
-  {
-    icon: Gem,
-    title: "Autenticidad",
-    description: "Experiencias que reflejan la verdadera esencia de Perú.",
-  },
-  {
-    icon: Award,
-    title: "Excelencia",
-    description: "Servicio de alta calidad en cada detalle.",
-  },
-  {
-    icon: Leaf,
-    title: "Sostenibilidad",
-    description: "Cuidamos el ambiente y apoyamos a las comunidades.",
-  },
-  {
-    icon: Heart,
-    title: "Pasión",
-    description: "Amamos lo que hacemos y lo compartimos contigo.",
-  },
-  {
-    icon: Handshake,
-    title: "Respeto",
-    description: "Honramos cada cultura, tradición y persona.",
-  },
-];
+const valueIcons = [Gem, Award, Leaf, Heart, Handshake];
+const valueKeys = ["authenticity", "excellence", "sustainability", "passion", "respect"] as const;
 
 function ImageFrame({ src, alt }: { src: string; alt: string }) {
   return (
@@ -75,6 +53,11 @@ function ContentHeader({
 }
 
 export default function VisionMissionValuesSection() {
+  const tVision = useTranslations("about.vision");
+  const tMission = useTranslations("about.mission");
+  const tValues = useTranslations("about.values");
+  const tAlt = useTranslations("about.alt");
+
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section space-y-20 lg:space-y-28">
@@ -82,15 +65,15 @@ export default function VisionMissionValuesSection() {
           <div className="lg:order-1">
             <ImageFrame
               src="/images/Montana-de-colores-06.webp"
-              alt="Montaña de colores de Vinicunca"
+              alt={tAlt("vinicunca")}
             />
           </div>
           <div className="lg:order-2">
             <ContentHeader
-              number="01"
-              eyebrow="Visión"
-              title="El viaje que queremos inspirar"
-              description="Ser reconocidos como la agencia líder en turismo auténtico en Perú, destacándonos por nuestra excelencia, compromiso con el medio ambiente y profundo respeto por la cultura local. Queremos inspirar a los viajeros a explorar, aprender y amar nuestro país."
+              number={tVision("number")}
+              eyebrow={tVision("label")}
+              title={tVision("title")}
+              description={tVision("description")}
             />
           </div>
         </div>
@@ -98,16 +81,16 @@ export default function VisionMissionValuesSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-10 items-center">
           <div className="lg:order-1">
             <ContentHeader
-              number="02"
-              eyebrow="Misión"
-              title="Nuestra razón de ser"
-              description="Ofrecer experiencias de viaje auténticas y personalizadas que conecten a los viajeros con la riqueza cultural, histórica y natural de Perú, promoviendo el turismo sostenible y enriqueciendo la vida de nuestros clientes y comunidades locales."
+              number={tMission("number")}
+              eyebrow={tMission("label")}
+              title={tMission("title")}
+              description={tMission("description")}
             />
           </div>
           <div className="lg:order-2">
             <ImageFrame
               src="/images/Cusco-a-Machu-Picchu-3-Dias-03.webp"
-              alt="Cusco a Machu Picchu en tres días"
+              alt={tAlt("machu_picchu")}
             />
           </div>
         </div>
@@ -116,28 +99,31 @@ export default function VisionMissionValuesSection() {
           <div className="lg:order-1">
             <ImageFrame
               src="/images/Tour-7-Lagunas-del-Ausangate-01.webp"
-              alt="Siete lagunas del Ausangate"
+              alt={tAlt("ausangate")}
             />
           </div>
           <div className="lg:order-2 flex flex-col items-start gap-6">
             <ContentHeader
-              number="03"
-              eyebrow="Valores"
-              title="Los valores que nos guían"
-              description="Cada experiencia que diseñamos nace de cinco principios que cuidan al viajero, a las personas y al planeta."
+              number={tValues("number")}
+              eyebrow={tValues("label")}
+              title={tValues("title")}
+              description={tValues("description")}
             />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-              {values.map((value) => (
-                <div key={value.title} className="flex items-start gap-3">
-                  <value.icon className="size-5 text-primary shrink-0 mt-1" />
-                  <div className="flex flex-col gap-1">
-                    <h4 className="font-heading text-xl tracking-wider text-white">
-                      {value.title}
-                    </h4>
-                    <p className="text-sm">{value.description}</p>
+              {valueKeys.map((key, i) => {
+                const Icon = valueIcons[i];
+                return (
+                  <div key={key} className="flex items-start gap-3">
+                    <Icon className="size-5 text-primary shrink-0 mt-1" />
+                    <div className="flex flex-col gap-1">
+                      <h4 className="font-heading text-xl tracking-wider text-white">
+                        {tValues(key)}
+                      </h4>
+                      <p className="text-sm">{tValues(`${key}_desc`)}</p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>

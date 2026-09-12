@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations, useLocale } from "next-intl";
 import { Send } from "lucide-react";
 
 const InstagramIcon = () => (
@@ -45,13 +48,6 @@ const YoutubeIcon = () => (
   </svg>
 );
 
-const quickLinks = [
-  { label: "Inicio", href: "/" },
-  { label: "Destinos", href: "/tours" },
-  { label: "Nosotros", href: "/nosotros" },
-  { label: "Contacto", href: "/contacto" },
-];
-
 const socials = [
   { icon: InstagramIcon, label: "Instagram", href: "#" },
   { icon: FacebookIcon, label: "Facebook", href: "#" },
@@ -59,6 +55,16 @@ const socials = [
 ];
 
 export default function Footer() {
+  const t = useTranslations("footer");
+  const locale = useLocale();
+
+  const quickLinks = [
+    { labelKey: "home" as const, href: "/" },
+    { labelKey: "destinations" as const, href: "/tours" },
+    { labelKey: "about" as const, href: "/nosotros" },
+    { labelKey: "contact" as const, href: "/contacto" },
+  ];
+
   return (
     <footer className="relative w-full overflow-hidden">
       <img
@@ -83,16 +89,14 @@ export default function Footer() {
                 className="h-12 xl:h-14 w-auto object-contain"
               />
               <p>
-                Expediciones únicas por Perú. Diseñamos viajes a tu medida,
-                combinando experiencia local y tecnología para que cada
-                experiencia sea segura y memorable.
+                {t("description")}
               </p>
               <div className="flex items-center gap-3">
                 {socials.map((social) => (
                   <a
                     key={social.label}
                     href={social.href}
-                    aria-label={social.label}
+                    aria-label={`${t("social_aria")} ${social.label}`}
                     className="flex size-10 items-center justify-center rounded-full bg-white/10 hover:bg-primary"
                   >
                     <social.icon />
@@ -102,21 +106,20 @@ export default function Footer() {
             </div>
             <div className="flex flex-col justify-center text-center">
               <h3 className="font-heading tracking-wider text-[clamp(1.875rem,1.25rem+1.563vw,2.75rem)] leading-none">
-                Subscribe our newsletter for latest any update and seasonal
-                offer&apos;s
+                {t("newsletter_title")}
               </h3>
               <form className="mt-6 flex flex-col sm:flex-row gap-3">
                 <input
                   type="email"
                   required
-                  placeholder="Tu correo electrónico"
+                  placeholder={t("email_placeholder")}
                   className="w-full rounded-lg bg-surface border border-border px-4 py-3 text-sm text-white focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
                 />
                 <button
                   type="submit"
                   className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary text-primary-foreground px-5 py-3 text-sm font-heading tracking-wider transition-opacity hover:opacity-90"
                 >
-                  Suscribirse
+                  {t("subscribe")}
                   <Send className="size-4" />
                 </button>
               </form>
@@ -124,16 +127,16 @@ export default function Footer() {
 
             <div className="flex flex-col gap-4 items-center">
               <h3 className="font-heading tracking-wider  text-[clamp(1.5rem,1.054rem+1.116vw,2.125rem)]">
-                Enlaces
+                {t("links")}
               </h3>
               <ul className="flex flex-col gap-2">
                 {quickLinks.map((link) => (
-                  <li key={link.label}>
+                  <li key={link.labelKey}>
                     <a
-                      href={link.href}
+                      href={`/${locale}${link.href}`}
                       className="font-heading tracking-wider "
                     >
-                      {link.label}
+                      {t(link.labelKey)}
                     </a>
                   </li>
                 ))}

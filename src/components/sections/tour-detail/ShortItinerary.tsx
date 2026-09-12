@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Check } from "lucide-react";
 
 interface ShortItineraryProps {
@@ -5,10 +8,12 @@ interface ShortItineraryProps {
 }
 
 export default function ShortItinerary({ items }: ShortItineraryProps) {
+  const t = useTranslations("tour_detail");
+
   return (
     <section>
       <h2 className="font-heading text-2xl tracking-wider text-white mb-4">
-        Itinerario Resumen
+        {t("short_itinerary")}
       </h2>
       <ul className="space-y-3">
         {items.map((item, index) => (

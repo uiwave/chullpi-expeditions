@@ -1,7 +1,12 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Quote, Star } from "lucide-react";
 import { testimonials } from "@/src/data/testimonials";
 
 export default function TestimonialsSection() {
+  const t = useTranslations("home.testimonials");
+
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section">
@@ -9,16 +14,14 @@ export default function TestimonialsSection() {
           <div className="flex flex-col xl:flex-row gap-6 justify-between items-start xl:items-end">
             <h2 className="xl:w-1/2 font-heading text-white leading-[0.95]">
               <span className="block font-decoration text-primary text-[clamp(1.5rem,0.5rem+3.5vw,3rem)] leading-none mb-1">
-                Lo que dicen
+                {t("label")}
               </span>
               <span className="block text-[clamp(1.875rem,-0.5rem+6vw,4.5rem)]">
-                Testimonios de Nuestros Viajeros
+                {t("title")}
               </span>
             </h2>
             <p className="xl:w-[38%]">
-              Las experiencias de quienes ya viajaron con nosotros hablan por sí
-              solas. Historias reales, momentos únicos y recuerdos que duran
-              para siempre.
+              {t("description")}
             </p>
           </div>
         </div>
@@ -41,7 +44,7 @@ export default function TestimonialsSection() {
                   <figcaption className="font-heading text-white tracking-wider">
                     {testimonial.name}
                   </figcaption>
-                  <span className="text-muted text-sm">{testimonial.from}</span>
+                  <span className="text-muted text-sm"></span>
                 </div>
                 <div className="ml-auto flex items-center gap-0.5">
                   {Array.from({ length: testimonial.rating }).map((_, i) => (

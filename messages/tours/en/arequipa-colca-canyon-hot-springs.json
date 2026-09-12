@@ -1,0 +1,38 @@
+{
+  "title": "COLCA CANYON & HOT SPRINGS",
+  "description": "Explore one of the deepest canyons in the world and relax in natural hot springs. The Colca Canyon will surprise you with its landscapes and the majesty of the Andean condor.",
+  "shortItinerary": [
+    "Day 1: Arequipa - Colca Canyon - Hot Springs",
+    "Day 2: Cruz del Cóndor - Chivay - Arequipa"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arequipa - Colca Canyon - Hot Springs",
+      "description": "Early departure from Arequipa, we'll cross the highlands with views of Misti and Chachani volcanoes. We arrive at Colca Canyon to observe condors and end the day relaxing in the La Calera hot springs."
+    },
+    {
+      "day": 2,
+      "title": "Cruz del Cóndor - Chivay - Arequipa",
+      "description": "Early morning to reach the Cruz del Cóndor and watch the spectacle of condors soaring over the canyon. Visit to the town of Chivay and return to Arequipa in the afternoon."
+    }
+  ],
+  "includes": [
+    "Round-trip tourist transport",
+    "Professional guide",
+    "Colca Canyon entrance",
+    "Buffet lunch",
+    "Hotel accommodation",
+    "Hot springs entrance"
+  ],
+  "notIncludes": [
+    "Dinners and breakfasts",
+    "Beverages",
+    "Tips"
+  ],
+  "recommendations": [
+    "Bring warm clothing for high altitudes",
+    "Sunscreen and cap",
+    "Camera for the condors"
+  ]
+}

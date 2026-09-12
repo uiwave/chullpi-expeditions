@@ -1,20 +1,18 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { useTranslations } from "next-intl";
 
 const certifications = [
-  { src: "/images/certifications/perulogo.png", name: "Perú" },
-  { src: "/images/certifications/gerceturlogo.png", name: "GERCETUR" },
-  { src: "/images/certifications/promperulogo.png", name: "PromPerú" },
-  { src: "/images/certifications/safetravelslogo.png", name: "Safe Travels" },
-  {
-    src: "/images/certifications/seguridadturisticalogo.png",
-    name: "Seguridad Turística",
-  },
-  { src: "/images/certifications/tripadvisorlogo.png", name: "TripAdvisor" },
+  { src: "/images/certifications/perulogo.png", nameKey: "peru" },
+  { src: "/images/certifications/gerceturlogo.png", nameKey: "gercetur" },
+  { src: "/images/certifications/promperulogo.png", nameKey: "promperu" },
+  { src: "/images/certifications/safetravelslogo.png", nameKey: "safe_travels" },
+  { src: "/images/certifications/tripadvisorlogo.png", nameKey: "tripadvisor" },
 ];
 
 export default function CertificationsSection() {
+  const t = useTranslations("certifications");
   const trackRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -41,13 +39,13 @@ export default function CertificationsSection() {
         >
           {certifications.map((certification) => (
             <div
-              key={certification.name}
+              key={certification.nameKey}
               className="shrink-0 w-[calc((100%-1.5rem)/2)] sm:w-[calc((100%-3rem)/3)] md:w-[calc((100%-4.5rem)/4)] lg:w-[calc((100%-6rem)/5)]"
             >
               <div className="flex h-24 items-center justify-center rounded-lg bg-white p-4">
                 <img
                   src={certification.src}
-                  alt={certification.name}
+                  alt={t(certification.nameKey)}
                   className="max-h-full w-auto object-contain"
                 />
               </div>

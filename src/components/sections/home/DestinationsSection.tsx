@@ -1,6 +1,12 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { destinations } from "@/src/data/destinations";
 
 export default function DestinationsSection() {
+  const t = useTranslations("home.destinations");
+  const tNav = useTranslations("nav");
+
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section">
@@ -8,16 +14,14 @@ export default function DestinationsSection() {
           <div className="flex flex-col xl:flex-row gap-6 justify-between items-start xl:items-end">
             <h2 className="xl:w-1/2 font-heading text-white leading-[0.95]">
               <span className="block font-decoration text-primary text-[clamp(1.5rem,0.5rem+3.5vw,3rem)] leading-none mb-1">
-                Lo mejor de Perú
+                {t("label")}
               </span>
               <span className="block text-[clamp(1.875rem,-0.5rem+6vw,4.5rem)]">
-                Explora nuestros destinos
+                {t("title")}
               </span>
             </h2>
             <p className="xl:w-[38%]">
-              Descubre los destinos más impresionantes de Perú. Desde paisajes
-              majestuosos hasta sitios históricos, vive experiencias auténticas
-              y memorables en cada rincón del país.
+              {t("description")}
             </p>
           </div>
         </div>
@@ -31,13 +35,13 @@ export default function DestinationsSection() {
               <div className="relative aspect-4/4 w-full overflow-hidden">
                 <img
                   src={destination.image}
-                  alt={destination.title}
+                  alt={tNav(destination.slug)}
                   className="h-full w-full object-cover object-center"
                 />
               </div>
               <div className="flex flex-col p-5">
                 <h3 className="font-heading text-[1.875rem] leading-[1.2] text-white">
-                  {destination.title}
+                  {tNav(destination.slug)}
                 </h3>
               </div>
             </a>

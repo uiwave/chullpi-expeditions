@@ -1,8 +1,15 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
 import { Clock } from "lucide-react";
 import { tours } from "@/src/data/tours";
 
 export default function PopularToursSection() {
+  const t = useTranslations("home.popular_tours");
+  const tCommon = useTranslations("common");
+  const locale = useLocale();
+
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section pt-0">
@@ -10,10 +17,10 @@ export default function PopularToursSection() {
           <div className="flex flex-col gap-6 items-center text-center">
             <h2 className="font-heading text-white leading-[0.95]">
               <span className="block font-decoration text-primary text-[clamp(1.5rem,0.5rem+3.5vw,3rem)] leading-none mb-1">
-                No te pierdas
+                {t("label")}
               </span>
               <span className="block text-[clamp(1.875rem,-0.5rem+6vw,4.5rem)]">
-                Nuestros Tours Destacados en Perú
+                {t("title")}
               </span>
             </h2>
           </div>
@@ -22,7 +29,7 @@ export default function PopularToursSection() {
           {tours.map((tour) => (
             <Link
               key={tour.slug}
-              href={`/tours/${tour.slug}`}
+              href={`/${locale}/tours/${tour.slug}`}
               className="group flex flex-col w-full overflow-hidden rounded-2xl bg-card border border-border p-5 gap-3"
             >
               <span className="text-center font-heading text-[3.125rem] leading-none tracking-widest text-primary mb-3.75">
@@ -45,7 +52,7 @@ export default function PopularToursSection() {
                 <span className="font-heading text-white text-2xl">
                   ${tour.price}.00
                 </span>{" "}
-                / Per Person
+                {tCommon("per_person")}
               </p>
 
               <div className="border-t border-border" />

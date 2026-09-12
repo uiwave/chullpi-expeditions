@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useCallback, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 import FilterTours from "./FilterTours";
 import ToursGrid from "./ToursGrid";
 import Pagination from "./Pagination";
@@ -10,6 +11,7 @@ import { tours } from "@/src/data/tours";
 const TOURS_PER_PAGE = 8;
 
 export default function ToursClient() {
+  const t = useTranslations("tours.grid");
   const searchParams = useSearchParams();
   const router = useRouter();
   const filterVersionRef = useRef(0);
@@ -161,7 +163,7 @@ export default function ToursClient() {
                 <span className="font-heading text-white text-lg">
                   {filteredTours.length}
                 </span>{" "}
-                {filteredTours.length === 1 ? "tour encontrado" : "tours encontrados"}
+                {filteredTours.length === 1 ? t("found_one") : t("found", { count: filteredTours.length })}
               </p>
             </div>
 

@@ -1,21 +1,25 @@
+"use client";
+
+import { useTranslations, useLocale } from "next-intl";
 import { Compass, CalendarX2, ArrowUpRight } from "lucide-react";
 
-const features = [
-  {
-    icon: Compass,
-    title: "Planificación de Viajes Personalizada",
-    description:
-      "Diseñamos cada itinerario a tu medida, combinando tus intereses con los mejores destinos de Perú.",
-  },
-  {
-    icon: CalendarX2,
-    title: "Opciones de Cancelación Flexible",
-    description:
-      "Cambia de planes sin complicaciones. Cancela o reprograma tu viaje con total tranquilidad.",
-  },
-];
-
 export default function AboutSection() {
+  const t = useTranslations("home.about");
+  const locale = useLocale();
+
+  const features = [
+    {
+      icon: Compass,
+      titleKey: "feature1_title",
+      descKey: "feature1_desc",
+    },
+    {
+      icon: CalendarX2,
+      titleKey: "feature2_title",
+      descKey: "feature2_desc",
+    },
+  ];
+
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section pt-0">
@@ -35,38 +39,37 @@ export default function AboutSection() {
           <div className="flex flex-col items-start gap-6">
             <h2 className="font-heading text-white leading-[0.95]">
               <span className="block font-decoration text-primary text-[clamp(1.5rem,0.5rem+3.5vw,3rem)] leading-none mb-1">
-                Sobre nosotros
+                {t("label")}
               </span>
               <span className="block text-[clamp(1.875rem,-0.5rem+6vw,4.5rem)]">
-                Descubre el mundo viaja inteligente con nosotros
+                {t("title")}
               </span>
             </h2>
 
             <p>
-              Combinamos experiencia local y tecnología para que cada viaje por
-              Perú sea simple, seguro y memorable de principio a fin.
+              {t("description")}
             </p>
 
             <div className="flex flex-col gap-6 w-full">
               {features.map((feature) => (
                 <div
-                  key={feature.title}
+                  key={feature.titleKey}
                   className="flex items-start gap-4 pl-4 border-l-2 border-primary"
                 >
                   <div className="flex flex-col gap-1">
                     <h3 className="font-heading sm:text-2xl tracking-wider text-white">
-                      {feature.title}
+                      {t(feature.titleKey)}
                     </h3>
-                    <p className="text-base">{feature.description}</p>
+                    <p className="text-base">{t(feature.descKey)}</p>
                   </div>
                 </div>
               ))}
             </div>
             <a
-              href="/nosotros"
+              href={`/${locale}/nosotros`}
               className="inline-flex items-center gap-2 rounded-lg bg-primary text-primary-foreground px-6 py-3 text-base font-heading tracking-wider"
             >
-              Más sobre nosotros
+              {t("cta")}
               <ArrowUpRight className="size-4" />
             </a>
           </div>

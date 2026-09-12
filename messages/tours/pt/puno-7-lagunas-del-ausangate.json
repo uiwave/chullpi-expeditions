@@ -1,0 +1,48 @@
+{
+  "title": "7 LAGUNAS DEL AUSANGATE",
+  "description": "Trekking épico pelas 7 Lagunas do Ausangate, um circuito de alta montanha com lagunas de cores turquesa e neves imponentes. A rota menos explorada do Peru.",
+  "shortItinerary": [
+    "Dia 1: Cusco - Tinki - Upis",
+    "Dia 2: Lagunas de Ausangate - Travisique",
+    "Dia 3: Qomercocha - Tinki - Cusco"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Cusco - Tinki - Upis",
+      "description": "Partimos de Cusco rumo a Tinki (4.000 m) onde começa o trekking. Caminharemos 4 horas até Upis, passando por paisagens de altitude e prados andinos."
+    },
+    {
+      "day": 2,
+      "title": "Lagunas de Ausangate - Travisique",
+      "description": "O dia mais épico: visitaremos as 7 lagunas coloridas (verde esmeralda, turquesa, azul profundo) com o neve Ausangate ao fundo. Acampamento em Travisique."
+    },
+    {
+      "day": 3,
+      "title": "Qomercocha - Tinki - Cusco",
+      "description": "Descemos por Qomercocha e outros pontos panorâmicos até Tinki. Transferência de volta a Cusco à tarde."
+    }
+  ],
+  "includes": [
+    "Transporte ida e volta de Cusco",
+    "Guia de montanha certificado",
+    "Equipamento de camping (tenda, saco de dormir)",
+    "Pensão completa durante trekking",
+    "Cavalos de carga",
+    "Kit de primeiros socorros de altitude",
+    "Entrada para a zona protegida"
+  ],
+  "notIncludes": [
+    "Equipamento pessoal de trekking",
+    "Bebidas energéticas",
+    "Gorjetas para a equipe",
+    "Seguro de viagem"
+  ],
+  "recommendations": [
+    "Mínimo 2 dias de aclimatação em Cusco",
+    "Boa condição física (altitude até 5.000 m)",
+    "Roupa térmica e impermeável",
+    "Bastões de trekking",
+    "Levar lanches energéticos"
+  ]
+}

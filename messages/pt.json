@@ -1,0 +1,195 @@
+{
+  "common": {
+    "per_person": "/ Pessoa",
+    "phone": "+51 123 456 789",
+    "location": "Cusco, Peru",
+    "hours": "Seg – Dom: 8:00 – 19:00",
+    "logo_alt": "Logotipo da Chullpi Expeditions",
+    "close_menu": "Fechar Menu",
+    "open_menu": "Abrir Menu",
+    "menu": "Menu",
+    "tours": "Passeios",
+    "loading": "Carregando..."
+  },
+  "nav": {
+    "home": "Início",
+    "destinos": "Destinos",
+    "nosotros": "Sobre Nós",
+    "contacto": "Contato",
+    "cusco": "Cusco",
+    "arequipa": "Arequipa",
+    "puno": "Puno",
+    "ica": "Ica"
+  },
+  "topbar": {
+    "reservations": "Reservas: "
+  },
+  "lang": {
+    "es": "Español",
+    "en": "English",
+    "pt": "Português"
+  },
+  "hero_home": {
+    "subtitle": "Expedições Únicas no Peru",
+    "title": "Aventura",
+    "video_fallback": "Seu navegador não suporta o formato de vídeo."
+  },
+  "home": {
+    "destinations": {
+      "label": "O melhor do Peru",
+      "title": "Explore nossos destinos",
+      "description": "Descubra os destinos mais impressionantes do Peru. De paisagens majestosas a sítios históricos, viva experiências autênticas e inesquecíveis em cada canto do país."
+    },
+    "about": {
+      "label": "Sobre nós",
+      "title": "Descubra o mundo viaje conosco de forma inteligente",
+      "description": "Combinamos experiência local e tecnologia para que cada viagem pelo Peru seja simples, segura e memorável do início ao fim.",
+      "feature1_title": "Planejamento de Viagem Personalizado",
+      "feature1_desc": "Projetamos cada itinerário sob medida, combinando seus interesses com os melhores destinos do Peru.",
+      "feature2_title": "Opções de Cancelamento Flexíveis",
+      "feature2_desc": "Mude de planos sem complicações. Canceie ou remarque sua viagem com total tranquilidade.",
+      "cta": "Mais sobre nós"
+    },
+    "popular_tours": {
+      "label": "Não perca",
+      "title": "Nossos Tours em Destaque no Peru"
+    },
+    "gallery": {
+      "label": "Momentos",
+      "title": "Galeria de Experiências",
+      "description": "Descubra os destinos mais impressionantes do Peru. De paisagens majestosas a sítios históricos, viva experiências autênticas e inesquecíveis em cada canto do país.",
+      "alt": "Galeria destino"
+    },
+    "testimonials": {
+      "label": "O que dizem",
+      "title": "Depoimentos dos Nossos Viajantes",
+      "description": "As experiências de quem já viajou conosco falam por si. Histórias reais, momentos únicos e memórias que duram para sempre."
+    },
+    "certifications": {
+      "title": "Segurança Turística"
+    }
+  },
+  "tours": {
+    "hero": {
+      "alt": "Passeios no Peru",
+      "subtitle": "Explore o Peru",
+      "title": "Nossos Passeios",
+      "description": "Descubra as melhores experiências de aventura, cultura e natureza nos destinos mais incríveis do Peru."
+    },
+    "filter": {
+      "title": "Filtrar Passeios",
+      "clear": "Limpar filtros",
+      "destination": "Destino",
+      "duration": "Duração",
+      "type": "Tipo de Experiência",
+      "price_range": "Faixa de Preço (USD)",
+      "min": "Mín",
+      "max": "Máx",
+      "all": "Todos",
+      "days_1_2": "1-2 Dias",
+      "days_3_4": "3-4 Dias",
+      "days_5_plus": "5+ Dias",
+      "aventura": "Aventura",
+      "cultural": "Cultural",
+      "trekking": "Trekking",
+      "naturaleza": "Natureza"
+    },
+    "grid": {
+      "found": "{count} passeios encontrados",
+      "found_one": "1 passeio encontrado",
+      "not_found": "Nenhum passeio encontrado",
+      "try_adjust": "Tente ajustar os filtros para encontrar mais opções de passeios no Peru."
+    }
+  },
+  "tour_detail": {
+    "breadcrumb_tours": "Passeios",
+    "description_title": "Sobre este Passeio",
+    "short_itinerary": "Resumo do Itinerário",
+    "itinerary_title": "Itinerário Detalhado",
+    "day": "Dia {number}",
+    "includes_title": "O que está incluído?",
+    "includes": "Inclui",
+    "not_includes": "Não Inclui",
+    "recommendations": "Recomendações",
+    "book_now": "Reservar Agora",
+    "contact_hint": "Ou entre em contato +51 123 456 789",
+    "duration": "Duração",
+    "destination": "Destino",
+    "type": "Tipo",
+    "meta_title": "{title} | Chullpi Expeditions"
+  },
+  "about": {
+    "hero": {
+      "label": "Quem somos",
+      "title": "Sobre Nós",
+      "description": "Uma agência de expedições apaixonada por conectar viajantes com a cultura, história e paisagens do Peru."
+    },
+    "page": {
+      "label": "Sobre nós",
+      "title": "Descubra o Peru de forma autêntica e enriquecedora",
+      "description_part1": "Na Chullpi Expeditions projetamos experiências únicas que conectam viajantes com a cultura, a história e as paisagens deste país maravilhoso. Cada roteiro é planejado com detalhes para que você viva uma ",
+      "description_bold": "aventura segura e personalizada",
+      "description_part2": " do início ao fim.",
+      "cta": "Explore, descubra e deixe-se surpreender pelo Peru com a Chullpi Expeditions!",
+      "feature1_title": "Guias especializados e equipe apaixonada",
+      "feature1_desc": "Roteiros cuidadosamente planejados por guias locais que conhecem cada canto e segredo do Peru.",
+      "feature2_title": "Aventuras sob medida",
+      "feature2_desc": "Cada itinerário é projetado de acordo com seus interesses, para que você descubra o Peru dos seus sonhos no seu próprio ritmo.",
+      "feature3_title": "Segurança e confiança",
+      "feature3_desc": "Viagens seguras, personalizadas e sem preocupações, pensadas para que você apenas aproveite a experiência."
+    },
+    "vision": {
+      "number": "01",
+      "label": "Visão",
+      "title": "A jornada que queremos inspirar",
+      "description": "Ser reconhecidos como a agência líder em turismo autêntico no Peru, destacando-nos pela nossa excelência, compromisso com o meio ambiente e profundo respeito pela cultura local. Queremos inspirar viajantes a explorar, aprender e amar nosso país."
+    },
+    "mission": {
+      "number": "02",
+      "label": "Missão",
+      "title": "Nossa razão de ser",
+      "description": "Oferecer experiências de viagem autênticas e personalizadas que conectem os viajantes com a riqueza cultural, histórica e natural do Peru, promovendo o turismo sustentável e enriquecendo a vida de nossos clientes e comunidades locais."
+    },
+    "values": {
+      "number": "03",
+      "label": "Valores",
+      "title": "Os valores que nos guiam",
+      "description": "Cada experiência que projetamos nasce de cinco princípios que cuidam do viajante, das pessoas e do planeta.",
+      "authenticity": "Autenticidade",
+      "authenticity_desc": "Experiências que refletem a verdadeira essência do Peru.",
+      "excellence": "Excelência",
+      "excellence_desc": "Serviço de alta qualidade em cada detalhe.",
+      "sustainability": "Sustentabilidade",
+      "sustainability_desc": "Cuidamos do ambiente e apoiamos as comunidades.",
+      "passion": "Paixão",
+      "passion_desc": "Amamos o que fazemos e compartilhamos com você.",
+      "respect": "Respeito",
+      "respect_desc": "Honramos cada cultura, tradição e pessoa."
+    },
+    "alt": {
+      "sumbay": "Cavernas de Arte Rupestre em Sumbay",
+      "vinicunca": "Montanha de Cores de Vinicunca",
+      "machu_picchu": "Cusco a Machu Picchu em três dias",
+      "ausangate": "Sete Lagunas do Ausangate"
+    }
+  },
+  "footer": {
+    "home": "Início",
+    "destinations": "Destinos",
+    "about": "Sobre Nós",
+    "contact": "Contato",
+    "description": "Expedições únicas pelo Peru. Projetamos viagens sob medida, combinando experiência local e tecnologia para que cada experiência seja segura e memorável.",
+    "newsletter_title": "Inscreva-se em nossa newsletter para receber as últimas atualizações e ofertas especiais.",
+    "email_placeholder": "Seu endereço de e-mail",
+    "subscribe": "Inscrever-se",
+    "links": "Links",
+    "social_aria": "Rede social"
+  },
+  "certifications": {
+    "gercetur": "GERCETUR",
+    "promperu": "PromPerú",
+    "safe_travels": "Safe Travels",
+    "tripadvisor": "TripAdvisor",
+    "peru": "Peru"
+  }
+}

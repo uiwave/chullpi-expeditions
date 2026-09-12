@@ -1,0 +1,38 @@
+{
+  "title": "COLCA CANYON & HOT SPRINGS",
+  "description": "Explora uno de los cañones más profundos del mundo y relájate en aguas termales naturales. El Cañón del Colca te sorprenderá con sus paisajes y la majestuosidad del cóndor andino.",
+  "shortItinerary": [
+    "Día 1: Arequipa - Cañón del Colca - Aguas Termales",
+    "Día 2: Cruz del Cóndor - Chivay - Arequipa"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arequipa - Cañón del Colca - Aguas Termales",
+      "description": "Salida temprana desde Arequipa, cruzaremos el altiplano con vistas al volcán Misti y Chachani. Llegaremos al Cañón del Colca para observar cóndores y terminaremos el día relajándonos en las aguas termales de La Calera."
+    },
+    {
+      "day": 2,
+      "title": "Cruz del Cóndor - Chivay - Arequipa",
+      "description": "Madrugada para llegar a la Cruz del Cóndor y observar el espectáculo de los cóndores planear sobre el cañón. Visita al pueblo de Chivay y retorno a Arequipa por la tarde."
+    }
+  ],
+  "includes": [
+    "Transporte turístico ida y vuelta",
+    "Guía profesional",
+    "Entrada al Cañón del Colca",
+    "Almuerzo buffet",
+    "Alojamiento en hotel",
+    "Entrada a aguas termales"
+  ],
+  "notIncludes": [
+    "Cenas y desayunos",
+    "Bebidas",
+    "Propinas"
+  ],
+  "recommendations": [
+    "Llevar ropa de abrigo por las alturas",
+    "Protector solar y gorra",
+    "Cámara fotográfica para los cóndores"
+  ]
+}

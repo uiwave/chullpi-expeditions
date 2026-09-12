@@ -1,0 +1,39 @@
+{
+  "title": "TITICACA LAKE & FLOATING ISLANDS",
+  "description": "Discover the Uros and Taquile culture on Lake Titicaca, the highest navigable lake in the world. Experience a unique cultural journey on the totora floating islands.",
+  "shortItinerary": [
+    "Day 1: Puno - Uros Floating Islands",
+    "Day 2: Taquile Island - Return to Puno"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Uros Floating Islands",
+      "description": "Boat from Puno harbor to the Uros totora floating islands. We'll learn about their ancestral way of life and build our own island."
+    },
+    {
+      "day": 2,
+      "title": "Taquile Island",
+      "description": "Visit to Taquile Island, known for its UNESCO award-winning textiles. Walk through the village and lunch with lake views. Return to Puno in the afternoon."
+    }
+  ],
+  "includes": [
+    "Hotel transport",
+    "Tourist boat",
+    "Local Uros guide",
+    "Uros and Taquile Islands entrance",
+    "Lunch on Taquile Island",
+    "Accommodation in Puno"
+  ],
+  "notIncludes": [
+    "Breakfasts and dinners",
+    "Tips",
+    "Artisan purchases"
+  ],
+  "recommendations": [
+    "Bring warm clothing (afternoons are cold)",
+    "Comfortable footwear for walking on islands",
+    "Bring cash for local crafts",
+    "Sunscreen and cap"
+  ]
+}
