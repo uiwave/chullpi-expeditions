@@ -10,7 +10,7 @@ export function DestinationCard({ data }: Props) {
   return (
     <Link
       href={`/${ROUTES.TOURS}?destino=${data.slug}`}
-      className="group bg-card border-border flex w-full flex-col overflow-hidden rounded-2xl border"
+      className="bg-card flex w-full flex-col overflow-hidden rounded-2xl"
     >
       <div className="relative aspect-4/4 w-full overflow-hidden">
         <img
@@ -19,10 +19,8 @@ export function DestinationCard({ data }: Props) {
           className="h-full w-full object-cover object-center"
         />
       </div>
-      <div className="p-5">
-        <h3 className="font-heading text-[1.875rem] leading-[1.2] text-white">
-          {data.title}
-        </h3>
+      <div className="p-5 text-center">
+        <h3 className="font-heading text-3xl text-white">{data.title}</h3>
       </div>
     </Link>
   );
