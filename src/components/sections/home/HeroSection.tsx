@@ -32,5 +32,5 @@ export default function HeroSection() {
         </h1>
       </div>
     </section>
-  );  
+  );
 }

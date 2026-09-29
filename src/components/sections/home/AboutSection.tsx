@@ -13,7 +13,7 @@ const FEATURES = [
     icon: MapPin,
     title: "features.expertGuides.title",
     description: "features.expertGuides.description",
-  }
+  },
 ];
 
 export default function AboutSection() {
