@@ -27,7 +27,22 @@
     "about": {
       "badge": "Sobre nós",
       "title": "Descubra o mundo viaje inteligente conosco",
-      "description": "Combinamos experiência local e tecnologia para que cada viagem pelo Peru seja simples, segura e memorável do início ao fim."
+      "description": "Combinamos experiência local e tecnologia para que cada viagem pelo Peru seja simples, segura e memorável do início ao fim.",
+      "cta": "Mais sobre nós",
+      "features": {
+        "personalizedPlanning": {
+          "title": "Planejamento de Viagens Personalizado",
+          "description": "Desenhamos cada itinerário sob medida, combinando seus interesses com os melhores destinos do Peru."
+        },
+        "expertGuides": {
+          "title": "Guias Locais Especializados",
+          "description": "Acompanhamento de profissionais apaixonados pela cultura, história e lugares escondidos."
+        },
+        "uniqueExperiences": {
+          "title": "Experiências Únicas",
+          "description": "Acesso exclusivo a atividades gastronômicas, de aventura e turismo experiencial autêntico."
+        }
+      }
     },
     "popular_tour": {
       "badge": "Não perca",
@@ -42,6 +57,32 @@
       "badge": "O que dizem",
       "title": "Depoimentos dos Nossos Viajantes",
       "description": "As experiências de quem já viajou conosco falam por si. Histórias reais, momentos únicos e recordações que duram para sempre."
+    }
+  },
+  "tours": {
+    "hero": {
+      "title": "Nossos Tours"
+    },
+    "filter": {
+      "destination": {
+        "label": "Destino",
+        "placeholder": "Para onde você viaja?"
+      },
+      "duration": {
+        "label": "Dias",
+        "placeholder": "Duração do tour"
+      },
+      "buttons": {
+        "clear": "Limpar filtros",
+        "search": "Buscar Tours"
+      }
+    },
+    "pagination": {
+      "label": "Paginação de tours",
+      "showing": "Exibindo {from}–{to} de {total} tours",
+      "previous": "Anterior",
+      "next": "Próxima",
+      "page": "Página {page}"
     }
   },
   "booking": {

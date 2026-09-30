@@ -75,6 +75,13 @@
         "clear": "Limpiar filtros",
         "search": "Buscar Tours"
       }
+    },
+    "pagination": {
+      "label": "Paginación de tours",
+      "showing": "Mostrando {from}–{to} de {total} tours",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "page": "Página {page}"
     }
   },
   "booking": {

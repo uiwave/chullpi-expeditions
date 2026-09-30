@@ -27,7 +27,22 @@
     "about": {
       "badge": "About us",
       "title": "Discover the world travel smart with us",
-      "description": "We combine local expertise and technology to make every trip through Peru simple, safe and memorable from start to finish."
+      "description": "We combine local expertise and technology to make every trip through Peru simple, safe and memorable from start to finish.",
+      "cta": "More about us",
+      "features": {
+        "personalizedPlanning": {
+          "title": "Personalized Trip Planning",
+          "description": "We design every itinerary to your measure, combining your interests with the best destinations in Peru."
+        },
+        "expertGuides": {
+          "title": "Expert Local Guides",
+          "description": "Support from professionals passionate about culture, history and hidden corners."
+        },
+        "uniqueExperiences": {
+          "title": "Unique Experiences",
+          "description": "Exclusive access to gastronomic, adventure and authentic experiential travel activities."
+        }
+      }
     },
     "popular_tour": {
       "badge": "Don't miss out",
@@ -42,6 +57,32 @@
       "badge": "What they say",
       "title": "Testimonials from Our Travelers",
       "description": "The experiences of those who have already traveled with us speak for themselves. Real stories, unique moments and memories that last forever."
+    }
+  },
+  "tours": {
+    "hero": {
+      "title": "Our Tours"
+    },
+    "filter": {
+      "destination": {
+        "label": "Destination",
+        "placeholder": "Where are you traveling?"
+      },
+      "duration": {
+        "label": "Days",
+        "placeholder": "Tour duration"
+      },
+      "buttons": {
+        "clear": "Clear filters",
+        "search": "Search Tours"
+      }
+    },
+    "pagination": {
+      "label": "Tours pagination",
+      "showing": "Showing {from}–{to} of {total} tours",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {page}"
     }
   },
   "booking": {
