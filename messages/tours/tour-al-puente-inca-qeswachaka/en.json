@@ -5,6 +5,7 @@
   "title": "Q'eswachaka Inca Bridge",
   "price": 55,
   "type": "Cultural",
+  "typeKey": "cultural",
   "duration": "Full Day",
   "popular": false
 }

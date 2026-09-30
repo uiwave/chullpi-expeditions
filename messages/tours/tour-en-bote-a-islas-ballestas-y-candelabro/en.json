@@ -5,6 +5,7 @@
   "title": "Boat Tour to Ballestas Islands and Candelabro",
   "price": 20,
   "type": "Day Tour",
+  "typeKey": "daily-tour",
   "duration": "2 Hours",
   "popular": false
 }

@@ -5,6 +5,7 @@
   "title": "Tour de Barco às Ilhas Ballestas e Candelabro",
   "price": 20,
   "type": "Tour Diário",
+  "typeKey": "daily-tour",
   "duration": "2 Horas",
   "popular": false
 }

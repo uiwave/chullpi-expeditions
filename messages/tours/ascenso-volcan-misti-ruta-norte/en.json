@@ -5,6 +5,7 @@
   "title": "Misti Volcano Climb – North Route",
   "price": 100,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
   "popular": false
 }

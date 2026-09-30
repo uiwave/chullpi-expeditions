@@ -5,6 +5,7 @@
   "title": "Tour en Bote a Islas Ballestas y Candelabro",
   "price": 20,
   "type": "Daily Tour",
+  "typeKey": "daily-tour",
   "duration": "2 Horas",
   "popular": false
 }

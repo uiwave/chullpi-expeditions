@@ -5,6 +5,7 @@
   "title": "Cañón del Colca y Aguas Termales de La Calera",
   "price": 65,
   "type": "Daily Tour",
+  "typeKey": "daily-tour",
   "duration": "1 Dia",
   "popular": false
 }

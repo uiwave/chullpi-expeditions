@@ -5,6 +5,7 @@
   "title": "Trekking Montanha Arco-íris Palcoyo",
   "price": 55,
   "type": "Trekking",
+  "typeKey": "trekking",
   "duration": "12 horas e 45 min",
   "popular": false
 }

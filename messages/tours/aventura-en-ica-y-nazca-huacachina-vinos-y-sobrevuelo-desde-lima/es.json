@@ -5,6 +5,7 @@
   "title": "Aventura en Ica y Nazca: Huacachina, Vinos y Sobrevuelo desde Lima",
   "price": 260,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "2 Días - 1 Noche",
   "popular": false
 }

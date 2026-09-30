@@ -8,8 +8,10 @@ import LanguageSelector from "./LanguageSelector";
 import MobileDrawer from "./MobileDrawer";
 import { ROUTES } from "@/config/routes";
 import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 export function Header() {
+  const t = useTranslations("header");
   const [scrolled, setScrolled] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -33,6 +35,7 @@ export function Header() {
             <div className="flex items-center justify-start">
               <button
                 onClick={() => setDrawerOpen(true)}
+                aria-label={t("menu.openAria")}
                 className="text-primary inline-flex h-11 cursor-pointer items-center justify-center transition-colors hover:text-white xl:hidden"
               >
                 <Menu className="h-7 w-7 shrink-0" />

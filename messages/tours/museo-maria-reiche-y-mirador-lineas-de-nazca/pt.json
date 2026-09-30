@@ -5,6 +5,7 @@
   "title": "Museu Maria Reiche e Mirante das Linhas de Nazca",
   "price": 60,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "Meio Dia",
   "popular": false
 }

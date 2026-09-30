@@ -5,6 +5,7 @@
   "title": "Colca Canyon and La Calera Hot Springs",
   "price": 65,
   "type": "Day Tour",
+  "typeKey": "daily-tour",
   "duration": "1 Day",
   "popular": false
 }

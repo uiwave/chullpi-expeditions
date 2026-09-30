@@ -5,6 +5,7 @@
   "title": "Tambo Colorado Tour",
   "price": 75,
   "type": "Day Tour",
+  "typeKey": "daily-tour",
   "duration": "1 Day",
   "popular": false
 }

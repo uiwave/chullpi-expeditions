@@ -2,15 +2,35 @@ import type { Tour } from "@/types/Tour";
 
 export interface TourFilters {
   destino?: string;
+  tipo?: string;
   duracion?: string;
   precio?: string;
 }
 
 export const TOURS_PER_PAGE = 8;
 
+const ALL_OPTION = "todos";
+
+export function slugify(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/ñ/g, "n")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function isActive(value: string | undefined): value is string {
+  return Boolean(value) && value !== ALL_OPTION;
+}
+
+const HOUR_OR_MINUTE = /\bhoras?\b|\bhours?\b|\bhrs?\b|\bmin\b/i;
+
 export function parseDurationToDays(duration: string): number {
+  if (HOUR_OR_MINUTE.test(duration)) return 1;
   const lower = duration.toLowerCase();
-  if (lower.includes("full day") || lower.includes("1 day")) return 1;
+  if (lower.includes("full day") || lower.includes("dia inteiro")) return 1;
   const match = lower.match(/(\d+)/);
   return match ? parseInt(match[1], 10) : 1;
 }
@@ -47,19 +67,22 @@ function isInPriceRange(price: number, range: string): boolean {
 
 export function filterTours(
   tours: Tour[],
-  { destino, duracion, precio }: TourFilters,
+  { destino, tipo, duracion, precio }: TourFilters,
 ): Tour[] {
   return tours.filter((tour) => {
-    if (destino && tour.destination.toLowerCase() !== destino.toLowerCase()) {
+    if (isActive(destino) && slugify(tour.destination) !== slugify(destino)) {
       return false;
     }
-    if (duracion) {
+    if (isActive(tipo) && slugify(tour.typeKey) !== slugify(tipo)) {
+      return false;
+    }
+    if (isActive(duracion)) {
       const tourDays = parseDurationToDays(tour.duration);
       if (!isInDurationRange(tourDays, duracion)) {
         return false;
       }
     }
-    if (precio) {
+    if (isActive(precio)) {
       if (!isInPriceRange(tour.price, precio)) {
         return false;
       }

@@ -5,6 +5,7 @@
   "title": "Tours Salinas y ruta del Sillar Culebrillas",
   "price": 30,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "Full Day",
   "popular": false
 }

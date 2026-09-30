@@ -5,6 +5,7 @@
   "title": "City Tour de Arequipa + Mosteiro de Santa Catalina + Mirantes",
   "price": 31,
   "type": "Tour Diário",
+  "typeKey": "daily-tour",
   "duration": "6 Horas",
   "popular": false
 }

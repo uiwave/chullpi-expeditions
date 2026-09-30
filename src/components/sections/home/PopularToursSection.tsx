@@ -1,4 +1,5 @@
 import { Heading } from "@/components/uiwave/Heading";
+import { useTranslations } from "next-intl";
 import {
   Carousel,
   CarouselContent,
@@ -12,16 +13,13 @@ interface Props {
 }
 
 export default function PopularToursSection({ tours }: Props) {
+  const t = useTranslations("home.popular_tour");
   const popularTours = tours.filter((tour) => tour.popular);
 
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section pb-0">
-        <Heading
-          centered
-          badge="No te pierdas"
-          title="Nuestros Tours Destacados en Perú"
-        />
+        <Heading centered badge={t("badge")} title={t("title")} />
         <Carousel
           opts={{
             align: "start",

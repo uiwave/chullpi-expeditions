@@ -5,6 +5,7 @@
   "title": "Palcoyo Rainbow Mountain Trekking",
   "price": 55,
   "type": "Trekking",
+  "typeKey": "trekking",
   "duration": "12 hours 45 min",
   "popular": false
 }

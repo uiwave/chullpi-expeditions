@@ -5,6 +5,7 @@
   "title": "Arequipa City Tour + Santa Catalina Monastery + Viewpoints",
   "price": 31,
   "type": "Day Tour",
+  "typeKey": "daily-tour",
   "duration": "6 Hours",
   "popular": false
 }

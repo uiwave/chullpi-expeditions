@@ -5,6 +5,7 @@
   "title": "Tour pela Reserva Nacional de Paracas",
   "price": 50,
   "type": "Tour Diário",
+  "typeKey": "daily-tour",
   "duration": "2 Horas",
   "popular": false
 }

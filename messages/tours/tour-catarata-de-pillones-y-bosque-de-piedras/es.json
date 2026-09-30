@@ -5,6 +5,7 @@
   "title": "Tour Catarata de Pillones y bosque de piedras",
   "price": 25,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "Full Day",
   "popular": false
 }

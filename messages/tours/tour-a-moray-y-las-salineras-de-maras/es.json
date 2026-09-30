@@ -5,6 +5,7 @@
   "title": "Cuatrimotos Moray -Salineras",
   "price": 70,
   "type": "Daily Tour",
+  "typeKey": "daily-tour",
   "duration": "1 Dia",
   "popular": false
 }

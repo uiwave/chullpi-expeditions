@@ -5,6 +5,7 @@
   "title": "Pillones Waterfall and Stone Forest Tour",
   "price": 25,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "Full Day",
   "popular": false
 }

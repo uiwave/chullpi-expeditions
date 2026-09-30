@@ -1,6 +1,6 @@
 "use client";
 
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { LANGUAGE_OPTIONS } from "@/data/language";
 
@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/select";
 
 export default function LanguageSelector() {
+  const t = useTranslations("header");
   const router = useRouter();
   const pathName = usePathname();
   const searchParams = useSearchParams();
@@ -29,7 +30,7 @@ export default function LanguageSelector() {
     <div className="relative flex h-20 items-center">
       <Select value={currentLocale} onValueChange={changeLanguage}>
         <SelectTrigger className="bg-primary font-heading text-primary-foreground inline-flex h-10 w-auto cursor-pointer items-center justify-center gap-1.5 rounded-lg border-none text-sm tracking-wider transition-all hover:opacity-90 focus:ring-0 sm:h-11 sm:gap-2 sm:text-[clamp(0.9375rem,calc(0.85rem+0.35vw),1.125rem)]">
-          <SelectValue placeholder="Language" />
+          <SelectValue placeholder={t("language.placeholder")} />
         </SelectTrigger>
 
         <SelectContent

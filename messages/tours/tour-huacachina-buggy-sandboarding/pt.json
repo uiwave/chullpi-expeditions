@@ -5,6 +5,7 @@
   "title": "Tour Huacachina + Buggy e Sandboarding",
   "price": 20,
   "type": "Tour Diário",
+  "typeKey": "daily-tour",
   "duration": "Dia Inteiro",
   "popular": false
 }

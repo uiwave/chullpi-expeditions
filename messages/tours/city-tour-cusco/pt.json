@@ -5,6 +5,7 @@
   "title": "City Tour de Cusco",
   "price": 20,
   "type": "Arqueológico",
+  "typeKey": "arqueologico",
   "duration": "Dia Inteiro",
   "popular": false
 }

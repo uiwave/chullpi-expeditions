@@ -5,6 +5,7 @@
   "title": "Sillustani Chullpas",
   "price": 20,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "5 hours",
   "popular": false
 }

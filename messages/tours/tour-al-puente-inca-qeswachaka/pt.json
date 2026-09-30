@@ -5,6 +5,7 @@
   "title": "Ponte Inca Q'eswachaka",
   "price": 55,
   "type": "Cultural",
+  "typeKey": "cultural",
   "duration": "Dia Inteiro",
   "popular": false
 }

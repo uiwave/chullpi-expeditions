@@ -5,6 +5,7 @@
   "title": "Trekking Montaña Arcoíris Palcoyo",
   "price": 55,
   "type": "Trekking",
+  "typeKey": "trekking",
   "duration": "12 horas y 45 min",
   "popular": false
 }

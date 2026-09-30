@@ -5,6 +5,7 @@
   "title": "Tour ao Cemitério de Chauchilla",
   "price": 70,
   "type": "Tour Diário",
+  "typeKey": "daily-tour",
   "duration": "2,5 Horas",
   "popular": false
 }

@@ -5,6 +5,7 @@
   "title": "Cusco Místico Dia Inteiro",
   "price": 27,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "Meio Dia",
   "popular": false
 }

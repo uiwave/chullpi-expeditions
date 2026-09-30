@@ -5,6 +5,7 @@
   "title": "Machu Picchu",
   "price": 300,
   "type": "Cultural",
+  "typeKey": "cultural",
   "duration": "Full Day",
   "popular": true
 }

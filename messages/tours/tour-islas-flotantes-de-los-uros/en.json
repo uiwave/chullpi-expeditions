@@ -5,6 +5,7 @@
   "title": "Uros Floating Islands Tour",
   "price": 15,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "Half Day",
   "popular": false
 }

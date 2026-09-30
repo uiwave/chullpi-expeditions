@@ -5,6 +5,7 @@
   "title": "Toro Muerto and Querullpa Petroglyphs Tour",
   "price": 110,
   "type": "Day Tour",
+  "typeKey": "daily-tour",
   "duration": "12 Hours",
   "popular": false
 }

@@ -5,6 +5,7 @@
   "title": "Cavernas de Arte Rupestre em Sumbay",
   "price": 90,
   "type": "Tour Diário",
+  "typeKey": "daily-tour",
   "duration": "Dia Inteiro",
   "popular": false
 }

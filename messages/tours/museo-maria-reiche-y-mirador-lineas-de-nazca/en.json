@@ -5,6 +5,7 @@
   "title": "Maria Reiche Museum and Nazca Lines Viewpoint",
   "price": 60,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "Half Day",
   "popular": false
 }

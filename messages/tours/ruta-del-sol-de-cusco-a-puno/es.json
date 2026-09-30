@@ -5,6 +5,7 @@
   "title": "Ruta del sol de Cusco a Puno",
   "price": 85,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "1 Dia",
   "popular": false
 }

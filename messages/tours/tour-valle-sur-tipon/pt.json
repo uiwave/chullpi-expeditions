@@ -5,6 +5,7 @@
   "title": "Tour ao Vale Sul",
   "price": 20,
   "type": "Cultural",
+  "typeKey": "cultural",
   "duration": "7 horas",
   "popular": false
 }

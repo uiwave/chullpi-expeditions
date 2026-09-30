@@ -5,6 +5,7 @@
   "title": "Salinas and Sillar Culebrillas Route Tours",
   "price": 30,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "Full Day",
   "popular": false
 }

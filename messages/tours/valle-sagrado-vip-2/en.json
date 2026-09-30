@@ -5,6 +5,7 @@
   "title": "Sacred Valley VIP",
   "price": 47,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "10 hours",
   "popular": false
 }

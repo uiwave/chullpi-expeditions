@@ -5,6 +5,7 @@
   "title": "Uros – Taquile – Amantani Islands",
   "price": 55,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
   "popular": false
 }

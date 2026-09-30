@@ -1,13 +1,16 @@
 import { Link } from "@/i18n/navigation";
 import { Tour } from "@/types/Tour";
 import { Clock } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 interface Props {
   data: Tour;
   destination?: boolean;
 }
 
-export default function TourCard({ data, destination = false }: Props) {
+export default async function TourCard({ data, destination = false }: Props) {
+  const t = await getTranslations("booking");
+
   return (
     <Link
       href={`/tours/${data.slug}`}
@@ -33,7 +36,7 @@ export default function TourCard({ data, destination = false }: Props) {
 
       <p className="mt-auto text-base">
         <span className="font-heading text-2xl text-white">${data.price}</span>{" "}
-        Persona
+        {t("person")}
       </p>
 
       <div className="border-border border-t" />

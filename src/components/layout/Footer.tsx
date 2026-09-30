@@ -5,11 +5,12 @@ import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { siteConfig } from "@/site";
 
 import { NAV_ITEMS } from "@/data/navItems";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 
 export function Footer() {
   const t = useTranslations("header");
+  const tf = useTranslations("footer");
   return (
     <footer className="relative w-full overflow-hidden bg-black/50">
       <img
@@ -29,14 +30,10 @@ export function Footer() {
             <div className="flex flex-col items-start gap-6">
               <img
                 src="/logo-white.webp"
-                alt="TRAVELINK Logo"
+                alt={tf("logoAlt")}
                 className="h-12 w-auto object-contain xl:h-14"
               />
-              <p>
-                Expediciones únicas por Perú. Diseñamos viajes a tu medida,
-                combinando experiencia local y tecnología para que cada
-                experiencia sea segura y memorable.
-              </p>
+              <p>{tf("description")}</p>
               <div className="flex items-center gap-3">
                 <a
                   href={siteConfig.social.facebook}
@@ -66,27 +63,27 @@ export function Footer() {
             </div>
             <div className="flex flex-col justify-center text-center">
               <h3 className="font-heading text-[clamp(1.875rem,1.25rem+1.563vw,2.75rem)] leading-none tracking-wider">
-                Únete para recibir noticias y ofertas.
+                {tf("newsletter.title")}
               </h3>
               <form className="mt-6 flex flex-col gap-3 sm:flex-row">
                 <input
                   type="email"
                   required
-                  placeholder="Tu correo electrónico"
+                  placeholder={tf("newsletter.emailPlaceholder")}
                   className="bg-card border-border focus:border-primary focus:ring-primary/20 w-full rounded-lg border px-4 py-3 text-sm text-white focus:ring-2 focus:outline-none"
                 />
                 <button
                   type="submit"
                   className="bg-primary text-primary-foreground font-heading inline-flex items-center justify-center gap-2 rounded-lg px-5 py-3 text-sm tracking-wider transition-opacity hover:opacity-90"
                 >
-                  Suscribirse
+                  {tf("newsletter.submit")}
                   <Send className="size-4" />
                 </button>
               </form>
             </div>
             <div className="flex flex-col items-center gap-4">
               <h3 className="font-heading text-[clamp(1.5rem,1.054rem+1.116vw,2.125rem)] tracking-wider">
-                Enlaces
+                {tf("links.title")}
               </h3>
               <ul className="flex flex-col gap-2">
                 {NAV_ITEMS.map((link) => (
@@ -104,7 +101,7 @@ export function Footer() {
           </div>
 
           <p className="font-heading from-primary mt-10 bg-linear-to-b to-white bg-clip-text text-center text-[clamp(4.688rem,-9.821rem+36.272vw,25rem)] leading-none text-transparent">
-            VIAJEROS
+            {tf("watermark")}
           </p>
         </div>
       </div>

@@ -5,6 +5,7 @@
   "title": "Tour por el valle de los Volcanes",
   "price": 370,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "3 Días / 2 Noches",
   "popular": false
 }

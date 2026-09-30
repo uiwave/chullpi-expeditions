@@ -5,6 +5,7 @@
   "title": "Sun Route from Cusco to Puno",
   "price": 85,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "1 Day",
   "popular": false
 }

@@ -31,7 +31,7 @@ export default function DesktopNavigation() {
                     href={child.href}
                     className="font-heading hover:bg-primary px-5 py-3.5 text-[clamp(0.9375rem,calc(0.85rem+0.35vw),1.125rem)] leading-6.5 tracking-wider text-black transition-colors hover:text-white"
                   >
-                    {child.label}
+                    {t(child.label)}
                   </Link>
                 ))}
               </div>

@@ -5,6 +5,7 @@
   "title": "Tour às Linhas de Palpa",
   "price": 40,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "1 Dia",
   "popular": false
 }

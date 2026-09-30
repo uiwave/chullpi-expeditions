@@ -5,6 +5,7 @@
   "title": "Tour isla de los Uros – Llachón – Capachica – Puno",
   "price": 80,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "2 Días - 1 Noche",
   "popular": false
 }

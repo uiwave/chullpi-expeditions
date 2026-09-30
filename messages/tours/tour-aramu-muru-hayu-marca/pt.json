@@ -5,6 +5,7 @@
   "title": "Tour Aramu Muru – Hayu Marca",
   "price": 0,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "Meio Dia",
   "popular": false
 }

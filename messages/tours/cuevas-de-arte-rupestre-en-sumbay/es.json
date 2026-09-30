@@ -5,6 +5,7 @@
   "title": "Cuevas de Arte Rupestre en Sumbay",
   "price": 90,
   "type": "Daily Tour",
+  "typeKey": "daily-tour",
   "duration": "Full Day",
   "popular": false
 }

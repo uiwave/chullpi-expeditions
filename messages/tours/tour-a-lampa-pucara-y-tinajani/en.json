@@ -5,6 +5,7 @@
   "title": "Tour to Lampa, Pucará and Tinajani",
   "price": 199,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "1 Day",
   "popular": false
 }

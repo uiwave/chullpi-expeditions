@@ -5,6 +5,7 @@
   "title": "Ica and Nazca Adventure: Huacachina, Wine & Flyover from Lima",
   "price": 260,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
   "popular": false
 }

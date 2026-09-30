@@ -13,6 +13,7 @@ interface FilterFieldProps {
   value?: string;
   onValueChange: (value: string) => void;
   placeholder: string;
+  allLabel: string;
   options: { value: string; label: string }[];
 }
 
@@ -22,6 +23,7 @@ export function FilterField({
   value,
   onValueChange,
   placeholder,
+  allLabel,
   options,
 }: FilterFieldProps) {
   return (
@@ -41,7 +43,7 @@ export function FilterField({
           <option value="" disabled hidden>
             {placeholder}
           </option>
-          <option value="todos">Todos</option>
+          <option value="todos">{allLabel}</option>
           {options.map((option) => (
             <option key={option.value} value={option.value}>
               {option.label}

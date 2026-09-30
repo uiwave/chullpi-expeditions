@@ -1,8 +1,14 @@
 export const DURATION_OPTIONS = [
-  { value: "full-day", label: "Full Day" },
-  { value: "2-3", label: "2-3 Días" },
-  { value: "4-7", label: "4-7 Días" },
-  { value: "8+", label: "1+ Semana" },
+  { value: "full-day", labelKey: "fullDay" },
+  { value: "2-3", labelKey: "d2to3" },
+];
+
+export const TOUR_TYPES = [
+  { value: "aventura", labelKey: "aventura" },
+  { value: "daily-tour", labelKey: "dailyTour" },
+  { value: "trekking", labelKey: "trekking" },
+  { value: "cultural", labelKey: "cultural" },
+  { value: "arqueologico", labelKey: "arqueologico" },
 ];
 
 export const PRICE_OPTIONS = [

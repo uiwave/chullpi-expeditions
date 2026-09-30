@@ -5,6 +5,7 @@
   "title": "Palpa Lines Tour",
   "price": 40,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "1 Day",
   "popular": false
 }

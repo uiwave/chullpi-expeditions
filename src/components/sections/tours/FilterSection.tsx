@@ -1,13 +1,15 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { MapPin, Compass, Clock, DollarSign } from "lucide-react";
+import { MapPin, Compass, Clock } from "lucide-react";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { DESTINATIONS } from "@/data/destinations";
 import { FilterField } from "./filters/FilterField";
 import { FilterActions } from "./filters/FilterActions";
-import { DURATION_OPTIONS, PRICE_OPTIONS } from "./filters/filterOptions";
+import { DURATION_OPTIONS, TOUR_TYPES } from "./filters/filterOptions";
 import { useTranslations } from "next-intl";
+
+const ALL_OPTION = "todos";
 
 export function FilterSection() {
   const t = useTranslations("tours");
@@ -17,25 +19,29 @@ export function FilterSection() {
   const searchParams = useSearchParams();
 
   const [pendingDestino, setPendingDestino] = useState("");
+  const [pendingTipo, setPendingTipo] = useState("");
   const [pendingDuracion, setPendingDuracion] = useState("");
   const [pendingPrecio, setPendingPrecio] = useState("");
 
   useEffect(() => {
     setPendingDestino(searchParams.get("destino") || "");
+    setPendingTipo(searchParams.get("tipo") || "");
     setPendingDuracion(searchParams.get("duracion") || "");
     setPendingPrecio(searchParams.get("precio") || "");
   }, [searchParams]);
 
   const handleApplyFilters = () => {
     const params = new URLSearchParams();
-    if (pendingDestino) params.set("destino", pendingDestino);
-    if (pendingDuracion) params.set("duracion", pendingDuracion);
-    if (pendingPrecio) params.set("precio", pendingPrecio);
+    if (isFilterable(pendingDestino)) params.set("destino", pendingDestino);
+    if (isFilterable(pendingTipo)) params.set("tipo", pendingTipo);
+    if (isFilterable(pendingDuracion)) params.set("duracion", pendingDuracion);
+    if (isFilterable(pendingPrecio)) params.set("precio", pendingPrecio);
     router.push(`${pathname}?${params.toString()}`);
   };
 
   const handleClearFilters = () => {
     setPendingDestino("");
+    setPendingTipo("");
     setPendingDuracion("");
     setPendingPrecio("");
     router.push(pathname);
@@ -63,6 +69,7 @@ export function FilterSection() {
                   value={pendingDestino}
                   onValueChange={setPendingDestino}
                   placeholder={t("filter.destination.placeholder")}
+                  allLabel={t("filter.all")}
                   options={DESTINATIONS.map((dest) => ({
                     value: dest.slug,
                     label: dest.title,
@@ -70,13 +77,15 @@ export function FilterSection() {
                 />
                 <FilterField
                   icon={Compass}
-                  label="Tipo de Tour"
-                  placeholder="Selecciona un tipo"
-                  options={DESTINATIONS.map((dest) => ({
-                    value: dest.slug,
-                    label: dest.title,
+                  label={t("filter.type.label")}
+                  value={pendingTipo}
+                  onValueChange={setPendingTipo}
+                  placeholder={t("filter.type.placeholder")}
+                  allLabel={t("filter.all")}
+                  options={TOUR_TYPES.map((type) => ({
+                    value: type.value,
+                    label: t(`filter.type.options.${type.labelKey}`),
                   }))}
-                  onValueChange={() => {}}
                 />
                 <FilterField
                   icon={Clock}
@@ -84,14 +93,19 @@ export function FilterSection() {
                   value={pendingDuracion}
                   onValueChange={setPendingDuracion}
                   placeholder={t("filter.duration.placeholder")}
-                  options={DURATION_OPTIONS}
+                  allLabel={t("filter.all")}
+                  options={DURATION_OPTIONS.map((option) => ({
+                    value: option.value,
+                    label: t(`filter.duration.options.${option.labelKey}`),
+                  }))}
                 />
                 {/* <FilterField
                 icon={DollarSign}
-                label="Precio"
+                label={t("filter.price.label")}
                 value={pendingPrecio}
                 onValueChange={setPendingPrecio}
-                placeholder="Rango de precio"
+                placeholder={t("filter.price.placeholder")}
+                allLabel={t("filter.all")}
                 options={PRICE_OPTIONS}
               /> */}
                 <FilterActions
@@ -105,4 +119,8 @@ export function FilterSection() {
       </div>
     </section>
   );
+}
+
+function isFilterable(value: string): boolean {
+  return Boolean(value) && value !== ALL_OPTION;
 }

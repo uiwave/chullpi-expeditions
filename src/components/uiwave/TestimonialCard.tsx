@@ -1,11 +1,14 @@
 import { Testimonials } from "@/types/Testimonial";
 import { Star } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 interface Props {
   data: Testimonials;
 }
 
-export function TestimonialCard({ data }: Props) {
+export async function TestimonialCard({ data }: Props) {
+  const t = await getTranslations("home.testimonial");
+
   return (
     <figure className="flex flex-col gap-6 bg-transparent p-2">
       {/* Cabecera: Avatar, Nombre y Rating */}
@@ -23,7 +26,7 @@ export function TestimonialCard({ data }: Props) {
           {/* Renderizado de rating con estrellas */}
           <div
             className="flex items-center gap-1"
-            aria-label={`Calificación: ${data.rating} de 5 estrellas`}
+            aria-label={t("ratingAria", { rating: data.rating })}
           >
             {Array.from({ length: 5 }).map((_, index) => (
               <Star

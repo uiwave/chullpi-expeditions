@@ -5,6 +5,7 @@
   "title": "Paracas National Reserve Tour",
   "price": 50,
   "type": "Day Tour",
+  "typeKey": "daily-tour",
   "duration": "2 Hours",
   "popular": false
 }

@@ -5,6 +5,7 @@
   "title": "Sumbay Rock Art Caves",
   "price": 90,
   "type": "Day Tour",
+  "typeKey": "daily-tour",
   "duration": "Full Day",
   "popular": false
 }

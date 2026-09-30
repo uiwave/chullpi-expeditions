@@ -1,6 +1,7 @@
 {
   "common": {
-    "destinations": "Destinos"
+    "previousSlide": "Slide anterior",
+    "nextSlide": "Próximo slide"
   },
   "header": {
     "nav": {
@@ -11,6 +12,18 @@
       "ica": "Ica",
       "aboutUs": "Sobre Nós",
       "contact": "Contato"
+    },
+    "menu": {
+      "title": "Menu",
+      "closeAria": "Fechar menu",
+      "openAria": "Abrir menu"
+    },
+    "contact": {
+      "location": "Cusco, Peru",
+      "bookings": "Reservas: {phone}"
+    },
+    "language": {
+      "placeholder": "Idioma"
     }
   },
   "home": {
@@ -37,12 +50,11 @@
         "expertGuides": {
           "title": "Guias Locais Especializados",
           "description": "Acompanhamento de profissionais apaixonados pela cultura, história e lugares escondidos."
-        },
-        "uniqueExperiences": {
-          "title": "Experiências Únicas",
-          "description": "Acesso exclusivo a atividades gastronômicas, de aventura e turismo experiencial autêntico."
         }
-      }
+      },
+      "image1Alt": "Grutas de Arte Rupestre em Sumbay",
+      "image2Alt": "Prato peruano ou ingrediente",
+      "image3Alt": "Experiência gastronómica"
     },
     "popular_tour": {
       "badge": "Não perca",
@@ -56,7 +68,13 @@
     "testimonial": {
       "badge": "O que dizem",
       "title": "Depoimentos dos Nossos Viajantes",
-      "description": "As experiências de quem já viajou conosco falam por si. Histórias reais, momentos únicos e recordações que duram para sempre."
+      "description": "As experiências de quem já viajou connosco falam por si só. Histórias reais, momentos únicos e memórias que duram para sempre.",
+      "travelerAlt": "Viajante",
+      "ratingAria": "Classificação: {rating} de 5 estrelas"
+    },
+    "metadata": {
+      "title": "Chullpi Expeditions — Tours e expedições no Peru",
+      "description": "Tours de aventura, trekking e experiências culturais em Cusco, Arequipa, Puno e Ica. Desenhamos a sua viagem sob medida pelo Peru."
     }
   },
   "tours": {
@@ -70,11 +88,31 @@
       },
       "duration": {
         "label": "Dias",
-        "placeholder": "Duração do tour"
+        "placeholder": "Duração do tour",
+        "options": {
+          "fullDay": "Full Day",
+          "d2to3": "2-3 Dias"
+        }
       },
       "buttons": {
         "clear": "Limpar filtros",
         "search": "Buscar Tours"
+      },
+      "all": "Todos",
+      "type": {
+        "label": "Tipo de Tour",
+        "placeholder": "Selecione um tipo",
+        "options": {
+          "aventura": "Aventura",
+          "dailyTour": "Tour diário",
+          "trekking": "Trekking",
+          "cultural": "Cultural",
+          "arqueologico": "Arqueológico"
+        }
+      },
+      "price": {
+        "label": "Preço",
+        "placeholder": "Faixa de preço"
       }
     },
     "pagination": {
@@ -83,6 +121,10 @@
       "previous": "Anterior",
       "next": "Próxima",
       "page": "Página {page}"
+    },
+    "metadata": {
+      "title": "Nossos Tours — Chullpi Expeditions",
+      "description": "Explore 42 tours em Cusco, Arequipa, Puno e Ica. Filtre por destino, tipo, duração e preço e reserve pelo WhatsApp."
     }
   },
   "booking": {
@@ -93,7 +135,6 @@
     "unitPrice": "Preço por pessoa",
     "perPerson": "por pessoa",
     "total": "Total",
-    "pricePerPerson": "Preço por pessoa",
     "whatsappHint": "Ao clicar em reservar, o WhatsApp abrirá com seu pedido.",
     "whatsapp": {
       "header": "Olá, quero reservar o tour:",
@@ -103,6 +144,80 @@
       "quantity": "Pessoas: {quantity}",
       "unitPrice": "Preço por pessoa: S/ {price}",
       "total": "Total estimado: S/ {total}"
+    },
+    "person": "Pessoa"
+  },
+  "footer": {
+    "logoAlt": "Logótipo da Chullpi Expeditions",
+    "description": "Expedições únicas pelo Peru. Desenhamos viagens sob medida, combinando experiência local e tecnologia para que cada experiência seja segura e memorável.",
+    "newsletter": {
+      "title": "Subscreva para receber novidades e ofertas.",
+      "emailPlaceholder": "O seu e-mail",
+      "submit": "Subscrever"
+    },
+    "links": {
+      "title": "Ligações"
+    },
+    "watermark": "VIAJANTES"
+  },
+  "about": {
+    "metadata": {
+      "title": "Sobre Nós — Chullpi Expeditions",
+      "description": "Conheça a essência da Chullpi Expeditions: missão, paixão e compromisso com o turismo sustentável no Peru."
+    },
+    "hero": {
+      "title": "Sobre Nós"
+    },
+    "mission": {
+      "badge": "Nossa essência",
+      "title": "Por que escolher a Chullpi Expeditions",
+      "description": "Somos mais do que uma agência de viagens. Somos o seu portão para a verdadeira magia do Peru.",
+      "imageAlt": "Cânion do Colca",
+      "values": {
+        "mission": {
+          "title": "Missão",
+          "description": "Oferecer experiências de viagem autênticas e seguras no Peru, conectando os viajantes à cultura, à natureza e às pessoas que fazem deste país um destino único no mundo."
+        },
+        "passion": {
+          "title": "Paixão",
+          "description": "Cada tour é planeado com dedicação e amor pelos detalhes. Preocupamo-nos com que cada momento da sua viagem seja memorável e supere as suas expectativas."
+        },
+        "commitment": {
+          "title": "Compromisso",
+          "description": "Trabalhamos com comunidades locais promovendo um turismo sustentável e responsável, garantindo que as nossas atividades beneficiem as pessoas e o meio ambiente."
+        }
+      }
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contato — Chullpi Expeditions",
+      "description": "Escreva-nos ou ligue-nos. Estamos na Av. El Sol 456, Cusco, Peru e respondemos de segunda a domingo."
+    },
+    "hero": {
+      "title": "Contato"
+    },
+    "info": {
+      "badge": "Fale connosco",
+      "title": "Estamos aqui para ajudar",
+      "locationTitle": "Localização",
+      "phoneTitle": "Telefone",
+      "emailTitle": "E-mail",
+      "address": "Av. El Sol 456, Cusco, Peru"
+    },
+    "form": {
+      "badge": "Escreva-nos",
+      "title": "Envie-nos uma mensagem",
+      "mapTitle": "Localização no mapa",
+      "nameLabel": "Nome",
+      "namePlaceholder": "O seu nome completo",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "O seu e-mail",
+      "subjectLabel": "Assunto",
+      "subjectPlaceholder": "Assunto da mensagem",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Escreva a sua mensagem aqui...",
+      "submit": "Enviar mensagem"
     }
   }
 }

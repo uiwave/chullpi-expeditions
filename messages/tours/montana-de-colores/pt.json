@@ -5,6 +5,7 @@
   "title": "Montanha das 7 Cores",
   "price": 50,
   "type": "Trekking",
+  "typeKey": "trekking",
   "duration": "Dia Inteiro",
   "popular": true
 }

@@ -22,7 +22,12 @@ export default function TestimonialsSection() {
       />
 
       <div className="uw-container uw-section relative z-10">
-        <Heading centered badge={t("badge")} title={t("title")} />
+        <Heading
+          centered
+          badge={t("badge")}
+          title={t("title")}
+          description={t("description")}
+        />
 
         {/* Layout en 2 columnas */}
         <div className="mt-10 grid grid-cols-1 items-center gap-8 lg:grid-cols-12 lg:gap-12">
@@ -30,7 +35,7 @@ export default function TestimonialsSection() {
           <div className="relative flex justify-center lg:col-span-5">
             <img
               src="/images/bg/travel2.png"
-              alt="Viajera"
+              alt={t("travelerAlt")}
               className="h-auto max-h-137.5 w-full max-w-120 object-contain"
             />
           </div>

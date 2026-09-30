@@ -5,6 +5,7 @@
   "title": "7 Lakes of Ausangate Tour",
   "price": 55,
   "type": "Day Tour",
+  "typeKey": "daily-tour",
   "duration": "Full Day",
   "popular": false
 }

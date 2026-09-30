@@ -5,6 +5,7 @@
   "title": "Valley of the Volcanoes Tour",
   "price": 370,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "3 Days / 2 Nights",
   "popular": false
 }

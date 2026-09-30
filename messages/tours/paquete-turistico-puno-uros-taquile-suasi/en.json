@@ -5,6 +5,7 @@
   "title": "Puno Tourist Package -Uros – Taquile – Suasi",
   "price": 0,
   "type": "Adventure",
+  "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
   "popular": false
 }

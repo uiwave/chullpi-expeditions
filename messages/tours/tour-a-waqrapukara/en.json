@@ -5,6 +5,7 @@
   "title": "Waqrapukara Tour",
   "price": 57,
   "type": "Trekking",
+  "typeKey": "trekking",
   "duration": "Full Day",
   "popular": false
 }

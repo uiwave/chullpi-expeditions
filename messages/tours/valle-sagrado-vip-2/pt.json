@@ -5,6 +5,7 @@
   "title": "Vale Sagrado VIP",
   "price": 47,
   "type": "Aventura",
+  "typeKey": "aventura",
   "duration": "10 horas",
   "popular": false
 }

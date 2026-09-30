@@ -5,6 +5,7 @@
   "title": "Tour das 7 Lagunas do Ausangate",
   "price": 55,
   "type": "Tour Diário",
+  "typeKey": "daily-tour",
   "duration": "Dia Inteiro",
   "popular": false
 }

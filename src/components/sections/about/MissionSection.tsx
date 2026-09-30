@@ -1,25 +1,16 @@
 import { Heading } from "@/components/uiwave/Heading";
 import { Target, Heart, Globe } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 const VALUES = [
-  {
-    title: "Misión",
-    description:
-      "Ofrecer experiencias de viaje auténticas y seguras en Perú, conectando a los viajeros con la cultura, la naturaleza y las personas que hacen de este país un destino único en el mundo.",
-  },
-  {
-    title: "Pasión",
-    description:
-      "Cada tours es planeado con dedicación y amor por los detalles. Nos importa que cada momento de tu viaje sea memorable y supere tus expectativas.",
-  },
-  {
-    title: "Compromiso",
-    description:
-      "Trabajamos con comunidades locales promoviendo el turismo sostenible y responsable, asegurando que nuestras actividades beneficien a las personas y el entorno.",
-  },
-];
+  { icon: Target, key: "mission" },
+  { icon: Heart, key: "passion" },
+  { icon: Globe, key: "commitment" },
+] as const;
 
-export default function MissionSection() {
+export default async function MissionSection() {
+  const t = await getTranslations("about.mission");
+
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section">
@@ -30,7 +21,7 @@ export default function MissionSection() {
             <div className="relative h-full w-full overflow-hidden rounded-2xl shadow-2xl ring-1 shadow-black/50 ring-white/10">
               <img
                 src="/images/Canon-del-Colca-y-Aguas-Termales-de-La-Calera-03.webp"
-                alt="Cañón del Colca"
+                alt={t("imageAlt")}
                 className="h-full w-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent" />
@@ -40,22 +31,24 @@ export default function MissionSection() {
           <div className="flex flex-col items-start gap-8">
             <Heading
               centered
-              badge="Nuestra esencia"
-              title="Por qué elegir Chullpi Expeditions"
-              description="Somos más que una agencia de viajes. Somos tu puerta de entrada a la verdadera magia de Perú."
+              badge={t("badge")}
+              title={t("title")}
+              description={t("description")}
               className="mb-0 text-start lg:mb-0"
             />
             <div className="flex w-full flex-col gap-6">
               {VALUES.map((value) => (
                 <div
-                  key={value.title}
+                  key={value.key}
                   className="border-primary flex items-start gap-4 border-l-2 pl-4"
                 >
                   <div className="flex flex-col gap-1">
                     <h3 className="font-heading tracking-wider text-white sm:text-2xl">
-                      {value.title}
+                      {t(`values.${value.key}.title`)}
                     </h3>
-                    <p className="text-base">{value.description}</p>
+                    <p className="text-base">
+                      {t(`values.${value.key}.description`)}
+                    </p>
                   </div>
                 </div>
               ))}
