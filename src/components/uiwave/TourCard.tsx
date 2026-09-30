@@ -21,7 +21,7 @@ export default function TourCard({ data, destination = false }: Props) {
 
       <div className="relative aspect-video w-full overflow-hidden rounded-xl">
         <img
-          src={data.image}
+          src={`/images/${data.image}`}
           alt={data.title}
           className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
         />
