@@ -99,6 +99,11 @@ export function FilterSection() {
                     label: t(`filter.duration.options.${option.labelKey}`),
                   }))}
                 />
+
+                <FilterActions
+                  onApply={handleApplyFilters}
+                  onClear={handleClearFilters}
+                />
                 {/* <FilterField
                 icon={DollarSign}
                 label={t("filter.price.label")}
@@ -108,10 +113,6 @@ export function FilterSection() {
                 allLabel={t("filter.all")}
                 options={PRICE_OPTIONS}
               /> */}
-                <FilterActions
-                  onApply={handleApplyFilters}
-                  onClear={handleClearFilters}
-                />
               </div>
             </div>
           </div>
