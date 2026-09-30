@@ -20,11 +20,4 @@ export interface Tour {
   type: string;
   duration: string;
   popular: boolean;
-  description?: string;
-  images?: string[];
-  itinerary?: TourItinerary[];
-  includes?: string[];
-  notIncludes?: string[];
-  recommendations?: string[];
-  additional?: string[];
 }

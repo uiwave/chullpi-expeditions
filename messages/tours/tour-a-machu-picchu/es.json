@@ -1,95 +1,10 @@
 {
   "slug": "tour-a-machu-picchu",
   "destination": "Cusco",
-  "image": "/images/Tour-a-Machu-Picchu-03.webp",
+  "image": "Tour-a-Machu-Picchu-03.webp",
   "title": "Machu Picchu",
   "price": 300,
   "type": "Cultural",
   "duration": "Full Day",
-  "popular": true,
-  "description": "Descubre la majestuosidad de Machu Picchu, la ciudadela inca más emblemática del mundo. Este tour de día completo te lleva desde Cusco hasta la cumbre de los Andes, recorriendo el valle sagrado en tren turístico para explorar sus templos, terrazas agrícolas y la energía única de este sitio Patrimonio de la Humanidad.",
-  "includes": [
-    "Traslado IN – OUT del Hotel – Estación de Trenes",
-    "Tren turístico Ollantaytambo – Machupicchu",
-    "Bus subida y bajada a Machupicchu (Consettur)",
-    "Boleto de ingreso a Machu Picchu",
-    "Guía profesional bilingüe",
-    "Traslado Privado Ollantaytambo – Hotel en Cusco."
-  ],
-  "notIncludes": [
-    "Ingreso a Montaña de Machupicchu o Waynapicchu",
-    "Alimentación no mencionada en el programa",
-    "Gastos personales",
-    "Propinas"
-  ],
-  "recommendations": [
-    "Llevar pasaporte original o documento de identidad vigente utilizado en la reserva.",
-    "Usar calzado cómodo o zapatillas de trekking con buen agarre.",
-    "Llevar ropa ligera para el día y un abrigo o casaca cortavientos para la tarde.",
-    "Cargar un impermeable o poncho de lluvia (especialmente entre noviembre y abril).",
-    "Usar bloqueador solar, sombrero para el sol y repelente para mosquitos.",
-    "Llevar dinero en efectivo en soles para compras locales o snacks."
-  ],
-  "additional": [
-    "Los horarios de trenes están sujetos a disponibilidad al momento de confirmar la reserva.",
-    "El boleto de ingreso a Machu Picchu es personal e intransferible.",
-    "No se permite el ingreso con mochilas grandes que superen los 40x35x20 cm.",
-    "Está prohibido el uso de bastones de punta metálica dentro del santuario histórico.",
-    "Se recomienda reservar con al menos 2 a 3 meses de anticipación debido al límite de aforo diario."
-  ],
-  "itinerary": [
-    {
-      "day": 1,
-      "title": "Llegada a Cusco y Aclimatación",
-      "description": "Bienvenida en el aeropuerto Alejandro Velasco Astete y traslado privado a su hotel. Tarde libre reservada para descansar y aclimatarse a la altitud de la ciudad (3,400 m.s.n.m.).",
-      "activities": [
-        {
-          "time": "Mañana",
-          "title": "Recepción y Traslado al Hotel",
-          "description": "Recibimiento en el aeropuerto con mate de coca de bienvenida y asistencia con el equipaje durante el traslado."
-        },
-        {
-          "time": "02:00 PM - 04:00 PM",
-          "title": "Descanso y Aclimatación",
-          "description": "Tiempo para descansar en el hotel y adaptarse progresivamente a la altura."
-        },
-        {
-          "time": "05:00 PM - 07:00 PM",
-          "title": "Paseo Suave por el Centro Histórico",
-          "description": "Caminata ligera opcional por la Plaza de Armas y la pintoresca calle Hatun Rumiyoc para apreciar la Piedra de los 12 Ángulos."
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "title": "City Tour Cusco y Ruinas Aledañas",
-      "description": "Recorrido guiado por el corazón cultural de Cusco y los complejos arqueológicos más impresionantes ubicados a pocos minutos de la ciudad.",
-      "activities": [
-        {
-          "time": "08:30 AM - 10:00 AM",
-          "title": "Visita al Templo del Qoricancha",
-          "description": "Exploración del principal templo Inca dedicado al Dios Sol, sobre el cual se construyó el Convento de Santo Domingo."
-        },
-        {
-          "time": "10:30 AM - 12:30 PM",
-          "title": "Complejo Arqueológico de Sacsayhuamán",
-          "description": "Recorrido por la majestuosa fortaleza megalítica inca, famosa por sus imponentes bloques de piedra tallada."
-        },
-        {
-          "time": "01:00 PM - 03:00 PM",
-          "title": "Q'enqo, Puka Pukara y Tambomachay",
-          "description": "Visita guiada al centro ceremonial de Q'enqo, el puesto militar de Puka Pukara y el templo de las aguas en Tambomachay."
-        },
-        {
-          "time": "03:30 PM",
-          "title": "Retorno a la Ciudad",
-          "description": "Traslado de regreso al centro de Cusco y tarde libre para disfrutar de la gastronomía local."
-        }
-      ]
-    }
-  ],
-  "images": [
-    "/images/Tour-a-Machu-Picchu-03.webp",
-    "/images/Cusco-a-Machu-Picchu-3-Dias-03.webp"
-  ]
+  "popular": true
 }
