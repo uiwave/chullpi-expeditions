@@ -1,0 +1,72 @@
+{
+  "common": {
+    "readMore": "Leer más"
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Experiencias inolvidables y hospedaje de primer nivel",
+      "title": "Descubre destinos mágicos y vive la aventura de tus sueños",
+      "actions": {
+        "exploreTours": "Explorar Tours",
+        "bookAirbnb": "Reservar Airbnb"
+      }
+    },
+    "machupicchuFeatured": {
+      "subtitle": "Los imperdibles de la maravilla del mundo",
+      "title": "Los Tours a Machu Picchu Más Solicitados",
+      "description": "Explora nuestras experiencias más aclamadas para visitar la ciudadela inca. Garantizamos salidas diarias, itinerarios optimizados y el mejor servicio para hacer de tu viaje una experiencia inolvidable."
+    },
+    "about": {
+      "subtitle": "Sobre Nosotros",
+      "title": "Creando Recuerdos Inolvidables en Cada Viaje",
+      "description": "Somos una agencia apasionada por conectar a los viajeros con los destinos más fascinantes del Perú. Nos dedicamos a diseñar experiencias personalizadas que combinan aventura, cultura y la comodidad de un hospedaje acogedor.",
+      "features": {
+        "localExperts": {
+          "title": "Expertos Locales",
+          "description": "Guías profesionales apasionados que te mostrarán la verdadera historia y secretos de cada lugar."
+        },
+        "personalizedService": {
+          "title": "Atención Personalizada",
+          "description": "Diseñamos itinerarios a tu medida para garantizar que cada momento sea perfecto."
+        }
+      }
+    },
+    "destinations": {
+      "subtitle": "Lugares Increíbles",
+      "title": "Explora Nuestros Destinos Destacados"
+    },
+    "gallery": {
+      "subtitle": "Momentos Capturados",
+      "title": "Galería de Experiencias de Nuestros Viajeros"
+    },
+    "testimonials": {
+      "subtitle": "Historias Reales",
+      "title": "Lo Que Dicen Quienes Viajaron Con Nosotros"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Conoce Nuestra Historia y Pasión por Viajar"
+    },
+    "story": {
+      "subtitle": "Nuestra Trayectoria",
+      "title": "Transformando Viajes en Experiencias Únicas",
+      "description": "Nacimos con la misión de mostrar al mundo las maravillas culturales y naturales del Perú desde una perspectiva auténtica y humana. Nos esforzamos día a día para que cada viajero descubra la riqueza de nuestras tierras con total seguridad y confort.\n\nA lo largo de los años hemos acompañado a miles de aventureros en sus recorridos, brindando no solo tours guiados con profesionales de primer nivel, sino también alojamientos acogedores que hacen sentir a cualquiera como en casa."
+    }
+  },
+  "tours": {
+    "hero": {
+      "title": ""
+    }
+  },
+  "airbnb": {
+    "hero": {
+      "title": ""
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": ""
+    }
+  }
+}
