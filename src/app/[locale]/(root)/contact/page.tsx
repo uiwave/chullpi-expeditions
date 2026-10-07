@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import PageHero from "@/components/uiwave/PageHero";
-import ContactInfoSection from "@/components/sections/contact/ContactInfoSection";
-import ContactFormSection from "@/components/sections/contact/ContactFormSection";
+import Info from "@/components/sections/contact/Info";
+import Banner from "@/components/sections/contact/Banner";
+import Map from "@/components/sections/contact/Map";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -23,12 +24,10 @@ export default async function ContactPage({ params }: Props) {
 
   return (
     <>
-      <PageHero
-        title={t("hero.title")}
-        image="/images/Tour-a-Machu-Picchu-03.webp"
-      />
-      <ContactInfoSection />
-      <ContactFormSection />
+      <PageHero title={t("hero.title")} />
+      <Info />
+      <Banner />
+      <Map />
     </>
   );
 }

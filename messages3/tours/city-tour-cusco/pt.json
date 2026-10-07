@@ -1,0 +1,11 @@
+{
+  "slug": "city-tour-cusco",
+  "destination": "Cusco",
+  "image": "City-Tour-Cusco-03.webp",
+  "title": "City Tour de Cusco",
+  "price": 20,
+  "type": "Arqueológico",
+  "typeKey": "arqueologico",
+  "duration": "Dia Inteiro",
+  "popular": false
+}

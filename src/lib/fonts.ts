@@ -1,4 +1,3 @@
-// lib/fonts.ts
 import localFont from "next/font/local";
 
 export const bebasNeue = localFont({
@@ -27,3 +26,15 @@ export const satisfy = localFont({
   variable: "--font-satisfy",
   weight: "400",
 });
+
+export const manrope = localFont({
+  src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
+  variable: "--font-manrope",
+  weight: "200 800",
+});
+ 
+export const montez = localFont({
+  src: "../../public/fonts/Montez-Regular.woff2",
+  variable: "--font-montez",
+  weight: "400",
+})

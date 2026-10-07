@@ -1,223 +1,135 @@
 {
   "common": {
-    "previousSlide": "Diapositiva anterior",
-    "nextSlide": "Diapositiva siguiente"
-  },
-  "header": {
-    "nav": {
-      "destinations": "Destinos",
-      "cusco": "Cusco",
-      "arequipa": "Arequipa",
-      "puno": "Puno",
-      "ica": "Ica",
-      "aboutUs": "Nosotros",
-      "contact": "Contacto"
-    },
-    "menu": {
-      "title": "Menú",
-      "closeAria": "Cerrar menú",
-      "openAria": "Abrir menú"
-    },
-    "contact": {
-      "location": "Cusco, Perú",
-      "bookings": "Reservas: {phone}"
-    },
-    "language": {
-      "placeholder": "Idioma"
-    }
+    "readMore": "Leer más",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "clearFilters": "Limpiar filtros",
+    "price": "Precio",
+    "duration": "Duración",
+    "location": "Ubicación",
+    "perPerson": "por persona",
+    "perNight": "por noche",
+    "viewDetails": "Ver detalles",
+    "bookNow": "Reservar ahora",
+    "contactUs": "Contáctanos",
+    "whatsAppUs": "Consultar por WhatsApp",
+    "noResults": "No se encontraron resultados disponibles."
   },
   "home": {
     "hero": {
-      "subtitle": "Expediciones Únicas en Perú",
-      "title": "Aventura",
-      "videoFallback": "Tu navegador no soporta el formato de video."
+      "subtitle": "Experiencias inolvidables y hospedaje de primer nivel",
+      "title": "Descubre la magia y vive la aventura",
+      "actions": {
+        "exploreTours": "Explorar Tours",
+        "bookAirbnb": "Reservar Airbnb"
+      }
     },
-    "destination": {
-      "badge": "Lo mejor de Perú",
-      "title": "Explora nuestros destinos",
-      "description": "Descubre los destinos más impresionantes de Perú. Desde paisajes majestuosos hasta sitios históricos, vive experiencias auténticas y memorables en cada rincón del país."
+    "machupicchuFeatured": {
+      "subtitle": "Los imperdibles de la maravilla del mundo",
+      "title": "Los Tours a Machu Picchu Más Solicitados",
+      "description": "Explora nuestras experiencias más aclamadas para visitar la ciudadela inca. Garantizamos salidas diarias, itinerarios optimizados y el mejor servicio para hacer de tu viaje una experiencia inolvidable."
     },
     "about": {
-      "badge": "Sobre nosotros",
-      "title": "Descubre el mundo viaja inteligente con nosotros",
-      "description": "Combinamos experiencia local y tecnología para que cada viaje por Perú sea simple, seguro y memorable de principio a fin.",
-      "cta": "Más sobre nosotros",
+      "subtitle": "Sobre Nosotros",
+      "title": "Creando Recuerdos Inolvidables en Cada Viaje",
+      "description": "Somos una agencia apasionada por conectar a los viajeros con los destinos más fascinantes del Perú. Nos dedicamos a diseñar experiencias personalizadas que combinan aventura, cultura y la comodidad de un hospedaje acogedor.",
       "features": {
-        "personalizedPlanning": {
-          "title": "Planificación de Viajes Personalizada",
-          "description": "Diseñamos cada itinerario a tu medida, combinando tus intereses con los mejores destinos de Perú."
+        "localExperts": {
+          "title": "Expertos Locales",
+          "description": "Guías profesionales apasionados que te mostrarán la verdadera historia y secretos de cada lugar."
         },
-        "expertGuides": {
-          "title": "Guías Locales Expertos",
-          "description": "Acompañamiento con profesionales apasionados por la cultura, historia y rincones ocultos."
+        "personalizedService": {
+          "title": "Atención Personalizada",
+          "description": "Diseñamos itinerarios a tu medida para garantizar que cada momento sea perfecto."
         }
-      },
-      "image1Alt": "Cuevas de Arte Rupestre en Sumbay",
-      "image2Alt": "Plato peruano o ingrediente",
-      "image3Alt": "Experiencia gastronómica"
+      }
     },
-    "popular_tour": {
-      "badge": "No te pierdas",
-      "title": "Nuestros Tours Destacados en Perú"
+    "destinations": {
+      "subtitle": "Lugares Increíbles",
+      "title": "Explora Nuestros Destinos Destacados"
     },
     "gallery": {
-      "badge": "Momentos",
-      "title": "Galería de Experiencias",
-      "description": "Descubre los destinos más impresionantes de Perú. Desde paisajes majestuosos hasta sitios históricos, vive experiencias auténticas y memorables en cada rincón del país."
+      "subtitle": "Momentos Capturados",
+      "title": "Galería de Experiencias de Nuestros Viajeros"
     },
-    "testimonial": {
-      "badge": "Lo que dicen",
-      "title": "Testimonios de Nuestros Viajeros",
-      "travelerAlt": "Viajera",
-      "ratingAria": "Calificación: {rating} de 5 estrellas",
-      "description": "Las experiencias de quienes ya han viajado con nosotros hablan por sí solas. Historias reales, momentos únicos y recuerdos que duran para siempre."
+    "testimonials": {
+      "subtitle": "Historias Reales",
+      "title": "Lo Que Dicen Quienes Viajaron Con Nosotros"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Conoce Nuestra Historia y Pasión por Viajar"
     },
-    "metadata": {
-      "title": "Chullpi Expeditions — Tours y expediciones en Perú",
-      "description": "Tours de aventura, trekking y experiencias culturales en Cusco, Arequipa, Puno e Ica. Diseñamos tu viaje a medida por Perú."
+    "story": {
+      "subtitle": "Nuestra Trayectoria",
+      "title": "Transformando Viajes en Experiencias Únicas",
+      "description": "Nacimos con la misión de mostrar al mundo las maravillas culturales y naturales del Perú desde una perspectiva auténtica y humana. Nos esforzamos día a día para que cada viajero descubra la riqueza de nuestras tierras con total seguridad y confort.\n\nA lo largo de los años hemos acompañado a miles de aventureros en sus recorridos, brindando no solo tours guiados con profesionales de primer nivel, sino también alojamientos acogedores que hacen sentir a cualquiera como en casa.",
+      "missionVision": {
+        "mission": {
+          "title": "Nuestra Misión",
+          "description": "Brindar experiencias turísticas inolvidables y hospedajes acogedores con un servicio de alta calidad, promoviendo el turismo responsable y sostenible."
+        },
+        "vision": {
+          "title": "Nuestra Visión",
+          "description": "Ser la agencia de viajes y red de alojamientos líder en el sector, reconocida por la excelencia, autenticidad y satisfacción garantizada de nuestros viajeros."
+        }
+      }
     }
   },
   "tours": {
     "hero": {
-      "title": "Nuestros Tours"
+      "title": "Explora Todos Nuestros Tours y Paquetes"
     },
-    "filter": {
-      "destination": {
-        "label": "Destino",
-        "placeholder": "¿A dónde viajas?"
-      },
-      "duration": {
-        "label": "Días",
-        "placeholder": "Duración del tour",
-        "options": {
-          "fullDay": "Full Day",
-          "d2to3": "2-3 Días"
-        }
-      },
-      "buttons": {
-        "clear": "Limpiar filtros",
-        "search": "Buscar Tours"
-      },
-      "all": "Todos",
-      "type": {
-        "label": "Tipo de Tour",
-        "placeholder": "Selecciona un tipo",
-        "options": {
-          "aventura": "Aventura",
-          "dailyTour": "Tour diario",
-          "trekking": "Trekking",
-          "cultural": "Cultural",
-          "arqueologico": "Arqueológico"
-        }
-      },
-      "price": {
-        "label": "Precio",
-        "placeholder": "Rango de precio"
+    "searchAndFilter": {
+      "searchPlaceholder": "Buscar tour por nombre o destino...",
+      "filterByDestination": "Destino",
+      "allDestinations": "Todos los destinos",
+      "filterByType": "Tipo de tour",
+      "allTypes": "Todos los tipos"
+    },
+    "details": {
+      "overview": "Resumen de la experiencia",
+      "itinerary": "Itinerario detallado",
+      "included": "Qué incluye",
+      "notIncluded": "Qué no incluye",
+      "recommendations": "Qué llevar",
+      "importantInfo": "Información importante",
+      "bookingWidget": {
+        "title": "Reserva este Tour",
+        "selectDate": "Selecciona la fecha",
+        "travelers": "Número de personas",
+        "total": "Total a pagar",
+        "inquireWhatsApp": "Consultar disponibilidad"
       }
-    },
-    "pagination": {
-      "label": "Paginación de tours",
-      "showing": "Mostrando {from}–{to} de {total} tours",
-      "previous": "Anterior",
-      "next": "Siguiente",
-      "page": "Página {page}"
-    },
-    "metadata": {
-      "title": "Nuestros Tours — Chullpi Expeditions",
-      "description": "Explora 42 tours en Cusco, Arequipa, Puno e Ica. Filtra por destino, tipo, duración y precio y reserva por WhatsApp."
     }
   },
-  "booking": {
-    "bookNow": "Reservar por WhatsApp",
-    "persons": "Personas",
-    "decrease": "Reducir cantidad",
-    "increase": "Aumentar cantidad",
-    "unitPrice": "Precio por persona",
-    "perPerson": "por persona",
-    "total": "Total",
-    "whatsappHint": "Al hacer click en reservar se abrirá WhatsApp con tu pedido.",
-    "whatsapp": {
-      "header": "Hola, quiero reservar el tour:",
-      "tour": "Tour: {tour}",
-      "destination": "Destino: {destination}",
-      "duration": "Duración: {duration}",
-      "quantity": "Personas: {quantity}",
-      "unitPrice": "Precio por persona: S/ {price}",
-      "total": "Total estimado: S/ {total}"
-    },
-    "person": "Persona"
-  },
-  "footer": {
-    "logoAlt": "Logo de Chullpi Expeditions",
-    "description": "Expediciones únicas por Perú. Diseñamos viajes a tu medida, combinando experiencia local y tecnología para que cada experiencia sea segura y memorable.",
-    "newsletter": {
-      "title": "Únete para recibir noticias y ofertas.",
-      "emailPlaceholder": "Tu correo electrónico",
-      "submit": "Suscribirse"
-    },
-    "links": {
-      "title": "Enlaces"
-    },
-    "watermark": "VIAJEROS"
-  },
-  "about": {
-    "metadata": {
-      "title": "Sobre Nosotros — Chullpi Expeditions",
-      "description": "Conoce la esencia de Chullpi Expeditions: misión, pasión y compromiso con el turismo sostenible en Perú."
-    },
+  "airbnb": {
     "hero": {
-      "title": "Sobre Nosotros"
-    },
-    "mission": {
-      "badge": "Nuestra esencia",
-      "title": "Por qué elegir Chullpi Expeditions",
-      "description": "Somos más que una agencia de viajes. Somos tu puerta de entrada a la verdadera magia de Perú.",
-      "imageAlt": "Cañón del Colca",
-      "values": {
-        "mission": {
-          "title": "Misión",
-          "description": "Ofrecer experiencias de viaje auténticas y seguras en Perú, conectando a los viajeros con la cultura, la naturaleza y las personas que hacen de este país un destino único en el mundo."
-        },
-        "passion": {
-          "title": "Pasión",
-          "description": "Cada tours es planeado con dedicación y amor por los detalles. Nos importa que cada momento de tu viaje sea memorable y supere tus expectativas."
-        },
-        "commitment": {
-          "title": "Compromiso",
-          "description": "Trabajamos con comunidades locales promoviendo el turismo sostenible y responsable, asegurando que nuestras actividades beneficien a las personas y el entorno."
-        }
-      }
+      "title": "Encuentra tu Hogar Lejos de Casa"
     }
   },
   "contact": {
-    "metadata": {
-      "title": "Contacto — Chullpi Expeditions",
-      "description": "Escríbenos o llámanos. Estamos en Av. El Sol 456, Cusco, Perú y respondemos de lunes a domingo."
-    },
     "hero": {
-      "title": "Contacto"
+      "title": "Ponte en Contacto con Nosotros"
     },
     "info": {
-      "badge": "Contáctanos",
-      "title": "Estamos aquí para ayudarte",
-      "locationTitle": "Ubicación",
-      "phoneTitle": "Teléfono",
-      "emailTitle": "Correo",
-      "address": "Av. El Sol 456, Cusco, Perú"
+      "subtitle": "Atención Personalizada",
+      "title": "Resuelve tus Dudas al Instante",
+      "description": "Si tienes preguntas sobre nuestros tours, disponibilidad o necesitas asistencia personalizada para organizar tu itinerario, envíanos un mensaje y te responderemos de inmediato.",
+      "addressTitle": "Nuestra Oficina",
+      "phoneTitle": "Teléfonos / WhatsApp",
+      "emailTitle": "Correo Electrónico"
     },
     "form": {
-      "badge": "Escríbenos",
-      "title": "Envíanos un mensaje",
-      "mapTitle": "Ubicación en el mapa",
-      "nameLabel": "Nombre",
-      "namePlaceholder": "Tu nombre completo",
-      "emailLabel": "Correo",
-      "emailPlaceholder": "Tu correo electrónico",
-      "subjectLabel": "Asunto",
-      "subjectPlaceholder": "Asunto del mensaje",
-      "messageLabel": "Mensaje",
-      "messagePlaceholder": "Escribe tu mensaje aquí...",
-      "submit": "Enviar mensaje"
+      "title": "Reservar un tour",
+      "fullNamePlaceholder": "Ej. Juan Pérez",
+      "emailPlaceholder": "ejemplo@correo.com",
+      "phonePlaceholder": "+51 987 654 321",
+      "messagePlaceholder": "Escribe aquí los detalles de tu consulta...",
+      "submitButton": "Enviar Mensaje",
+      "successMessage": "¡Gracias! Tu mensaje ha sido enviado correctamente. Te responderemos pronto.",
+      "errorMessage": "Ocurrió un error al enviar tu mensaje. Por favor intenta de nuevo o escríbenos por WhatsApp."
     }
   }
 }

@@ -1,51 +1,29 @@
 import { cn } from "cn";
 
 interface Props {
-  badge: string;
+  subtitle: string;
   title: string;
   description?: string;
-  centered?: boolean;
   className?: string;
 }
 
-export function Heading({
-  badge,
+export default function Heading({
+  subtitle,
   title,
   description,
-  centered = false,
   className,
 }: Props) {
   return (
-    <div
-      className={cn(
-        "mb-7.5 lg:mb-9.5",
-        centered ? "text-center" : "",
-        className,
+    <div className={cn("mb-8", className)}>
+      <span className="font-decoration text-secondary block text-[clamp(1.5rem,1.2rem+1.5vw,2.5rem)] leading-none">
+        {subtitle}
+      </span>
+      <h2 className="font-heading text-secondary mb-4 text-[clamp(1.75rem,1.254rem+2.116vw,3rem)] leading-snug font-bold">
+        {title}
+      </h2>
+      {description && (
+        <p className="text-lg text-pretty whitespace-pre-line">{description}</p>
       )}
-    >
-      <div
-        className={cn(
-          "flex flex-col gap-6",
-          centered
-            ? "items-center"
-            : "items-start justify-between xl:flex-row xl:items-center",
-        )}
-      >
-        <div className={cn("", centered ? "w-full" : "xl:w-1/2")}>
-          <span className="font-decoration text-primary block text-[clamp(1.5rem,0.5rem+3.5vw,3rem)] leading-none">
-            {badge}
-          </span>
-          <h2 className="font-heading block text-[clamp(1.875rem,-0.5rem+6vw,4.5rem)] leading-[0.95] text-white">
-            {title}
-          </h2>
-        </div>
-
-        {description && (
-          <p className={cn("xl:text-lg", centered ? "" : "xl:w-[38%]")}>
-            {description}
-          </p>
-        )}
-      </div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import "./globals.css";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { bebasNeue, inter, satisfy } from "@/lib/fonts";
+import { inter, manrope, montez } from "@/lib/fonts";
 
 type Props = {
   children: React.ReactNode;
@@ -25,10 +25,11 @@ export default async function RootLayout({ children, params }: Props) {
     <html
       lang={locale}
       className={cn(
-        "antialiased",
-        bebasNeue.variable,
+        "h-full antialiased",
+        "font-sans",
+        manrope.variable,
         inter.variable,
-        satisfy.variable,
+        montez.variable,
       )}
     >
       <body>

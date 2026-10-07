@@ -1,0 +1,223 @@
+{
+  "common": {
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide"
+  },
+  "header": {
+    "nav": {
+      "destinations": "Destinations",
+      "cusco": "Cusco",
+      "arequipa": "Arequipa",
+      "puno": "Puno",
+      "ica": "Ica",
+      "aboutUs": "About Us",
+      "contact": "Contact"
+    },
+    "menu": {
+      "title": "Menu",
+      "closeAria": "Close menu",
+      "openAria": "Open menu"
+    },
+    "contact": {
+      "location": "Cusco, Peru",
+      "bookings": "Bookings: {phone}"
+    },
+    "language": {
+      "placeholder": "Language"
+    }
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Unique Expeditions in Peru",
+      "title": "Adventure",
+      "videoFallback": "Your browser does not support the video tag."
+    },
+    "destination": {
+      "badge": "Best of Peru",
+      "title": "Explore our destinations",
+      "description": "Discover the most stunning destinations in Peru. From majestic landscapes to historic sites, experience authentic and memorable experiences in every corner of the country."
+    },
+    "about": {
+      "badge": "About us",
+      "title": "Discover the world travel smart with us",
+      "description": "We combine local expertise and technology to make every trip through Peru simple, safe and memorable from start to finish.",
+      "cta": "More about us",
+      "features": {
+        "personalizedPlanning": {
+          "title": "Personalized Trip Planning",
+          "description": "We design every itinerary to your measure, combining your interests with the best destinations in Peru."
+        },
+        "expertGuides": {
+          "title": "Expert Local Guides",
+          "description": "Support from professionals passionate about culture, history and hidden corners."
+        }
+      },
+      "image1Alt": "Rock Art Caves in Sumbay",
+      "image2Alt": "Peruvian dish or ingredient",
+      "image3Alt": "Gastronomic experience"
+    },
+    "popular_tour": {
+      "badge": "Don't miss out",
+      "title": "Our Top Tours in Peru"
+    },
+    "gallery": {
+      "badge": "Moments",
+      "title": "Experience Gallery",
+      "description": "Discover the most stunning destinations in Peru. From majestic landscapes to historic sites, experience authentic and memorable experiences in every corner of the country."
+    },
+    "testimonial": {
+      "badge": "What they say",
+      "title": "Testimonials from Our Travelers",
+      "description": "The experiences of those who have already traveled with us speak for themselves. Real stories, unique moments and memories that last forever.",
+      "travelerAlt": "Traveller",
+      "ratingAria": "Rating: {rating} out of 5 stars"
+    },
+    "metadata": {
+      "title": "Chullpi Expeditions — Tours and expeditions in Peru",
+      "description": "Adventure tours, trekking and cultural experiences in Cusco, Arequipa, Puno and Ica. We design your tailor-made trip across Peru."
+    }
+  },
+  "tours": {
+    "hero": {
+      "title": "Our Tours"
+    },
+    "filter": {
+      "destination": {
+        "label": "Destination",
+        "placeholder": "Where are you traveling?"
+      },
+      "duration": {
+        "label": "Days",
+        "placeholder": "Tour duration",
+        "options": {
+          "fullDay": "Full day",
+          "d2to3": "2-3 days"
+        }
+      },
+      "buttons": {
+        "clear": "Clear filters",
+        "search": "Search Tours"
+      },
+      "all": "All",
+      "type": {
+        "label": "Tour type",
+        "placeholder": "Select a type",
+        "options": {
+          "aventura": "Adventure",
+          "dailyTour": "Day tour",
+          "trekking": "Trekking",
+          "cultural": "Cultural",
+          "arqueologico": "Archaeological"
+        }
+      },
+      "price": {
+        "label": "Price",
+        "placeholder": "Price range"
+      }
+    },
+    "pagination": {
+      "label": "Tours pagination",
+      "showing": "Showing {from}–{to} of {total} tours",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {page}"
+    },
+    "metadata": {
+      "title": "Our Tours — Chullpi Expeditions",
+      "description": "Explore 42 tours across Cusco, Arequipa, Puno and Ica. Filter by destination, type, duration and price, and book via WhatsApp."
+    }
+  },
+  "booking": {
+    "bookNow": "Book via WhatsApp",
+    "persons": "People",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "unitPrice": "Unit price",
+    "perPerson": "per person",
+    "total": "Total",
+    "whatsappHint": "Clicking book will open WhatsApp with your order.",
+    "whatsapp": {
+      "header": "Hi, I would like to book the tour:",
+      "tour": "Tour: {tour}",
+      "destination": "Destination: {destination}",
+      "duration": "Duration: {duration}",
+      "quantity": "People: {quantity}",
+      "unitPrice": "Price per person: S/ {price}",
+      "total": "Estimated total: S/ {total}"
+    },
+    "person": "Person"
+  },
+  "footer": {
+    "logoAlt": "Chullpi Expeditions logo",
+    "description": "Unique expeditions across Peru. We design tailor-made trips, combining local experience and technology so that every experience is safe and memorable.",
+    "newsletter": {
+      "title": "Sign up to receive news and offers.",
+      "emailPlaceholder": "Your email address",
+      "submit": "Subscribe"
+    },
+    "links": {
+      "title": "Links"
+    },
+    "watermark": "TRAVELLERS"
+  },
+  "about": {
+    "metadata": {
+      "title": "About Us — Chullpi Expeditions",
+      "description": "Discover the essence of Chullpi Expeditions: mission, passion and commitment to sustainable tourism in Peru."
+    },
+    "hero": {
+      "title": "About Us"
+    },
+    "mission": {
+      "badge": "Our essence",
+      "title": "Why choose Chullpi Expeditions",
+      "description": "We are more than a travel agency. We are your gateway to the real magic of Peru.",
+      "imageAlt": "Colca Canyon",
+      "values": {
+        "mission": {
+          "title": "Mission",
+          "description": "To offer authentic and safe travel experiences in Peru, connecting travellers with the culture, nature and people that make this country a unique destination in the world."
+        },
+        "passion": {
+          "title": "Passion",
+          "description": "Every tour is planned with dedication and love for detail. We care that every moment of your trip is memorable and exceeds your expectations."
+        },
+        "commitment": {
+          "title": "Commitment",
+          "description": "We work with local communities promoting sustainable and responsible tourism, ensuring that our activities benefit people and the environment."
+        }
+      }
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact — Chullpi Expeditions",
+      "description": "Write to us or call us. We are at Av. El Sol 456, Cusco, Peru and we reply from Monday to Sunday."
+    },
+    "hero": {
+      "title": "Contact"
+    },
+    "info": {
+      "badge": "Get in touch",
+      "title": "We are here to help you",
+      "locationTitle": "Location",
+      "phoneTitle": "Phone",
+      "emailTitle": "Email",
+      "address": "Av. El Sol 456, Cusco, Peru"
+    },
+    "form": {
+      "badge": "Write to us",
+      "title": "Send us a message",
+      "mapTitle": "Location on the map",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Your email address",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Subject of your message",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send message"
+    }
+  }
+}

@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import PageHero from "@/components/uiwave/PageHero";
-import MissionSection from "@/components/sections/about/MissionSection";
+import TestimonialsSection from "@/components/sections/home/TestimonialsSection";
+import CertificationsSection from "@/components/sections/CertificationsSection";
+import About from "@/components/sections/about/About";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -22,11 +24,10 @@ export default async function AboutPage({ params }: Props) {
 
   return (
     <>
-      <PageHero
-        title={t("hero.title")}
-        image="/images/Tour-Huacachina-Buggy-Sandboarding-02.webp"
-      />
-      <MissionSection />
+      <PageHero title={t("hero.title")} />
+      <About/>
+      <TestimonialsSection />
+      <CertificationsSection/>
     </>
   );
 }

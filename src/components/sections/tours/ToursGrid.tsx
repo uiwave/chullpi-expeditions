@@ -19,21 +19,19 @@ export default function ToursGrid({
   query,
 }: Props) {
   return (
-    <section className="w-full overflow-hidden">
-      <div className="uw-container uw-section pt-0">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {tours.map((tour) => (
-            <TourCard key={tour.slug} data={tour} />
-          ))}
-        </div>
-        <Pagination
-          page={page}
-          totalPages={totalPages}
-          total={total}
-          perPage={TOURS_PER_PAGE}
-          query={query}
-        />
+    <>
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
+        {tours.map((tour) => (
+          <TourCard key={tour.slug} data={tour} />
+        ))}
       </div>
-    </section>
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        total={total}
+        perPage={TOURS_PER_PAGE}
+        query={query}
+      />
+    </>
   );
 }

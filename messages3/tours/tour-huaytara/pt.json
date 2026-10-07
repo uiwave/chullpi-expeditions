@@ -1,0 +1,11 @@
+{
+  "slug": "tour-huaytara",
+  "destination": "Ica",
+  "image": "Tour-Huaytara-02.webp",
+  "title": "Tour Huaytara",
+  "price": 85,
+  "type": "Tour Diário",
+  "typeKey": "daily-tour",
+  "duration": "1 Dia",
+  "popular": false
+}

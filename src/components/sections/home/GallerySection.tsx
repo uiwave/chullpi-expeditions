@@ -1,65 +1,94 @@
-"use client";
-
-import { Heading } from "@/components/uiwave/Heading";
-import { useState } from "react";
 import { useTranslations } from "next-intl";
-
-const galleryImages = [
-  "/images/Tour-a-Machu-Picchu-03.webp",
-  "/images/Montana-de-colores-06.webp",
-  "/images/Canon-del-Colca-y-Aguas-Termales-de-La-Calera-03.webp",
-  "/images/Tour-Huacachina-Buggy-Sandboarding-02.webp",
-  "/images/City-Tour-Cusco-03.webp",
-  "/images/Ascenso-volcan-Misti-Ruta-norte-02.webp",
-  "/images/Tour-en-Bote-a-Islas-Ballestas-y-Candelabro-02.webp",
-  "/images/puno.webp",
-];
+import Heading from "@/components/uiwave/Heading";
+import Image from "next/image";
 
 export default function GallerySection() {
   const t = useTranslations("home.gallery");
-  const [stopScroll, setStopScroll] = useState(false);
 
   return (
-    <section className="w-full overflow-hidden">
-      <div className="uw-container uw-section pb-0">
+    <section className="relative w-full overflow-hidden">
+      <div className="uw-container relative z-10 pt-16 pb-16 lg:pt-24 lg:pb-24">
         <Heading
-          badge={t("badge")}
+          subtitle={t("subtitle")}
           title={t("title")}
-          description={t("description")}
+          className="text-center"
         />
-      </div>
-
-      <div className="group relative w-full overflow-hidden">
-        <img
-          src="/images/bg/gelary-sp1.png"
-          alt=""
-          className="pointer-events-none absolute top-0 left-0 z-10 h-14 w-full object-cover object-bottom"
-        />
-        <img
-          src="/images/bg/gelary-sp2.png"
-          alt=""
-          className="pointer-events-none absolute bottom-0 left-0 z-10 h-14 w-full object-cover object-top"
-        />
-
-        <div
-          className="marquee-track flex h-[40vh] w-max gap-5 sm:h-[45vh]"
-          style={{
-            animationPlayState: stopScroll ? "paused" : "running",
-            animationDuration: `${galleryImages.length * 3000}ms`,
-          }}
-        >
-          {[...galleryImages, ...galleryImages].map((image, index) => (
-            <figure
-              key={`${image}-${index}`}
-              className="bg-card border-border relative h-full w-70 shrink-0 overflow-hidden rounded-2xl border sm:w-[320px] md:w-90"
-            >
-              <img
-                src={image}
+        <div className="grid grid-cols-1 items-center gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:gap-5">
+          <div className="flex flex-col justify-center sm:col-span-1">
+            <figure className="group relative aspect-3/4 w-full overflow-hidden rounded-3xl shadow-sm sm:aspect-4/5">
+              <Image
+                src="/images/Tour-a-Machu-Picchu-03.webp"
                 alt=""
-                className="absolute inset-0 h-full w-full object-cover object-center"
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-108"
               />
             </figure>
-          ))}
+          </div>
+
+          <div className="flex flex-col gap-4 lg:gap-5">
+            <figure className="group relative aspect-4/3 w-full overflow-hidden rounded-3xl shadow-sm">
+              <Image
+                src="/images/Tour-a-Machu-Picchu-03.webp"
+                alt=""
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-108"
+              />
+            </figure>
+            <figure className="group relative aspect-4/3 w-full overflow-hidden rounded-3xl shadow-sm">
+              <Image
+                src="/images/Tour-a-Machu-Picchu-03.webp"
+                alt=""
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-108"
+              />
+            </figure>
+          </div>
+          <div className="flex flex-col justify-center">
+            <figure className="group relative aspect-1/2 min-h-[380px] w-full overflow-hidden rounded-3xl shadow-md lg:min-h-[460px]">
+              <Image
+                src="/images/Tour-a-Machu-Picchu-03.webp"
+                alt=""
+                fill
+                priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-108"
+              />
+            </figure>
+          </div>
+          <div className="flex flex-col gap-4 lg:gap-5">
+            <figure className="group relative aspect-4/3 w-full overflow-hidden rounded-3xl shadow-sm">
+              <Image
+                src="/images/Tour-a-Machu-Picchu-03.webp"
+                alt=""
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-108"
+              />
+            </figure>
+            <figure className="group relative aspect-4/3 w-full overflow-hidden rounded-3xl shadow-sm">
+              <Image
+                src="/images/Tour-a-Machu-Picchu-03.webp"
+                alt=""
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-108"
+              />
+            </figure>
+          </div>
+          <div className="flex flex-col justify-center sm:col-span-1">
+            <figure className="group relative aspect-3/4 w-full overflow-hidden rounded-3xl shadow-sm sm:aspect-4/5">
+              <Image
+                src="/images/Tour-a-Machu-Picchu-03.webp"
+                alt=""
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-108"
+              />
+            </figure>
+          </div>
         </div>
       </div>
     </section>

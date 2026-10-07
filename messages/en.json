@@ -1,223 +1,135 @@
 {
   "common": {
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide"
-  },
-  "header": {
-    "nav": {
-      "destinations": "Destinations",
-      "cusco": "Cusco",
-      "arequipa": "Arequipa",
-      "puno": "Puno",
-      "ica": "Ica",
-      "aboutUs": "About Us",
-      "contact": "Contact"
-    },
-    "menu": {
-      "title": "Menu",
-      "closeAria": "Close menu",
-      "openAria": "Open menu"
-    },
-    "contact": {
-      "location": "Cusco, Peru",
-      "bookings": "Bookings: {phone}"
-    },
-    "language": {
-      "placeholder": "Language"
-    }
+    "readMore": "Read more",
+    "search": "Search",
+    "filter": "Filter",
+    "clearFilters": "Clear filters",
+    "price": "Price",
+    "duration": "Duration",
+    "location": "Location",
+    "perPerson": "per person",
+    "perNight": "per night",
+    "viewDetails": "View details",
+    "bookNow": "Book now",
+    "contactUs": "Contact us",
+    "whatsAppUs": "Inquire via WhatsApp",
+    "noResults": "No results available."
   },
   "home": {
     "hero": {
-      "subtitle": "Unique Expeditions in Peru",
-      "title": "Adventure",
-      "videoFallback": "Your browser does not support the video tag."
+      "subtitle": "Unforgettable experiences and top-tier accommodation",
+      "title": "Discover the magic and live the adventure",
+      "actions": {
+        "exploreTours": "Explore Tours",
+        "bookAirbnb": "Book Airbnb"
+      }
     },
-    "destination": {
-      "badge": "Best of Peru",
-      "title": "Explore our destinations",
-      "description": "Discover the most stunning destinations in Peru. From majestic landscapes to historic sites, experience authentic and memorable experiences in every corner of the country."
+    "machupicchuFeatured": {
+      "subtitle": "Must-see highlights of the wonder of the world",
+      "title": "Most Requested Machu Picchu Tours",
+      "description": "Explore our most acclaimed experiences to visit the Inca citadel. We guarantee daily departures, optimized itineraries, and the best service to make your trip an unforgettable experience."
     },
     "about": {
-      "badge": "About us",
-      "title": "Discover the world travel smart with us",
-      "description": "We combine local expertise and technology to make every trip through Peru simple, safe and memorable from start to finish.",
-      "cta": "More about us",
+      "subtitle": "About Us",
+      "title": "Creating Unforgettable Memories on Every Trip",
+      "description": "We are an agency passionate about connecting travelers with Peru's most fascinating destinations. We are dedicated to designing personalized experiences that combine adventure, culture, and the comfort of a cozy stay.",
       "features": {
-        "personalizedPlanning": {
-          "title": "Personalized Trip Planning",
-          "description": "We design every itinerary to your measure, combining your interests with the best destinations in Peru."
+        "localExperts": {
+          "title": "Local Experts",
+          "description": "Passionate professional guides who will show you the real history and secrets of each location."
         },
-        "expertGuides": {
-          "title": "Expert Local Guides",
-          "description": "Support from professionals passionate about culture, history and hidden corners."
+        "personalizedService": {
+          "title": "Personalized Service",
+          "description": "We design tailor-made itineraries to ensure every moment is perfect."
         }
-      },
-      "image1Alt": "Rock Art Caves in Sumbay",
-      "image2Alt": "Peruvian dish or ingredient",
-      "image3Alt": "Gastronomic experience"
+      }
     },
-    "popular_tour": {
-      "badge": "Don't miss out",
-      "title": "Our Top Tours in Peru"
+    "destinations": {
+      "subtitle": "Incredible Places",
+      "title": "Explore Our Featured Destinations"
     },
     "gallery": {
-      "badge": "Moments",
-      "title": "Experience Gallery",
-      "description": "Discover the most stunning destinations in Peru. From majestic landscapes to historic sites, experience authentic and memorable experiences in every corner of the country."
+      "subtitle": "Captured Moments",
+      "title": "Experience Gallery from Our Travelers"
     },
-    "testimonial": {
-      "badge": "What they say",
-      "title": "Testimonials from Our Travelers",
-      "description": "The experiences of those who have already traveled with us speak for themselves. Real stories, unique moments and memories that last forever.",
-      "travelerAlt": "Traveller",
-      "ratingAria": "Rating: {rating} out of 5 stars"
+    "testimonials": {
+      "subtitle": "Real Stories",
+      "title": "What Those Who Traveled With Us Say"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Learn About Our History and Passion for Travel"
     },
-    "metadata": {
-      "title": "Chullpi Expeditions — Tours and expeditions in Peru",
-      "description": "Adventure tours, trekking and cultural experiences in Cusco, Arequipa, Puno and Ica. We design your tailor-made trip across Peru."
+    "story": {
+      "subtitle": "Our Journey",
+      "title": "Transforming Travels into Unique Experiences",
+      "description": "We were born with the mission to show the world the cultural and natural wonders of Peru from an authentic and human perspective. We strive every day to ensure every traveler discovers the richness of our land with complete safety and comfort.\n\nOver the years, we have accompanied thousands of adventurers on their journeys, offering not only top-level guided tours, but also welcoming accommodations that make anyone feel right at home.",
+      "missionVision": {
+        "mission": {
+          "title": "Our Mission",
+          "description": "To provide unforgettable travel experiences and cozy accommodations with high-quality service, promoting responsible and sustainable tourism."
+        },
+        "vision": {
+          "title": "Our Vision",
+          "description": "To be the leading travel agency and accommodation network in the sector, recognized for excellence, authenticity, and guaranteed traveler satisfaction."
+        }
+      }
     }
   },
   "tours": {
     "hero": {
-      "title": "Our Tours"
+      "title": "Explore All Our Tours and Packages"
     },
-    "filter": {
-      "destination": {
-        "label": "Destination",
-        "placeholder": "Where are you traveling?"
-      },
-      "duration": {
-        "label": "Days",
-        "placeholder": "Tour duration",
-        "options": {
-          "fullDay": "Full day",
-          "d2to3": "2-3 days"
-        }
-      },
-      "buttons": {
-        "clear": "Clear filters",
-        "search": "Search Tours"
-      },
-      "all": "All",
-      "type": {
-        "label": "Tour type",
-        "placeholder": "Select a type",
-        "options": {
-          "aventura": "Adventure",
-          "dailyTour": "Day tour",
-          "trekking": "Trekking",
-          "cultural": "Cultural",
-          "arqueologico": "Archaeological"
-        }
-      },
-      "price": {
-        "label": "Price",
-        "placeholder": "Price range"
+    "searchAndFilter": {
+      "searchPlaceholder": "Search tour by name or destination...",
+      "filterByDestination": "Destination",
+      "allDestinations": "All destinations",
+      "filterByType": "Tour type",
+      "allTypes": "All types"
+    },
+    "details": {
+      "overview": "Experience overview",
+      "itinerary": "Detailed itinerary",
+      "included": "What's included",
+      "notIncluded": "What's not included",
+      "recommendations": "What to bring",
+      "importantInfo": "Important information",
+      "bookingWidget": {
+        "title": "Book this Tour",
+        "selectDate": "Select date",
+        "travelers": "Number of people",
+        "total": "Total to pay",
+        "inquireWhatsApp": "Inquire availability"
       }
-    },
-    "pagination": {
-      "label": "Tours pagination",
-      "showing": "Showing {from}–{to} of {total} tours",
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page {page}"
-    },
-    "metadata": {
-      "title": "Our Tours — Chullpi Expeditions",
-      "description": "Explore 42 tours across Cusco, Arequipa, Puno and Ica. Filter by destination, type, duration and price, and book via WhatsApp."
     }
   },
-  "booking": {
-    "bookNow": "Book via WhatsApp",
-    "persons": "People",
-    "decrease": "Decrease quantity",
-    "increase": "Increase quantity",
-    "unitPrice": "Unit price",
-    "perPerson": "per person",
-    "total": "Total",
-    "whatsappHint": "Clicking book will open WhatsApp with your order.",
-    "whatsapp": {
-      "header": "Hi, I would like to book the tour:",
-      "tour": "Tour: {tour}",
-      "destination": "Destination: {destination}",
-      "duration": "Duration: {duration}",
-      "quantity": "People: {quantity}",
-      "unitPrice": "Price per person: S/ {price}",
-      "total": "Estimated total: S/ {total}"
-    },
-    "person": "Person"
-  },
-  "footer": {
-    "logoAlt": "Chullpi Expeditions logo",
-    "description": "Unique expeditions across Peru. We design tailor-made trips, combining local experience and technology so that every experience is safe and memorable.",
-    "newsletter": {
-      "title": "Sign up to receive news and offers.",
-      "emailPlaceholder": "Your email address",
-      "submit": "Subscribe"
-    },
-    "links": {
-      "title": "Links"
-    },
-    "watermark": "TRAVELLERS"
-  },
-  "about": {
-    "metadata": {
-      "title": "About Us — Chullpi Expeditions",
-      "description": "Discover the essence of Chullpi Expeditions: mission, passion and commitment to sustainable tourism in Peru."
-    },
+  "airbnb": {
     "hero": {
-      "title": "About Us"
-    },
-    "mission": {
-      "badge": "Our essence",
-      "title": "Why choose Chullpi Expeditions",
-      "description": "We are more than a travel agency. We are your gateway to the real magic of Peru.",
-      "imageAlt": "Colca Canyon",
-      "values": {
-        "mission": {
-          "title": "Mission",
-          "description": "To offer authentic and safe travel experiences in Peru, connecting travellers with the culture, nature and people that make this country a unique destination in the world."
-        },
-        "passion": {
-          "title": "Passion",
-          "description": "Every tour is planned with dedication and love for detail. We care that every moment of your trip is memorable and exceeds your expectations."
-        },
-        "commitment": {
-          "title": "Commitment",
-          "description": "We work with local communities promoting sustainable and responsible tourism, ensuring that our activities benefit people and the environment."
-        }
-      }
+      "title": "Find Your Home Away From Home"
     }
   },
   "contact": {
-    "metadata": {
-      "title": "Contact — Chullpi Expeditions",
-      "description": "Write to us or call us. We are at Av. El Sol 456, Cusco, Peru and we reply from Monday to Sunday."
-    },
     "hero": {
-      "title": "Contact"
+      "title": "Get in Touch with Us"
     },
     "info": {
-      "badge": "Get in touch",
-      "title": "We are here to help you",
-      "locationTitle": "Location",
-      "phoneTitle": "Phone",
-      "emailTitle": "Email",
-      "address": "Av. El Sol 456, Cusco, Peru"
+      "subtitle": "Personalized Service",
+      "title": "Solve Your Doubts Instantly",
+      "description": "If you have questions about our tours, availability, or need personalized assistance to organize your itinerary, send us a message and we will respond immediately.",
+      "addressTitle": "Our Office",
+      "phoneTitle": "Phone / WhatsApp",
+      "emailTitle": "Email Address"
     },
     "form": {
-      "badge": "Write to us",
-      "title": "Send us a message",
-      "mapTitle": "Location on the map",
-      "nameLabel": "Name",
-      "namePlaceholder": "Your full name",
-      "emailLabel": "Email",
-      "emailPlaceholder": "Your email address",
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "Subject of your message",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Write your message here...",
-      "submit": "Send message"
+      "title": "Book a tour",
+      "fullNamePlaceholder": "e.g., John Doe",
+      "emailPlaceholder": "example@email.com",
+      "phonePlaceholder": "+51 987 654 321",
+      "messagePlaceholder": "Type the details of your inquiry here...",
+      "submitButton": "Send Message",
+      "successMessage": "Thank you! Your message has been sent successfully. We will reply soon.",
+      "errorMessage": "An error occurred while sending your message. Please try again or contact us via WhatsApp."
     }
   }
 }

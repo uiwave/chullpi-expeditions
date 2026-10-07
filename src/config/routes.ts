@@ -3,4 +3,5 @@ export const ROUTES = {
   TOURS: "/tours",
   ABOUT_US: "/about",
   CONTACT: "/contact",
+  AIRBNB: "/airbnb",
 } as const;
