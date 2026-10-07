@@ -1,8 +1,21 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { TourCategory, RecentPost } from "@/types";
 import { ROUTES } from "@/config/routes";
 
+interface TourCategory {
+  id: string;
+  name: string;
+  slug: string;
+  count: number;
+}
+
+interface RecentPost {
+  id: string;
+  title: string;
+  slug: string;
+  date: string;
+  image: string;
+}
 interface ToursSidebarProps {
   categories: TourCategory[];
   recentPosts: RecentPost[];
@@ -13,14 +26,14 @@ export default function ToursSidebar({
   recentPosts,
 }: ToursSidebarProps) {
   return (
-    <aside className="lg:col-span-4 xl:col-span-3 flex flex-col gap-8 w-full">
+    <aside className="flex w-full flex-col gap-8 lg:col-span-4 xl:col-span-3">
       {/* Widget 1: Categorías */}
-      <div className="bg-white dark:bg-secondary/10 rounded-2xl p-6 border border-border/60 shadow-xs">
+      <div className="dark:bg-secondary/10 border-border/60 rounded-2xl border bg-white p-6 shadow-xs">
         <div className="relative mb-6 pb-2">
-          <h2 className="font-heading font-bold text-secondary text-xl">
+          <h2 className="font-heading text-secondary text-xl font-bold">
             Categories
           </h2>
-          <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-primary rounded-full" />
+          <span className="bg-primary absolute bottom-0 left-0 h-0.5 w-12 rounded-full" />
         </div>
 
         <ul className="space-y-3.5" role="list">
@@ -28,17 +41,17 @@ export default function ToursSidebar({
             <li key={cat.id}>
               <Link
                 href={`${ROUTES.TOURS}?category=${cat.slug}`}
-                className="flex items-center justify-between text-foreground hover:text-primary transition-colors py-1 group"
+                className="text-foreground hover:text-primary group flex items-center justify-between py-1 transition-colors"
               >
                 <div className="flex items-center gap-2.5">
-                  <span className="text-primary font-bold text-lg leading-none group-hover:scale-125 transition-transform">
+                  <span className="text-primary text-lg leading-none font-bold transition-transform group-hover:scale-125">
                     ❖
                   </span>
-                  <span className="text-sm sm:text-base font-medium">
+                  <span className="text-sm font-medium sm:text-base">
                     {cat.name}
                   </span>
                 </div>
-                <span className="text-xs text-foreground/60 font-medium">
+                <span className="text-foreground/60 text-xs font-medium">
                   ({cat.count})
                 </span>
               </Link>
@@ -48,31 +61,31 @@ export default function ToursSidebar({
       </div>
 
       {/* Widget 2: Recent Posts */}
-      <div className="bg-white dark:bg-secondary/10 rounded-2xl p-6 border border-border/60 shadow-xs">
+      <div className="dark:bg-secondary/10 border-border/60 rounded-2xl border bg-white p-6 shadow-xs">
         <div className="relative mb-6 pb-2">
-          <h2 className="font-heading font-bold text-secondary text-xl">
+          <h2 className="font-heading text-secondary text-xl font-bold">
             Recent Posts
           </h2>
-          <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-primary rounded-full" />
+          <span className="bg-primary absolute bottom-0 left-0 h-0.5 w-12 rounded-full" />
         </div>
 
         <div className="flex flex-col gap-4">
           {recentPosts.map((post) => (
-            <article key={post.id} className="flex items-center gap-3.5 group">
-              <div className="relative size-16 rounded-xl overflow-hidden shrink-0">
+            <article key={post.id} className="group flex items-center gap-3.5">
+              <div className="relative size-16 shrink-0 overflow-hidden rounded-xl">
                 <Image
                   src={`/images/${post.image}`}
                   alt={post.title}
                   fill
                   sizes="64px"
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="flex flex-col">
-                <span className="text-xs text-foreground/60 mb-1">
+                <span className="text-foreground/60 mb-1 text-xs">
                   {post.date}
                 </span>
-                <h3 className="font-heading font-semibold text-secondary text-sm line-clamp-2 group-hover:text-primary transition-colors leading-snug">
+                <h3 className="font-heading text-secondary group-hover:text-primary line-clamp-2 text-sm leading-snug font-semibold transition-colors">
                   <Link href={`/blog/${post.slug}`}>{post.title}</Link>
                 </h3>
               </div>

@@ -5,6 +5,7 @@ export interface TourFilters {
   tipo?: string;
   duracion?: string;
   precio?: string;
+  q?: string;
 }
 
 export const TOURS_PER_PAGE = 8;
@@ -23,6 +24,14 @@ export function slugify(value: string): string {
 
 function isActive(value: string | undefined): value is string {
   return Boolean(value) && value !== ALL_OPTION;
+}
+
+export function normalizeText(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
 }
 
 const HOUR_OR_MINUTE = /\bhoras?\b|\bhours?\b|\bhrs?\b|\bmin\b/i;
@@ -67,9 +76,13 @@ function isInPriceRange(price: number, range: string): boolean {
 
 export function filterTours(
   tours: Tour[],
-  { destino, tipo, duracion, precio }: TourFilters,
+  { destino, tipo, duracion, precio, q }: TourFilters,
 ): Tour[] {
+  const search = normalizeText(q ?? "");
   return tours.filter((tour) => {
+    if (search && !normalizeText(tour.title).includes(search)) {
+      return false;
+    }
     if (isActive(destino) && slugify(tour.destination) !== slugify(destino)) {
       return false;
     }

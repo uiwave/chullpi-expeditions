@@ -116,7 +116,7 @@ export default function DestinationsSection() {
           className="w-full"
         >
           <CarouselContent className="-ml-4 items-start pb-20 md:-ml-6 md:pb-28">
-            {DESTINATIONS.map((destination, index) => (
+            {[...DESTINATIONS, ...DESTINATIONS].map((destination, index) => (
               <CarouselItem
                 key={destination.id}
                 className="basis-full pl-4 sm:basis-1/2 md:basis-1/3 md:pl-6 lg:basis-1/4 xl:basis-1/5"

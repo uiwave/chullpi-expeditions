@@ -81,6 +81,16 @@
     "hero": {
       "title": "Explora Todos Nuestros Tours y Paquetes"
     },
+    "header": {
+      "searchPlaceholder": "Buscar tour por nombre...",
+      "searchButton": "Buscar tours",
+      "gridView": "Vista de cuadrícula",
+      "listView": "Vista de lista",
+      "sortDefault": "Orden por defecto",
+      "sortPriceLow": "Precio: de menor a mayor",
+      "sortPriceHigh": "Precio: de mayor a menor",
+      "sortRating": "Mejor valorados"
+    },
     "searchAndFilter": {
       "searchPlaceholder": "Buscar tour por nombre o destino...",
       "filterByDestination": "Destino",

@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 interface ToursHeaderProps {
   searchQuery: string;
   onSearchChange: (query: string) => void;
+  onSearchSubmit?: () => void;
   viewMode: "grid" | "list";
   onViewChange: (mode: "grid" | "list") => void;
   sortBy: string;
@@ -15,6 +16,7 @@ interface ToursHeaderProps {
 export default function ToursHeader({
   searchQuery,
   onSearchChange,
+  onSearchSubmit,
   viewMode,
   onViewChange,
   sortBy,
@@ -34,11 +36,18 @@ export default function ToursHeader({
           type="text"
           value={searchQuery}
           onChange={(e) => onSearchChange(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              e.preventDefault();
+              onSearchSubmit?.();
+            }
+          }}
           placeholder={t("searchPlaceholder", { defaultValue: "Search" })}
           className="w-full h-12 pl-6 pr-14 rounded-full bg-[#E8F5F8] dark:bg-secondary/20 text-secondary text-sm placeholder:text-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary transition-all"
         />
         <button
           type="button"
+          onClick={() => onSearchSubmit?.()}
           aria-label={t("searchButton", { defaultValue: "Search tours" })}
           className="absolute right-1.5 top-1/2 -translate-y-1/2 size-9 rounded-full bg-primary text-white flex items-center justify-center hover:bg-primary/90 transition-colors cursor-pointer"
         >

@@ -36,6 +36,8 @@ export function FilterSection() {
     if (isFilterable(pendingTipo)) params.set("tipo", pendingTipo);
     if (isFilterable(pendingDuracion)) params.set("duracion", pendingDuracion);
     if (isFilterable(pendingPrecio)) params.set("precio", pendingPrecio);
+    const q = searchParams.get("q");
+    if (q) params.set("q", q);
     router.push(`${pathname}?${params.toString()}`);
   };
 
@@ -44,7 +46,8 @@ export function FilterSection() {
     setPendingTipo("");
     setPendingDuracion("");
     setPendingPrecio("");
-    router.push(pathname);
+    const q = searchParams.get("q");
+    router.push(q ? `${pathname}?${new URLSearchParams({ q })}` : pathname);
   };
 
   return (

@@ -12,7 +12,7 @@ import {
   TOURS_PER_PAGE,
 } from "@/lib/tour-filters";
 import ToursSidebar from "@/components/sections/tours/ToursSidebar";
-import ToursHeader from "@/components/sections/tours/ToursHeader";
+import ToursHeaderWrapper from "@/components/sections/tours/ToursHeaderWrapper";
 
 const MOCK_CATEGORIES = [
   { id: "1", name: "City Tour", slug: "city-tour", count: 8 },
@@ -48,6 +48,7 @@ interface Props {
     tipo?: string;
     duracion?: string;
     precio?: string;
+    q?: string;
     page?: string;
   }>;
 }
@@ -72,6 +73,7 @@ export default async function ToursPage({ params, searchParams }: Props) {
     tipo,
     duracion,
     precio,
+    q,
     page: pageParam,
   } = await searchParams;
   const t = await getTranslations("tours");
@@ -81,7 +83,7 @@ export default async function ToursPage({ params, searchParams }: Props) {
   }
 
   const tours = await getTours(localeValue);
-  const filtered = filterTours(tours, { destino, tipo, duracion, precio });
+  const filtered = filterTours(tours, { destino, tipo, duracion, precio, q });
 
   const totalPages = getTotalPages(filtered.length);
   const page = parsePage(pageParam);
@@ -98,6 +100,7 @@ export default async function ToursPage({ params, searchParams }: Props) {
   if (tipo) query.tipo = tipo;
   if (duracion) query.duracion = duracion;
   if (precio) query.precio = precio;
+  if (q) query.q = q;
 
   return (
     <>
@@ -106,7 +109,7 @@ export default async function ToursPage({ params, searchParams }: Props) {
         <div className="uw-container">
           <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-12 xl:gap-10">
             <main className="flex flex-col gap-8 lg:col-span-8 xl:col-span-9">
-              <ToursHeader />
+              <ToursHeaderWrapper />
               <ToursGrid
                 tours={pageTours}
                 page={page}

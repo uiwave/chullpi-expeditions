@@ -81,6 +81,16 @@
     "hero": {
       "title": "Explore Todos os Nossos Passeios e Pacotes"
     },
+    "header": {
+      "searchPlaceholder": "Buscar passeio por nome...",
+      "searchButton": "Buscar passeios",
+      "gridView": "Vista em grade",
+      "listView": "Vista em lista",
+      "sortDefault": "Ordenação padrão",
+      "sortPriceLow": "Preço: do menor para o maior",
+      "sortPriceHigh": "Preço: do maior para o menor",
+      "sortRating": "Mais bem avaliados"
+    },
     "searchAndFilter": {
       "searchPlaceholder": "Buscar passeio por nome ou destino...",
       "filterByDestination": "Destino",

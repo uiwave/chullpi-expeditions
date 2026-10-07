@@ -81,6 +81,16 @@
     "hero": {
       "title": "Explore All Our Tours and Packages"
     },
+    "header": {
+      "searchPlaceholder": "Search tour by name...",
+      "searchButton": "Search tours",
+      "gridView": "Grid view",
+      "listView": "List view",
+      "sortDefault": "Default Sorting",
+      "sortPriceLow": "Price: Low to High",
+      "sortPriceHigh": "Price: High to Low",
+      "sortRating": "Highest Rated"
+    },
     "searchAndFilter": {
       "searchPlaceholder": "Search tour by name or destination...",
       "filterByDestination": "Destination",
