@@ -33,7 +33,7 @@ export default async function TourDetailPage({ params }: Props) {
 
   return (
     <>
-      <PageHero title={tour.title} image={`/images/${tour.image}`} />
+      <PageHero title={tour.title} bgImage={`/images/${tour.image}`} />
 
       <div className="uw-container uw-section py-10 lg:py-14">
         <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-14">
