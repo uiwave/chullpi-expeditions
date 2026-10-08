@@ -32,9 +32,9 @@ export const manrope = localFont({
   variable: "--font-manrope",
   weight: "200 800",
 });
- 
+
 export const montez = localFont({
   src: "../../public/fonts/Montez-Regular.woff2",
   variable: "--font-montez",
   weight: "400",
-})
+});

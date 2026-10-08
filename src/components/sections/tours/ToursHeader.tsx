@@ -25,7 +25,7 @@ export default function ToursHeader({
   const t = useTranslations("tours.header");
 
   return (
-    <header className="flex flex-col sm:flex-row items-center justify-between gap-4 w-full">
+    <header className="flex w-full flex-col items-center justify-between gap-4 sm:flex-row">
       {/* Buscador Redondeado */}
       <div className="relative w-full sm:w-80">
         <label htmlFor="tour-search" className="sr-only">
@@ -43,26 +43,26 @@ export default function ToursHeader({
             }
           }}
           placeholder={t("searchPlaceholder", { defaultValue: "Search" })}
-          className="w-full h-12 pl-6 pr-14 rounded-full bg-[#E8F5F8] dark:bg-secondary/20 text-secondary text-sm placeholder:text-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary transition-all"
+          className="dark:bg-secondary/20 text-secondary placeholder:text-foreground/60 focus:ring-primary h-12 w-full rounded-full bg-[#E8F5F8] pr-14 pl-6 text-sm transition-all focus:ring-2 focus:outline-none"
         />
         <button
           type="button"
           onClick={() => onSearchSubmit?.()}
           aria-label={t("searchButton", { defaultValue: "Search tours" })}
-          className="absolute right-1.5 top-1/2 -translate-y-1/2 size-9 rounded-full bg-primary text-white flex items-center justify-center hover:bg-primary/90 transition-colors cursor-pointer"
+          className="bg-primary hover:bg-primary/90 absolute top-1/2 right-1.5 flex size-9 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full text-white transition-colors"
         >
           <Search className="size-4" aria-hidden="true" />
         </button>
       </div>
 
       {/* Selector de Vista y Ordenamiento */}
-      <div className="flex items-center gap-3 w-full sm:w-auto justify-end">
-        <div className="flex items-center gap-1.5 bg-[#E8F5F8] dark:bg-secondary/20 p-1 rounded-xl">
+      <div className="flex w-full items-center justify-end gap-3 sm:w-auto">
+        <div className="dark:bg-secondary/20 flex items-center gap-1.5 rounded-xl bg-[#E8F5F8] p-1">
           <button
             type="button"
             onClick={() => onViewChange("grid")}
             aria-label={t("gridView", { defaultValue: "Grid view" })}
-            className={`p-2 rounded-lg transition-colors cursor-pointer ${
+            className={`cursor-pointer rounded-lg p-2 transition-colors ${
               viewMode === "grid"
                 ? "bg-primary text-white shadow-xs"
                 : "text-foreground hover:text-primary"
@@ -74,7 +74,7 @@ export default function ToursHeader({
             type="button"
             onClick={() => onViewChange("list")}
             aria-label={t("listView", { defaultValue: "List view" })}
-            className={`p-2 rounded-lg transition-colors cursor-pointer ${
+            className={`cursor-pointer rounded-lg p-2 transition-colors ${
               viewMode === "list"
                 ? "bg-primary text-white shadow-xs"
                 : "text-foreground hover:text-primary"
@@ -89,7 +89,7 @@ export default function ToursHeader({
           <select
             value={sortBy}
             onChange={(e) => onSortChange(e.target.value)}
-            className="appearance-none h-11 pl-4 pr-10 rounded-xl border border-border/60 bg-white dark:bg-secondary/20 text-secondary text-sm font-medium focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer"
+            className="border-border/60 dark:bg-secondary/20 text-secondary focus:ring-primary h-11 cursor-pointer appearance-none rounded-xl border bg-white pr-10 pl-4 text-sm font-medium focus:ring-2 focus:outline-none"
           >
             <option value="default">
               {t("sortDefault", { defaultValue: "Default Sorting" })}
@@ -105,7 +105,7 @@ export default function ToursHeader({
             </option>
           </select>
           <ChevronDown
-            className="absolute right-3 top-1/2 -translate-y-1/2 size-4 text-foreground/60 pointer-events-none"
+            className="text-foreground/60 pointer-events-none absolute top-1/2 right-3 size-4 -translate-y-1/2"
             aria-hidden="true"
           />
         </div>

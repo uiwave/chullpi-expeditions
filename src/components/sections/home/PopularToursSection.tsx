@@ -1,13 +1,13 @@
+import TourCardPopular from "@/components/v2/TourCardPopular";
+import Heading from "@/components/uiwave/Heading";
 import { useTranslations } from "next-intl";
+import type { Tour } from "@/types/Tour";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import type { Tour } from "@/types/Tour";
-import Heading from "@/components/uiwave/Heading";
 import Image from "next/image";
-import TourCardPopular from "@/components/v2/TourCardPopular";
 
 interface Props {
   tours: Tour[];
@@ -18,10 +18,10 @@ export default function PopularToursSection({ tours }: Props) {
   const popularTours = tours.filter((tour) => tour.popular);
 
   return (
-    <section className="relative w-full">
-      <div className="pointer-events-none absolute top-0 right-0 left-0 z-0 h-[calc(100%-180px)] overflow-hidden sm:h-[calc(100%-200px)] lg:h-128">
+    <section className="relative w-full lg:py-30">
+      <div className="pointer-events-none absolute top-0 right-0 left-0 z-0 h-[calc(100%-180px)] overflow-hidden sm:h-[calc(100%-200px)] lg:h-[calc(100%-300px)]">
         <Image
-          src="/images/hero/tour_bg_1.jpg"
+          src="/images/bg/tour_bg_1.jpg"
           alt=""
           fill
           priority
@@ -30,7 +30,7 @@ export default function PopularToursSection({ tours }: Props) {
           className="object-cover object-top"
         />
       </div>
-      <div className="uw-container relative z-10 pt-16 pb-16 lg:pt-24 lg:pb-24">
+      <div className="uw-container relative z-10">
         <Heading
           subtitle={t("subtitle")}
           title={t("title")}

@@ -40,7 +40,7 @@ export default async function Home({ params }: Props) {
       <DestinationsSection />
       <GallerySection />
       <TestimonialsSection />
-      <CertificationsSection/>
+      <CertificationsSection />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import { Testimonials } from "@/types/Testimonial";
 
 export const TESTIMONIALS: Testimonials[] = [
- {
+  {
     name: "deborahfeld",
     comment:
       "La experiencia fue genial. Hicieron todo lo posible para que nos sintiéramos cómodos incluso antes de llegar. Se encargaron de todo por nosotros. El trayecto desde (y de vuelta a) el aeropuerto de Cuzco (con un coste adicional), las entradas a Machu Picchu y el autobús hasta MP. Y nuestro guía turístico Tao fue genial. Muy bien informado, ¡aprendimos muchísimo! Recomiendo contar con ellos.",

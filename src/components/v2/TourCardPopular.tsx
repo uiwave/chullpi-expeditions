@@ -15,8 +15,8 @@ export default function TourCardPopular({ data }: Props) {
   const t = useTranslations("common");
 
   return (
-    <article className="group rounded-2xl overflow-hidden transition-all duration-300 flex flex-col border">
-      <div className="relative w-full aspect-4/3 overflow-hidden">
+    <article className="group flex flex-col overflow-hidden rounded-2xl border transition-all duration-300">
+      <div className="relative aspect-4/3 w-full overflow-hidden">
         <Image
           src={`/images/${data.image}`}
           alt=""
@@ -26,22 +26,22 @@ export default function TourCardPopular({ data }: Props) {
         />
       </div>
 
-      <div className="p-5 flex flex-col flex-1 justify-between">
+      <div className="flex flex-1 flex-col justify-between p-5">
         <div>
-          <h3 className="font-heading font-medium text-lg mb-2 line-clamp-1 group-hover:text-primary transition-colors">
+          <h3 className="font-heading group-hover:text-primary mb-2 line-clamp-1 text-lg font-medium transition-colors">
             {data.title}
           </h3>
 
-          <div className="flex items-baseline gap-1 mb-6">
-            <span className="font-medium text-2xl">${data.price}</span>
+          <div className="mb-6 flex items-baseline gap-1">
+            <span className="text-2xl font-medium">${data.price}</span>
             <span className="text-lg">/{t("perPerson")}</span>
           </div>
         </div>
 
-        <div className="pt-4 flex items-center justify-between gap-2">
+        <div className="flex items-center justify-between gap-2 pt-4">
           <div className="flex items-center gap-1.5 text-base">
             <Clock
-              className="size-4 text-primary shrink-0"
+              className="text-primary size-4 shrink-0"
               aria-hidden="true"
             />
             <span>{data.duration}</span>

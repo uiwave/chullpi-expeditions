@@ -30,7 +30,7 @@ export default async function ContactInfoSection() {
   return (
     <section className="w-full overflow-hidden">
       <div className="uw-container uw-section">
-        <Heading  subtitle={t("info.badge")} title={t("info.title")} />
+        <Heading subtitle={t("info.badge")} title={t("info.title")} />
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-3 lg:gap-16">
           {cards.map(({ id, Icon, titleKey, value }) => (
             <div

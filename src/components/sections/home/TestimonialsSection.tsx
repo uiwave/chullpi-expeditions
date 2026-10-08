@@ -36,7 +36,11 @@ export default function TestimonialsSection() {
   return (
     <section className="relative w-full overflow-hidden py-16 lg:py-28">
       <div className="uw-container relative z-10">
-        <Heading subtitle={t("subtitle")} title={t("title")} className="text-center"/>
+        <Heading
+          subtitle={t("subtitle")}
+          title={t("title")}
+          className="text-center"
+        />
       </div>
 
       <div className="relative w-full">

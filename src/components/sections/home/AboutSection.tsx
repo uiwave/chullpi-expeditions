@@ -30,14 +30,11 @@ export default function AboutSection() {
   const tCommon = useTranslations("common");
 
   return (
-    <section
-      aria-labelledby="plan-your-trip-title"
-      className="relative w-full overflow-hidden py-16 lg:py-28"
-    >
+    <section className="relative w-full overflow-hidden lg:pb-30">
       <div className="uw-container relative z-10">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="mx-auto grid h-full w-full max-w-lg grid-cols-2 gap-4 lg:max-w-none">
-            <div className="relative h-full w-full overflow-hidden rounded-full rounded-br-none shadow-sm">
+            <div className="relative h-full w-full overflow-hidden rounded-full shadow-sm">
               <Image
                 src="/images/banner-slider-01.webp"
                 alt=""
@@ -59,7 +56,7 @@ export default function AboutSection() {
                 />
               </div>
 
-              <div className="relative w-full flex-1 overflow-hidden rounded-full rounded-tr-none shadow-sm">
+              <div className="relative w-full flex-1 overflow-hidden rounded-full rounded-tl-none shadow-sm">
                 <Image
                   src="/images/banner-slider-01.webp"
                   alt=""
@@ -96,9 +93,17 @@ export default function AboutSection() {
               })}
             </ul>
 
-            <Link href={ROUTES.ABOUT_US}>
-              <span>{tCommon("readMore")}</span>
-              <ArrowRight />
+            <Link
+              href={ROUTES.ABOUT_US}
+              className="bg-secondary group relative inline-flex items-center justify-center overflow-hidden rounded-full px-8.75 py-[18.8px]"
+            >
+              <div className="bg-primary absolute inset-0 -translate-x-full rounded-full transition-transform duration-300 ease-out group-hover:translate-x-0" />
+              <div className="relative z-10 inline-flex items-center gap-2 text-white transition-colors duration-300">
+                <span className="text-base font-normal">
+                  {tCommon("readMore")}
+                </span>
+                <ArrowRight className="size-5" />
+              </div>
             </Link>
           </div>
         </div>

@@ -25,9 +25,9 @@ export default async function AboutPage({ params }: Props) {
   return (
     <>
       <PageHero title={t("hero.title")} />
-      <About/>
+      <About />
       <TestimonialsSection />
-      <CertificationsSection/>
+      <CertificationsSection />
     </>
   );
 }

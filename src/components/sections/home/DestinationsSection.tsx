@@ -140,7 +140,7 @@ export default function DestinationsSection() {
                 className={`size-2.5 rounded-full transition-all duration-300 ${
                   selectedIndex === idx
                     ? "bg-primary scale-125"
-                    : "border border-primary/40 bg-transparent"
+                    : "border-primary/40 border bg-transparent"
                 }`}
                 aria-label={`Go to slide ${idx + 1}`}
               />

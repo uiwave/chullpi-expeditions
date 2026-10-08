@@ -46,7 +46,7 @@ const CERTIFICATION_LOGOS: CertificationLogo[] = [
 
 export default function CertificationsSection() {
   return (
-    <section className="relative w-full py-12 lg:py-16 overflow-hidden">
+    <section className="relative w-full overflow-hidden py-12 lg:py-16">
       <div className="uw-container relative z-10">
         <Carousel
           opts={{
@@ -55,20 +55,20 @@ export default function CertificationsSection() {
           }}
           className="w-full"
         >
-          <CarouselContent className="-ml-4 md:-ml-6 items-center">
+          <CarouselContent className="-ml-4 items-center md:-ml-6">
             {CERTIFICATION_LOGOS.map((item, index) => (
               <CarouselItem
                 key={`${item.id}-${index}`}
-                className="pl-4 md:pl-6 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 xl:basis-1/6"
+                className="basis-1/2 pl-4 sm:basis-1/3 md:basis-1/4 md:pl-6 lg:basis-1/5 xl:basis-1/6"
               >
-                <div className="flex items-center justify-center p-4 grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300 group">
-                  <div className="relative w-full h-24 sm:h-28 aspect-4/3 flex items-center justify-center">
+                <div className="group flex items-center justify-center p-4 opacity-80 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0">
+                  <div className="relative flex aspect-4/3 h-24 w-full items-center justify-center sm:h-28">
                     <Image
                       src={`/images/certifications/${item.src}`}
                       alt={item.alt}
                       fill
                       sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 16vw"
-                      className="object-contain filter brightness-100 contrast-100 group-hover:scale-105 transition-transform duration-300"
+                      className="object-contain brightness-100 contrast-100 filter transition-transform duration-300 group-hover:scale-105"
                     />
                   </div>
                 </div>
