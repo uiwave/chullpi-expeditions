@@ -18,7 +18,7 @@ export default function PopularToursSection({ tours }: Props) {
   const popularTours = tours.filter((tour) => tour.popular);
 
   return (
-    <section className="relative w-full lg:py-30">
+    <section className="relative w-full py-30">
       <div className="pointer-events-none absolute top-0 right-0 left-0 z-0 h-[calc(100%-180px)] overflow-hidden sm:h-[calc(100%-200px)] lg:h-[calc(100%-300px)]">
         <Image
           src="/images/bg/tour_bg_1.jpg"
@@ -45,7 +45,7 @@ export default function PopularToursSection({ tours }: Props) {
         >
           <CarouselContent>
             {popularTours.map((tour) => (
-              <CarouselItem key={tour.slug} className="basis-1/2 lg:basis-1/4">
+              <CarouselItem key={tour.slug} className="basis-1/1 lg:basis-1/4">
                 <TourCardPopular data={tour} />
               </CarouselItem>
             ))}
