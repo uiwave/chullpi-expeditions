@@ -25,11 +25,6 @@ export function Header() {
   return (
     <>
       <header className="fixed top-0 right-0 left-0 z-50 bg-white">
-        <div>
-          <Suspense>
-            <LanguageSelector />
-          </Suspense>
-        </div>
         <div
           className="relative flex items-center justify-between bg-auto bg-top-left bg-no-repeat"
           style={{ backgroundImage: "url('/images/bg/logo_bg_mask.png')" }}

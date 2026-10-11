@@ -1,5 +1,4 @@
 import PageHero from "@/components/uiwave/PageHero";
-import type { Metadata } from "next";
 import ToursGrid from "@/components/sections/tours/ToursGrid";
 import { getTours, isLocale } from "@/i18n/tours";
 import { notFound } from "next/navigation";
@@ -51,19 +50,6 @@ interface Props {
     q?: string;
     page?: string;
   }>;
-}
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "tours.metadata" });
-  return {
-    title: t("title"),
-    description: t("description"),
-  };
 }
 
 export default async function ToursPage({ params, searchParams }: Props) {

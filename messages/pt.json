@@ -19,7 +19,7 @@
     "nav": {
       "home": "Início",
       "tours": "Destinos",
-      "about": "Sobre Nós",
+      "about": "Sobre nós",
       "contact": "Contato"
     }
   },
@@ -28,19 +28,19 @@
       "subtitle": "Experiências inesquecíveis e hospedagem de alto nível",
       "title": "Descubra a magia e viva a aventura",
       "actions": {
-        "exploreTours": "Explorar Passeios",
+        "exploreTours": "Explorar Tours",
         "bookAirbnb": "Reservar Airbnb"
       }
     },
     "machupicchuFeatured": {
-      "subtitle": "Os destaques imperdíveis da maravilha do mundo",
-      "title": "Os Passeios para Machu Picchu Mais Procurados",
-      "description": "Explore nossas experiências mais aclamadas para visitar a cidadela inca. Garantimos saídas diárias, itinerários otimizados e o melhor serviço para fazer da sua viagem uma experiência inesquecível."
+      "subtitle": "Os imperdíveis da maravilha do mundo",
+      "title": "Os Tours para Machu Picchu Mais Procurados",
+      "description": "Explore nossas experiências mais aclamadas para visitar a cidadela inca. Garantimos saídas diárias, itinerários otimizados e o melhor serviço para tornar sua viagem inesquecível."
     },
     "about": {
       "subtitle": "Sobre Nós",
       "title": "Criando Memórias Inesquecíveis em Cada Viagem",
-      "description": "Somos uma agência apaixonada por conectar viajantes aos destinos mais fascinantes do Peru. Dedicamo-nos a criar experiências personalizadas que combinam aventura, cultura e o conforto de uma hospedagem acolhedora.",
+      "description": "Somos uma agência apaixonada por conectar viajantes aos destinos mais fascinantes do Peru. Nos dedicamos a criar experiências personalizadas que combinam aventura, cultura e o conforto de uma hospedagem acolhedora.",
       "features": {
         "localExperts": {
           "title": "Especialistas Locais",
@@ -48,7 +48,7 @@
         },
         "personalizedService": {
           "title": "Atendimento Personalizado",
-          "description": "Criamos itinerários sob medida para garantir que cada momento seja perfeito."
+          "description": "Desenhamos itinerários sob medida para garantir que cada momento seja perfeito."
         }
       }
     },
@@ -62,7 +62,7 @@
     },
     "testimonials": {
       "subtitle": "Histórias Reais",
-      "title": "O Que Dizem Quem Viajou Conosco"
+      "title": "O Que Dizem Quem Já Viajou Conosco"
     }
   },
   "about": {
@@ -72,7 +72,7 @@
     "story": {
       "subtitle": "Nossa Trajetória",
       "title": "Transformando Viagens em Experiências Únicas",
-      "description": "Nascemos com a missão de mostrar ao mundo as maravilhas culturais e naturais do Peru a partir de uma perspectiva autêntica e humana. Esforçamo-nos diariamente para que cada viajante descubra a riqueza das nossas terras com total segurança e conforto.\n\nAo longo dos anos, acompanhamos milhares de aventureiros em suas jornadas, oferecendo não apenas passeios guiados de altíssimo nível, mas também hospedagens acolhedoras que fazem qualquer um se sentir em casa.",
+      "description": "Nascemos com a missão de mostrar ao mundo as maravilhas culturais e naturais do Peru a partir de uma perspectiva autêntica e humana. Trabalhamos dia a dia para que cada viajante descubra a riqueza das nossas terras com total segurança e conforto.\n\nAo longo dos anos, acompanhamos milhares de aventureiros em seus roteiros, oferecendo não apenas tours guiados de excelência, mas também hospedagens aconchegantes que fazem qualquer um se sentir em casa.",
       "missionVision": {
         "mission": {
           "title": "Nossa Missão",
@@ -87,34 +87,34 @@
   },
   "tours": {
     "hero": {
-      "title": "Explore Todos os Nossos Passeios e Pacotes"
+      "title": "Explore Todos os Nossos Tours e Pacotes"
     },
     "header": {
-      "searchPlaceholder": "Buscar passeio por nome...",
-      "searchButton": "Buscar passeios",
-      "gridView": "Vista em grade",
-      "listView": "Vista em lista",
+      "searchPlaceholder": "Buscar tour por nome...",
+      "searchButton": "Buscar tours",
+      "gridView": "Visualização em grade",
+      "listView": "Visualização em lista",
       "sortDefault": "Ordenação padrão",
       "sortPriceLow": "Preço: do menor para o maior",
       "sortPriceHigh": "Preço: do maior para o menor",
-      "sortRating": "Mais bem avaliados"
+      "sortRating": "Melhor avaliados"
     },
     "searchAndFilter": {
-      "searchPlaceholder": "Buscar passeio por nome ou destino...",
+      "searchPlaceholder": "Buscar tour por nome ou destino...",
       "filterByDestination": "Destino",
       "allDestinations": "Todos os destinos",
-      "filterByType": "Tipo de passeio",
+      "filterByType": "Tipo de tour",
       "allTypes": "Todos os tipos"
     },
     "details": {
       "overview": "Resumo da experiência",
-      "itinerary": "Roteiro detalhado",
+      "itinerary": "Itinerário detalhado",
       "included": "O que está incluído",
       "notIncluded": "O que não está incluído",
       "recommendations": "O que levar",
       "importantInfo": "Informações importantes",
       "bookingWidget": {
-        "title": "Reserve este Passeio",
+        "title": "Reservar este Tour",
         "selectDate": "Selecione a data",
         "travelers": "Número de pessoas",
         "total": "Total a pagar",
@@ -124,7 +124,7 @@
   },
   "airbnb": {
     "hero": {
-      "title": "Encontre o Seu Lar Longe de Casa"
+      "title": "Encontre Seu Lar Longe de Casa"
     }
   },
   "contact": {
@@ -134,20 +134,27 @@
     "info": {
       "subtitle": "Atendimento Personalizado",
       "title": "Tire Suas Dúvidas Instantaneamente",
-      "description": "Se você tiver dúvidas sobre nossos passeios, disponibilidade ou precisar de assistência personalizada para organizar seu roteiro, envie-nos uma mensagem e responderemos imediatamente.",
+      "description": "Se você tiver dúvidas sobre nossos tours, disponibilidade ou precisar de ajuda personalizada para organizar seu itinerário, envie-nos uma mensagem e responderemos imediatamente.",
       "addressTitle": "Nosso Escritório",
       "phoneTitle": "Telefones / WhatsApp",
       "emailTitle": "E-mail"
     },
     "form": {
       "title": "Reservar um tour",
-      "fullNamePlaceholder": "Ex.: João Silva",
+      "fullNamePlaceholder": "Ex. João Silva",
       "emailPlaceholder": "exemplo@email.com",
       "phonePlaceholder": "+51 987 654 321",
       "messagePlaceholder": "Escreva aqui os detalhes da sua consulta...",
       "submitButton": "Enviar Mensagem",
       "successMessage": "Obrigado! Sua mensagem foi enviada com sucesso. Responderemos em breve.",
-      "errorMessage": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente ou entre em contato pelo WhatsApp."
+      "errorMessage": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente ou fale conosco pelo WhatsApp.",
+      "playVideo": "Reproduzir vídeo promocional",
+      "fields": {
+        "firstName": "Nome completo",
+        "email": "E-mail",
+        "tourType": "Selecionar tipo de tour",
+        "message": "Mensagem ou consulta"
+      }
     }
   }
 }

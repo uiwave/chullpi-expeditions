@@ -3,11 +3,12 @@ export const siteConfig = {
 
   contact: {
     phone: 974263630,
-    email: "uiwavedev@gmail.com",
+    email: "reservas@chullpiexpeditions.com",
+    address: "asds",
   },
 
   social: {
-    facebook: "https://www.facebook.com/CHULLPIEXP",
+    facebook: "https://www.facebook.com/share/196Z7TNwVd/",
     instagram: "https://www.instagram.com/chullpi_expeditions/",
     tiktok: "https://www.tiktok.com/@chullpiexpeditions",
   },

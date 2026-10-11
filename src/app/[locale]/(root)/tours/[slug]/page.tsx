@@ -1,4 +1,3 @@
-import TourInfoSection from "@/components/sections/tour-detail/TourInfoSection";
 import PageHero from "@/components/uiwave/PageHero";
 import { notFound } from "next/navigation";
 import {
@@ -39,9 +38,7 @@ export default async function TourDetailPage({ params }: Props) {
         <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-14">
           <div className="lg:col-span-8"></div>
 
-          <div className="lg:sticky lg:top-24 lg:col-span-4">
-            <TourInfoSection tour={tour} />
-          </div>
+          <div className="lg:sticky lg:top-24 lg:col-span-4"></div>
         </div>
       </div>
     </>

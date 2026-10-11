@@ -12,7 +12,7 @@
     "viewDetails": "View details",
     "bookNow": "Book now",
     "contactUs": "Contact us",
-    "whatsAppUs": "Inquire via WhatsApp",
+    "whatsAppUs": "Chat on WhatsApp",
     "noResults": "No results available."
   },
   "header": {
@@ -25,7 +25,7 @@
   },
   "home": {
     "hero": {
-      "subtitle": "Unforgettable experiences and top-tier accommodation",
+      "subtitle": "Unforgettable experiences and top-tier lodging",
       "title": "Discover the magic and live the adventure",
       "actions": {
         "exploreTours": "Explore Tours",
@@ -33,32 +33,32 @@
       }
     },
     "machupicchuFeatured": {
-      "subtitle": "Must-see highlights of the wonder of the world",
+      "subtitle": "Must-see highlights of the world wonder",
       "title": "Most Requested Machu Picchu Tours",
-      "description": "Explore our most acclaimed experiences to visit the Inca citadel. We guarantee daily departures, optimized itineraries, and the best service to make your trip an unforgettable experience."
+      "description": "Explore our top-rated experiences to visit the Inca citadel. We guarantee daily departures, optimized itineraries, and the best service to make your trip an unforgettable memory."
     },
     "about": {
       "subtitle": "About Us",
       "title": "Creating Unforgettable Memories on Every Trip",
-      "description": "We are an agency passionate about connecting travelers with Peru's most fascinating destinations. We are dedicated to designing personalized experiences that combine adventure, culture, and the comfort of a cozy stay.",
+      "description": "We are an agency passionate about connecting travelers with Peru's most fascinating destinations. We design personalized experiences combining adventure, culture, and cozy accommodations.",
       "features": {
         "localExperts": {
           "title": "Local Experts",
-          "description": "Passionate professional guides who will show you the real history and secrets of each location."
+          "description": "Passionate professional guides who will share the true history and secrets of every location."
         },
         "personalizedService": {
-          "title": "Personalized Service",
-          "description": "We design tailor-made itineraries to ensure every moment is perfect."
+          "title": "Personalized Attention",
+          "description": "We tailor itineraries to your needs to ensure every moment is perfect."
         }
       }
     },
     "destinations": {
-      "subtitle": "Incredible Places",
+      "subtitle": "Amazing Places",
       "title": "Explore Our Featured Destinations"
     },
     "gallery": {
       "subtitle": "Captured Moments",
-      "title": "Experience Gallery from Our Travelers"
+      "title": "Experience Gallery From Our Travelers"
     },
     "testimonials": {
       "subtitle": "Real Stories",
@@ -67,20 +67,20 @@
   },
   "about": {
     "hero": {
-      "title": "Learn About Our History and Passion for Travel"
+      "title": "Discover Our Story and Passion for Travel"
     },
     "story": {
       "subtitle": "Our Journey",
-      "title": "Transforming Travels into Unique Experiences",
-      "description": "We were born with the mission to show the world the cultural and natural wonders of Peru from an authentic and human perspective. We strive every day to ensure every traveler discovers the richness of our land with complete safety and comfort.\n\nOver the years, we have accompanied thousands of adventurers on their journeys, offering not only top-level guided tours, but also welcoming accommodations that make anyone feel right at home.",
+      "title": "Transforming Trips into Unique Experiences",
+      "description": "We were born with the mission to showcase the cultural and natural wonders of Peru from an authentic and human perspective. We strive daily so every traveler can experience our land with safety and comfort.\n\nOver the years we have accompanied thousands of adventurers, providing top-tier guided tours as well as cozy accommodations that make anyone feel right at home.",
       "missionVision": {
         "mission": {
           "title": "Our Mission",
-          "description": "To provide unforgettable travel experiences and cozy accommodations with high-quality service, promoting responsible and sustainable tourism."
+          "description": "To deliver unforgettable travel experiences and cozy lodging with high-quality service, promoting responsible and sustainable tourism."
         },
         "vision": {
           "title": "Our Vision",
-          "description": "To be the leading travel agency and accommodation network in the sector, recognized for excellence, authenticity, and guaranteed traveler satisfaction."
+          "description": "To be the leading travel agency and lodging network, recognized for excellence, authenticity, and guaranteed traveler satisfaction."
         }
       }
     }
@@ -94,10 +94,10 @@
       "searchButton": "Search tours",
       "gridView": "Grid view",
       "listView": "List view",
-      "sortDefault": "Default Sorting",
-      "sortPriceLow": "Price: Low to High",
-      "sortPriceHigh": "Price: High to Low",
-      "sortRating": "Highest Rated"
+      "sortDefault": "Default sorting",
+      "sortPriceLow": "Price: low to high",
+      "sortPriceHigh": "Price: high to low",
+      "sortRating": "Best rated"
     },
     "searchAndFilter": {
       "searchPlaceholder": "Search tour by name or destination...",
@@ -114,11 +114,11 @@
       "recommendations": "What to bring",
       "importantInfo": "Important information",
       "bookingWidget": {
-        "title": "Book this Tour",
+        "title": "Book This Tour",
         "selectDate": "Select date",
-        "travelers": "Number of people",
-        "total": "Total to pay",
-        "inquireWhatsApp": "Inquire availability"
+        "travelers": "Number of guests",
+        "total": "Total amount",
+        "inquireWhatsApp": "Check availability"
       }
     }
   },
@@ -132,22 +132,29 @@
       "title": "Get in Touch with Us"
     },
     "info": {
-      "subtitle": "Personalized Service",
-      "title": "Solve Your Doubts Instantly",
-      "description": "If you have questions about our tours, availability, or need personalized assistance to organize your itinerary, send us a message and we will respond immediately.",
+      "subtitle": "Personalized Support",
+      "title": "Get Your Questions Answered Instantly",
+      "description": "If you have questions about our tours, availability, or need custom help planning your itinerary, send us a message and we'll reply right away.",
       "addressTitle": "Our Office",
       "phoneTitle": "Phone / WhatsApp",
       "emailTitle": "Email Address"
     },
     "form": {
-      "title": "Book a tour",
-      "fullNamePlaceholder": "e.g., John Doe",
+      "title": "Book a Tour",
+      "fullNamePlaceholder": "e.g. John Doe",
       "emailPlaceholder": "example@email.com",
       "phonePlaceholder": "+51 987 654 321",
-      "messagePlaceholder": "Type the details of your inquiry here...",
+      "messagePlaceholder": "Write the details of your inquiry here...",
       "submitButton": "Send Message",
-      "successMessage": "Thank you! Your message has been sent successfully. We will reply soon.",
-      "errorMessage": "An error occurred while sending your message. Please try again or contact us via WhatsApp."
+      "successMessage": "Thank you! Your message has been sent successfully. We will respond shortly.",
+      "errorMessage": "An error occurred while sending your message. Please try again or contact us via WhatsApp.",
+      "playVideo": "Play promotional video",
+      "fields": {
+        "firstName": "Full name",
+        "email": "Email address",
+        "tourType": "Select tour type",
+        "message": "Message or inquiry"
+      }
     }
   }
 }
