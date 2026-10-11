@@ -15,6 +15,14 @@
     "whatsAppUs": "Inquire via WhatsApp",
     "noResults": "No results available."
   },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "tours": "Destinations",
+      "about": "About Us",
+      "contact": "Contact"
+    }
+  },
   "home": {
     "hero": {
       "subtitle": "Unforgettable experiences and top-tier accommodation",

@@ -15,6 +15,14 @@
     "whatsAppUs": "Consultar por WhatsApp",
     "noResults": "No se encontraron resultados disponibles."
   },
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "tours": "Destinos",
+      "about": "Nosotros",
+      "contact": "Contacto"
+    }
+  },
   "home": {
     "hero": {
       "subtitle": "Experiencias inolvidables y hospedaje de primer nivel",

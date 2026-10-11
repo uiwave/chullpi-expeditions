@@ -2,16 +2,16 @@
 
 import { Suspense, useEffect, useState } from "react";
 import { cn } from "cn";
-import { Menu } from "lucide-react";
-import DesktopNavigation from "./DesktopNavigation";
+import { ArrowRight } from "lucide-react";
 import LanguageSelector from "./LanguageSelector";
-import MobileDrawer from "./MobileDrawer";
 import { ROUTES } from "@/config/routes";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
+import { NAV_ITEMS } from "@/data/navItems";
 
 export function Header() {
   const t = useTranslations("header");
+  const tCommon = useTranslations("common");
   const [scrolled, setScrolled] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -24,43 +24,46 @@ export function Header() {
 
   return (
     <>
-      <header
-        className={cn(
-          "fixed top-0 right-0 left-0 z-50 border-b border-white/10 transition-all duration-300",
-          scrolled ? "bg-background" : "bg-black/20 backdrop-blur-md",
-        )}
-      >
-        <div className="uw-container">
-          <div className="grid h-20 w-full grid-cols-3 items-center">
-            <div className="flex items-center justify-start">
-              <button
-                onClick={() => setDrawerOpen(true)}
-                aria-label={t("menu.openAria")}
-                className="text-primary inline-flex h-11 cursor-pointer items-center justify-center transition-colors hover:text-white xl:hidden"
-              >
-                <Menu className="h-7 w-7 shrink-0" />
-              </button>
-              <DesktopNavigation />
-            </div>
-            <div className="flex items-center justify-center">
-              <Link href={ROUTES.HOME}>
-                <img
-                  src="/logo-white.webp"
-                  alt=""
-                  className="h-10 w-auto object-contain transition-all sm:h-12 xl:h-14"
-                />
-              </Link>
-            </div>
-            <div className="flex items-center justify-end">
-              <Suspense>
-                <LanguageSelector />
-              </Suspense>
-            </div>
+      <header className="fixed top-0 right-0 left-0 z-50 bg-white">
+        <div>
+          <Suspense>
+            <LanguageSelector />
+          </Suspense>
+        </div>
+        <div
+          className="relative flex items-center justify-between bg-auto bg-top-left bg-no-repeat"
+          style={{ backgroundImage: "url('/images/bg/logo_bg_mask.png')" }}
+        >
+          <div className="flex items-center">
+            <Link href={ROUTES.HOME}>
+              <img
+                src="/logo-white.webp"
+                alt=""
+                className="h-10 w-auto object-contain transition-all sm:h-12 xl:h-14"
+              />
+            </Link>
+            <nav className="flex">
+              {NAV_ITEMS.map((item) => (
+                <div key={item.id}>
+                  <Link href={item.href}>{t(item.label)}</Link>
+                </div>
+              ))}
+            </nav>
           </div>
+          <Link
+            href={ROUTES.TOURS}
+            className="bg-secondary group relative inline-flex items-center justify-center overflow-hidden rounded-full px-8.75 py-[18.8px]"
+          >
+            <div className="bg-primary absolute inset-0 -translate-x-full rounded-full transition-transform duration-300 ease-out group-hover:translate-x-0" />
+            <div className="relative z-10 inline-flex items-center gap-2 text-white transition-colors duration-300">
+              <span className="text-base font-normal">
+                {tCommon("bookNow")}
+              </span>
+              <ArrowRight className="size-5" />
+            </div>
+          </Link>
         </div>
       </header>
-
-      <MobileDrawer isOpen={drawerOpen} onClose={() => setDrawerOpen(false)} />
     </>
   );
 }
