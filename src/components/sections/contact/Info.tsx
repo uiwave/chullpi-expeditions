@@ -29,7 +29,7 @@ export default function Info() {
   const t = useTranslations("contact.info");
 
   return (
-    <section className="relative w-full py-30">
+    <section className="relative w-full pt-16 pb-12 lg:pt-30 lg:pb-20">
       <div className="uw-container relative z-10">
         <Heading
           subtitle={t("subtitle")}

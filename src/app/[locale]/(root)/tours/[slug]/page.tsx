@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="text-secondary font-heading mb-6 text-[clamp(1.75rem,1.4rem+1.5vw,2.5rem)] leading-[1.4] font-semibold">
+    <h2 className="text-secondary font-heading mb-10 text-[clamp(1.75rem,1.4rem+1.5vw,2.5rem)] leading-[1.4] font-semibold">
       {children}
     </h2>
   );
@@ -140,7 +140,7 @@ export default async function TourDetailPage({ params }: Props) {
     <>
       <PageHero title={tour.title} bgImage={`/images/${tour.image}`} />
 
-      <div className="uw-container uw-section py-10 lg:py-14">
+      <div className="uw-container pt-16 pb-12 lg:pt-30 lg:pb-20">
         <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-14">
           <div className="lg:col-span-8">
             {/* Imagen del tour */}

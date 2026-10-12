@@ -6,7 +6,7 @@ export default function GallerySection() {
   const t = useTranslations("home.gallery");
 
   return (
-    <section className="relative w-full overflow-hidden lg:py-30">
+    <section className="relative w-full overflow-hidden py-12 lg:py-20">
       <div className="uw-container relative z-10">
         <Heading
           subtitle={t("subtitle")}

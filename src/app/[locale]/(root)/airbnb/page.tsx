@@ -43,7 +43,7 @@ export default async function AirbnbPage({ params }: Props) {
     <>
       <PageHero title={t("hero.title")} />
 
-      <section className="relative w-full py-16 lg:py-24">
+      <section className="relative w-full pt-16 pb-12 lg:pt-30 lg:pb-20">
         <div className="uw-container">
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
             <Heading
@@ -64,7 +64,7 @@ export default async function AirbnbPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="relative w-full pb-16 lg:pb-24">
+      <section className="relative w-full py-12 lg:py-20">
         <div className="uw-container">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
             {FEATURES.map(({ key, icon: Icon }) => (

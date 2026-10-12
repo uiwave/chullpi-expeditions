@@ -22,7 +22,7 @@ export default function About() {
   return (
     <section
       aria-labelledby="welcome-agency-title"
-      className="bg-background relative w-full overflow-hidden py-16 lg:py-28"
+      className="bg-background relative w-full overflow-hidden pt-16 pb-12 lg:pt-30 lg:pb-20"
     >
       <div className="uw-container relative z-10">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12 lg:gap-16">

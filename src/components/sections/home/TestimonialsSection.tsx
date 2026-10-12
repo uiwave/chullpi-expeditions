@@ -7,8 +7,6 @@ import {
   CarouselApi,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useTranslations } from "next-intl";
 import Heading from "@/components/uiwave/Heading";
@@ -38,7 +36,7 @@ export default function TestimonialsSection() {
   }, [api, onSelect]);
 
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden py-12 lg:py-20">
       <div className="uw-container relative z-10">
         <Heading
           subtitle={t("subtitle")}
@@ -56,7 +54,7 @@ export default function TestimonialsSection() {
           }}
           className="w-full"
         >
-          <CarouselContent className="-ml-4 items-stretch py-20 md:-ml-8">
+          <CarouselContent className="-ml-4 items-stretch pt-12 pb-0 md:-ml-8 lg:pt-16">
             {TESTIMONIALS.map((item, index) => {
               const isActive = index === current;
 
@@ -127,8 +125,6 @@ export default function TestimonialsSection() {
               );
             })}
           </CarouselContent>
-          <CarouselPrevious className="size-10 sm:size-11" />
-          <CarouselNext className="size-10 sm:size-11" />
         </Carousel>
       </div>
     </section>

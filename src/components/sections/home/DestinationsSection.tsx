@@ -90,7 +90,7 @@ export default function DestinationsSection() {
   }, [api, updateArcLayout]);
 
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden py-12 lg:py-20">
       <div className="relative z-10 w-full px-10" ref={containerRef}>
         <Heading
           subtitle={t("subtitle")}
@@ -106,7 +106,7 @@ export default function DestinationsSection() {
           }}
           className="w-full"
         >
-          <CarouselContent className="-ml-4 items-start pb-20 md:-ml-6 md:pb-28">
+          <CarouselContent className="-ml-4 items-start pb-12 md:-ml-6 md:pb-16">
             {[...DESTINATIONS, ...DESTINATIONS].map((destination, index) => (
               <CarouselItem
                 key={index}

@@ -23,7 +23,7 @@ export default function AboutSection() {
   const tCommon = useTranslations("common");
 
   return (
-    <section className="relative w-full overflow-hidden lg:pb-30">
+    <section className="relative w-full overflow-hidden py-12 lg:py-20">
       <div className="uw-container relative z-10">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="mx-auto grid h-full w-full max-w-lg grid-cols-2 gap-4 lg:max-w-none">

@@ -6,8 +6,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
 
@@ -20,8 +18,8 @@ export default function PopularToursSection({ tours }: Props) {
   const popularTours = tours.filter((tour) => tour.popular);
 
   return (
-    <section className="relative w-full py-30">
-      <div className="pointer-events-none absolute top-0 right-0 left-0 z-0 h-[calc(100%-180px)] overflow-hidden sm:h-[calc(100%-200px)] lg:h-[calc(100%-300px)]">
+    <section className="relative w-full pt-16 pb-12 lg:pt-30 lg:pb-20">
+      <div className="pointer-events-none absolute top-0 right-0 left-0 z-0 h-[calc(100%-140px)] overflow-hidden sm:h-[calc(100%-160px)] lg:h-[calc(100%-260px)]">
         <Image
           src="/images/bg/tour_bg_1.jpg"
           alt=""
@@ -38,7 +36,7 @@ export default function PopularToursSection({ tours }: Props) {
           description={t("description")}
           className="text-center"
         />
-        <div className="">
+        <div >
           <Carousel
             opts={{
               align: "start",

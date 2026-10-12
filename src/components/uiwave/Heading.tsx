@@ -14,7 +14,7 @@ export default function Heading({
   className,
 }: Props) {
   return (
-    <div className={cn("mb-8", className)}>
+    <div className={cn("mb-10", className)}>
       <span className="font-decoration text-secondary block text-[clamp(1.5rem,1.2rem+1.5vw,2.5rem)] leading-none">
         {subtitle}
       </span>

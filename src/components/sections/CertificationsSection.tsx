@@ -46,7 +46,7 @@ const CERTIFICATION_LOGOS: CertificationLogo[] = [
 
 export default function CertificationsSection() {
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden py-12 lg:py-20">
       <div className="relative z-10">
         <Carousel
           opts={{
