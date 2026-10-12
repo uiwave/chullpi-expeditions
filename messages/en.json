@@ -190,5 +190,13 @@
         "message": "Message or inquiry"
       }
     }
+  },
+  "footer": {
+    "about": "Your gateway to the wonders of Peru. We design unforgettable experiences to Machu Picchu, Cusco, Arequipa, Puno and Ica with expert local guides and the best care every step of your journey.",
+    "quickLinks": "Quick Links",
+    "addressTitle": "Address",
+    "address": "Cusco, Peru",
+    "instagramTitle": "Instagram",
+    "copyright": "All Rights Reserved."
   }
 }

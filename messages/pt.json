@@ -190,5 +190,13 @@
         "message": "Mensagem ou consulta"
       }
     }
+  },
+  "footer": {
+    "about": "Sua porta de entrada para as maravilhas do Peru. Criamos experiências inesquecíveis para Machu Picchu, Cusco, Arequipa, Puno e Ica com guias locais especializados e o melhor atendimento em cada etapa da sua viagem.",
+    "quickLinks": "Links rápidos",
+    "addressTitle": "Endereço",
+    "address": "Cusco, Peru",
+    "instagramTitle": "Instagram",
+    "copyright": "Todos os direitos reservados."
   }
 }
