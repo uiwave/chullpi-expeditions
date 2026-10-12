@@ -7,5 +7,67 @@
   "type": "Cultural",
   "typeKey": "cultural",
   "duration": "Full Day",
-  "popular": true
+  "popular": true,
+  "description": "Vive la experiencia definitiva hacia la ciudadela inca más emblemática del mundo. Este tour Full Day te lleva desde Cusco en tren panorámico hasta Aguas Calientes, y de ahí en bus hasta la entrada de Machu Picchu, donde un guía oficial te mostrará los templos, plazas y terrazas de esta Maravilla del Mundo.\nUn día inolvidable de historia, naturaleza y cultura andina.",
+  "shortItinerary": [
+    "Recojo en tu hotel en Cusco (4:00 - 4:30 a. m.)",
+    "Traslado en movilidad a la estación de tren",
+    "Viaje en tren panorámico hasta Aguas Calientes",
+    "Subida en bus por 25 minutos hasta la ciudadela",
+    "Tour guiado de 2 horas por Machu Picchu",
+    "Retorno en bus, tren y traslado a tu hotel"
+  ],
+  "itinerary": [
+    {
+      "day": "Mañana",
+      "items": [
+        "Recojo desde tu hotel entre las 4:00 y 4:30 a. m.",
+        "Traslado privado a la estación de tren en Ollantaytambo o Poroy",
+        "Viaje en tren panorámico con desayuno a bordo hacia Aguas Calientes",
+        "Subida en bus por la carretera serpenteante hasta la ciudadela"
+      ]
+    },
+    {
+      "day": "Tarde",
+      "items": [
+        "Ingreso a Machu Picchu y tour guiado de aproximadamente 2 horas",
+        "Tiempo libre para fotos en la Puerta del Sol y los miradores",
+        "Bajada en bus a Aguas Calientes y almuerzo libre",
+        "Retorno en tren hacia Cusco y traslado a tu hotel"
+      ]
+    }
+  ],
+  "included": [
+    "Recojo y traslado desde y hacia tu hotel en Cusco",
+    "Ticket de tren ida y vuelto (clase Expedition o similar)",
+    "Entrada oficial a la ciudadela de Machu Picchu",
+    "Bus de ida y vuelta Aguas Calientes - Machu Picchu",
+    "Guía oficial bilingüe durante todo el recorrido",
+    "Botella de agua a bordo del tren"
+  ],
+  "notIncluded": [
+    "Almuerzo en Aguas Calientes",
+    "Entradas adicionales: Huayna Picchu o Montaña Machu Picchu",
+    "Propinas para guía y chofer",
+    "Snacks y bebidas personales",
+    "Seguro de viaje"
+  ],
+  "recommendations": [
+    "Pasaporte o DNI original (obligatorio para el ingreso)",
+    "Ropa cómoda en capas y calzado de caminata",
+    "Bloqueador solar, gorra y lentes de sol",
+    "Repelente de insectos y botella reutilizable",
+    "Cámara fotográfica y efectivo en soles"
+  ],
+  "additionals": [
+    {
+      "name": "Entrada a Huayna Picchu"
+    },
+    {
+      "name": "Entrada a Montaña Machu Picchu"
+    },
+    {
+      "name": "Almuerzo típico en Aguas Calientes"
+    }
+  ]
 }

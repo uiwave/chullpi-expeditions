@@ -1,5 +1,10 @@
+import Image from "next/image";
 import PageHero from "@/components/uiwave/PageHero";
 import { notFound } from "next/navigation";
+import { CircleCheck, CircleX, Clock } from "lucide-react";
+import { getTranslations } from "next-intl/server";
+import ItineraryTabs from "@/components/sections/tours/ItineraryTabs";
+import { cn } from "cn";
 import {
   getTourBySlug,
   getTourSlugs,
@@ -16,6 +21,46 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }));
 }
 
+function SectionTitle({ children }: { children: React.ReactNode }) {
+  return (
+    <h2 className="text-secondary font-heading mb-6 text-[clamp(1.75rem,1.4rem+1.5vw,2.5rem)] leading-[1.4] font-semibold">
+      {children}
+    </h2>
+  );
+}
+
+type CheckVariant = "default" | "included" | "excluded";
+
+function CheckList({
+  items,
+  variant = "default",
+}: {
+  items: string[];
+  variant?: CheckVariant;
+}) {
+  const Icon = variant === "excluded" ? CircleX : CircleCheck;
+  const color =
+    variant === "included"
+      ? "text-[#27AE60]"
+      : variant === "excluded"
+        ? "text-[#EB5757]"
+        : "text-primary";
+
+  return (
+    <ul className="space-y-2.5">
+      {items.map((item) => (
+        <li key={item} className="text-foreground relative pl-10 text-lg leading-7">
+          <Icon
+            className={cn("absolute top-0.5 left-0 size-6", color)}
+            aria-hidden="true"
+          />
+          {item}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 export default async function TourDetailPage({ params }: Props) {
   const { slug, locale: localeValue } = await params;
 
@@ -30,13 +75,156 @@ export default async function TourDetailPage({ params }: Props) {
     notFound();
   }
 
+  const t = await getTranslations("tours.details");
+  const tCommon = await getTranslations("common");
+
+  const paragraphs = tour.description ? tour.description.split(/\n+/) : [];
+  const hasIncluded = Boolean(tour.included?.length);
+  const hasNotIncluded = Boolean(tour.notIncluded?.length);
+
   return (
     <>
       <PageHero title={tour.title} bgImage={`/images/${tour.image}`} />
 
       <div className="uw-container uw-section py-10 lg:py-14">
         <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-14">
-          <div className="lg:col-span-8"></div>
+          <div className="lg:col-span-8">
+            {/* Imagen del tour */}
+            <div className="relative mb-10 aspect-[16/10] w-full overflow-hidden rounded-lg">
+              <Image
+                src={`/images/${tour.image}`}
+                alt={tour.title}
+                fill
+                sizes="(max-width: 1024px) 100vw, 66vw"
+                className="object-cover"
+              />
+            </div>
+
+            {/* Meta: tipo + duración */}
+            <div className="mb-10 flex flex-wrap items-center gap-3">
+              <span className="bg-secondary text-white rounded-full px-4 py-1.5 text-lg">
+                {tour.type}
+              </span>
+              <span className="bg-[#E9F6F9] text-secondary inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-lg">
+                <Clock className="text-primary size-4" aria-hidden="true" />
+                {tour.duration}
+              </span>
+            </div>
+
+            {/* Título + precio */}
+            <h2 className="text-secondary font-heading mb-4 text-[clamp(1.75rem,1.4rem+1.5vw,2.5rem)] leading-[1.4] font-semibold">
+              {tour.title}
+            </h2>
+            <p className="text-foreground mb-10 text-lg leading-10">
+              <span className="text-primary text-[28px] font-semibold">
+                ${tour.price}
+              </span>
+              /{tCommon("perPerson")}
+            </p>
+
+            {/* Descripción */}
+            {paragraphs.length > 0 && (
+              <section className="mb-12">
+                <SectionTitle>{t("overview")}</SectionTitle>
+                <div className="space-y-4">
+                  {paragraphs.map((paragraph) => (
+                    <p
+                      key={paragraph}
+                      className="text-foreground text-lg leading-relaxed"
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Itinerario corto */}
+            {tour.shortItinerary?.length ? (
+              <section className="mb-12">
+                <SectionTitle>{t("shortItinerary")}</SectionTitle>
+                <CheckList items={tour.shortItinerary} />
+              </section>
+            ) : null}
+
+            {/* Itinerario detallado */}
+            {tour.itinerary?.length ? (
+              <section className="mb-12">
+                <SectionTitle>{t("itinerary")}</SectionTitle>
+                {tour.itinerary.length > 1 ? (
+                  <ItineraryTabs days={tour.itinerary} />
+                ) : (
+                  <CheckList items={tour.itinerary[0].items} />
+                )}
+              </section>
+            ) : null}
+
+            {/* Qué incluye / Qué no incluye */}
+            {(hasIncluded || hasNotIncluded) && (
+              <section className="mb-12">
+                <div
+                  className={cn(
+                    "grid gap-8",
+                    hasIncluded && hasNotIncluded && "md:grid-cols-2 md:gap-10",
+                  )}
+                >
+                  {hasIncluded && (
+                    <div>
+                      <SectionTitle>{t("included")}</SectionTitle>
+                      <CheckList items={tour.included!} variant="included" />
+                    </div>
+                  )}
+                  {hasNotIncluded && (
+                    <div
+                      className={cn(
+                        hasIncluded &&
+                          "md:border-[#E1E4E5] md:border-l md:pl-10",
+                      )}
+                    >
+                      <SectionTitle>{t("notIncluded")}</SectionTitle>
+                      <CheckList items={tour.notIncluded!} variant="excluded" />
+                    </div>
+                  )}
+                </div>
+              </section>
+            )}
+
+            {/* Recomendaciones */}
+            {tour.recommendations?.length ? (
+              <section className="mb-12">
+                <SectionTitle>{t("recommendations")}</SectionTitle>
+                <CheckList items={tour.recommendations} />
+              </section>
+            ) : null}
+
+            {/* Adicionales */}
+            {tour.additionals?.length ? (
+              <section className="mb-12">
+                <SectionTitle>{t("additionals")}</SectionTitle>
+                <ul className="space-y-2.5">
+                  {tour.additionals.map((extra) => (
+                    <li
+                      key={extra.name}
+                      className="text-foreground relative pl-10 text-lg leading-7"
+                    >
+                      <CircleCheck
+                        className="text-primary absolute top-0.5 left-0 size-6"
+                        aria-hidden="true"
+                      />
+                      <span className="flex items-baseline justify-between gap-4">
+                        <span>{extra.name}</span>
+                        {extra.price ? (
+                          <span className="text-primary font-semibold">
+                            {extra.price}
+                          </span>
+                        ) : null}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ) : null}
+          </div>
 
           <div className="lg:sticky lg:top-24 lg:col-span-4"></div>
         </div>

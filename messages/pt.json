@@ -143,6 +143,7 @@
     "details": {
       "overview": "Resumo da experiência",
       "itinerary": "Itinerário detalhado",
+      "shortItinerary": "Roteiro resumido",
       "included": "O que está incluído",
       "notIncluded": "O que não está incluído",
       "recommendations": "O que levar",
@@ -153,7 +154,8 @@
         "travelers": "Número de pessoas",
         "total": "Total a pagar",
         "inquireWhatsApp": "Consultar disponibilidade"
-      }
+      },
+      "additionals": "Serviços adicionais"
     }
   },
   "airbnb": {
