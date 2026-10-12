@@ -7,6 +7,7 @@ interface Props {
   href: string;
   variant?: "primary" | "secondary" | "outlet";
   size?: "sm" | "md" | "lg";
+  className?: string;
 }
 
 export default function Button({
@@ -14,6 +15,7 @@ export default function Button({
   href,
   variant = "primary",
   size = "md",
+  className,
 }: Props) {
   return (
     <Link
@@ -30,6 +32,8 @@ export default function Button({
         size === "sm" && "px-4 py-2.5 text-sm",
         size === "md" && "px-8.75 py-3.75 text-base",
         size === "lg" && "px-8.75 py-[18.8px] text-lg",
+
+        className,
       )}
     >
       <div
