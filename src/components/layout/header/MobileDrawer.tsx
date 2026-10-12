@@ -35,7 +35,7 @@ export default function MobileDrawer({
             </span>
             <button
               onClick={onClose}
-              className="hover:text-primary cursor-pointer text-white/70 transition-colors"
+              className="hover:text-primary -m-2.5 flex size-10 cursor-pointer items-center justify-center text-white/70 transition-colors"
               aria-label={t("menu.closeAria")}
             >
               <X className="h-6 w-6" />

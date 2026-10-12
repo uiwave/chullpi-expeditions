@@ -3,6 +3,9 @@ import ToursGrid from "@/components/sections/tours/ToursGrid";
 import { getTours, isLocale } from "@/i18n/tours";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
+import { hasLocale } from "next-intl";
+import { routing } from "@/i18n/routing";
+import type { Metadata } from "next";
 import {
   filterTours,
   getTotalPages,
@@ -12,23 +15,18 @@ import {
 import ToursSidebar from "@/components/sections/tours/ToursSidebar";
 import ToursHeaderWrapper from "@/components/sections/tours/ToursHeaderWrapper";
 
-// Datos de ejemplo para Posts Recientes
-const MOCK_POSTS = [
-  {
-    id: "1",
-    title: "Top 10 Places to Visit in Peru",
-    slug: "top-10-places-peru",
-    date: "Oct 12, 2026",
-    image: "hero/hero_bg_1_1.jpg",
-  },
-  {
-    id: "2",
-    title: "Ultimate Guide for Machu Picchu",
-    slug: "guide-machu-picchu",
-    date: "Oct 10, 2026",
-    image: "hero/hero_bg_1_1.jpg",
-  },
-];
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    return {};
+  }
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return { title: t("tours"), description: t("description") };
+}
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -53,6 +51,7 @@ export default async function ToursPage({ params, searchParams }: Props) {
     page: pageParam,
   } = await searchParams;
   const t = await getTranslations("tours");
+  const tCommon = await getTranslations("common");
 
   if (!isLocale(localeValue)) {
     notFound();
@@ -67,11 +66,8 @@ export default async function ToursPage({ params, searchParams }: Props) {
   }
 
   const totalPages = getTotalPages(filtered.length);
-  const page = parsePage(pageParam);
-
-  if (page === null || page > totalPages) {
-    notFound();
-  }
+  const parsedPage = parsePage(pageParam);
+  const page = Math.min(Math.max(parsedPage ?? 1, 1), totalPages);
 
   const start = (page - 1) * TOURS_PER_PAGE;
   const pageTours = filtered.slice(start, start + TOURS_PER_PAGE);
@@ -97,9 +93,10 @@ export default async function ToursPage({ params, searchParams }: Props) {
                 totalPages={totalPages}
                 total={filtered.length}
                 query={query}
+                emptyLabel={tCommon("noResults")}
               />
             </main>
-            <ToursSidebar typeCounts={typeCounts} recentPosts={MOCK_POSTS} />
+            <ToursSidebar typeCounts={typeCounts} />
           </div>
         </div>
       </section>

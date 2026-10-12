@@ -1,18 +1,7 @@
 import Image from "next/image";
-import {
-  ArrowRight,
-  Compass,
-  ShieldCheck,
-  UserCheck,
-  Target,
-  Eye,
-} from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
-import { Link } from "@/i18n/navigation";
+import { Target, Eye } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { cn } from "@/lib/utils";
 import Heading from "@/components/uiwave/Heading";
-import { ROUTES } from "@/config/routes";
 
 const FEATURES = [
   {
@@ -43,10 +32,10 @@ export default function About() {
             <div className="relative grid grid-cols-12 items-center gap-4">
               {/* Contenedor Columna Izquierda de Imágenes (Imagen 1 y Imagen 3) */}
               <div className="col-span-7 flex flex-col gap-4 sm:gap-6">
-                {/* Imagen 1: Lago entre montañas */}
+                {/* Imagen 1: Machu Picchu */}
                 <figure className="group relative aspect-4/5 w-full overflow-hidden rounded-3xl shadow-sm sm:rounded-[32px]">
                   <Image
-                    src="/images/hero/hero_bg_1_1.jpg"
+                    src="/images/Tour-a-Machu-Picchu-03.webp"
                     alt=""
                     fill
                     priority
@@ -55,10 +44,10 @@ export default function About() {
                   />
                 </figure>
 
-                {/* Imagen 3: Yate de lujo en el mar */}
+                {/* Imagen 3: Montaña de Colores */}
                 <figure className="group relative aspect-4/3 w-full overflow-hidden rounded-3xl shadow-sm sm:rounded-[32px]">
                   <Image
-                    src="/images/hero/hero_bg_1_1.jpg"
+                    src="/images/Montana-de-colores-06.webp"
                     alt=""
                     fill
                     sizes="(max-width: 640px) 60vw, (max-width: 1024px) 35vw, 25vw"
@@ -69,10 +58,10 @@ export default function About() {
 
               {/* Contenedor Columna Derecha de Imágenes (Imagen 2 Principal Superpuesta) */}
               <div className="relative z-10 col-span-5 -ml-4 sm:-ml-8 lg:-ml-10">
-                {/* Imagen 2: Grupo de viajeros sonrientes */}
+                {/* Imagen 2: City Tour Cusco (superpuesta) */}
                 <figure className="dark:border-background group relative aspect-3/5 w-full overflow-hidden rounded-3xl border-4 border-white shadow-lg sm:rounded-[32px]">
                   <Image
-                    src="/images/hero/hero_bg_1_1.jpg"
+                    src="/images/City-Tour-Cusco-03.webp"
                     alt=""
                     fill
                     sizes="(max-width: 640px) 40vw, (max-width: 1024px) 25vw, 20vw"

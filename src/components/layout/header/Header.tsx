@@ -1,7 +1,7 @@
 "use client";
 
-import { Suspense, useState } from "react";
-import { cn } from "@/lib/utils";
+import { Suspense, useEffect, useRef, useState } from "react";
+import { cn } from "cn";
 import { Clock, MapPin, Menu, Phone } from "lucide-react";
 import LanguageSelector from "./LanguageSelector";
 import MobileDrawer from "./MobileDrawer";
@@ -17,10 +17,31 @@ export function Header() {
   const tCommon = useTranslations("common");
   const pathname = usePathname();
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [hidden, setHidden] = useState(false);
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const y = window.scrollY;
+      if (y > 100 && y > lastScrollY.current) {
+        setHidden(true);
+      } else if (y < lastScrollY.current || y <= 100) {
+        setHidden(false);
+      }
+      lastScrollY.current = y;
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <>
-      <header className="fixed top-0 right-0 left-0 z-50 bg-white text-black">
+      <header
+        className={cn(
+          "fixed top-0 right-0 left-0 z-50 bg-white text-black transition-transform duration-300",
+          hidden && !drawerOpen && "-translate-y-full",
+        )}
+      >
         <div className="border-border/50 mx-auto flex items-center justify-between border px-16 py-1.5">
           <div className="flex items-center gap-6">
             <span className="hidden items-center gap-2 md:flex">

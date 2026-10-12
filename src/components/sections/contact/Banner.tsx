@@ -1,14 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import {
-  User,
-  Mail,
-  ChevronDown,
-  MessageSquare,
-  Send,
-  Play,
-} from "lucide-react";
+import { User, Mail, MessageSquare, Send, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 
@@ -26,7 +19,7 @@ export default function Banner() {
       className="text-foreground relative flex min-h-160 w-full items-center overflow-hidden py-16 lg:min-h-180 lg:py-24"
     >
       <Image
-        src="/images/hero/hero_bg_1_1.jpg"
+        src="/images/bg/tour_bg_1.jpg"
         alt=""
         fill
         priority

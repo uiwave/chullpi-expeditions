@@ -1,4 +1,3 @@
-import TourCard from "@/components/uiwave/TourCard";
 import Pagination from "@/components/sections/tours/Pagination";
 import { TOURS_PER_PAGE } from "@/lib/tour-filters";
 import type { Tour } from "@/types/Tour";
@@ -10,6 +9,7 @@ interface Props {
   totalPages: number;
   total: number;
   query: Record<string, string>;
+  emptyLabel?: string;
 }
 
 export default function ToursGrid({
@@ -18,7 +18,16 @@ export default function ToursGrid({
   totalPages,
   total,
   query,
+  emptyLabel,
 }: Props) {
+  if (tours.length === 0) {
+    return (
+      <div className="border-border/60 rounded-2xl border bg-white px-6 py-16 text-center shadow-xs">
+        <p className="text-foreground text-base sm:text-lg">{emptyLabel}</p>
+      </div>
+    );
+  }
+
   return (
     <>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">

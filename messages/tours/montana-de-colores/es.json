@@ -16,11 +16,5 @@
     "Explorarás el mágico Valle Rojo, un lugar surrealista y tranquilo.",
     "Descenderemos hacia Cusipata para disfrutar de un almuerzo buffet típico.",
     "Regresaremos a Cusco y te dejaremos en tu alojamiento para descansar."
-  ],
-  "itinerary": [
-    {
-      "day": "Dia 1",
-      "items": ["Cusipata – Llacto – Montaña de Colores, Vinicunca – Mirador del valle rojo"]
-    }
   ]
 }

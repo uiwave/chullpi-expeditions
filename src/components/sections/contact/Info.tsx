@@ -42,9 +42,12 @@ export default function Info() {
             {siteConfig.contact.address}
           </InfoCard>
           <InfoCard icon={Phone} title={t("phoneTitle")}>
-            <span className="text-foreground hover:text-primary block text-sm leading-snug transition-colors sm:text-base">
-              {siteConfig.contact.phone}
-            </span>
+            <a
+              href={`tel:+51${siteConfig.contact.phone}`}
+              className="text-foreground hover:text-primary block text-sm leading-snug transition-colors sm:text-base"
+            >
+              +51 {siteConfig.contact.phone}
+            </a>
           </InfoCard>
           <InfoCard icon={Mail} title={t("emailTitle")}>
             {siteConfig.contact.email}

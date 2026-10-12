@@ -1,6 +1,6 @@
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "cn";
 
 interface Props {
   label: string;

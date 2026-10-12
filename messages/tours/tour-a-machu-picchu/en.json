@@ -19,21 +19,47 @@
   ],
   "itinerary": [
     {
-      "day": "Morning",
-      "items": [
-        "Pick-up from your hotel between 4:00 and 4:30 a. m.",
-        "Private transfer to the train station in Ollantaytambo or Poroy",
-        "Panoramic train ride with breakfast on board to Aguas Calientes",
-        "Bus ride along the winding road up to the citadel"
+      "title": "Morning",
+      "subtitle": "Cusco → Aguas Calientes → Machu Picchu",
+      "paragraphs": [
+        {
+          "text": "The day starts very early with the pickup from your hotel and the transfer to the train station to reach the Inca citadel.",
+          "items": [
+            "Pick-up from your hotel between 4:00 and 4:30 a. m.",
+            "Private transfer to the train station in Ollantaytambo or Poroy",
+            "Panoramic train ride with breakfast on board to Aguas Calientes",
+            "Bus ride along the winding road up to the citadel"
+          ]
+        },
+        {
+          "text": "Once inside the citadel, the guided tour of its main temples and plazas begins.\nDuring the tour you will have time for photos at the official viewpoints.",
+          "items": [
+            "Entry to Machu Picchu and approximately 2-hour guided tour"
+          ],
+          "blocks": [
+            {
+              "text": "Tour highlights:",
+              "items": [
+                "Main Square and Intihuatana",
+                "Temple of the Sun and Temple of the Three Windows"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "day": "Afternoon",
-      "items": [
-        "Entry to Machu Picchu and approximately 2-hour guided tour",
-        "Free time for photos at the Sun Gate and the viewpoints",
-        "Bus ride down to Aguas Calientes and free lunch time",
-        "Return train to Cusco and transfer to your hotel"
+      "title": "Afternoon",
+      "subtitle": "Return to Cusco",
+      "paragraphs": [
+        {
+          "text": "After the tour you will have free time to have lunch in Aguas Calientes and buy souvenirs before heading back.",
+          "items": [
+            "Free time for photos at the Sun Gate and the viewpoints",
+            "Bus ride down to Aguas Calientes and free lunch time",
+            "Return train to Cusco and transfer to your hotel"
+          ]
+        }
       ]
     }
   ],

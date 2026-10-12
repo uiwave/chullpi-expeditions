@@ -1,6 +1,6 @@
 "use client";
 
-import { Search, LayoutGrid, List, ChevronDown } from "lucide-react";
+import { Search, ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { DESTINATIONS } from "@/data/destinations";
 
@@ -8,10 +8,6 @@ interface ToursHeaderProps {
   searchQuery: string;
   onSearchChange: (query: string) => void;
   onSearchSubmit?: () => void;
-  viewMode: "grid" | "list";
-  onViewChange: (mode: "grid" | "list") => void;
-  sortBy: string;
-  onSortChange: (sort: string) => void;
   destination: string;
   onDestinationChange: (destination: string) => void;
 }
@@ -20,10 +16,6 @@ export default function ToursHeader({
   searchQuery,
   onSearchChange,
   onSearchSubmit,
-  viewMode,
-  onViewChange,
-  sortBy,
-  onSortChange,
   destination,
   onDestinationChange,
 }: ToursHeaderProps) {
@@ -55,41 +47,14 @@ export default function ToursHeader({
           type="button"
           onClick={() => onSearchSubmit?.()}
           aria-label={t("searchButton", { defaultValue: "Search tours" })}
-          className="bg-primary hover:bg-primary/90 absolute top-1/2 right-1.5 flex size-9 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full text-white transition-colors"
+          className="bg-primary hover:bg-primary/90 absolute top-1/2 right-1.5 flex size-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full text-white transition-colors"
         >
           <Search className="size-4" aria-hidden="true" />
         </button>
       </div>
 
-      {/* Selector de Vista, Destino y Ordenamiento */}
+      {/* Selector de Destino */}
       <div className="flex w-full flex-wrap items-center justify-end gap-3 sm:w-auto">
-        <div className="dark:bg-secondary/20 flex items-center gap-1.5 rounded-xl bg-[#E8F5F8] p-1">
-          <button
-            type="button"
-            onClick={() => onViewChange("grid")}
-            aria-label={t("gridView", { defaultValue: "Grid view" })}
-            className={`cursor-pointer rounded-lg p-2 transition-colors ${
-              viewMode === "grid"
-                ? "bg-primary text-white shadow-xs"
-                : "text-foreground hover:text-primary"
-            }`}
-          >
-            <LayoutGrid className="size-4" aria-hidden="true" />
-          </button>
-          <button
-            type="button"
-            onClick={() => onViewChange("list")}
-            aria-label={t("listView", { defaultValue: "List view" })}
-            className={`cursor-pointer rounded-lg p-2 transition-colors ${
-              viewMode === "list"
-                ? "bg-primary text-white shadow-xs"
-                : "text-foreground hover:text-primary"
-            }`}
-          >
-            <List className="size-4" aria-hidden="true" />
-          </button>
-        </div>
-
         {/* Dropdown de Destino */}
         <div className="relative">
           <select

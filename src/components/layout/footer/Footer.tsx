@@ -65,7 +65,7 @@ export async function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={label}
-                    className="text-primary hover:bg-primary flex size-8 items-center justify-center rounded-full bg-[#E9F6F9] text-sm transition-colors duration-300 hover:text-white"
+                    className="text-primary hover:bg-primary flex size-10 items-center justify-center rounded-full bg-[#E9F6F9] text-sm transition-colors duration-300 hover:text-white"
                   >
                     <Icon aria-hidden="true" />
                   </a>

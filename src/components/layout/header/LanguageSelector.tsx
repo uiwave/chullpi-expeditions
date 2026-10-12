@@ -1,12 +1,11 @@
 "use client";
 
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { ChevronDown } from "lucide-react";
 import { LANGUAGE_OPTIONS } from "@/data/language";
 
 export default function LanguageSelector() {
-  const t = useTranslations("header");
   const router = useRouter();
   const pathName = usePathname();
   const searchParams = useSearchParams();

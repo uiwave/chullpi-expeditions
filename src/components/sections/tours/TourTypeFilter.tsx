@@ -59,7 +59,7 @@ export default function TourTypeFilter({ counts }: TourTypeFilterProps) {
                 href={buildHref(item.value)}
                 aria-current={isActive ? "true" : undefined}
                 className={cn(
-                  "text-foreground hover:text-primary group flex items-center justify-between py-1 transition-colors",
+                  "text-foreground hover:text-primary group flex items-center justify-between py-2.5 transition-colors",
                   isActive && "text-primary font-semibold",
                 )}
               >

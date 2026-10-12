@@ -13,7 +13,9 @@
     "bookNow": "Reservar agora",
     "contactUs": "Fale conosco",
     "whatsAppUs": "Consultar pelo WhatsApp",
-    "noResults": "Nenhum resultado encontrado."
+    "noResults": "Nenhum resultado encontrado.",
+    "previousSlide": "Slide anterior",
+    "nextSlide": "Próximo slide"
   },
   "header": {
     "nav": {
@@ -70,7 +72,8 @@
     },
     "destinations": {
       "subtitle": "Lugares Incríveis",
-      "title": "Explore Nossos Destinos em Destaque"
+      "title": "Explore Nossos Destinos em Destaque",
+      "goToSlide": "Ir para o slide {n}"
     },
     "gallery": {
       "subtitle": "Momentos Registrados",
@@ -78,7 +81,8 @@
     },
     "testimonials": {
       "subtitle": "Histórias Reais",
-      "title": "O Que Dizem Quem Já Viajou Conosco"
+      "title": "O Que Dizem Quem Já Viajou Conosco",
+      "ratingAria": "Avaliação: {rating} de 5 estrelas"
     }
   },
   "about": {
@@ -171,6 +175,35 @@
   "airbnb": {
     "hero": {
       "title": "Encontre Seu Lar Longe de Casa"
+    },
+    "intro": {
+      "subtitle": "Hospedagem",
+      "title": "Seu lar em Cusco",
+      "description": "Complemente sua expedição com uma estadia confortável. Selecionamos hospedagens em localizações privilegiadas de Cusco e da região, com toda a comodidade de um lar longe de casa."
+    },
+    "features": {
+      "locations": {
+        "title": "Localizações privilegiadas",
+        "description": "A poucos minutos da Plaza de Armas e dos principais pontos de interesse de Cusco."
+      },
+      "homes": {
+        "title": "Casas e apartamentos completos",
+        "description": "Espaços inteiros para você aproveitar a viagem com total privacidade e liberdade."
+      },
+      "hosts": {
+        "title": "Anfitriões locais",
+        "description": "Atendimento personalizado de pessoas que conhecem a cidade e seus arredores."
+      },
+      "support": {
+        "title": "Suporte durante sua estadia",
+        "description": "Estamos com você antes, durante e depois da sua visita pelo WhatsApp."
+      }
+    },
+    "cta": {
+      "title": "Pronto para planejar sua estadia?",
+      "description": "Escreva para nós e ajudaremos você a escolher a hospedagem ideal para sua viagem a Cusco.",
+      "whatsapp": "Consultar pelo WhatsApp",
+      "contact": "Fale conosco"
     }
   },
   "contact": {
@@ -210,5 +243,15 @@
     "address": "Cusco, Peru",
     "instagramTitle": "Instagram",
     "copyright": "Todos os direitos reservados."
+  },
+  "meta": {
+    "template": "%s | Chullpi - Expeditions",
+    "default": "Chullpi - Expeditions - Tours e Expedições no Peru",
+    "description": "Explore tours para Machu Picchu, Vale Sagrado, Montanha Arco-Íris e mais. Expedições personalizadas a partir de Cusco, Peru.",
+    "home": "Tours e Expedições no Peru",
+    "about": "Sobre Nós",
+    "contact": "Contato",
+    "tours": "Tours e Pacotes",
+    "airbnb": "Hospedagem em Cusco"
   }
 }

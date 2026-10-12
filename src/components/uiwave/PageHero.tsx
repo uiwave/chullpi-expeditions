@@ -6,7 +6,7 @@ interface PageHeaderProps {
 
 export default function HeroSection({
   title,
-  bgImage = "/images/hero/hero_bg_1_1.jpg",
+  bgImage = "/images/bg/hero-bg.webp",
 }: PageHeaderProps) {
   return (
     <section

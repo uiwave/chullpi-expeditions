@@ -6,6 +6,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
 
@@ -36,20 +38,27 @@ export default function PopularToursSection({ tours }: Props) {
           description={t("description")}
           className="text-center"
         />
-        <Carousel
-          opts={{
-            align: "start",
-          }}
-          className="w-full"
-        >
-          <CarouselContent>
-            {popularTours.map((tour) => (
-              <CarouselItem key={tour.slug} className="basis-1/1 lg:basis-1/4">
-                <TourCardPopular data={tour} />
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-        </Carousel>
+        <div className="px-12 sm:px-16">
+          <Carousel
+            opts={{
+              align: "start",
+            }}
+            className="w-full"
+          >
+            <CarouselContent>
+              {popularTours.map((tour) => (
+                <CarouselItem
+                  key={tour.slug}
+                  className="basis-1/1 lg:basis-1/4"
+                >
+                  <TourCardPopular data={tour} />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="size-10 sm:size-11" />
+            <CarouselNext className="size-10 sm:size-11" />
+          </Carousel>
+        </div>
       </div>
     </section>
   );

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { CircleCheck, CircleX, Clock } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import ItineraryTabs from "@/components/sections/tours/ItineraryTabs";
+import ItineraryDay from "@/components/sections/tours/ItineraryDay";
 import BookingSidebar from "@/components/sections/tours/BookingSidebar";
 import SimilarTours from "@/components/sections/tours/SimilarTours";
 import { cn } from "cn";
@@ -14,6 +15,7 @@ import {
   isLocale,
   type Locale,
 } from "@/i18n/tours";
+import type { Metadata } from "next";
 
 interface Props {
   params: Promise<{ slug: string; locale: string }>;
@@ -22,6 +24,34 @@ interface Props {
 export async function generateStaticParams() {
   const slugs = await getTourSlugs();
   return slugs.map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug, locale } = await params;
+
+  if (!isLocale(locale)) {
+    return {};
+  }
+
+  const tour = await getTourBySlug(slug, locale);
+
+  if (!tour) {
+    return {};
+  }
+
+  const description = tour.description
+    ? tour.description.split(/\n+/)[0].slice(0, 160)
+    : undefined;
+
+  return {
+    title: tour.title,
+    description,
+    openGraph: {
+      title: tour.title,
+      description,
+      images: [{ url: `/images/${tour.image}` }],
+    },
+  };
 }
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
@@ -177,7 +207,12 @@ export default async function TourDetailPage({ params }: Props) {
                 {tour.itinerary.length > 1 ? (
                   <ItineraryTabs days={tour.itinerary} />
                 ) : (
-                  <CheckList items={tour.itinerary[0].items} />
+                  <>
+                    <h3 className="text-secondary font-heading mb-4 text-xl font-semibold">
+                      {tour.itinerary[0].title}
+                    </h3>
+                    <ItineraryDay day={tour.itinerary[0]} />
+                  </>
                 )}
               </section>
             ) : null}

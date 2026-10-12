@@ -4,7 +4,7 @@ export const siteConfig = {
   contact: {
     phone: 940468520,
     email: "reservas@chullpiexpeditions.com",
-    address: "asds",
+    address: "Cusco, Perú",
   },
 
   social: {

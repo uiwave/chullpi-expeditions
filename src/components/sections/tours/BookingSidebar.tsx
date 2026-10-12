@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { ArrowRight, Send, X } from "lucide-react";
 import { cn } from "cn";
@@ -23,14 +23,50 @@ export default function BookingSidebar({
   const tCommon = useTranslations("common");
   const [open, setOpen] = useState(false);
   const [minDate, setMinDate] = useState<string | undefined>(undefined);
+  const dialogRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!open) return;
+
+    const previouslyFocused = document.activeElement as HTMLElement | null;
+    document.getElementById("booking-name")?.focus();
+
     const handleKey = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setOpen(false);
+      if (event.key === "Escape") {
+        setOpen(false);
+        return;
+      }
+      if (event.key !== "Tab") return;
+
+      const dialog = dialogRef.current;
+      if (!dialog) return;
+      const items = Array.from(
+        dialog.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+        ),
+      );
+      if (items.length === 0) return;
+
+      const first = items[0];
+      const last = items[items.length - 1];
+      const active = document.activeElement;
+
+      if (event.shiftKey) {
+        if (active === first || !dialog.contains(active)) {
+          event.preventDefault();
+          last.focus();
+        }
+      } else if (active === last || !dialog.contains(active)) {
+        event.preventDefault();
+        first.focus();
+      }
     };
-    window.addEventListener("keydown", handleKey);
-    return () => window.removeEventListener("keydown", handleKey);
+
+    document.addEventListener("keydown", handleKey);
+    return () => {
+      document.removeEventListener("keydown", handleKey);
+      previouslyFocused?.focus();
+    };
   }, [open]);
 
   useEffect(() => {
@@ -92,6 +128,7 @@ export default function BookingSidebar({
             aria-hidden="true"
           />
           <div
+            ref={dialogRef}
             role="dialog"
             aria-modal="true"
             aria-labelledby="booking-modal-title"
@@ -111,7 +148,7 @@ export default function BookingSidebar({
                 type="button"
                 onClick={() => setOpen(false)}
                 aria-label={t("closeAria")}
-                className="text-foreground hover:text-primary -mt-1 -mr-1 inline-flex size-9 shrink-0 cursor-pointer items-center justify-center rounded-full transition-colors"
+                className="text-foreground hover:text-primary -mt-1 -mr-1 inline-flex size-10 shrink-0 cursor-pointer items-center justify-center rounded-full transition-colors"
               >
                 <X className="size-5" aria-hidden="true" />
               </button>

@@ -1,15 +1,7 @@
 import Button from "@/components/uiwave/Button";
 import Heading from "@/components/uiwave/Heading";
 import { ROUTES } from "@/config/routes";
-import { Link } from "@/i18n/navigation";
-import {
-  ArrowUpRight,
-  MapPin,
-  Sparkles,
-  Compass,
-  ArrowRight,
-  Users,
-} from "lucide-react";
+import { MapPin, Compass } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 

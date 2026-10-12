@@ -23,15 +23,6 @@ export default function DestinationsSection() {
     [key: number]: { transform: string };
   }>({});
 
-  // Garantizamos suficientes elementos para que Embla ejecute el LOOP sin importar la pantalla
-  const displayCategories =
-    DESTINATIONS.length < 10
-      ? [...DESTINATIONS, ...DESTINATIONS].map((item, idx) => ({
-          ...item,
-          uniqueKey: `${item.id}-${idx}`,
-        }))
-      : DESTINATIONS.map((item) => ({ ...item, uniqueKey: item.id }));
-
   const updateArcLayout = useCallback(() => {
     if (!containerRef.current || !api) return;
 
@@ -47,7 +38,7 @@ export default function DestinationsSection() {
       const itemCenter = itemRect.left + itemRect.width / 2;
 
       // Distancia horizontal en px desde el centro de la pantalla
-      let distanceFromCenter = itemCenter - containerCenter;
+      const distanceFromCenter = itemCenter - containerCenter;
 
       // Ancho aproximado de la tarjeta
       const itemWidth = itemRect.width || 1;
@@ -132,18 +123,24 @@ export default function DestinationsSection() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <div className="flex items-center justify-center gap-3">
+          <div className="flex items-center justify-center gap-1">
             {DESTINATIONS.map((_, idx) => (
               <button
                 key={idx}
+                type="button"
                 onClick={() => api?.scrollTo(idx)}
-                className={`size-2.5 rounded-full transition-all duration-300 ${
-                  selectedIndex === idx
-                    ? "bg-primary scale-125"
-                    : "border-primary/40 border bg-transparent"
-                }`}
-                aria-label={`Go to slide ${idx + 1}`}
-              />
+                className="flex size-10 cursor-pointer items-center justify-center"
+                aria-label={t("goToSlide", { n: idx + 1 })}
+                aria-current={selectedIndex === idx || undefined}
+              >
+                <span
+                  className={`size-2.5 rounded-full transition-all duration-300 ${
+                    selectedIndex === idx
+                      ? "bg-primary scale-125"
+                      : "border-primary/40 border bg-transparent"
+                  }`}
+                />
+              </button>
             ))}
           </div>
         </Carousel>

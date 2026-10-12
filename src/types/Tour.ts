@@ -1,6 +1,13 @@
+export interface ItineraryBlock {
+  text: string;
+  items?: string[];
+  blocks?: ItineraryBlock[];
+}
+
 export interface TourItineraryDay {
-  day: string;
-  items: string[];
+  title: string;
+  subtitle?: string;
+  paragraphs: ItineraryBlock[];
 }
 
 export interface TourAdditional {

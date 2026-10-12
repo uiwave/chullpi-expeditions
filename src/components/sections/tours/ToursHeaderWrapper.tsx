@@ -15,8 +15,6 @@ export default function ToursHeaderWrapper() {
   const urlDestino = searchParams.get("destino") ?? "";
 
   const [searchQuery, setSearchQuery] = useState(urlQ);
-  const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
-  const [sortBy, setSortBy] = useState("default");
 
   const urlQRef = useRef(urlQ);
   const searchParamsRef = useRef(searchParams);
@@ -96,10 +94,6 @@ export default function ToursHeaderWrapper() {
       searchQuery={searchQuery}
       onSearchChange={setSearchQuery}
       onSearchSubmit={handleSearchSubmit}
-      viewMode={viewMode}
-      onViewChange={setViewMode}
-      sortBy={sortBy}
-      onSortChange={setSortBy}
       destination={urlDestino}
       onDestinationChange={handleDestinationChange}
     />

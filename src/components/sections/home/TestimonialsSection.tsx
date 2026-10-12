@@ -7,6 +7,8 @@ import {
   CarouselApi,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useTranslations } from "next-intl";
 import Heading from "@/components/uiwave/Heading";
@@ -25,25 +27,27 @@ export default function TestimonialsSection() {
 
   useEffect(() => {
     if (!api) return;
-    onSelect();
+    const frame = requestAnimationFrame(() => onSelect());
     api.on("select", onSelect);
     api.on("reInit", onSelect);
     return () => {
+      cancelAnimationFrame(frame);
       api.off("select", onSelect);
+      api.off("reInit", onSelect);
     };
   }, [api, onSelect]);
 
   return (
-    <section className="relative w-full overflow-hidden ">
+    <section className="relative w-full overflow-hidden">
       <div className="uw-container relative z-10">
         <Heading
           subtitle={t("subtitle")}
           title={t("title")}
-          className="text-center mb-0"
+          className="mb-0 text-center"
         />
       </div>
 
-      <div className="relative w-full">
+      <div className="relative w-full px-12 sm:px-16">
         <Carousel
           setApi={setApi}
           opts={{
@@ -62,10 +66,11 @@ export default function TestimonialsSection() {
                   className="flex basis-full pl-4 md:basis-1/2 md:pl-8 lg:basis-1/3"
                 >
                   <article
-                    className={`relative flex w-full flex-col justify-between rounded-2xl bg-[#eaf6f9] p-6 transition-all duration-500 ease-out sm:p-8 ${isActive
-                      ? "z-10 -translate-y-8 opacity-100 lg:-translate-y-12"
-                      : "translate-y-6 opacity-90 lg:opacity-75"
-                      }`}
+                    className={`relative flex w-full flex-col justify-between rounded-2xl bg-[#eaf6f9] p-6 transition-all duration-500 ease-out sm:p-8 ${
+                      isActive
+                        ? "z-10 -translate-y-8 opacity-100 lg:-translate-y-12"
+                        : "translate-y-6 opacity-90 lg:opacity-75"
+                    }`}
                   >
                     <div className="flex flex-1 flex-col">
                       <div className="mb-6 flex items-center justify-between gap-4">
@@ -88,7 +93,7 @@ export default function TestimonialsSection() {
 
                         <div
                           className="flex shrink-0 items-center gap-1 text-amber-400"
-                          aria-label={`Calificación: ${item.rating} de 5 estrellas`}
+                          aria-label={t("ratingAria", { rating: item.rating })}
                         >
                           {Array.from({ length: item.rating }).map((_, i) => (
                             <Star
@@ -108,14 +113,13 @@ export default function TestimonialsSection() {
                     </div>
                     <div className="absolute -bottom-7 left-1/2 z-20 -translate-x-1/2">
                       <div
-                        className={`dark:border-background flex size-14 shrink-0 items-center justify-center rounded-full border-4 border-white shadow-md transition-colors duration-500 select-none sm:size-16 ${isActive
-                          ? "bg-primary text-primary-foreground"
-                          : "text-primary border-transparent bg-white"
-                          }`}
+                        className={`dark:border-background flex size-14 shrink-0 items-center justify-center rounded-full border-4 border-white shadow-md transition-colors duration-500 select-none sm:size-16 ${
+                          isActive
+                            ? "bg-primary text-primary-foreground"
+                            : "text-primary border-transparent bg-white"
+                        }`}
                       >
-                        <Quote
-                          className="size-7 fill-current sm:size-8"
-                        />
+                        <Quote className="size-7 fill-current sm:size-8" />
                       </div>
                     </div>
                   </article>
@@ -123,6 +127,8 @@ export default function TestimonialsSection() {
               );
             })}
           </CarouselContent>
+          <CarouselPrevious className="size-10 sm:size-11" />
+          <CarouselNext className="size-10 sm:size-11" />
         </Carousel>
       </div>
     </section>

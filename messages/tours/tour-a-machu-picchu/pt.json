@@ -19,21 +19,47 @@
   ],
   "itinerary": [
     {
-      "day": "Manhã",
-      "items": [
-        "Recolha no seu hotel entre as 4h00 e 4h30",
-        "Transferência privada para a estação de trem em Ollantaytambo ou Poroy",
-        "Viagem de trem panorâmico com café da manhã a bordo até Aguas Calientes",
-        "Subida de ônibus pela estrada sinuosa até a cidadela"
+      "title": "Manhã",
+      "subtitle": "Cusco → Aguas Calientes → Machu Picchu",
+      "paragraphs": [
+        {
+          "text": "O dia começa muito cedo com a coleta no seu hotel e o deslocamento para a estação de trem até a cidadela inca.",
+          "items": [
+            "Recolha no seu hotel entre as 4h00 e 4h30",
+            "Transferência privada para a estação de trem em Ollantaytambo ou Poroy",
+            "Viagem de trem panorâmico com café da manhã a bordo até Aguas Calientes",
+            "Subida de ônibus pela estrada sinuosa até a cidadela"
+          ]
+        },
+        {
+          "text": "Uma vez dentro da cidadela, começa o passeio guiado pelos principais templos e praças.\nDurante o passeio você terá tempo para fotos nos mirantes oficiais.",
+          "items": [
+            "Entrada em Machu Picchu e passeio guiado de aproximadamente 2 horas"
+          ],
+          "blocks": [
+            {
+              "text": "Destaques do passeio:",
+              "items": [
+                "Praça Principal e Intihuatana",
+                "Templo do Sol e Templo das Três Janelas"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "day": "Tarde",
-      "items": [
-        "Entrada em Machu Picchu e passeio guiado de aproximadamente 2 horas",
-        "Tempo livre para fotos no Portão do Sol e nos mirantes",
-        "Descida de ônibus até Aguas Calientes e almoço livre",
-        "Retorno de trem para Cusco e transferência ao seu hotel"
+      "title": "Tarde",
+      "subtitle": "Retorno a Cusco",
+      "paragraphs": [
+        {
+          "text": "Após o passeio você terá tempo livre para almoçar em Aguas Calientes e comprar lembranças antes de voltar.",
+          "items": [
+            "Tempo livre para fotos no Portão do Sol e nos mirantes",
+            "Descida de ônibus até Aguas Calientes e almoço livre",
+            "Retorno de trem para Cusco e transferência ao seu hotel"
+          ]
+        }
       ]
     }
   ],
