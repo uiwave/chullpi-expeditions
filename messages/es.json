@@ -144,6 +144,7 @@
       "overview": "Resumen de la experiencia",
       "itinerary": "Itinerario detallado",
       "shortItinerary": "Itinerario corto",
+      "similarTours": "Tours similares",
       "included": "Qué incluye",
       "notIncluded": "Qué no incluye",
       "recommendations": "Qué llevar",
@@ -153,7 +154,16 @@
         "selectDate": "Selecciona la fecha",
         "travelers": "Número de personas",
         "total": "Total a pagar",
-        "inquireWhatsApp": "Consultar disponibilidad"
+        "inquireWhatsApp": "Consultar disponibilidad",
+        "bookButton": "Reservar",
+        "tourLabel": "Tour",
+        "nameLabel": "Nombre y apellidos",
+        "emailLabel": "Correo electrónico",
+        "whatsappLabel": "Número de WhatsApp",
+        "messageLabel": "Mensaje",
+        "messagePlaceholder": "Cuéntanos tus dudas o requerimientos especiales (opcional)",
+        "submitButton": "Enviar por WhatsApp",
+        "closeAria": "Cerrar formulario de reserva"
       },
       "additionals": "Servicios adicionales"
     }

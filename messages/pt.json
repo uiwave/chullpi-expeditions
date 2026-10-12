@@ -144,6 +144,7 @@
       "overview": "Resumo da experiência",
       "itinerary": "Itinerário detalhado",
       "shortItinerary": "Roteiro resumido",
+      "similarTours": "Passeios parecidos",
       "included": "O que está incluído",
       "notIncluded": "O que não está incluído",
       "recommendations": "O que levar",
@@ -153,7 +154,16 @@
         "selectDate": "Selecione a data",
         "travelers": "Número de pessoas",
         "total": "Total a pagar",
-        "inquireWhatsApp": "Consultar disponibilidade"
+        "inquireWhatsApp": "Consultar disponibilidade",
+        "bookButton": "Reservar",
+        "tourLabel": "Passeio",
+        "nameLabel": "Nome e sobrenome",
+        "emailLabel": "E-mail",
+        "whatsappLabel": "Número do WhatsApp",
+        "messageLabel": "Mensagem",
+        "messagePlaceholder": "Conte suas dúvidas ou necessidades especiais (opcional)",
+        "submitButton": "Enviar por WhatsApp",
+        "closeAria": "Fechar formulário de reserva"
       },
       "additionals": "Serviços adicionais"
     }

@@ -4,9 +4,12 @@ import { notFound } from "next/navigation";
 import { CircleCheck, CircleX, Clock } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import ItineraryTabs from "@/components/sections/tours/ItineraryTabs";
+import BookingSidebar from "@/components/sections/tours/BookingSidebar";
+import SimilarTours from "@/components/sections/tours/SimilarTours";
 import { cn } from "cn";
 import {
   getTourBySlug,
+  getTours,
   getTourSlugs,
   isLocale,
   type Locale,
@@ -81,6 +84,25 @@ export default async function TourDetailPage({ params }: Props) {
   const paragraphs = tour.description ? tour.description.split(/\n+/) : [];
   const hasIncluded = Boolean(tour.included?.length);
   const hasNotIncluded = Boolean(tour.notIncluded?.length);
+
+  const allTours = await getTours(locale);
+  const others = allTours.filter((item) => item.slug !== tour.slug);
+  const seen = new Set<string>();
+  const similar: typeof allTours = [];
+  const collect = (list: typeof allTours) => {
+    for (const item of list) {
+      if (similar.length >= 3) return;
+      if (!seen.has(item.slug)) {
+        seen.add(item.slug);
+        similar.push(item);
+      }
+    }
+  };
+  collect(others.filter((item) => item.destination === tour.destination));
+  collect(others.filter((item) => item.typeKey === tour.typeKey));
+  collect(
+    [...others].sort((a, b) => Number(b.popular) - Number(a.popular)),
+  );
 
   return (
     <>
@@ -226,7 +248,10 @@ export default async function TourDetailPage({ params }: Props) {
             ) : null}
           </div>
 
-          <div className="lg:sticky lg:top-24 lg:col-span-4"></div>
+          <aside className="space-y-6 lg:sticky lg:top-24 lg:col-span-4">
+            <BookingSidebar tourTitle={tour.title} price={tour.price} />
+            <SimilarTours tours={similar} />
+          </aside>
         </div>
       </div>
     </>

@@ -144,6 +144,7 @@
       "overview": "Experience overview",
       "itinerary": "Detailed itinerary",
       "shortItinerary": "Short itinerary",
+      "similarTours": "Similar tours",
       "included": "What's included",
       "notIncluded": "What's not included",
       "recommendations": "What to bring",
@@ -153,7 +154,16 @@
         "selectDate": "Select date",
         "travelers": "Number of guests",
         "total": "Total amount",
-        "inquireWhatsApp": "Check availability"
+        "inquireWhatsApp": "Check availability",
+        "bookButton": "Book now",
+        "tourLabel": "Tour",
+        "nameLabel": "Full name",
+        "emailLabel": "Email address",
+        "whatsappLabel": "WhatsApp number",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Tell us your questions or special requirements (optional)",
+        "submitButton": "Send via WhatsApp",
+        "closeAria": "Close booking form"
       },
       "additionals": "Additional services"
     }
