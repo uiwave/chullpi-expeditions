@@ -10,9 +10,17 @@ export interface TourItineraryDay {
   paragraphs: ItineraryBlock[];
 }
 
-export interface TourAdditional {
+export interface AdditionalItem {
   name: string;
   price?: string;
+  description?: string;
+  blocks?: AdditionalItem[];
+}
+
+export interface TourAdditionalGroup {
+  title?: string;
+  subtitle?: string;
+  items: AdditionalItem[];
 }
 
 export interface Tour {
@@ -31,5 +39,5 @@ export interface Tour {
   included?: string[];
   notIncluded?: string[];
   recommendations?: string[];
-  additionals?: TourAdditional[];
+  additionals?: TourAdditionalGroup[];
 }

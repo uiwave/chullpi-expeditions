@@ -57,5 +57,31 @@
     "Mochila de 25 litros para las caminatas diarias",
     "Gorro y guantes para el frío",
     "Cubremochila impermeable y poncho de lluvia."
+  ],
+  "additionals": [
+    {
+      "title": "Restricciones",
+      "items": [
+        {
+          "description": "No permitido para personas con problemas producidos por la altitud, no permitido para embarazadas y edad mínima requerida de 12 años."
+        }
+      ]
+    },
+    {
+      "title": "Política de anulación y reprogramación",
+      "items": [
+        {
+          "description": "3 días"
+        }
+      ]
+    },
+    {
+      "title": "Clima",
+      "items": [
+        {
+          "description": "Sujeto a condiciones meteorológicas."
+        }
+      ]
+    }
   ]
 }

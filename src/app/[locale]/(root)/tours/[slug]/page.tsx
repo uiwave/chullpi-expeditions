@@ -5,6 +5,7 @@ import { CircleCheck, CircleX, Clock } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import ItineraryTabs from "@/components/sections/tours/ItineraryTabs";
 import ItineraryDay from "@/components/sections/tours/ItineraryDay";
+import AdditionalList from "@/components/sections/tours/AdditionalList";
 import BookingSidebar from "@/components/sections/tours/BookingSidebar";
 import SimilarTours from "@/components/sections/tours/SimilarTours";
 import { cn } from "cn";
@@ -259,27 +260,7 @@ export default async function TourDetailPage({ params }: Props) {
             {tour.additionals?.length ? (
               <section className="mb-12">
                 <SectionTitle>{t("additionals")}</SectionTitle>
-                <ul className="space-y-2.5">
-                  {tour.additionals.map((extra) => (
-                    <li
-                      key={extra.name}
-                      className="text-foreground relative pl-10 text-lg leading-7"
-                    >
-                      <CircleCheck
-                        className="text-primary absolute top-0.5 left-0 size-6"
-                        aria-hidden="true"
-                      />
-                      <span className="flex items-baseline justify-between gap-4">
-                        <span>{extra.name}</span>
-                        {extra.price ? (
-                          <span className="text-primary font-semibold">
-                            {extra.price}
-                          </span>
-                        ) : null}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
+                <AdditionalList groups={tour.additionals} />
               </section>
             ) : null}
           </div>

@@ -87,13 +87,32 @@
   ],
   "additionals": [
     {
-      "name": "Huayna Picchu entrance"
+      "title": "Official tickets",
+      "items": [
+        {
+          "name": "Huayna Picchu entrance"
+        },
+        {
+          "name": "Machu Picchu Mountain entrance"
+        }
+      ]
     },
     {
-      "name": "Machu Picchu Mountain entrance"
-    },
-    {
-      "name": "Typical lunch in Aguas Calientes"
+      "title": "Experiences in Aguas Calientes",
+      "items": [
+        {
+          "name": "Typical lunch in Aguas Calientes",
+          "description": "Typical Andean buffet in the heart of Aguas Calientes.\nVegetarian and gluten-free options available.",
+          "blocks": [
+            {
+              "name": "Unlimited hot drinks"
+            },
+            {
+              "name": "Homemade dessert"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

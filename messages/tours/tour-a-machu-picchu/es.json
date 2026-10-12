@@ -87,13 +87,32 @@
   ],
   "additionals": [
     {
-      "name": "Entrada a Huayna Picchu"
+      "title": "Entradas oficiales",
+      "items": [
+        {
+          "name": "Entrada a Huayna Picchu"
+        },
+        {
+          "name": "Entrada a Montaña Machu Picchu"
+        }
+      ]
     },
     {
-      "name": "Entrada a Montaña Machu Picchu"
-    },
-    {
-      "name": "Almuerzo típico en Aguas Calientes"
+      "title": "Experiencias en Aguas Calientes",
+      "items": [
+        {
+          "name": "Almuerzo típico en Aguas Calientes",
+          "description": "Buffet típico andino en el centro de Aguas Calientes.\nOpciones vegetarianas y sin gluten disponibles.",
+          "blocks": [
+            {
+              "name": "Bebidas calientes ilimitadas"
+            },
+            {
+              "name": "Postre de la casa"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
