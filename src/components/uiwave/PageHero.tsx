@@ -11,7 +11,7 @@ export default function HeroSection({
   return (
     <section
       aria-labelledby="page-header-title"
-      className="relative flex min-h-75 w-full items-center justify-center overflow-hidden text-white sm:min-h-90 lg:min-h-105"
+      className="relative flex min-h-[50dvh] w-full items-center justify-center overflow-hidden pt-[118px] text-white sm:pt-[126px] xl:pt-[138px]"
     >
       {/* Imagen de Fondo Optimizada */}
       <Image
