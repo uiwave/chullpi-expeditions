@@ -16,7 +16,7 @@ function InfoCard({ icon: Icon, title, children }: InfoCardProps) {
         <Icon className="size-6 sm:size-7" aria-hidden="true" />
       </div>
       <div className="flex flex-col">
-        <h3 className="font-heading text-secondary mb-1 text-lg font-bold sm:text-xl">
+        <h3 className="font-heading text-secondary mb-1 text-xl font-semibold">
           {title}
         </h3>
         {children}
@@ -29,7 +29,7 @@ export default function Info() {
   const t = useTranslations("contact.info");
 
   return (
-    <section className="relative w-full pt-16 pb-12 lg:pt-30 lg:pb-20">
+    <section className="relative w-full bg-[#F4F9FA] pt-16 pb-12 lg:pt-30 lg:pb-20">
       <div className="uw-container relative z-10">
         <Heading
           subtitle={t("subtitle")}
@@ -44,7 +44,7 @@ export default function Info() {
           <InfoCard icon={Phone} title={t("phoneTitle")}>
             <a
               href={`tel:+51${siteConfig.contact.phone}`}
-              className="text-foreground hover:text-primary block text-sm leading-snug transition-colors sm:text-base"
+              className="text-foreground hover:text-primary block text-base leading-relaxed transition-colors"
             >
               +51 {siteConfig.contact.phone}
             </a>

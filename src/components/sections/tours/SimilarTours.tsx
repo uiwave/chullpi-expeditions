@@ -36,10 +36,10 @@ export default async function SimilarTours({ tours }: SimilarToursProps) {
                 />
               </div>
               <div className="min-w-0">
-                <h3 className="text-secondary group-hover:text-primary line-clamp-2 text-sm font-medium transition-colors">
+                <h3 className="text-secondary group-hover:text-primary font-heading line-clamp-2 text-base font-medium transition-colors">
                   {tour.title}
                 </h3>
-                <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">
+                <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
                   <span className="text-primary font-semibold">
                     ${tour.price}
                   </span>

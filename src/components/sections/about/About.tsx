@@ -95,10 +95,10 @@ export default function About() {
                       <IconComponent className="size-6" />
                     </div>
                     <div>
-                      <h3 className="font-heading text-secondary mb-1 text-lg font-bold sm:text-xl">
+                      <h3 className="font-heading text-secondary mb-1 text-xl font-semibold">
                         {t(item.title)}
                       </h3>
-                      <p className="text-foreground/90 text-sm leading-snug sm:text-base">
+                      <p className="text-foreground/90 text-base leading-relaxed">
                         {t(item.description)}
                       </p>
                     </div>

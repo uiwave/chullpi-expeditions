@@ -64,7 +64,7 @@ export default async function AirbnbPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="relative w-full py-12 lg:py-20">
+      <section className="relative w-full bg-[#F4F9FA] py-12 lg:py-20">
         <div className="uw-container">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
             {FEATURES.map(({ key, icon: Icon }) => (
@@ -75,10 +75,10 @@ export default async function AirbnbPage({ params }: Props) {
                 <div className="bg-primary/10 text-primary flex size-14 shrink-0 items-center justify-center rounded-full">
                   <Icon className="size-6" aria-hidden="true" />
                 </div>
-                <h3 className="font-heading text-secondary text-lg font-bold">
+                <h3 className="font-heading text-secondary text-xl font-semibold">
                   {t(`features.${key}.title`)}
                 </h3>
-                <p className="text-foreground text-sm leading-relaxed sm:text-base">
+                <p className="text-foreground text-base leading-relaxed">
                   {t(`features.${key}.description`)}
                 </p>
               </div>
@@ -88,8 +88,12 @@ export default async function AirbnbPage({ params }: Props) {
       </section>
 
       <section className="bg-secondary relative w-full overflow-hidden py-16 text-white lg:py-24">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-40"
+        />
         <div className="uw-container relative z-10 flex flex-col items-center text-center">
-          <h2 className="font-heading mb-4 text-[clamp(1.75rem,1.4rem+1.5vw,2.5rem)] leading-[1.4] font-semibold">
+          <h2 className="font-heading mb-4 text-[clamp(1.75rem,1.254rem+2.116vw,3rem)] leading-snug font-bold">
             {t("cta.title")}
           </h2>
           <p className="mb-8 max-w-2xl text-white/80">{t("cta.description")}</p>

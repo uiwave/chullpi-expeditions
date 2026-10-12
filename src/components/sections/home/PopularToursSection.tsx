@@ -36,7 +36,7 @@ export default function PopularToursSection({ tours }: Props) {
           description={t("description")}
           className="text-center"
         />
-        <div >
+        <div>
           <Carousel
             opts={{
               align: "start",

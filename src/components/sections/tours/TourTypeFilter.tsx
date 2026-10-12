@@ -43,7 +43,7 @@ export default function TourTypeFilter({ counts }: TourTypeFilterProps) {
   return (
     <div className="dark:bg-secondary/10 border-border/60 rounded-2xl border bg-white p-6 shadow-xs">
       <div className="relative mb-6 pb-2">
-        <h2 className="font-heading text-secondary text-xl font-bold">
+        <h2 className="font-heading text-secondary text-xl font-semibold">
           {t("searchAndFilter.filterByType")}
         </h2>
         <span className="bg-primary absolute bottom-0 left-0 h-0.5 w-12 rounded-full" />
@@ -60,7 +60,7 @@ export default function TourTypeFilter({ counts }: TourTypeFilterProps) {
                 aria-current={isActive ? "true" : undefined}
                 className={cn(
                   "text-foreground hover:text-primary group flex items-center justify-between py-2.5 transition-colors",
-                  isActive && "text-primary font-semibold",
+                  isActive && "text-primary",
                 )}
               >
                 <div className="flex items-center gap-2.5">

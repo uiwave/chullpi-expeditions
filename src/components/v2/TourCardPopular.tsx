@@ -27,12 +27,12 @@ export default function TourCardPopular({ data }: Props) {
       </div>
 
       <div className="flex flex-col gap-4 p-6">
-        <h3 className="group-hover:text-primary line-clamp-2 text-lg leading-snug font-medium transition-colors">
+        <h3 className="font-heading group-hover:text-primary line-clamp-2 text-xl leading-snug font-semibold transition-colors">
           {data.title}
         </h3>
 
         <div className="flex items-baseline gap-1">
-          <span className="text-2xl font-medium">${data.price}</span>
+          <span className="text-xl font-medium">${data.price}</span>
           <span className="text-lg font-normal">/{t("perPerson")}</span>
         </div>
 

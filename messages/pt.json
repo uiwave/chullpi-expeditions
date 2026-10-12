@@ -228,6 +228,7 @@
       "successMessage": "Obrigado! Sua mensagem foi enviada com sucesso. Responderemos em breve.",
       "errorMessage": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente ou fale conosco pelo WhatsApp.",
       "playVideo": "Reproduzir vídeo promocional",
+      "closeVideo": "Fechar vídeo",
       "fields": {
         "firstName": "Nome completo",
         "email": "E-mail",

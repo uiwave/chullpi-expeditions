@@ -100,9 +100,7 @@ export default function BookingSidebar({
     <>
       <div className="bg-card border-border rounded-2xl border p-6">
         <div className="mb-5 flex items-baseline gap-1">
-          <span className="text-primary text-[28px] font-semibold">
-            ${price}
-          </span>
+          <span className="text-primary text-2xl font-semibold">${price}</span>
           <span className="text-foreground text-base">
             /{tCommon("perPerson")}
           </span>
@@ -113,7 +111,7 @@ export default function BookingSidebar({
           className="bg-secondary group relative inline-flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full px-7 py-[14px]"
         >
           <div className="bg-primary absolute inset-0 -translate-x-full rounded-full transition-transform duration-300 ease-out group-hover:translate-x-0" />
-          <span className="relative z-10 inline-flex items-center gap-2 text-base font-normal text-white">
+          <span className="relative z-10 inline-flex items-center gap-2 text-base font-medium text-white">
             {t("bookButton")}
             <ArrowRight className="size-5" aria-hidden="true" />
           </span>
@@ -138,7 +136,7 @@ export default function BookingSidebar({
               <div>
                 <h2
                   id="booking-modal-title"
-                  className="text-secondary font-heading text-2xl font-bold"
+                  className="text-secondary font-heading text-2xl font-semibold"
                 >
                   {t("title")}
                 </h2>
@@ -249,7 +247,7 @@ export default function BookingSidebar({
                   className="bg-secondary group relative inline-flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full px-8 py-[14px]"
                 >
                   <div className="bg-primary absolute inset-0 -translate-x-full rounded-full transition-transform duration-300 ease-out group-hover:translate-x-0" />
-                  <span className="relative z-10 inline-flex items-center gap-2 text-base font-normal text-white">
+                  <span className="relative z-10 inline-flex items-center gap-2 text-base font-medium text-white">
                     {t("submitButton")}
                     <Send className="size-4 -rotate-12" aria-hidden="true" />
                   </span>

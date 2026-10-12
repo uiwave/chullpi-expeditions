@@ -22,7 +22,7 @@ export default function HeroSection() {
           <p className="font-decoration text-[clamp(1.5rem,1.2rem+1.5vw,2.5rem)] leading-none">
             {t("subtitle")}
           </p>
-          <h1 className="font-heading mb-11.25 text-[clamp(2.25rem,1.2rem+4vw,5rem)] leading-[1.18] font-bold">
+          <h1 className="font-heading mb-11.25 text-[clamp(2rem,1.5rem+2.5vw,4rem)] leading-tight font-bold">
             {t("title")}
           </h1>
           <div className="flex w-full flex-col items-center gap-4 sm:w-auto sm:flex-row">

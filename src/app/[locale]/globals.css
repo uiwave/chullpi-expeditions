@@ -25,6 +25,7 @@
 :root {
   --background: #ffffff;
   --foreground: #6e7070;
+  --card: #ffffff;
   --primary: #1ca8cb;
   --primary-foreground: #ffffff;
   --secondary: #113d48;
@@ -48,15 +49,4 @@
 
 @utility uw-container {
   @apply mx-auto w-full max-w-330 px-3;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
 }

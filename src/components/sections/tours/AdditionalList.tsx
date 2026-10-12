@@ -4,7 +4,7 @@ import type { AdditionalItem, TourAdditionalGroup } from "@/types/Tour";
 function Item({ item }: { item: AdditionalItem }) {
   return (
     <div>
-      <div className="text-foreground relative pl-10 text-lg leading-7">
+      <div className="text-foreground relative pl-10 text-base leading-relaxed">
         <CircleCheck
           className="text-primary absolute top-0.5 left-0 size-6"
           aria-hidden="true"

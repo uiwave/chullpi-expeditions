@@ -4,7 +4,7 @@ import type { ItineraryBlock, TourItineraryDay } from "@/types/Tour";
 function Block({ block }: { block: ItineraryBlock }) {
   return (
     <div>
-      <p className="text-foreground text-lg leading-relaxed whitespace-pre-line">
+      <p className="text-foreground text-base leading-relaxed whitespace-pre-line">
         {block.text}
       </p>
       {block.items?.length ? (
@@ -12,7 +12,7 @@ function Block({ block }: { block: ItineraryBlock }) {
           {block.items.map((item) => (
             <li
               key={item}
-              className="text-foreground relative pl-10 text-lg leading-7"
+              className="text-foreground relative pl-10 text-base leading-relaxed"
             >
               <CircleCheck
                 className="text-primary absolute top-0.5 left-0 size-6"

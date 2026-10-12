@@ -35,7 +35,7 @@ export default function HeroSection({
           {/* Título Principal */}
           <h1
             id="page-header-title"
-            className="font-heading mb-3 text-[clamp(2rem,1.4rem+2.5vw,3.5rem)] leading-tight font-bold tracking-tight"
+            className="font-heading mb-3 text-[clamp(2rem,1.5rem+2.5vw,4rem)] leading-tight font-bold tracking-tight"
           >
             {title}
           </h1>

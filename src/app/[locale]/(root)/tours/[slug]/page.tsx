@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="text-secondary font-heading mb-10 text-[clamp(1.75rem,1.4rem+1.5vw,2.5rem)] leading-[1.4] font-semibold">
+    <h2 className="text-secondary font-heading mb-10 text-[clamp(1.75rem,1.254rem+2.116vw,3rem)] leading-snug font-bold">
       {children}
     </h2>
   );
@@ -85,7 +85,7 @@ function CheckList({
       {items.map((item) => (
         <li
           key={item}
-          className="text-foreground relative pl-10 text-lg leading-7"
+          className="text-foreground relative pl-10 text-base leading-relaxed"
         >
           <Icon
             className={cn("absolute top-0.5 left-0 size-6", color)}
@@ -156,21 +156,21 @@ export default async function TourDetailPage({ params }: Props) {
 
             {/* Meta: tipo + duración */}
             <div className="mb-10 flex flex-wrap items-center gap-3">
-              <span className="bg-secondary rounded-full px-4 py-1.5 text-lg text-white">
+              <span className="bg-secondary rounded-full px-4 py-1.5 text-sm font-medium text-white">
                 {tour.type}
               </span>
-              <span className="text-secondary inline-flex items-center gap-2 rounded-full bg-[#E9F6F9] px-4 py-1.5 text-lg">
+              <span className="text-secondary inline-flex items-center gap-2 rounded-full bg-[#E9F6F9] px-4 py-1.5 text-sm font-medium">
                 <Clock className="text-primary size-4" aria-hidden="true" />
                 {tour.duration}
               </span>
             </div>
 
             {/* Título + precio */}
-            <h2 className="text-secondary font-heading mb-4 text-[clamp(1.75rem,1.4rem+1.5vw,2.5rem)] leading-[1.4] font-semibold">
+            <h2 className="text-secondary font-heading mb-4 text-[clamp(1.75rem,1.254rem+2.116vw,3rem)] leading-snug font-bold">
               {tour.title}
             </h2>
-            <p className="text-foreground mb-10 text-lg leading-10">
-              <span className="text-primary text-[28px] font-semibold">
+            <p className="text-foreground mb-10 text-base leading-relaxed">
+              <span className="text-primary text-2xl font-semibold">
                 ${tour.price}
               </span>
               /{tCommon("perPerson")}

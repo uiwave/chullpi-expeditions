@@ -37,6 +37,11 @@ export default function TestimonialsSection() {
 
   return (
     <section className="relative w-full overflow-hidden py-12 lg:py-20">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute top-32 -left-24 hidden h-[420px] w-[420px] bg-contain bg-left-top bg-no-repeat xl:block"
+        style={{ backgroundImage: "url('/images/bg/travel2.png')" }}
+      />
       <div className="uw-container relative z-10">
         <Heading
           subtitle={t("subtitle")}
@@ -83,7 +88,7 @@ export default function TestimonialsSection() {
                             />
                           </div>
                           <div>
-                            <h3 className="font-heading text-secondary text-[1.25rem] font-semibold sm:text-2xl">
+                            <h3 className="font-heading text-secondary text-xl font-semibold">
                               {item.name}
                             </h3>
                           </div>
@@ -104,7 +109,7 @@ export default function TestimonialsSection() {
                       </div>
 
                       <div className="mb-8 flex min-h-28 flex-1 items-start">
-                        <p className="line-clamp-4 text-lg leading-relaxed font-medium text-pretty text-black sm:text-[1.25rem]">
+                        <p className="line-clamp-4 text-lg leading-relaxed text-pretty text-black">
                           {item.comment}
                         </p>
                       </div>
