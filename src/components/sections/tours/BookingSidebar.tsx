@@ -77,7 +77,7 @@ export default function BookingSidebar({
           className="bg-secondary group relative inline-flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full px-7 py-[14px]"
         >
           <div className="bg-primary absolute inset-0 -translate-x-full rounded-full transition-transform duration-300 ease-out group-hover:translate-x-0" />
-          <span className="text-base relative z-10 inline-flex items-center gap-2 font-normal text-white">
+          <span className="relative z-10 inline-flex items-center gap-2 text-base font-normal text-white">
             {t("bookButton")}
             <ArrowRight className="size-5" aria-hidden="true" />
           </span>
@@ -128,7 +128,7 @@ export default function BookingSidebar({
                   type="text"
                   value={tourTitle}
                   readOnly
-                  className={cn(fieldClass, "cursor-not-allowed bg-muted/50")}
+                  className={cn(fieldClass, "bg-muted/50 cursor-not-allowed")}
                 />
               </div>
 
@@ -202,10 +202,7 @@ export default function BookingSidebar({
                   name="message"
                   rows={4}
                   placeholder={t("messagePlaceholder")}
-                  className={cn(
-                    fieldClass,
-                    "h-auto resize-none pt-3.5 pb-3.5",
-                  )}
+                  className={cn(fieldClass, "h-auto resize-none pt-3.5 pb-3.5")}
                 />
               </div>
 
@@ -215,12 +212,9 @@ export default function BookingSidebar({
                   className="bg-secondary group relative inline-flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full px-8 py-[14px]"
                 >
                   <div className="bg-primary absolute inset-0 -translate-x-full rounded-full transition-transform duration-300 ease-out group-hover:translate-x-0" />
-                  <span className="text-base relative z-10 inline-flex items-center gap-2 font-normal text-white">
+                  <span className="relative z-10 inline-flex items-center gap-2 text-base font-normal text-white">
                     {t("submitButton")}
-                    <Send
-                      className="size-4 -rotate-12"
-                      aria-hidden="true"
-                    />
+                    <Send className="size-4 -rotate-12" aria-hidden="true" />
                   </span>
                 </button>
               </div>

@@ -7,5 +7,20 @@
   "type": "Trekking",
   "typeKey": "trekking",
   "duration": "Full Day",
-  "popular": true
+  "popular": true,
+  "description": "Embárcate en una emocionante aventura hacia la Montaña Arcoíris y Vinicunca, un tesoro natural en la cordillera de los Andes. Desde Cusco, recorrerás paisajes impresionantes, disfrutarás de vistas panorámicas de la montaña Ausangate y desafiarás tus límites en un trekking único a más de 5000 metros de altitud. Vive esta experiencia inolvidable y conecta con la majestuosidad de la naturaleza; ¡reserva tu lugar ahora!",
+  "shortItinerary": [
+    "Empezaremos a las 4:00 a.m. con el recojo desde tu alojamiento en Cusco hacia el Valle Sur.",
+    "Durante el trayecto, disfrutarás de paisajes andinos, valles fértiles y un delicioso desayuno.",
+    "Comenzarás la caminata en Llacto, ascendiendo por impresionantes paisajes hasta la Montaña Arcoíris.",
+    "Explorarás el mágico Valle Rojo, un lugar surrealista y tranquilo.",
+    "Descenderemos hacia Cusipata para disfrutar de un almuerzo buffet típico.",
+    "Regresaremos a Cusco y te dejaremos en tu alojamiento para descansar."
+  ],
+  "itinerary": [
+    {
+      "day": "Dia 1",
+      "items": ["Cusipata – Llacto – Montaña de Colores, Vinicunca – Mirador del valle rojo"]
+    }
+  ]
 }

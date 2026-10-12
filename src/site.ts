@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Chullpi - Expeditions",
 
   contact: {
-    phone: 974263630,
+    phone: 940468520,
     email: "reservas@chullpiexpeditions.com",
     address: "asds",
   },

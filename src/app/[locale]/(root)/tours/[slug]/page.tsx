@@ -52,7 +52,10 @@ function CheckList({
   return (
     <ul className="space-y-2.5">
       {items.map((item) => (
-        <li key={item} className="text-foreground relative pl-10 text-lg leading-7">
+        <li
+          key={item}
+          className="text-foreground relative pl-10 text-lg leading-7"
+        >
           <Icon
             className={cn("absolute top-0.5 left-0 size-6", color)}
             aria-hidden="true"
@@ -100,9 +103,7 @@ export default async function TourDetailPage({ params }: Props) {
   };
   collect(others.filter((item) => item.destination === tour.destination));
   collect(others.filter((item) => item.typeKey === tour.typeKey));
-  collect(
-    [...others].sort((a, b) => Number(b.popular) - Number(a.popular)),
-  );
+  collect([...others].sort((a, b) => Number(b.popular) - Number(a.popular)));
 
   return (
     <>
@@ -124,10 +125,10 @@ export default async function TourDetailPage({ params }: Props) {
 
             {/* Meta: tipo + duración */}
             <div className="mb-10 flex flex-wrap items-center gap-3">
-              <span className="bg-secondary text-white rounded-full px-4 py-1.5 text-lg">
+              <span className="bg-secondary rounded-full px-4 py-1.5 text-lg text-white">
                 {tour.type}
               </span>
-              <span className="bg-[#E9F6F9] text-secondary inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-lg">
+              <span className="text-secondary inline-flex items-center gap-2 rounded-full bg-[#E9F6F9] px-4 py-1.5 text-lg">
                 <Clock className="text-primary size-4" aria-hidden="true" />
                 {tour.duration}
               </span>
@@ -200,7 +201,7 @@ export default async function TourDetailPage({ params }: Props) {
                     <div
                       className={cn(
                         hasIncluded &&
-                          "md:border-[#E1E4E5] md:border-l md:pl-10",
+                          "md:border-l md:border-[#E1E4E5] md:pl-10",
                       )}
                     >
                       <SectionTitle>{t("notIncluded")}</SectionTitle>

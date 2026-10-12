@@ -1,6 +1,11 @@
 import Image from "next/image";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa6";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTiktok,
+  FaWhatsapp,
+} from "react-icons/fa6";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { NAV_ITEMS } from "@/data/navItems";
@@ -33,15 +38,15 @@ export async function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative z-20 overflow-hidden">
-      <div className="pt-16 pb-12 xl:pt-[100px] xl:pb-[46px]">
+    <footer className="relative z-20 overflow-hidden bg-[#262A36]">
+      <div className="pt-16 pb-12 xl:pt-25 xl:pb-11.5">
         <div className="uw-container">
           <div className="grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 xl:grid-cols-4">
             {/* Widget: About */}
             <div>
               <Link
                 href={ROUTES.HOME}
-                className="mb-8 inline-flex rounded-2xl bg-secondary p-3 sm:p-4"
+                className="bg-secondary mb-8 inline-flex rounded-2xl p-3 sm:p-4"
               >
                 <img
                   src="/logo-white.webp"
@@ -60,7 +65,7 @@ export async function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={label}
-                    className="bg-[#E9F6F9] text-primary hover:bg-primary hover:text-white flex size-8 items-center justify-center rounded-full text-sm transition-colors duration-300"
+                    className="text-primary hover:bg-primary flex size-8 items-center justify-center rounded-full bg-[#E9F6F9] text-sm transition-colors duration-300 hover:text-white"
                   >
                     <Icon aria-hidden="true" />
                   </a>
@@ -78,7 +83,7 @@ export async function Footer() {
                   <li key={item.id}>
                     <Link
                       href={item.href}
-                      className="text-[#888C97] hover:text-primary relative mb-[21px] block w-max pl-5 text-base font-normal transition-colors before:absolute before:top-0 before:left-0 before:font-bold before:content-['›'] last:mb-0"
+                      className="hover:text-primary relative mb-[21px] block w-max pl-5 text-base font-normal text-[#888C97] transition-colors before:absolute before:top-0 before:left-0 before:font-bold before:content-['›'] last:mb-0"
                     >
                       {tHeader(item.label)}
                     </Link>
@@ -94,7 +99,7 @@ export async function Footer() {
               </h3>
               <div className="space-y-[18px]">
                 <div className="group flex gap-4">
-                  <span className="bg-[#E9F6F9] text-primary group-hover:bg-primary group-hover:text-white flex size-10 shrink-0 items-center justify-center rounded-full transition-colors duration-300">
+                  <span className="text-primary group-hover:bg-primary flex size-10 shrink-0 items-center justify-center rounded-full bg-[#E9F6F9] transition-colors duration-300 group-hover:text-white">
                     <Phone className="size-4" aria-hidden="true" />
                   </span>
                   <a
@@ -105,7 +110,7 @@ export async function Footer() {
                   </a>
                 </div>
                 <div className="group flex gap-4">
-                  <span className="bg-[#E9F6F9] text-primary group-hover:bg-primary group-hover:text-white flex size-10 shrink-0 items-center justify-center rounded-full transition-colors duration-300">
+                  <span className="text-primary group-hover:bg-primary flex size-10 shrink-0 items-center justify-center rounded-full bg-[#E9F6F9] transition-colors duration-300 group-hover:text-white">
                     <Mail className="size-4" aria-hidden="true" />
                   </span>
                   <a
@@ -116,7 +121,7 @@ export async function Footer() {
                   </a>
                 </div>
                 <div className="group flex gap-4">
-                  <span className="bg-[#E9F6F9] text-primary group-hover:bg-primary group-hover:text-white flex size-10 shrink-0 items-center justify-center rounded-full transition-colors duration-300">
+                  <span className="text-primary group-hover:bg-primary flex size-10 shrink-0 items-center justify-center rounded-full bg-[#E9F6F9] transition-colors duration-300 group-hover:text-white">
                     <MapPin className="size-4" aria-hidden="true" />
                   </span>
                   <p className="text-foreground text-base leading-relaxed">
@@ -148,7 +153,7 @@ export async function Footer() {
                       sizes="104px"
                       className="object-cover transition-transform duration-300 group-hover:scale-110"
                     />
-                    <span className="bg-primary/0 text-white absolute inset-0 flex items-center justify-center opacity-0 transition-all duration-300 group-hover:bg-primary/80 group-hover:opacity-100">
+                    <span className="bg-primary/0 group-hover:bg-primary/80 absolute inset-0 flex items-center justify-center text-white opacity-0 transition-all duration-300 group-hover:opacity-100">
                       <FaInstagram className="size-5" aria-hidden="true" />
                     </span>
                   </a>
@@ -162,7 +167,7 @@ export async function Footer() {
       {/* Copyright */}
       <div className="bg-[#262A36] py-[18px]">
         <div className="uw-container">
-          <p className="text-white text-center text-sm md:text-left">
+          <p className="text-center text-sm text-white md:text-left">
             Copyright {year}{" "}
             <Link
               href={ROUTES.HOME}

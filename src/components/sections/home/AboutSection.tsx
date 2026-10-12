@@ -1,3 +1,4 @@
+import Button from "@/components/uiwave/Button";
 import Heading from "@/components/uiwave/Heading";
 import { ROUTES } from "@/config/routes";
 import { Link } from "@/i18n/navigation";
@@ -92,19 +93,12 @@ export default function AboutSection() {
                 );
               })}
             </ul>
-
-            <Link
+            <Button
               href={ROUTES.ABOUT_US}
-              className="bg-secondary group relative inline-flex items-center justify-center overflow-hidden rounded-full px-8.75 py-[18.8px]"
-            >
-              <div className="bg-primary absolute inset-0 -translate-x-full rounded-full transition-transform duration-300 ease-out group-hover:translate-x-0" />
-              <div className="relative z-10 inline-flex items-center gap-2 text-white transition-colors duration-300">
-                <span className="text-base font-normal">
-                  {tCommon("readMore")}
-                </span>
-                <ArrowRight className="size-5" />
-              </div>
-            </Link>
+              label={tCommon("readMore")}
+              variant="secondary"
+              size="lg"
+            />
           </div>
         </div>
       </div>

@@ -46,8 +46,8 @@ const CERTIFICATION_LOGOS: CertificationLogo[] = [
 
 export default function CertificationsSection() {
   return (
-    <section className="relative w-full overflow-hidden py-12 lg:py-16">
-      <div className="uw-container relative z-10">
+    <section className="relative w-full overflow-hidden">
+      <div className="relative z-10">
         <Carousel
           opts={{
             align: "start",
@@ -55,7 +55,7 @@ export default function CertificationsSection() {
           }}
           className="w-full"
         >
-          <CarouselContent className="-ml-4 items-center md:-ml-6">
+          <CarouselContent className="items-center">
             {CERTIFICATION_LOGOS.map((item, index) => (
               <CarouselItem
                 key={`${item.id}-${index}`}

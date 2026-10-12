@@ -21,28 +21,18 @@ export default function LanguageSelector() {
 
   return (
     <div className="relative flex items-center">
-      <img
-        src={`/images/flags/${currentLocale}.svg`}
-        alt=""
-        aria-hidden="true"
-        className="pointer-events-none absolute left-2.5 z-10 size-4 rounded-full object-cover sm:left-3.5 sm:size-[18px]"
-      />
       <select
         value={currentLocale}
         onChange={(e) => changeLanguage(e.target.value)}
-        aria-label={t("language.placeholder")}
-        className="border-border text-foreground hover:text-primary h-7 w-auto cursor-pointer appearance-none rounded-full border bg-transparent pr-7 pl-8 text-xs font-medium transition-colors focus:ring-0 sm:h-8 sm:pr-8 sm:pl-10 sm:text-sm"
+        className="border-border h-7 w-auto cursor-pointer appearance-none rounded-full border bg-transparent pr-7 pl-3 text-sm leading-none font-normal focus:ring-0 focus:outline-none sm:h-8 sm:pr-20 sm:pl-3.5"
       >
         {LANGUAGE_OPTIONS.map((lang) => (
           <option key={lang.value} value={lang.value}>
-            {lang.name}
+            {lang.codeUpper}
           </option>
         ))}
       </select>
-      <ChevronDown
-        aria-hidden="true"
-        className="text-foreground pointer-events-none absolute right-2.5 size-3.5 sm:right-3.5 sm:size-4"
-      />
+      <ChevronDown className="pointer-events-none absolute right-2.5 size-3.5 sm:right-3 sm:size-4" />
     </div>
   );
 }

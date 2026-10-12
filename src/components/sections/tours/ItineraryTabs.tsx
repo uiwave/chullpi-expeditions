@@ -17,10 +17,7 @@ export default function ItineraryTabs({ days }: ItineraryTabsProps) {
 
   return (
     <div>
-      <div
-        role="tablist"
-        className="mb-10 flex flex-wrap gap-6"
-      >
+      <div role="tablist" className="mb-10 flex flex-wrap gap-6">
         {days.map((item, index) => (
           <button
             key={item.day}
@@ -32,7 +29,7 @@ export default function ItineraryTabs({ days }: ItineraryTabsProps) {
               "cursor-pointer rounded-lg px-[22px] py-[7px] text-base font-medium transition-colors",
               index === active
                 ? "bg-primary text-white"
-                : "bg-[#E9F6F9] text-secondary hover:text-primary",
+                : "text-secondary hover:text-primary bg-[#E9F6F9]",
             )}
           >
             {item.day}

@@ -25,7 +25,6 @@ export default function PopularToursSection({ tours }: Props) {
           alt=""
           fill
           priority
-          quality={85}
           sizes="100vw"
           className="object-cover object-top"
         />
