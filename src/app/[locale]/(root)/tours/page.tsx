@@ -2,7 +2,6 @@ import PageHero from "@/components/uiwave/PageHero";
 import ToursGrid from "@/components/sections/tours/ToursGrid";
 import { getTours, isLocale } from "@/i18n/tours";
 import { notFound } from "next/navigation";
-import { FilterSection } from "@/components/sections/tours/FilterSection";
 import { getTranslations } from "next-intl/server";
 import {
   filterTours,
@@ -12,15 +11,6 @@ import {
 } from "@/lib/tour-filters";
 import ToursSidebar from "@/components/sections/tours/ToursSidebar";
 import ToursHeaderWrapper from "@/components/sections/tours/ToursHeaderWrapper";
-
-const MOCK_CATEGORIES = [
-  { id: "1", name: "City Tour", slug: "city-tour", count: 8 },
-  { id: "2", name: "Beach Tours", slug: "beach-tours", count: 6 },
-  { id: "3", name: "Wildlife Tours", slug: "wildlife-tours", count: 2 },
-  { id: "4", name: "News & Tips", slug: "news-tips", count: 7 },
-  { id: "5", name: "Adventure Tours", slug: "adventure-tours", count: 9 },
-  { id: "6", name: "Mountain Tours", slug: "mountain-tours", count: 10 },
-];
 
 // Datos de ejemplo para Posts Recientes
 const MOCK_POSTS = [
@@ -71,6 +61,11 @@ export default async function ToursPage({ params, searchParams }: Props) {
   const tours = await getTours(localeValue);
   const filtered = filterTours(tours, { destino, tipo, duracion, precio, q });
 
+  const typeCounts: Record<string, number> = {};
+  for (const tour of tours) {
+    typeCounts[tour.typeKey] = (typeCounts[tour.typeKey] ?? 0) + 1;
+  }
+
   const totalPages = getTotalPages(filtered.length);
   const page = parsePage(pageParam);
 
@@ -104,14 +99,10 @@ export default async function ToursPage({ params, searchParams }: Props) {
                 query={query}
               />
             </main>
-            <ToursSidebar
-              categories={MOCK_CATEGORIES}
-              recentPosts={MOCK_POSTS}
-            />
+            <ToursSidebar typeCounts={typeCounts} recentPosts={MOCK_POSTS} />
           </div>
         </div>
       </section>
-      <FilterSection />
     </>
   );
 }

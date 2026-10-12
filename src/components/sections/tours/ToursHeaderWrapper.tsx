@@ -12,6 +12,7 @@ export default function ToursHeaderWrapper() {
   const searchParams = useSearchParams();
 
   const urlQ = searchParams.get("q") ?? "";
+  const urlDestino = searchParams.get("destino") ?? "";
 
   const [searchQuery, setSearchQuery] = useState(urlQ);
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
@@ -77,6 +78,19 @@ export default function ToursHeaderWrapper() {
     applySearch(searchQuery);
   };
 
+  const handleDestinationChange = (value: string) => {
+    const params = new URLSearchParams(searchParamsRef.current.toString());
+    if (value) {
+      params.set("destino", value);
+    } else {
+      params.delete("destino");
+    }
+    params.delete("page");
+
+    const qs = params.toString();
+    router.push(qs ? `${pathname}?${qs}` : pathname);
+  };
+
   return (
     <ToursHeader
       searchQuery={searchQuery}
@@ -86,6 +100,8 @@ export default function ToursHeaderWrapper() {
       onViewChange={setViewMode}
       sortBy={sortBy}
       onSortChange={setSortBy}
+      destination={urlDestino}
+      onDestinationChange={handleDestinationChange}
     />
   );
 }

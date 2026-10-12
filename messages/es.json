@@ -129,6 +129,17 @@
       "next": "Siguiente",
       "page": "Página {page}"
     },
+    "filter": {
+      "type": {
+        "options": {
+          "aventura": "Aventura",
+          "dailyTour": "Tour diario",
+          "trekking": "Trekking",
+          "cultural": "Cultural",
+          "arqueologico": "Arqueológico"
+        }
+      }
+    },
     "details": {
       "overview": "Resumen de la experiencia",
       "itinerary": "Itinerario detallado",

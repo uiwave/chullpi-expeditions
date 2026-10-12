@@ -1,13 +1,6 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { ROUTES } from "@/config/routes";
-
-interface TourCategory {
-  id: string;
-  name: string;
-  slug: string;
-  count: number;
-}
+import TourTypeFilter from "./TourTypeFilter";
 
 interface RecentPost {
   id: string;
@@ -17,48 +10,18 @@ interface RecentPost {
   image: string;
 }
 interface ToursSidebarProps {
-  categories: TourCategory[];
+  typeCounts: Record<string, number>;
   recentPosts: RecentPost[];
 }
 
 export default function ToursSidebar({
-  categories,
+  typeCounts,
   recentPosts,
 }: ToursSidebarProps) {
   return (
     <aside className="flex w-full flex-col gap-8 lg:col-span-4 xl:col-span-3">
-      {/* Widget 1: Categorías */}
-      <div className="dark:bg-secondary/10 border-border/60 rounded-2xl border bg-white p-6 shadow-xs">
-        <div className="relative mb-6 pb-2">
-          <h2 className="font-heading text-secondary text-xl font-bold">
-            Categories
-          </h2>
-          <span className="bg-primary absolute bottom-0 left-0 h-0.5 w-12 rounded-full" />
-        </div>
-
-        <ul className="space-y-3.5" role="list">
-          {categories.map((cat) => (
-            <li key={cat.id}>
-              <Link
-                href={`${ROUTES.TOURS}?category=${cat.slug}`}
-                className="text-foreground hover:text-primary group flex items-center justify-between py-1 transition-colors"
-              >
-                <div className="flex items-center gap-2.5">
-                  <span className="text-primary text-lg leading-none font-bold transition-transform group-hover:scale-125">
-                    ❖
-                  </span>
-                  <span className="text-sm font-medium sm:text-base">
-                    {cat.name}
-                  </span>
-                </div>
-                <span className="text-foreground/60 text-xs font-medium">
-                  ({cat.count})
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+      {/* Widget 1: Tipo de tour */}
+      <TourTypeFilter counts={typeCounts} />
 
       {/* Widget 2: Recent Posts */}
       <div className="dark:bg-secondary/10 border-border/60 rounded-2xl border bg-white p-6 shadow-xs">

@@ -2,6 +2,7 @@
 
 import { Search, LayoutGrid, List, ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { DESTINATIONS } from "@/data/destinations";
 
 interface ToursHeaderProps {
   searchQuery: string;
@@ -11,6 +12,8 @@ interface ToursHeaderProps {
   onViewChange: (mode: "grid" | "list") => void;
   sortBy: string;
   onSortChange: (sort: string) => void;
+  destination: string;
+  onDestinationChange: (destination: string) => void;
 }
 
 export default function ToursHeader({
@@ -21,8 +24,11 @@ export default function ToursHeader({
   onViewChange,
   sortBy,
   onSortChange,
+  destination,
+  onDestinationChange,
 }: ToursHeaderProps) {
   const t = useTranslations("tours.header");
+  const tFilter = useTranslations("tours.searchAndFilter");
 
   return (
     <header className="flex w-full flex-col items-center justify-between gap-4 sm:flex-row">
@@ -55,8 +61,8 @@ export default function ToursHeader({
         </button>
       </div>
 
-      {/* Selector de Vista y Ordenamiento */}
-      <div className="flex w-full items-center justify-end gap-3 sm:w-auto">
+      {/* Selector de Vista, Destino y Ordenamiento */}
+      <div className="flex w-full flex-wrap items-center justify-end gap-3 sm:w-auto">
         <div className="dark:bg-secondary/20 flex items-center gap-1.5 rounded-xl bg-[#E8F5F8] p-1">
           <button
             type="button"
@@ -84,25 +90,20 @@ export default function ToursHeader({
           </button>
         </div>
 
-        {/* Dropdown de Ordenamiento */}
+        {/* Dropdown de Destino */}
         <div className="relative">
           <select
-            value={sortBy}
-            onChange={(e) => onSortChange(e.target.value)}
-            className="border-border/60 dark:bg-secondary/20 text-secondary focus:ring-primary h-11 cursor-pointer appearance-none rounded-xl border bg-white pr-10 pl-4 text-sm font-medium focus:ring-2 focus:outline-none"
+            value={destination}
+            onChange={(e) => onDestinationChange(e.target.value)}
+            aria-label={tFilter("filterByDestination")}
+            className="border-border/60 dark:bg-secondary/20 text-secondary focus:ring-primary h-11 max-w-[200px] cursor-pointer appearance-none rounded-xl border bg-white pr-10 pl-4 text-sm font-medium focus:ring-2 focus:outline-none sm:max-w-[220px]"
           >
-            <option value="default">
-              {t("sortDefault", { defaultValue: "Default Sorting" })}
-            </option>
-            <option value="price-low">
-              {t("sortPriceLow", { defaultValue: "Price: Low to High" })}
-            </option>
-            <option value="price-high">
-              {t("sortPriceHigh", { defaultValue: "Price: High to Low" })}
-            </option>
-            <option value="rating">
-              {t("sortRating", { defaultValue: "Highest Rated" })}
-            </option>
+            <option value="">{tFilter("allDestinations")}</option>
+            {DESTINATIONS.map((dest) => (
+              <option key={dest.slug} value={dest.slug}>
+                {dest.title}
+              </option>
+            ))}
           </select>
           <ChevronDown
             className="text-foreground/60 pointer-events-none absolute top-1/2 right-3 size-4 -translate-y-1/2"

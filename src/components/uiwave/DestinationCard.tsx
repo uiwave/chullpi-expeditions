@@ -26,12 +26,12 @@ export function DestinationCard({ data }: Props) {
 
       <div className="mt-6 flex flex-col items-center">
         <h3 className="font-heading text-secondary hover:text-primary text-2xl font-semibold transition-colors">
-          <Link href={`/${ROUTES.TOURS}?destino=${data.slug}`}>
+          <Link href={`${ROUTES.TOURS}?destino=${data.slug}`}>
             {data.title}
           </Link>
         </h3>
         <Link
-          href={`/${ROUTES.TOURS}?destino=${data.slug}`}
+          href={`${ROUTES.TOURS}?destino=${data.slug}`}
           className="text-foreground mt-1 text-sm"
         >
           {tCommon("readMore")}
