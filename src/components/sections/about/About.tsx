@@ -95,10 +95,10 @@ export default function About() {
             {/* Lista de Beneficios / Features */}
             <ul className="mb-10 w-full space-y-6" role="list">
               {/* Feature 1: Exclusive Trip */}
-              {FEATURES.map((item) => {
+              {FEATURES.map((item, index) => {
                 const IconComponent = item.icon;
                 return (
-                  <li className="flex items-start gap-4">
+                  <li key={index} className="flex items-start gap-4">
                     <div
                       className="bg-primary/15 text-primary mt-1 flex size-12 shrink-0 items-center justify-center rounded-full"
                       aria-hidden="true"

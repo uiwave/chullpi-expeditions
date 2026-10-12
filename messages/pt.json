@@ -122,6 +122,13 @@
       "filterByType": "Tipo de tour",
       "allTypes": "Todos os tipos"
     },
+    "pagination": {
+      "label": "Paginação",
+      "showing": "Mostrando {from}–{to} de {total} tours",
+      "previous": "Anterior",
+      "next": "Próximo",
+      "page": "Página {page}"
+    },
     "details": {
       "overview": "Resumo da experiência",
       "itinerary": "Itinerário detalhado",
