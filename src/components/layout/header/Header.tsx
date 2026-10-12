@@ -21,7 +21,7 @@ export function Header() {
   return (
     <>
       <header className="fixed top-0 right-0 left-0 z-50 bg-white text-black">
-        <div className="border-border/50 mx-auto flex items-center justify-between border px-16 py-1.5">
+        <div className="border-border/50 mx-auto flex items-center justify-between border px-4 py-1.5 sm:px-8 xl:px-16">
           <div className="flex items-center gap-6">
             <span className="hidden items-center gap-2 md:flex">
               <MapPin className="size-4" />
@@ -47,7 +47,7 @@ export function Header() {
 
         <div className="relative transition-all duration-300">
           <div
-            className="bg-primary pointer-events-none absolute top-0 left-0 h-full w-[28%] xl:w-[18%]"
+            className="bg-primary pointer-events-none absolute top-0 left-0 h-full w-[40%] sm:w-[34%] lg:w-[26%] xl:w-[18%]"
             style={{
               maskImage: "url('/images/bg/logo_bg_mask.png')",
               WebkitMaskImage: "url('/images/bg/logo_bg_mask.png')",
@@ -56,7 +56,7 @@ export function Header() {
             }}
           />
 
-          <div className="relative mx-auto flex items-center justify-between px-16 py-4 xl:h-23 xl:py-0">
+          <div className="relative mx-auto flex items-center justify-between px-4 py-4 sm:px-8 xl:h-23 xl:px-16 xl:py-0">
             <Link href={ROUTES.HOME}>
               <img
                 src="/logo-white.webp"
