@@ -48,3 +48,7 @@
 @utility uw-container {
   @apply mx-auto w-full max-w-330 px-3;
 }
+
+@utility uw-container-wide {
+  @apply mx-auto w-full max-w-[1776px] px-3;
+}

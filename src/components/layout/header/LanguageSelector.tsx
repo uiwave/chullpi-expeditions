@@ -2,15 +2,8 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { ChevronDown } from "lucide-react";
 import { LANGUAGE_OPTIONS } from "@/data/language";
-
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 
 export default function LanguageSelector() {
   const t = useTranslations("header");
@@ -27,32 +20,29 @@ export default function LanguageSelector() {
   };
 
   return (
-    <div className="relative flex h-20 items-center">
-      <Select value={currentLocale} onValueChange={changeLanguage}>
-        <SelectTrigger className="bg-primary font-heading text-primary-foreground inline-flex h-10 w-auto cursor-pointer items-center justify-center gap-1.5 rounded-lg border-none text-sm tracking-wider transition-all hover:opacity-90 focus:ring-0 sm:h-11 sm:gap-2 sm:text-[clamp(0.9375rem,calc(0.85rem+0.35vw),1.125rem)]">
-          <SelectValue placeholder={t("language.placeholder")} />
-        </SelectTrigger>
-
-        <SelectContent
-          position="popper"
-          align="end"
-          sideOffset={20}
-          className="border-primary z-50 flex w-44 min-w-0 flex-col overflow-hidden rounded-none border-x-0 border-t-2 border-b-0 bg-white p-0 shadow-xl sm:w-48"
-        >
-          {LANGUAGE_OPTIONS.map((lang) => (
-            <SelectItem
-              key={lang.value}
-              value={lang.value}
-              className="font-heading focus:bg-primary/10 focus:text-primary data-[state=checked]:bg-primary flex cursor-pointer items-center justify-between rounded-none px-4 py-3 tracking-wider text-black transition-colors data-[state=checked]:text-white sm:px-5 sm:py-3.5 [&>span:first-child]:hidden"
-            >
-              <span className="text-base sm:text-lg">{lang.flag}</span>
-              <span className="text-xs sm:text-[clamp(0.875rem,calc(0.8rem+0.25vw),1rem)]">
-                {lang.codeUpper}
-              </span>
-            </SelectItem>
-          ))}
-        </SelectContent>
-      </Select>
+    <div className="relative flex items-center">
+      <img
+        src={`/images/flags/${currentLocale}.svg`}
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none absolute left-2.5 z-10 size-4 rounded-full object-cover sm:left-3.5 sm:size-[18px]"
+      />
+      <select
+        value={currentLocale}
+        onChange={(e) => changeLanguage(e.target.value)}
+        aria-label={t("language.placeholder")}
+        className="border-border text-foreground hover:text-primary h-7 w-auto cursor-pointer appearance-none rounded-full border bg-transparent pr-7 pl-8 text-xs font-medium transition-colors focus:ring-0 sm:h-8 sm:pr-8 sm:pl-10 sm:text-sm"
+      >
+        {LANGUAGE_OPTIONS.map((lang) => (
+          <option key={lang.value} value={lang.value}>
+            {lang.name}
+          </option>
+        ))}
+      </select>
+      <ChevronDown
+        aria-hidden="true"
+        className="text-foreground pointer-events-none absolute right-2.5 size-3.5 sm:right-3.5 sm:size-4"
+      />
     </div>
   );
 }

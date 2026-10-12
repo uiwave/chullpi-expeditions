@@ -75,10 +75,10 @@ export default function AboutSection() {
             />
 
             <ul className="mb-8 w-full space-y-6" role="list">
-              {FEATURES.map((item) => {
+              {FEATURES.map((item, index) => {
                 const IconComponent = item.icon;
                 return (
-                  <li className="flex items-center gap-4">
+                  <li key={index} className="flex items-center gap-4">
                     <div className="bg-primary text-primary-foreground flex size-12 shrink-0 items-center justify-center rounded-full shadow-md">
                       <IconComponent className="size-6" aria-hidden="true" />
                     </div>

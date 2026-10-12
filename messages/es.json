@@ -21,6 +21,22 @@
       "tours": "Destinos",
       "about": "Nosotros",
       "contact": "Contacto"
+    },
+    "topbar": {
+      "address": "Cusco, Perú",
+      "hours": "Lun a Dom: 8:00 - 19:00"
+    },
+    "menu": {
+      "title": "Menú",
+      "openAria": "Abrir menú",
+      "closeAria": "Cerrar menú"
+    },
+    "contact": {
+      "location": "Cusco, Perú",
+      "bookings": "Reservas: {phone}"
+    },
+    "language": {
+      "placeholder": "Idioma"
     }
   },
   "home": {
