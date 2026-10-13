@@ -38,7 +38,7 @@ export async function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative z-20 overflow-hidden bg-[#262A36]">
+    <footer className="bg-primary relative z-20 overflow-hidden">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute top-0 left-0 h-10 w-full bg-top bg-repeat-x opacity-70"
@@ -52,17 +52,14 @@ export async function Footer() {
           <div className="grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 xl:grid-cols-4">
             {/* Widget: About */}
             <div>
-              <Link
-                href={ROUTES.HOME}
-                className="bg-secondary mb-8 inline-flex rounded-2xl p-3 sm:p-4"
-              >
+              <Link href={ROUTES.HOME} className="mb-8 inline-flex">
                 <img
                   src="/logo-white.webp"
                   alt={siteConfig.name}
                   className="h-9 w-auto object-contain sm:h-11"
                 />
               </Link>
-              <p className="text-foreground mb-5 max-w-[320px] text-base leading-relaxed">
+              <p className="mb-5 max-w-[320px] text-base leading-relaxed text-white">
                 {t("about")}
               </p>
               <div className="flex gap-3">
@@ -73,7 +70,7 @@ export async function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={label}
-                    className="text-primary hover:bg-primary flex size-10 items-center justify-center rounded-full bg-[#E9F6F9] text-sm transition-colors duration-300 hover:text-white"
+                    className="text-primary hover:bg-secondary flex size-10 items-center justify-center rounded-full bg-white text-sm transition-colors duration-300 hover:text-white"
                   >
                     <Icon aria-hidden="true" />
                   </a>
@@ -83,7 +80,7 @@ export async function Footer() {
 
             {/* Widget: Quick Links */}
             <div>
-              <h3 className="text-secondary font-heading mb-[30px] text-2xl font-semibold">
+              <h3 className="font-heading mb-[30px] text-2xl font-semibold text-white">
                 {t("quickLinks")}
               </h3>
               <ul>
@@ -91,7 +88,7 @@ export async function Footer() {
                   <li key={item.id}>
                     <Link
                       href={item.href}
-                      className="hover:text-primary relative mb-[21px] block w-max pl-5 text-base font-normal text-[#888C97] transition-colors before:absolute before:top-0 before:left-0 before:font-bold before:content-['›'] last:mb-0"
+                      className="relative mb-[21px] block w-max pl-5 text-base font-normal text-white transition-colors before:absolute before:top-0 before:left-0 before:font-bold before:content-['›'] last:mb-0 hover:text-white/75"
                     >
                       {tHeader(item.label)}
                     </Link>
@@ -102,37 +99,37 @@ export async function Footer() {
 
             {/* Widget: Address */}
             <div>
-              <h3 className="text-secondary font-heading mb-[30px] text-2xl font-semibold">
+              <h3 className="font-heading mb-[30px] text-2xl font-semibold text-white">
                 {t("addressTitle")}
               </h3>
               <div className="space-y-[18px]">
                 <div className="group flex gap-4">
-                  <span className="text-primary group-hover:bg-primary flex size-10 shrink-0 items-center justify-center rounded-full bg-[#E9F6F9] transition-colors duration-300 group-hover:text-white">
+                  <span className="text-primary group-hover:bg-secondary flex size-10 shrink-0 items-center justify-center rounded-full bg-white transition-colors duration-300 group-hover:text-white">
                     <Phone className="size-4" aria-hidden="true" />
                   </span>
                   <a
                     href={`tel:+51${siteConfig.contact.phone}`}
-                    className="text-foreground hover:text-primary text-base leading-relaxed transition-colors"
+                    className="text-base leading-relaxed text-white transition-colors hover:text-white/75"
                   >
                     +51 {siteConfig.contact.phone}
                   </a>
                 </div>
                 <div className="group flex gap-4">
-                  <span className="text-primary group-hover:bg-primary flex size-10 shrink-0 items-center justify-center rounded-full bg-[#E9F6F9] transition-colors duration-300 group-hover:text-white">
+                  <span className="text-primary group-hover:bg-secondary flex size-10 shrink-0 items-center justify-center rounded-full bg-white transition-colors duration-300 group-hover:text-white">
                     <Mail className="size-4" aria-hidden="true" />
                   </span>
                   <a
                     href={`mailto:${siteConfig.contact.email}`}
-                    className="text-foreground hover:text-primary text-base leading-relaxed transition-colors"
+                    className="text-base leading-relaxed text-white transition-colors hover:text-white/75"
                   >
                     {siteConfig.contact.email}
                   </a>
                 </div>
                 <div className="group flex gap-4">
-                  <span className="text-primary group-hover:bg-primary flex size-10 shrink-0 items-center justify-center rounded-full bg-[#E9F6F9] transition-colors duration-300 group-hover:text-white">
+                  <span className="text-primary group-hover:bg-secondary flex size-10 shrink-0 items-center justify-center rounded-full bg-white transition-colors duration-300 group-hover:text-white">
                     <MapPin className="size-4" aria-hidden="true" />
                   </span>
-                  <p className="text-foreground text-base leading-relaxed">
+                  <p className="text-base leading-relaxed text-white">
                     {t("address")}
                   </p>
                 </div>
@@ -141,7 +138,7 @@ export async function Footer() {
 
             {/* Widget: Instagram */}
             <div>
-              <h3 className="text-secondary font-heading mb-[30px] text-2xl font-semibold">
+              <h3 className="font-heading mb-[30px] text-2xl font-semibold text-white">
                 {t("instagramTitle")}
               </h3>
               <div className="grid max-w-[312px] grid-cols-3 gap-3">
@@ -173,13 +170,13 @@ export async function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="bg-[#262A36] py-[18px]">
+      <div className="bg-primary py-[18px]">
         <div className="uw-container">
           <p className="text-center text-sm text-white md:text-left">
             Copyright {year}{" "}
             <Link
               href={ROUTES.HOME}
-              className="hover:text-primary transition-colors"
+              className="transition-colors hover:text-white/75"
             >
               {siteConfig.name}
             </Link>

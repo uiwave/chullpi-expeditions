@@ -46,7 +46,7 @@ const CERTIFICATION_LOGOS: CertificationLogo[] = [
 
 export default function CertificationsSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#EAF6F9] py-12 lg:py-20">
+    <section className="relative w-full overflow-hidden py-12 lg:py-20">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-20"
