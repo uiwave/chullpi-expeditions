@@ -7,5 +7,95 @@
   "type": "Ticket",
   "typeKey": "ticket",
   "duration": "3 horas",
-  "popular": true
+  "popular": true,
+  "description": "Proporcionamos exclusivamente el codiciado Circuito 2 (Ruta Clásica), el único camino que garantiza la icónica foto panorámica de Machu Picchu que todo viajero sueña con tener.\nMientras que los tours estándar te apresuran en 90 minutos, ofrecemos una inmersión privada premium de 2 horas y 30 minutos dirigida por un guía oficial de primera clase.\nDiseñado para explorar el corazón del Imperio Inca a tu propio ritmo, descubriendo el Templo del Sol, las Tres Ventanas y la Plaza Sagrada con una atención VIP personalizada.",
+  "shortItinerary": [
+    "Recepción personalizada en la estación de tren de Aguas Calientes",
+    "Tiempo de descanso y preparación en restaurante turístico partner",
+    "Subida en bus a la ciudadela inca (por cuenta del pasajero)",
+    "Tour guiado privado de 2.5 horas por el Circuito 2 (Ruta Clásica)",
+    "Tiempo para fotos panorámicas desde la Casa del Guardián",
+    "Retorno al punto de inicio en Aguas Calientes"
+  ],
+  "itinerary": [
+    {
+      "title": "Punto de Encuentro",
+      "subtitle": "Llegada a Aguas Calientes y Preparación",
+      "paragraphs": [
+        {
+          "text": "Tu experiencia comienza desde tu llegada a la estación de tren de Aguas Calientes (Machu Picchu Pueblo).",
+          "items": [
+            "Recepción en la salida de la estación por nuestro representante con cartel personalizado",
+            "Acompañamiento hacia restaurante turístico partner para descanso libre antes del ingreso",
+            "Uso gratuito de instalaciones (servicios higiénicos y zona de descanso sin obligación de consumo)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Recorrido Principal",
+      "subtitle": "Ciudadela de Machu Picchu - Circuito 2",
+      "paragraphs": [
+        {
+          "text": "Traslado hacia el santuario histórico para dar inicio al recorrido privado VIP.",
+          "items": [
+            "Llegada al sector de la Casa del Guardián para la clásica foto panorámica con el Huayna Picchu de fondo",
+            "Tour privado guiado de 2 horas y 30 minutos a ritmo personalizado"
+          ],
+          "blocks": [
+            {
+              "text": "Puntos destacados del recorrido arqueológico:",
+              "items": [
+                "Templo del Sol y Templo de las Tres Ventanas",
+                "Plaza Sagrada y Templo Principal",
+                "Mirador de la Pirámide de Intihuatana y sectores residenciales"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fin del Servicio",
+      "subtitle": "Retorno a Aguas Calientes",
+      "paragraphs": [
+        {
+          "text": "Al culminar la visita guiada en el santuario, retornarás a Aguas Calientes donde finalizan los servicios en el punto de encuentro inicial."
+        }
+      ]
+    }
+  ],
+  "included": [
+    "Entrada oficial a Machu Picchu (Circuito 2 / Ruta Clásica)",
+    "Guía oficial de turismo en servicio privado VIP (Español / Inglés)",
+    "Recepción personalizada en la estación de tren de Aguas Calientes",
+    "Acceso a restaurante partner con uso gratuito de instalaciones (baños y descanso)",
+    "Ticket de ingreso complementario a Machu Picchu HotSprings"
+  ],
+  "notIncluded": [
+    "Billetes de tren ida y vuelta desde/hacia Aguas Calientes",
+    "Billetes de autobús ida y vuelta Aguas Calientes - Machu Picchu (Consettur)",
+    "Traslado o recogida desde hoteles en Cusco",
+    "Alimentos, bebidas y gastos personales no especificados",
+    "Propinas para el guía"
+  ],
+  "recommendations": [
+    "Pasaporte o DNI original físico (obligatorio para ingresar al santuario)",
+    "Enviar foto clara del pasaporte/DNI inmediatamente después de reservar para la emisión del ticket",
+    "Coordinar con la agencia los horarios de tren ANTES de comprarlos para calzar con el turno de entrada",
+    "Calzado cómodo de caminata y ropa en capas",
+    "Bloqueador solar, repelente de insectos, gorra y poncho de lluvia",
+    "Botella reutilizable de agua (no se permiten plásticos de un solo uso)"
+  ],
+  "additionals": [
+    {
+      "title": "Notas de Operación y Rutas Alternativas",
+      "items": [
+        {
+          "name": "Temporada Alta / Circuito 3 Alternativo",
+          "description": "Durante junio y hasta mediados de julio, o sujeto a disponibilidad del Ministerio de Cultura, se puede asignar la alternativa de Circuito 3 (Ruta Diseñada / 3B). Permite tomar la foto clásica desde la zona agrícola y explorar los templos principales, la Casa del Inca y la Casa del Cóndor en un recorrido de 2h 50min."
+        }
+      ]
+    }
+  ]
 }

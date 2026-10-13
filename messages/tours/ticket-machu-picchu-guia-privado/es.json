@@ -7,5 +7,81 @@
   "type": "Ticket",
   "typeKey": "ticket",
   "duration": "2 horas",
-  "popular": true
+  "popular": true,
+  "description": "A diferencia de las entradas estándar, esta opción incluye el boleto de ingreso y un guía privado con licencia que te acompañará dentro de Machu Picchu.\nDisfruta de un recorrido personalizado de 2 horas adaptado a tus intereses y ritmo, garantizando el acceso a una de las Nuevas Siete Maravillas del Mundo con asistencia prioritaria en la puerta principal y explicaciones históricas exclusivas.",
+  "shortItinerary": [
+    "Encuentro en la puerta de ingreso principal a Machu Picchu",
+    "Ingreso prioritario junto a tu guía oficial privado",
+    "Tour guiado personalizado de 2 horas por el circuito asignado",
+    "Recorrido por templos, plazas, terrazas agrícolas y miradores",
+    "Tiempo para fotos icónicas y resolución de preguntas",
+    "Finalización del recorrido en la salida de la ciudadela"
+  ],
+  "itinerary": [
+    {
+      "title": "Ingreso y Recorrido Guiado",
+      "subtitle": "Santuario Histórico de Machu Picchu",
+      "paragraphs": [
+        {
+          "text": "Encuentro en la entrada principal con tu guía privado para iniciar la exploración de la ciudadela inca.",
+          "items": [
+            "Validación de boletos e ingreso a la ciudadela con asistencia prioritaria",
+            "Recorrido guiado de 2 horas adaptado al ritmo y preferencia de los visitantes",
+            "Asignación de circuito (Circuito 1, 2 o 3 según disponibilidad oficial)"
+          ],
+          "blocks": [
+            {
+              "text": "Puntos destacados del recorrido arqueológico:",
+              "items": [
+                "Templo del Sol y recintos ceremoniales",
+                "Plaza Principal y terrazas agrícolas",
+                "Miradores icónicos para fotografías de la ciudadela"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fin del Servicio",
+      "subtitle": "Salida del Santuario",
+      "paragraphs": [
+        {
+          "text": "Conclusión de la visita guiada personalizada en la salida de la ciudadela inca."
+        }
+      ]
+    }
+  ],
+  "included": [
+    "Ticket oficial de entrada a Machu Picchu (Circuito 1, 2 o 3 sujeto a disponibilidad)",
+    "Servicio de guía oficial de turismo privado (Español / Inglés)",
+    "Asistencia prioritaria en la puerta de ingreso principal",
+    "Recorrido personalizado de 2 horas adaptado al ritmo del visitante"
+  ],
+  "notIncluded": [
+    "Billetes de tren ida y vuelta a Aguas Calientes",
+    "Billetes de autobús Aguas Calientes - Machu Picchu (Consettur)",
+    "Alimentos, bebidas y almuerzo",
+    "Traslados desde/hacia hoteles en Cusco o Aguas Calientes",
+    "Propinas para el guía"
+  ],
+  "recommendations": [
+    "Pasaporte o DNI original físico (obligatorio para ingresar)",
+    "Enviar foto clara del pasaporte/DNI inmediatamente tras reservar (por WhatsApp o correo)",
+    "Coordinar con la agencia el horario de entrada ANTES de comprar los billetes de tren (turnos disponibles de 6:00 a.m. a 9:00 a.m.)",
+    "Calzado cómodo para caminata y ropa en capas",
+    "Bloqueador solar, gorra, repelente y poncho de lluvia",
+    "Botella reutilizable de agua"
+  ],
+  "additionals": [
+    {
+      "title": "Información de Horarios y Disponibilidad",
+      "items": [
+        {
+          "name": "Franjas Horarias Disponibles",
+          "description": "Los ingresos confirmados por el Ministerio de Cultura aplican únicamente para los turnos de 6:00 a. m., 7:00 a. m., 8:00 a. m. y 9:00 a. m. La asignación exacta del circuito y turno se coordina previa verificación con la agencia."
+        }
+      ]
+    }
+  ]
 }
