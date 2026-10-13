@@ -4,4 +4,5 @@ export const TOUR_TYPES = [
   { value: "trekking", labelKey: "trekking" },
   { value: "cultural", labelKey: "cultural" },
   { value: "arqueologico", labelKey: "arqueologico" },
+  { value: "ticket", labelKey: "ticket" },
 ];

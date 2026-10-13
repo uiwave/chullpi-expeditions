@@ -1,0 +1,11 @@
+{
+  "slug": "ticket-machu-picchu-guia-privado",
+  "destination": "Cusco",
+  "image": "pichu-2.jpg",
+  "title": "Ingresso de Machu Picchu com Guia Privado",
+  "price": 136,
+  "type": "Ingresso",
+  "typeKey": "ticket",
+  "duration": "2 horas",
+  "popular": true
+}

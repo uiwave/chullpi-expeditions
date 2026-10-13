@@ -46,6 +46,11 @@ const TOUR_SLUGS = [
   "chullpas-de-sillustani",
   "isla-uros-taquile-amantani",
   "tour-islas-flotantes-de-los-uros",
+  "entradas-circuito-2-machu-picchu-guia-privado",
+  "ticket-machu-picchu-guia-privado",
+  "tour-2-dias-machu-picchu-guia-privado",
+  "circuito-2-machu-picchu-todo-incluido-tren-transporte-guia",
+  "tour-atv-cuatrimoto-valle-rojo-montana-arco-iris",
 ] as const;
 
 export type TourSlug = (typeof TOUR_SLUGS)[number];

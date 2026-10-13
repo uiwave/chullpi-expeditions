@@ -140,7 +140,8 @@
           "dailyTour": "Day tour",
           "trekking": "Trekking",
           "cultural": "Cultural",
-          "arqueologico": "Archaeological"
+          "arqueologico": "Archaeological",
+          "ticket": "Ticket"
         }
       }
     },
