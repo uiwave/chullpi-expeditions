@@ -7,7 +7,7 @@ export default function HeroSection() {
   const t = useTranslations("home.hero");
 
   return (
-    <section className="relative flex min-h-dvh w-full items-center text-white">
+    <section className="relative flex min-h-[calc(100dvh-138px)] w-full items-center text-white">
       <Image
         src="/images/bg/machu-picchu.jpg"
         alt=""

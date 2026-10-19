@@ -20,7 +20,7 @@ export function Header() {
 
   return (
     <>
-      <header className="fixed top-0 right-0 left-0 z-50 bg-white text-black">
+      <header className="sticky top-0 right-0 left-0 z-50 bg-white text-black shadow-xl">
         <div className="border-border/50 mx-auto flex items-center justify-between border px-4 py-1.5 sm:px-8 xl:px-16">
           <div className="flex items-center gap-6">
             <span className="hidden items-center gap-2 md:flex">
