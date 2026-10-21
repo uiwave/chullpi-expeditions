@@ -63,16 +63,6 @@ export default function GallerySection() {
 
   return (
     <section className="relative w-full overflow-hidden bg-[#F4F9FA] py-12 lg:py-20">
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute top-8 left-0 h-16 w-56 bg-contain bg-left-top bg-no-repeat opacity-90"
-        style={{ backgroundImage: "url('/images/bg/gelary-sp1.png')" }}
-      />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute right-0 bottom-12 h-16 w-56 bg-contain bg-right-bottom bg-no-repeat opacity-90"
-        style={{ backgroundImage: "url('/images/bg/gelary-sp2.png')" }}
-      />
       <div className="uw-container relative z-10">
         <Heading
           subtitle={t("subtitle")}

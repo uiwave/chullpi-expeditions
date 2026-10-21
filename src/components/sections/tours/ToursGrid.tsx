@@ -2,6 +2,7 @@ import Pagination from "@/components/sections/tours/Pagination";
 import { TOURS_PER_PAGE } from "@/lib/tour-filters";
 import type { Tour } from "@/types/Tour";
 import TourCardPopular from "@/components/v2/TourCardPopular";
+import CardReserva from "@/components/uiwave/CardReserva";
 
 interface Props {
   tours: Tour[];
@@ -32,7 +33,8 @@ export default function ToursGrid({
     <>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
         {tours.map((tour) => (
-          <TourCardPopular key={tour.slug} data={tour} />
+          <CardReserva key={tour.slug} data={tour} />
+          // <TourCardPopular key={tour.slug} data={tour} />
         ))}
       </div>
       <Pagination

@@ -39,18 +39,9 @@ export async function Footer() {
 
   return (
     <footer className="bg-primary relative z-20 overflow-hidden">
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute top-0 left-0 h-10 w-full bg-top bg-repeat-x opacity-70"
-        style={{
-          backgroundImage: "url('/images/bg/banner-pattern.png')",
-          backgroundSize: "auto 100%",
-        }}
-      />
       <div className="pt-16 pb-12 xl:pt-25 xl:pb-11.5">
         <div className="uw-container">
           <div className="grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 xl:grid-cols-4">
-            {/* Widget: About */}
             <div>
               <Link href={ROUTES.HOME} className="mb-8 inline-flex">
                 <img
