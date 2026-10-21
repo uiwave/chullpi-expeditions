@@ -10,9 +10,12 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Descubre la belleza natural de la Montaña Arcoíris Palcoyo, una joya escondida en los Andes peruanos.",
       "items": [],
       "blocks": []
+    },
+    {
+      "text": "Este trekking es una experiencia única para quienes buscan paisajes espectaculares sin las multitudes. A lo largo del recorrido disfrutarás de vistas a montañas multicolores, un impresionante bosque de piedras y la tranquilidad de un destino menos explorado. Ideal para los amantes de la naturaleza y la fotografía, Palcoyo ofrece una caminata accesible con panorámicas inolvidables de los Andes, alpacas y antiguos puentes coloniales."
     }
   ],
   "shortItinerary": [
@@ -24,13 +27,19 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Saldremos de Cusco muy temprano para iniciar el viaje hasta llegar a Cusipata. Aquí tendrás tiempo para desayunar, para luego continuar la ruta en la que podrás ver alpacas y las montañas nevadas de los Andes peruanos.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "En Checacupe visitarás los 3 puentes Inka, Colonial y Republicano. Llegarás a la comunidad de Palcoyo desde donde comienza el Trekking Montaña Arcoíris Palcoyo, una caminata de 1 hora con la que podrás ver las tres montañas de colores y llegar al bosque de piedras. Durante la caminata tendrás vistas maravillosas de los colores de la tierra y las montañas alrededor."
+        },
+        {
+          "text": "Se trata de una actividad menos exigente y menos visitada que la montaña Arcoíris Vinicunca, por lo que seguramente tendrás más espacio y tiempo para tomar fotografías. Después de esto, retornarás al vehículo para ir hasta Cusipata donde disfrutarás tu almuerzo. Por último visitarás la mano de Huaro, para finalmente regresar a Cusco, donde termina la actividad."
         }
       ]
     }
@@ -38,27 +47,48 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recogida en tu alojamiento (área urbana)",
+        "Transporte compartido",
+        "Guía (español o inglés)",
+        "Desayuno",
+        "Almuerzo",
+        "Drop off en el centro de Cusco."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Entrada Montaña Palcoyo (S/ 10 residentes en Perú, S/ 20 no residentes en Perú, pago en efectivo el día del tour)",
+        "Seguro de viaje (recomendado)"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Ropa abrigada",
+        "Ropa impermeable",
+        "Calzado de trekking",
+        "Gorro para el sol",
+        "Anteojos de sol",
+        "Bloqueador solar",
+        "Snack",
+        "Agua",
+        "Ropa cómoda y gorro",
+        "Guantes para el frío"
+      ],
       "blocks": []
     }
   ],
   "additionals": [
     {
-      "title": "",
+      "title": "Restricciones:",
       "subtitle": "",
       "items": [
         {
@@ -66,7 +96,25 @@
           "price": "",
           "description": [
             {
-              "text": "",
+              "text": "No permitido para personas con problemas producidos por la altitud, no permitido para embarazadas y edad mínima requerida de 14 años.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Política de anulación y reprogramación:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "3 días.",
               "items": [],
               "blocks": []
             }

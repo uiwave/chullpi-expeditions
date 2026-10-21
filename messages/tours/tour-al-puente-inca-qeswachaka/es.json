@@ -10,27 +10,39 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Este tour te llevará a explorar los hermosos lagos de la provincia de Acomayo y el impresionante puente Inca de Qeswachaka en la provincia de Canas. Disfrutarás de paisajes naturales, fauna local y la oportunidad única de cruzar un puente de cuerda reconstruido tradicionalmente por la comunidad. Una experiencia cultural y de aventura que no olvidarás.",
       "items": [],
       "blocks": []
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
+      "text": "Puente Inca Q´eswachaka",
+      "items": [
+        "Iniciaremos el tour con el recojo desde tu hotel a las 4:00 a.m. o 5:00 a.m. y viajaremos hacia Acomayo.",
+        "Visitaremos los cuatro lagos: Pomacanchi, Acopia, Asnaqocha y Pampa Marca, observando su flora y fauna.",
+        "Luego nos dirigiremos a la provincia de Canas para explorar el famoso puente Inca de Qeswachaka.",
+        "Tendrás la oportunidad de cruzar el puente y tomar fotos.",
+        "Al final del día, regresaremos a Cusco y te dejaremos en tu hotel."
+      ],
       "blocks": []
     }
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El tour comienza con el recojo de tu hotel a las 4:00 a.m. o 5:00 a.m. en transporte privado. Nos dirigiremos hacia la provincia de Acomayo, donde exploraremos una serie de cuatro hermosos lagos: Pomacanchi, Acopia, Asnaqocha y Pampa Marca. A lo largo del recorrido, podrás admirar las impresionantes vistas naturales, la fauna local y la flora que rodea estos lagos de agua cristalina.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Después de visitar los lagos, continuaremos hacia la provincia de Canas, donde se encuentra el famoso puente Inca de Qeswachaka, a 3,700 metros sobre el nivel del mar. Este puente tiene una longitud de 33 metros y un ancho de 1.20 metros. Cada mes de junio, las comunidades locales realizan la reconstrucción del puente utilizando el ichu, una planta nativa de la región, como parte de una tradición ancestral."
+        },
+        {
+          "text": "Tendrás la oportunidad única de cruzar el puente a pie, lo cual es una experiencia emocionante y un recuerdo inolvidable de la arquitectura y las tradiciones incas. Tras esta increíble aventura, regresaremos a Cusco, donde te dejaremos en tu hotel para descansar después de un día lleno de naturaleza y cultura."
         }
       ]
     }
@@ -38,27 +50,38 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Transporte privado",
+        "Guía profesional experimentado.",
+        "Desayuno y almuerzo en caja.",
+        "Botiquín de primeros auxilios y oxígeno."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": ["Entrada al puente de Qeswachaka (10 soles)"],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Una chaqueta abrigada",
+        "Sombrero",
+        "Agua",
+        "Protección solar",
+        "Algo de dinero para recuerdos."
+      ],
       "blocks": []
     }
   ],
   "additionals": [
     {
-      "title": "",
+      "title": "Política de anulación y reprogramación:",
       "subtitle": "",
       "items": [
         {
@@ -66,7 +89,25 @@
           "price": "",
           "description": [
             {
-              "text": "",
+              "text": "3 días.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Clima:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Sujeto a condiciones meteorológicas.",
               "items": [],
               "blocks": []
             }

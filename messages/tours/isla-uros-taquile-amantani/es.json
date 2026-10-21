@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Embárcate en una experiencia inolvidable en el majestuoso Lago Titicaca, explorando tres de sus islas más representativas: Uros, Amantani y Taquile. Durante dos días vivirás una inmersión cultural auténtica, compartiendo momentos con comunidades locales, disfrutando de la gastronomía andina, explorando sitios sagrados y admirando paisajes espectaculares. Este recorrido combina naturaleza, tradición y hospitalidad en uno de los destinos más mágicos del altiplano peruano.",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,33 @@
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Uros y Amantani: Conexión cultural en el Lago Titicaca",
       "paragraphs": [
         {
-          "text": "",
+          "text": "La jornada comienza con el recojo desde los hoteles ubicados en el centro de Puno a las 07:40 a.m., seguido de la salida en barco desde el puerto principal a las 08:00 a.m.. Nuestra primera parada será en las Islas Flotantes de los Uros, donde exploraremos dos islas tradicionales y conoceremos a sus habitantes a partir de las 08:30 a.m..",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Luego, continuaremos la navegación hacia la isla de Amantani a las 10:00 a.m., disfrutando de paisajes únicos durante aproximadamente 3 horas. Llegaremos al puerto de Amantani alrededor de la 01:00 p.m., donde serás recibido por una familia local que te brindará alojamiento y un almuerzo típico a las 02:00 p.m.."
+        },
+        {
+          "text": "Por la tarde, realizaremos una caminata hacia la cima de la isla, visitando los templos ceremoniales de Pachamama y Pachatata. Desde este punto, podrás contemplar uno de los atardeceres más hermosos del Lago Titicaca, alrededor de las 04:00 p.m.. Al regresar, disfrutarás de una cena casera a las 06:00 p.m., y si lo deseas, podrás participar en una celebración local con música y danza tradicional a partir de las 08:00 p.m."
+        }
+      ]
+    },
+    {
+      "title": "Día 2",
+      "subtitle": "Taquile: Tradición viva y paisajes inolvidables",
+      "paragraphs": [
+        {
+          "text": "El segundo día comienza con un desayuno temprano en Amantani a las 07:00 a.m., antes de abordar el bote hacia la isla de Taquile a las 08:00 a.m.. Desembarcamos en el norte de la isla a las 09:00 a.m. e iniciamos una caminata escénica hacia la plaza principal del pueblo, a la que llegaremos alrededor de las 10:30 a.m.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Después de explorar la plaza y conocer más sobre las costumbres locales, compartiremos un almuerzo típico a las 12:00 p.m., preparado por los propios habitantes de Taquile. Culminamos esta experiencia cultural con el retorno en barco hacia Puno a la 01:30 p.m., arribando al puerto alrededor de las 03:30 p.m., donde se realizarán los traslados a los hoteles del centro."
         }
       ]
     }
@@ -38,21 +58,42 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Traslados hotel – Puerto – Hotel.",
+        "Barco a motor.",
+        "Guía Español/Inglés.",
+        "Entradas turísticas a los Uros, Amantani y Taquile.",
+        "Alojamiento Básico y 03 comidas (Almuerzo, Cena y desayuno) en Amantani, comida netamente andina (papa, arroz, huevo, sopa de quinua, oca, queso, etc)",
+        "Peña Show en Amantani.",
+        "Almuerzo en Taquile"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Propinas.",
+        "Paseo en Bote local (Balsa de Totora) en los Uros, servicio opcional, dura aprox de 10 a 15 minutos, el precio es de (S/10.00 soles) ó ($3.00 Dolares) por persona y el pago es al poblador.",
+        "Otros no mencionados."
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Llevar ropa ligera y también abrigadora, el clima por las mañanas es frío, al mediodía caluroso y por la tarde ventoso.",
+        "Llevar gorro, bloqueador solar y lentes de sol.",
+        "Zapatos/Zapatillas cómodos para la caminata.",
+        "Dinero en efectivo (Soles) en caso de que desee comprar souvenirs/recuerdos, no aceptan tarjetas de crédito/débito.",
+        "Bebidas y snacks (Agua, rehidratantes, etc.).",
+        "Llevar los artículos de higiene personal.",
+        "Casaca impermeable o poncho de plástico, solo para la temporada de lluvia (Noviembre – Marzo).",
+        "Importante: Procure llevar solo lo mínimo indispensable, ya que es solo 1 noche, las maletas grandes las puede dejar en su hotel (una mochila por persona ó una maleta pequeña es recomendable)."
+      ],
       "blocks": []
     }
   ],

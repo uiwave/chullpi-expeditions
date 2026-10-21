@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "En Tour Islas Ballestas Paracas usted disfrutará de la impresionante fauna marina en una fantástica excursión en deslizador, usted también conocerá un símbolo misterioso llamado Candelabro que fue tallado en el acantilado de la península de Paracas hace siglos por una civilización desconocida y observará todas las especies marinas que habitan en estas islas.",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,22 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "A la hora coordinada recojo de la estación de bus o de su hotel en Paracas y traslado al muelle turístico.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "El Tour Islas Ballestas inicia con el embarque desde el muelle turístico del Chaco Paracas, usted abordará nuestro deslizador para luego navegar por la Bahía de Paracas hasta llegar al Candelabro una figura similar a las Líneas de Nazca tallado en la falda de la península de Paracas, nuestro guía profesional explicará las diferentes teorías que existen."
+        },
+        {
+          "text": "luego se navegará mar adentro hasta llegar a las Islas Ballestas y podrás apreciar desde muy cerca una fabulosa fauna marina, como grandes colonias de lobos en las playas y rocas. También es posible ver grupos de pingüinos de Humboldt en pequeñas cuevas, así como una gran variedad de aves costeras."
+        },
+        {
+          "text": "aves guaneras, tales como, cormoranes, piqueros, pelicanos, gaviotas, y zarcillos y apreciarás formaciones rocosas y la belleza del Océano Pacífico geniales para fotos artísticas."
         }
       ]
     }
@@ -38,7 +47,16 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Tour Islas Ballestas en Deslizador",
+        "Chaleco Salvavidas",
+        "Lancha con 2 Motores fuera de borda.",
+        "Botiquín de Primeros Auxilios",
+        "Póliza de Seguro.",
+        "Permiso de Operaciones de Capitanía de Puertos",
+        "Guía Oficial de Turismo Inglés y Español.",
+        "Recojo de su hotel en Paracas o estación de bus"
+      ],
       "blocks": []
     }
   ],
@@ -52,7 +70,11 @@
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Llevar Sweater cortavientos.",
+        "Protector solar.",
+        "No ingerir alimentos pesados antes de realizar el tour."
+      ],
       "blocks": []
     }
   ],

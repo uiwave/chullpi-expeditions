@@ -10,9 +10,13 @@
   "popular": false,
   "description": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "El tour de día completo del Cañón del Colca lo lleva en un viaje mágico al Valle del Colca. Camine hasta el famoso mirador Cruz del Cóndor para disfrutar de las vistas más amplias del Cañón del Colca y un avistamiento fuera de este mundo del imponente cóndor andino."
+    },
+    {
+      "text": "Más tarde, disfrute de un baño relajante en los serenos baños termales cercanos. Visite un increíble Parque Nacional para interactuar con las aún más famosas llamas, alpacas y vicuñas."
+    },
+    {
+      "text": "Este tour completo de un día le brinda vistas incomparables del Cañón del Colca y el valle. Experimente una fauna increíble e interactúe con estos asombrosos animales y la gente local en el camino."
     }
   ],
   "shortItinerary": [
@@ -24,13 +28,25 @@
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Arequipa – Pampa Cañahuas – Patapampa (4850M) – Chivay – Mirador Cruz del Cóndor",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El tour al Cañon de Colca comienza antes del amanecer a las 3 am. Nos preparamos para un viaje de 3 horas en nuestro transporte privado al pequeño pueblo de Chivay, ubicado en el lado izquierdo del Cañón del Colca, es el punto central para cualquier caminata a los numerosos puntos de vista del cañón, también encontraremos muchas actividades cerca.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Nos detenemos en el centro de la ciudad para tomar un desayuno rápido antes de embarcarnos en nuestra caminata hacia el Mirador «Cruz del Cóndor». La caminata comenzará temprano como para llegar en el momento perfecto para posiblemente ver decenas de estas magníficas aves a muy corta distancia. El cóndor andino es el segundo ave más grande del mundo y las imágenes que obtienes aquí harán que tus amigos te envidien. En el camino, disfrute de los bailarines locales «wititi» y de las vistas de las terrazas que cubren el valle. También presenciaremos los miradores de Antahuilque y las Tumbas de Choquetico. Al llegar a la Cruz del Cóndor, pasamos un tiempo deleitandonos por una vista increible de los cóndores andinos y el valle."
+        },
+        {
+          "text": "Luego, regresamos a Chivay para visitar el pequeño pueblo de Maca, conocido por su iglesia colonial del siglo XVI. También podemos observar el día a día de los lugareños que trabajan incansablemente en sus terrazas agrícolas. Al llegar a Chivay, nos dirigimos a las aguas termales de La Calera, para sumergirnos en sus pozas terapéuticas. A eso le sigue un viaje de vuelta a la ciudad para un almuerzo gourmet antes de dirigirse de vuelta a Arequipa. En el camino nos detenemos en el punto más alto entre el Cañón del Colca y Arequipa, Patapampa (4 800 m). Obtendremos impresionantes vistas de la cordillera volcánica que encierra la esencia de esta región."
+        },
+        {
+          "text": "Más tarde nos dirigimos a Toqrapampa, para visitar pequeñas lagunas cristalinas, con una variedad de aves andinas únicas arremolinándose alrededor. Finalmente, llegamos al Parque Nacional Pampa Cañahuas, para pasar un rato con llamas, alpacas y el animal nacional del Perú, las vicuñas."
+        },
+        {
+          "text": "Nos dirigimos a nuestros hoteles en Arequipa, llegaremos alrededor de las 17:00 horas."
         }
       ]
     }
@@ -38,21 +54,47 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Transporte privado en nuestras unidades, modernas y cómodas.",
+        "Grupos pequeños: máximo 8 personas (promedio de 4-6 personas)",
+        "Entrada al Cañón del Colca",
+        "Comidas: Desayuno y almuerzo",
+        "Entrada agua termal La Calera",
+        "Una guía bilingüe (inglés y español)"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Alimentación, como se indica en el itinerario.",
+        "Propinas para el conductor y guía de Sam Corporation",
+        "Bebidas"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Una mochila ligera e impermeable",
+        "Calzado cómodo",
+        "Ropa ligera para el calor, y abrigadora cuando cambie el ambiente",
+        "Cámara con baterías extra",
+        "Protección solar: bloqueador solar, sombrero para el sol, lentes de sol",
+        "Repelente de insectos",
+        "Ropa impermeable y/o poncho de lluvia",
+        "Botella de agua",
+        "Botiquín personal",
+        "Dinero extra para souvenirs, bebidas, propinas",
+        "Llevar snacks",
+        "Desinfectante de manos",
+        "Papel higiénico",
+        "Copia del pasaporte y carné de estudiante si aplica"
+      ],
       "blocks": []
     }
   ],

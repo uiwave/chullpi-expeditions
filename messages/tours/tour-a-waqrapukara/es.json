@@ -10,27 +10,45 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Embárcate en una aventura única a Waqrapukara, una fortaleza impresionante al borde del cañón del Apurímac. Explora este enigmático sitio arqueológico, disfruta de los hermosos paisajes de las lagunas y los acantilados, y aprende sobre la historia preinca e inca en un recorrido que te dejará sin aliento.",
       "items": [],
       "blocks": []
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
+      "text": "Waqrapukara",
+      "items": [
+        "04:00 a.m. Salida desde el hotel hacia Quiquijana para el desayuno.",
+        "Continuamos bordeando la laguna de Pomacanchi y viajamos hasta Santa Lucía.",
+        "Caminata de 1.5 horas hacia el mirador de Waqrapukara.",
+        "Explora el complejo arqueológico durante 1.5 horas.",
+        "Regreso por el mismo sendero y retorno a Cusco, llegando a las 5:00 p.m."
+      ],
       "blocks": []
     }
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Cusco – Quiquijana – Pomacanchi – Waqrapukara",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El día comienza muy temprano con el recojo desde tu hotel a las 04:00 a.m., y después tomaremos un transporte privado hacia el pueblo de Quiquijana, donde podrás disfrutar de un desayuno para recargar energías. Luego de esto, continuaremos nuestro viaje bordeando la laguna de Pomacanchi, una de las más grandes de la zona, rodeada de praderas y campos de cultivo.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Después de aproximadamente una hora de viaje, llegaremos al pueblo de Santa Lucía, donde seguiremos una carretera sin asfalto durante otra hora, atravesando paisajes espectaculares, con la laguna de Pomacanchi a lo lejos. Finalmente, llegaremos al punto de inicio de la caminata, donde tendrás tiempo para alistar todo lo necesario."
+        },
+        {
+          "text": "La caminata inicial tiene una duración de 1.5 horas, atravesando acantilados y disfrutando de vistas impresionantes del cañón del Apurímac, uno de los más altos de Perú. A medida que avanzamos, te sorprenderás con la belleza del paisaje hasta llegar al mirador de Waqrapukara, donde podrás descansar y tomar las primeras fotos de la fortaleza, que se alza majestuosamente al borde del cañón."
+        },
+        {
+          "text": "Desde el mirador, descenderemos por un sendero empinado hacia el complejo arqueológico de Waqrapukara, mientras observamos el río Apurímac fluyendo a lo lejos. Tendrás 1.5 horas para explorar este misterioso sitio, conocido por sus construcciones preincaicas e incas, terrazas y la famosa formación rocosa en forma de cuernos. El complejo es un lugar ideal para aprender sobre la rica historia andina y disfrutar de las impresionantes vistas."
+        },
+        {
+          "text": "Cuando todos estén listos, comenzaremos el retorno por el mismo sendero, lo que nos tomará alrededor de 1.5 horas. Finalmente, llegaremos al transporte privado que nos llevará de regreso a Cusco, con llegada estimada a las 5:00 p.m. para concluir esta increíble aventura."
         }
       ]
     }
@@ -38,27 +56,51 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Transporte turístico",
+        "Guía Bilingüe",
+        "Desayuno y Almuerzo",
+        "Botiquín de Primeros Auxilios",
+        "Oxígeno",
+        "Mantas y bastones"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Alimentación no mencionada en el programa",
+        "Gastos personales",
+        "Propinas"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Mochila pequeña",
+        "Casaca para la lluvia o poncho",
+        "Suéter o chompa para el frío",
+        "Bloqueador solar",
+        "Repelente para mosquitos",
+        "Cámara con batería extra",
+        "Sombrero o gorra",
+        "Lentes para el sol",
+        "Zapatos cómodos para caminatas",
+        "Agua mineral",
+        "Snack: Chocolates, fruta seca, barras de cereales",
+        "Papel higiénico"
+      ],
       "blocks": []
     }
   ],
   "additionals": [
     {
-      "title": "",
+      "title": "Política de anulación y reprogramación:",
       "subtitle": "",
       "items": [
         {
@@ -66,7 +108,25 @@
           "price": "",
           "description": [
             {
-              "text": "",
+              "text": "3 días.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Clima:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Sujeto a condiciones meteorológicas.",
               "items": [],
               "blocks": []
             }

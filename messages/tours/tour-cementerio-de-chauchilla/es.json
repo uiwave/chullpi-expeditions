@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "El cementerio de Chauchilla está ubicado a unos 30 km de la ciudad de Nasca. Es el único en Perú que permite observar momias en sus tumbas originales, conservadas en excelente estado a pesar de su antigüedad. Esta preservación se debe en gran parte al clima extremadamente árido y seco del desierto de Nasca, lo que ha permitido que, en muchas de las momias, se mantengan incluso restos de cabellos y algo de piel.",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,22 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Tras una coordinación previa, será trasladado desde su hotel en Nasca o la estación de bus hasta el Cementerio de Chauchilla, ubicado a unos 30 km de la ciudad.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Este es el único cementerio en Perú donde es posible ver las momias en sus tumbas originales. A pesar de su antigüedad, muchas de ellas conservan restos de cabellos e incluso algo de piel."
+        },
+        {
+          "text": "Los saqueadores se llevaron principalmente los objetos valiosos, como cerámica, tejidos, y metales preciosos, dejando los cuerpos dispersos por el desierto, los cuales aún son visibles en la actualidad."
+        },
+        {
+          "text": "Al finalizar el recorrido, se realizará el retorno a su hotel."
         }
       ]
     }
@@ -38,14 +47,20 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Traslado de su hotel en Nasca",
+        "Transporte turístico.",
+        "Guía en ingles/español",
+        "Asistencia permanente",
+        "Entrada al Cementerio"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": ["Alimentación."],
       "blocks": []
     }
   ],

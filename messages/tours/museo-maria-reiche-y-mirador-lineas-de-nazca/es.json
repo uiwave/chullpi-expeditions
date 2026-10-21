@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "En este tour, descubrirás la vida de María Reiche a través de fotos, objetos personales y su antigua cabaña de trabajo en el desierto de Nazca. También podrás ver las figuras de las manos y el árbol de Nazca. El museo, inaugurado en 1994, alberga estudios, mapas y material arqueológico relacionado con las famosas líneas de Nazca. Junto al museo, se encuentra su tumba. Además, el Mirador Líneas de Nazca ofrece una vista panorámica de las figuras y líneas desde una torre de 13 metros de altura.",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,19 @@
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Nazca – Museo María Reiche – Mirador Líneas de Nazca – Nazca",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El recorrido comienza con la recogida en su hotel en Nazca a las 08:45 hrs. A las 09:00 hrs, visitaremos el Museo María Reiche, ubicado a 25 minutos al norte de la ciudad, donde exploraremos la vida y trabajo de María Reiche, quien dedicó su vida al estudio y protección de las misteriosas líneas de Nazca. En el museo, veremos su antigua cabaña de estudios, junto con sus cámaras fotográficas, instrumentos de medición y otros objetos personales.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Luego, nos dirigiremos al Mirador Metálico, una torre de 12 metros de altura desde donde se pueden observar claramente las figuras del árbol y las manos, además de otras formas geométricas y líneas rectas que recorren el desierto. A pocos kilómetros del mirador, encontraremos un mirador natural que ofrece vistas de las líneas y trapezoides de Nazca."
+        },
+        {
+          "text": "A las 12:00 hrs, el tour finalizará con el traslado de regreso a su hotel."
         }
       ]
     }
@@ -38,21 +44,38 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Transfer IN/OUT en Nazca",
+        "Transporte turístico",
+        "Guía profesional bilingüe",
+        "Ingresos Mirador Metálico"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Alimentación no mencionada en el programa",
+        "Gastos personales",
+        "Propinas Alimentación no mencionada",
+        "Propinas"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Sombrero o gorro para el sol",
+        "Protección solar (factor 35)",
+        "Zapatos cómodos",
+        "Agua Mineral y snacks",
+        "Cámara y filmadora",
+        "Baterías"
+      ],
       "blocks": []
     }
   ],

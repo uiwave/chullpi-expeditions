@@ -10,9 +10,15 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Aramu Muru – Hayu Marca, también conocido como Willka Uta, se encuentra a 70 km al sur de Puno. Es una puerta de roca de casi 7 metros de altura, esculpida por los descendientes de la cultura Tiahuanaco, inspirada en la famosa Puerta del Sol. Este lugar es uno de los más enigmáticos y místicos de la región, rodeado por un paisaje impresionante con formaciones rocosas que añaden al aura espiritual del sitio, conocido como el bosque de piedras.",
       "items": [],
       "blocks": []
+    },
+    {
+      "text": "En el recorrido, también visitaremos Chucuito, donde exploraremos el Inca Uyo (templo de la fertilidad), un complejo ceremonial inca con monumentos fálicos utilizados en rituales dedicados a la Pachamama y el sol, además de servir como observatorio astronómico."
+    },
+    {
+      "text": "Finalmente, antes de regresar, tendremos una opción de visita al Museo de la Totora, ubicado a 7 km de Puno, donde se exhiben impresionantes artesanías elaboradas con totora, material utilizado por los habitantes de Chimú."
     }
   ],
   "shortItinerary": [
@@ -24,11 +30,22 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Mañana",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El tour comienza con el recojo de los hoteles a las 07:30 a.m., para comenzar el viaje hacia Aramu Muru. La primera parada será en Chucuito, donde visitaremos el Inca Uyo, el Iglesias Santo Domingo y Asunción, además de disfrutar de un mirador con vistas panorámicas. También se puede hacer una visita opcional a la Piscicultura. Después de esta visita, saldremos hacia Aramu Muru, con llegada prevista para las 09:00 a.m.. En Aramu Muru, exploraremos la puerta interdimensional durante 1 hora y media. A las 11:30 a.m., saldremos rumbo a Puno, haciendo una última parada opcional en el Museo de la Totora a las 12:15 p.m.. Tras la visita, continuaremos el traslado y llegaremos a Puno a las 12:45 p.m., donde se realizará el transfer de regreso a los hoteles a la 01:00 p.m..",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Tarde",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Por la tarde, el tour comenzará con el recojo a las 02:00 p.m., y saldremos rumbo a Aramu Muru. Llegaremos a las 03:00 p.m. para visitar la puerta interdimensional de Aramu Muru durante aproximadamente 1 hora. Luego, a las 04:00 p.m., saldremos hacia Chucuito, donde exploraremos nuevamente el Inca Uyo, la Iglesia Santo Domingo y Asunción, así como el mirador local. A las 06:00 p.m., regresaremos a Puno, con llegada aproximada a las 06:30 p.m., donde se realizará el transfer de regreso a los hoteles.",
           "items": [],
           "blocks": []
         }
@@ -38,21 +55,31 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Movilidad Privada Puno – Chucuito – Aramu Muru – Puno.",
+        "Entradas Inca Uyo y Aramu Muru.",
+        "Guía Español/Inglés."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": ["Almuerzo.", "Otros no mencionados."],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Llevar Ropa ligera y también abrigadora, el clima por las mañanas es frió, al medio día es caluroso y por la tarde ventoso.",
+        "Llevar Gorro y/o Bloqueador solar.",
+        "Zapatos cómodos para la caminata.",
+        "Dinero en efectivo si desea comprar souvenirs/recuerdos, no aceptan tarjetas de crédito/débito.",
+        "Bebidas y/o snacks."
+      ],
       "blocks": []
     }
   ],

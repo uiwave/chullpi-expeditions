@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Embárcate en un tour único que te llevará a explorar algunos de los paisajes más impresionantes de la región, como el Bosque de Piedras y la Catarata de Pillones. A lo largo de este recorrido, podrás disfrutar de formaciones rocosas sorprendentes, cascadas espectaculares y una conexión directa con la naturaleza. Desde el famoso pueblo de Pampa de Arrieros hasta el majestuoso descenso hacia las cataratas, vivirás una experiencia inolvidable.",
       "items": [],
       "blocks": []
     }
@@ -28,9 +28,27 @@
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "A las 06:00am comenzamos con el recojo desde los hoteles ubicados en el centro histórico de Arequipa, para dar inicio a nuestro recorrido.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "La primera parada será el pintoresco pueblo de Pampa de Arrieros, conocido por ser la entrada histórica a la ciudad blanca para aquellos que llegaban en tren."
+        },
+        {
+          "text": "Continuaremos hacia Patahuasi, donde disfrutaremos de un tradicional Mate de Coca, esencial para evitar los efectos del mal de altura, además de un breve desayuno."
+        },
+        {
+          "text": "Nuestra siguiente parada será el fascinante Bosque de Piedras. Aquí, realizaremos una caminata de aproximadamente 40 minutos para admirar las singulares formaciones rocosas y columnas pétreas que parecen surgir de la tierra en una maravilla natural."
+        },
+        {
+          "text": "En aproximadamente una hora, llegaremos a la impresionante Catarata de Pillones. Desde allí, emprenderemos un corto descenso de unos 15 minutos hasta llegar a las cascadas. Tendrás tiempo para disfrutar del paisaje, tomar fotos y observar las formaciones rocosas modeladas por la erosión del agua a lo largo de los años."
+        },
+        {
+          "text": "Después de este contacto cercano con la naturaleza, nos dirigiremos a Patahuasi para disfrutar de un delicioso almuerzo."
+        },
+        {
+          "text": "Finalmente, tras haber vivido una experiencia inolvidable, iniciaremos nuestro regreso a Arequipa, con llegada estimada a las 05:30pm, donde te dejaremos cerca de la Plaza de Armas."
         }
       ]
     }
@@ -38,14 +56,23 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recojo del hotel (Centro histórico)",
+        "Transporte Turístico",
+        "Guía de Turismo (español / ingles)",
+        "Desayuno continental"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Ingreso Bosque de Piedras S/5.00",
+        "Ingreso Catarata S/5.00",
+        "Almuerzo"
+      ],
       "blocks": []
     }
   ],

@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Este tour es una inmersión completa en la historia natural y cultural de Arequipa, llevándote a descubrir paisajes impresionantes, tradiciones ancestrales y la riqueza geológica de la región. Desde los volcanes tutelares hasta las canteras de sillar, experimentarás de primera mano la belleza de la naturaleza y la herencia histórica que ha forjado la ciudad de Arequipa. Con un recorrido que abarca desde la Reserva Nacional de Salinas y Aguada Blanca hasta la Ruta del Sillar, este tour te brindará una visión completa de lo que hace única a esta maravillosa ciudad.",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,34 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El recorrido comienza a las 6:00 am, cuando pasaremos a recogerlos en sus respectivos hoteles en el centro histórico de Arequipa. Desde allí, nos dirigiremos hacia el sureste de la ciudad, nuestra primera parada será en el Mirador de los Volcanes. Desde este punto, tendremos una vista impresionante de los volcanes que rodean la ciudad, además de la andenería preincaica de Chiguata, un poblado tradicional de la región.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Continuamos hacia el pueblo tradicional de Chiguata, donde visitaremos su histórica iglesia “Espíritu Santo” y su plaza principal. Aquí, también podremos disfrutar de un desayuno típico de la zona, antes de continuar nuestro viaje."
+        },
+        {
+          "text": "A continuación, haremos una breve parada en la entrada de la Reserva Nacional de Salinas y Aguada Blanca. En este lugar, exploraremos el bosque de Queñuas, hogar de la yareta, una planta utilizada como combustible en tiempos antiguos. También podremos apreciar la flora común de las altas zonas desérticas del país."
+        },
+        {
+          "text": "Nuestro siguiente destino será el Ojo de Agua Zimbral, una fuente natural de agua donde podremos observar sus impresionantes filtraciones. Luego, ascendemos hasta el mirador de Qaqa Wasi, desde donde se disfruta de una vista majestuosa de la laguna de Salinas. En la temporada de lluvias (de enero a marzo), este es un excelente punto para el avistamiento de aves y la fotografía de los espejos de agua. Durante el resto del año, los visitantes pueden conocer los centros de extracción de sal utilizados por los lugareños."
+        },
+        {
+          "text": "La siguiente parada será el Salar de Chilitia, un lugar increíble para tomar fotografías y admirar este fenómeno natural en toda su magnificencia. Después, nos dirigiremos hacia los baños termales situados al pie del Volcán Ubinas, en la provincia de Sánchez Cerro, Moquegua."
+        },
+        {
+          "text": "A las 1:30 pm, iniciaremos el regreso a Arequipa, con una breve parada para el almuerzo. Continuamos el recorrido a las 2:00 pm hacia la Ruta del Sillar, comenzando en el mirador de Yanahuara, donde podrás obtener una vista panorámica de la ciudad. Luego, nos dirigiremos hacia la cantera Añas Huayco, donde nuestro guía nos explicará el proceso de extracción del sillar, la piedra utilizada en la construcción de la mayoría de los edificios en la Plaza de Armas de Arequipa. Además, aprenderemos sobre el tallado y el mega tallado que realizan los maestros canteros."
+        },
+        {
+          "text": "El siguiente destino es la quebrada de Culebrillas, una cantera que ya no está en explotación, pero que podremos recorrer durante unos 20 minutos. Durante este recorrido por un pequeño cañón formado por la erosión del agua, tendremos la oportunidad de ver y fotografiar algunos petroglifos, mientras el guía nos proporciona información sobre su origen y significado."
+        },
+        {
+          "text": "Finalmente, regresaremos a Arequipa, concluyendo el tour alrededor de las 6:30 pm."
         }
       ]
     }
@@ -38,7 +59,15 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recojo y retorno desde/hacia el hotel en Arequipa",
+        "Transporte turístico durante todo el recorrido",
+        "Guía profesional durante el tour",
+        "Desayuno típico en Chiguata",
+        "Visitas a los miradores y lugares turísticos",
+        "Acceso a las canteras y áreas de interés",
+        "Información detallada sobre los petroglifos y el sillar"
+      ],
       "blocks": []
     }
   ],

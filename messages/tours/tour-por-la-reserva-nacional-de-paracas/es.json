@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Descubriremos en este tour la fauna y paisajes de la Reserva Nacional de Paracas, uno de los espacios medioambientales más destacados del oeste de Perú. ¡No os lo podéis perder!",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,28 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Tras recogeros en vuestro hotel a la hora indicada, nos desplazaremos directamente hasta la Reserva Natural de Paracas. ¿Preparados para descubrir sus extraordinarios paisajes?",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "La primera parada será el Centro de Interpretación, donde conoceremos más a fondo los ecosistemas de la reserva."
+        },
+        {
+          "text": "Durante un tour de dos horas y media de duración recorreremos las playas, acantilados y dunas de la Reserva Natural de Paracas. Observaremos de cerca la Catedral, una formación rocosa surgida por la erosión del viento."
+        },
+        {
+          "text": "También conoceremos la historia de la cultura Paracas: una civilización precolombina de ancestrales tradiciones que habitó en estas tierras durante varios siglos."
+        },
+        {
+          "text": "Además de aprender interesantes curiosidades tanto de la naturaleza como de la historia de la Reserva, también avistaremos la fauna autóctona de este espacio natural protegido. ¡Prestaremos especial atención a los flamencos y chorlos que habitan en estos parajes!"
+        },
+        {
+          "text": "Finalmente, regresaremos a vuestro hotel de Paracas."
         }
       ]
     }
@@ -38,14 +53,18 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recogida y traslado de regreso al hotel.",
+        "Transporte en minibús.",
+        "Guía en español."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": ["Tasa de embarque a la Reserva Nacional de Paracas: 15 S/"],
       "blocks": []
     }
   ],

@@ -10,9 +10,18 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Vive una experiencia única navegando hacia las Islas Flotantes de los Uros, un rincón fascinante ubicado a tan solo 20 a 30 minutos del puerto de Puno.",
       "items": [],
       "blocks": []
+    },
+    {
+      "text": "Durante este tour de aproximadamente 3 horas, te adentrarás en el legado ancestral de uno de los pueblos más antiguos del altiplano andino, descubriendo su modo de vida en armonía con el lago Titicaca."
+    },
+    {
+      "text": "Estas islas flotantes, verdaderas obras de sabiduría ancestral, están hechas completamente de Totora, una planta acuática fundamental para los Uros. Con ella construyen sus viviendas, balsas, y hasta la propia isla, usándola además como alimento y combustible. Su elaboración consiste en entrelazar bloques de raíces de Totora, cuyas propiedades permiten que floten naturalmente. Para mantenerlas habitables, las comunidades deben renovar constantemente la capa superficial, agregando nueva Totora cada 20 días."
+    },
+    {
+      "text": "Al explorar las islas, no solo conocerás una forma de vida que ha sobrevivido al paso del tiempo, sino que también formarás parte de una vivencia cultural auténtica. Aprenderás sobre sus prácticas de pesca y caza, y cómo preservan su identidad mientras se adaptan respetuosamente al entorno del majestuoso lago Titicaca."
     }
   ],
   "shortItinerary": [
@@ -24,11 +33,22 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Mañana",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Iniciamos la aventura con el recojo desde los hoteles ubicados en el centro de Puno a las 08:45 a.m., para luego dirigirnos al puerto principal. A las 09:15 a.m., partimos en barco rumbo al impresionante mundo flotante de los Uros. Aproximadamente a las 10:00 a.m., llegamos para visitar dos de sus islas, donde podrás conocer de cerca su cultura, arquitectura y estilo de vida. Tras esta enriquecedora experiencia, regresamos a la ciudad, llegando a los hoteles del centro de Puno alrededor de las 12:30 p.m.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Medio Día",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "La salida del tour de medio día comienza con el recojo en los hoteles del centro de Puno a las 11:50 a.m.. Luego, nos dirigimos al puerto para embarcarnos a las 12:15 p.m. hacia las islas flotantes. A las 12:45 p.m., llegamos a nuestro destino para explorar dos islas, interactuar con las familias locales y admirar la singular construcción hecha con Totora. Finalizada la visita, retornamos al centro de Puno, con llegada estimada a los hoteles a las 03:15 p.m.",
           "items": [],
           "blocks": []
         }
@@ -38,21 +58,37 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Traslado hotel – puerto – hotel.",
+        "Barco Turístico a motor",
+        "Guía Español/Inglés.",
+        "Entradas."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Propinas.",
+        "Paseo en Bote local (Balsa de Totora) en los Uros, servicio opcional, dura aprox de 10 a 15 minutos, el precio es de (S/10.00 soles) ó ($3.00 Dolares) por persona y el pago es al poblador.",
+        "Otros no mencionados."
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Llevar ropa ligera y también abrigadora, el clima por las mañanas es frío, al mediodía caluroso y por la tarde ventoso.",
+        "Llevar gorro, bloqueador solar y lentes de sol.",
+        "Zapatos/Zapatillas cómodos para la caminata.",
+        "Dinero en efectivo (Soles) en caso de que desee comprar souvenirs/recuerdos, no aceptan tarjetas de crédito/débito.",
+        "Bebidas y snacks (Agua, rehidratantes, etc.).",
+        "Casaca impermeable o poncho de plástico, solo para la temporada de lluvia (Noviembre – Marzo)."
+      ],
       "blocks": []
     }
   ],

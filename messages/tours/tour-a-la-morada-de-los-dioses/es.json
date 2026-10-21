@@ -10,15 +10,28 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Vive una jornada diferente explorando los rincones más enigmáticos y sorprendentes de Cusco. Este tour te invita a descubrir espacios llenos de simbolismo, arte tallado y paisajes que parecen salidos de una leyenda andina. Desde imponentes esculturas fusionadas con la montaña hasta bosques encantados y refugios naturales, cada parada te conectará con la energía ancestral del lugar.",
       "items": [],
       "blocks": []
+    },
+    {
+      "text": "Recorrerás escenarios mágicos donde la imaginación se despierta, la espiritualidad se siente y el entorno natural cobra vida con formas únicas. Ideal para quienes buscan una experiencia fuera de lo convencional, rodeada de cultura, misterio y tranquilidad."
+    },
+    {
+      "text": "Una aventura visual y sensorial que no olvidarás."
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
+      "text": "Vive una jornada mágica entre arte, naturaleza y espiritualidad.",
+      "items": [
+        "Inicio del tour: Te recogemos en tu hotel entre las 9:40 a.m. y 10:00 a.m. para partir rumbo a Tica Tica.",
+        "Morada de los Dioses: Tras 40 minutos de viaje, visitamos este lugar sagrado lleno de esculturas talladas en piedra, perfectas para fotos y conexión espiritual.",
+        "Valle de los Duendes: Continuamos hacia este mágico valle donde duendes y figuras fantásticas emergen entre rocas y árboles, creando una atmósfera de cuento.",
+        "Humedal de Huasao: Un espacio natural lleno de vida y tranquilidad, ideal para relajarse y apreciar la biodiversidad local.",
+        "Parque de los Ents: Cerramos con un bosque encantado, donde raíces y troncos esculpidos se integran al paisaje.",
+        "Retorno a Cusco: Finalizamos alrededor de las 6:00 p.m. en la Plaza de Armas, tras un día lleno de mística y belleza natural."
+      ],
       "blocks": []
     }
   ],
@@ -38,21 +51,34 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recogida y traslado de regreso",
+        "Transporte en minibús.",
+        "Guía en español e inglés."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Entradas a los 3 sitios",
+        "Actividad en cuatrimotos (opcional, con costo adicional).",
+        "Alimentación y otros gastos personales.",
+        "Almuerzo y cena",
+        "Propinas"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Lleva ropa adecuada y cómoda, calzado resistente para caminar",
+        "lleva contigo snacks ligeros y agua suficiente para mantener tu energía e hidratación a lo largo del día."
+      ],
       "blocks": []
     }
   ],

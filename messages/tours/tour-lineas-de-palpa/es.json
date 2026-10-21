@@ -10,9 +10,15 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "En este tour, explorarás las imponentes y enigmáticas líneas de Nasca, con figuras de una perfección extraordinaria trazadas sobre una vasta llanura desértica, una obra que data de una antigua civilización peruana.",
       "items": [],
       "blocks": []
+    },
+    {
+      "text": "Además, tendrás la oportunidad de disfrutar de un manantial natural en pleno desierto, un oasis en medio de este fascinante paisaje."
+    },
+    {
+      "text": "¡Acompáñanos a descubrir este rincón lleno de historia y maravillas!"
     }
   ],
   "shortItinerary": [
@@ -28,9 +34,18 @@
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El tour comienza a las 07:00 AM con la recogida desde el hotel para iniciar el recorrido. A las 08:00 AM visitaremos el sector de Río Grande, donde podremos encontrar diferentes geoglifos como el Tupu, el Tumi, el Mono y el Danzante. A las 08:50 AM, nos dirigiremos al Puente Colgante de Inca para conocer esta impresionante estructura. A las 09:20 AM, tomaremos un tiempo para disfrutar de un desayuno.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "A las 11:00 AM, continuaremos el tour visitando los geoglifos más representativos de la zona, como los Hombrecitos del Desierto, la Orca de Paracas, los animales del desierto, el Caman y sus aliados, el Dios de Paracas y el Santuario del Dios Paracas. Al mediodía, a las 01:20 PM, tendremos un delicioso almuerzo en el restaurante «El Mesón de Doña Natty»."
+        },
+        {
+          "text": "A las 02:30 PM, visitaremos el Manantial de la Maquina, un hermoso lugar con aguas color turquesa, perfecto para relajarnos después de un día lleno de aventuras. Luego, a las 04:50 PM, nos dirigiremos a los petroglifos de Chichictara, donde también podremos ingresar al Fundo de Chichictara para apreciar las plantas de mangos."
+        },
+        {
+          "text": "Finalmente, a las 05:10 PM, iniciaremos el retorno a Lima, con una pequeña parada en Chincha para degustar vinos y piscos. Llegaremos a Lima alrededor de las 10:00 PM."
         }
       ]
     }
@@ -38,14 +53,25 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Visita del Manantial la Maquina",
+        "Visita del Santuario del Dios Paracas",
+        "Visita al Puente Colgante del Inca",
+        "Visita a los Geoglifos Tumi, Mono Danzante",
+        "Visita a los Geoglifos Orca de Paracas, Hombrecitos del Desierto",
+        "Visita al Petroglifo de Chichictara",
+        "Vista del Fundo Chichictara",
+        "Degustación de Vinos y Pisco",
+        "Guía de turismo",
+        "Botiquín de Primeros Auxilios"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": ["Alimentación, Entrada a los lugares a visitar."],
       "blocks": []
     }
   ],

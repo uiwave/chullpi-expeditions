@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Arequipa es la segunda ciudad más poblada de Perú y una de las más bellas del país. Al contar con una fascinante arquitectura colonial, recorrer su centro histórico es algo que no podemos dejar de hacer si estamos de visita en Arequipa. Además, al encontrarse en zona volcánica, los volcanes Misti, Chachani y Pichu Pichu le dan un marco inigualable a los paisajes que la ciudad ofrece.",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,43 @@
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Itinerario del City Tour Arequipa + Monasterio Santa Catalina + Miradores",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El recorrido comienza a las 08:00 am cuando nuestro transporte recoge a los pasajeros del hotel. (El horario puede adaptarse a las preferencias de los pasajeros)*",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "El primer lugar a visitar será el Mirador de Carmen Alto, desde donde podremos observar una vista maravillosa de la ciudad, enmarcada por los volcanes Misti, Chachani y Pichu Pichu. También desde aquí se aprecia un paisaje incomparable de los campos que aún conservan terrazas agrícolas Incas y por supuesto, el río Chili."
+        },
+        {
+          "text": "Luego, nos dirigiremos al distrito de Yanahuara, el cual también cuenta con un emblemático mirador para apreciar bellas postales del paisaje. Pero lo que más se destaca de este mirador, son sus 9 arcos construidos en sillar blanco, en los que fueron grabadas frases populares y citas de personajes ilustres inspiradas en la filosofía de vida del poblador arequipeño."
+        },
+        {
+          "text": "Estando en el distrito de Yanahuara, visitaremos su bonita plaza principal y allí apreciaremos la pequeña parroquia de San Juan Bautista de Yanahuara, la cual cuenta con una preciosa fachada de estilo barroco, construida en el año 1750."
+        },
+        {
+          "text": "Posteriormente, la movilidad nos dejará en el Barrio San Lazaro para comenzar el recorrido a pie por importantes puntos de la ciudad como el Centro Artesanal Fundo el Fierro Centro Artesanal, plaza San Francisco, Biblioteca Mario Vargas Llosa y el Museo Santuarios Andino (momia Juanita)."
+        },
+        {
+          "text": "Luego, nos dirigiremos hacia la Plaza de Armas para recorrerla y a continuación visitaremos la Iglesia de la Compañía de Jesús, que se encuentra junto a la plaza."
+        },
+        {
+          "text": "En el interior de la iglesia, visitaremos sus claustros, los cuales fueron construidos en el siglo XVIII."
+        },
+        {
+          "text": "Posteriormente, visitaremos la casona Tristán del Pozo, una casona colonial construida en el año 1738 y cuya fachada se distingue por ser uno de los mayores exponentes de la ornamentación típica arequipeña."
+        },
+        {
+          "text": "El último punto a visitar en el recorrido es el Monasterio de Santa Catalina, el cual se ubica en el centro histórico de la ciudad."
+        },
+        {
+          "text": "Aquí podremos apreciar cuatro siglos de arquitectura arequipeña. Dentro del monasterio nos encontraremos con claustros, celdas, pequeñas calles internas llenas de flores, sitios de estar y de descanso y muros pintados con tintes frescos."
+        },
+        {
+          "text": "El recorrido finalizará aproximadamente a en el Monasterio (Centro histórico) 14:00h."
         }
       ]
     }
@@ -38,21 +68,37 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Guía profesional bilingue (Inglés/Español, guía en portugués con costo adicional, sujeto a disponibilidad)",
+        "Transporte para visitar Miradores."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Snacks.",
+        "Gastos personales.",
+        "Propinas.",
+        "Entrada al Monasterio de Santa Catalina. (45 soles)",
+        "Entrada al mirador de Carmen Alto. (5 soles)",
+        "Entrada al Museo de los Santuarios Andinos (25 soles)"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Pasaporte",
+        "Gorro para el sol",
+        "Bloqueador solar.",
+        "Ropa cómoda.",
+        "Dinero efectivo (soles) para el pago de ingresos."
+      ],
       "blocks": []
     }
   ],

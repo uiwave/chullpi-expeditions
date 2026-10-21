@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "En el Tour Ruta del Sol, recorrerás los fascinantes destinos del sur de Cusco, atravesando rutas ancestrales cargadas de historia y magia. Comenzaremos con la visita al Templo de San Pedro de Andahuaylillas, conocida como la Capilla Sixtina de América, luego nos dirigiremos a Raqchi, el Templo de Wiracocha, y La Raya, continuando con una parada en el Museo de Pucará. El recorrido culmina en la ciudad de Puno, brindándote una oportunidad única de explorar la cultura andina y disfrutar de paisajes impresionantes a lo largo del trayecto de Cusco a Puno.",
       "items": [],
       "blocks": []
     }
@@ -24,12 +24,30 @@
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Tour Ruta del Sol – Cusco, Andahuaylillas, Raqchi, La Raya, Pucará y Puno",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Nuestro recorrido por la Ruta del Sol comienza a las 06:00 a.m., con la recogida desde su hotel. A lo largo de esta fascinante travesía desde Cusco hasta Puno, realizaremos varias paradas en puntos clave para capturar fotos y explorar diversos atractivos naturales y culturales. El viaje nos llevará por tranquilos paisajes de campos, montañas y lagunas, donde comenzaremos con la visita a la Capilla de Andahuaylillas, conocida como la Capilla Sixtina de América, famosa por sus hermosos murales y detalles de pan de oro de la escuela cusqueña.",
           "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Continuaremos con una parada en el imponente complejo arqueológico de Raqchi, destacando sus enormes estructuras de adobe que alcanzan hasta 15 metros de altura, testimonio de la antigua planificación urbana. A continuación, nos dirigiremos al Abra de La Raya, el punto que marca la frontera entre Cusco y Puno, rodeado de los majestuosos Andes y el Nevado Chimboya, un excelente lugar para fotos."
+        },
+        {
+          "text": "En el camino hacia Puno, visitaremos Pucará, cuna de la antigua cultura precolombina que dejó importantes vestigios, como cerámica, estructuras piramidales y obras hidráulicas. Finalmente, llegaremos a Puno, donde se encuentra el impresionante Lago Titicaca, el más alto y navegable del mundo, para culminar este maravilloso tour."
+        },
+        {
+          "text": "Lugares que visitaremos:",
+          "items": [
+            "Cusco (3400 m.s.n.m.) – Salida a las 06:00 a.m.",
+            "Andahuaylillas (3122 m.s.n.m.) – Visita a las 08:30 a.m.",
+            "Raqchi (3450 m.s.n.m.) – Visita a las 11:00 a.m.",
+            "Abra de La Raya (4335 m.s.n.m.) – Visita a las 02:15 p.m.",
+            "Museo de Pucará (3900 m.s.n.m.) – Visita a las 03:30 p.m.",
+            "Puno (3800 m.s.n.m.) – Llegada a las 06:30 p.m."
+          ],
           "blocks": []
         }
       ]
@@ -38,21 +56,41 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Traslados.",
+        "Tickets de ingreso.",
+        "Guía profesional bilingüe (inglés-español).",
+        "Almuerzo."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Hotel en Puno.",
+        "Desayuno y cena.",
+        "Otros servicios no mencionados."
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Lleve su pasaporte.",
+        "Dinero en efectivo en soles y en dólares.",
+        "Zapatillas cómodas y adecuadas.",
+        "Ropa abrigadora.",
+        "Jeans o ropa cómoda.",
+        "Gorro o Sombrero.",
+        "Bloqueador solar.",
+        "Lentes de Sol.",
+        "Snacks (barras energéticas, fruta seca, chocolates, galletas, etc.).",
+        "Agua."
+      ],
       "blocks": []
     }
   ],

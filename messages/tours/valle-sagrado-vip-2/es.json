@@ -10,15 +10,25 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "El tour inicia entre las 6:30 y 7:00 a.m. con recojo en el hotel. Se visitará Chinchero (terrazas agrícolas, templo colonial y taller textil), Moray (laboratorio agrícola inca), las Salineras de Maras, y luego se almorzará en Urubamba. Por la tarde se recorrerá la fortaleza de Ollantaytambo y el complejo arqueológico de Pisac, finalizando en Cusco alrededor de las 7:00 p.m., en un recorrido lleno de historia y cultura.",
       "items": [],
       "blocks": []
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
+      "text": "Valle Sagrado VIP – Full Day",
+      "items": [
+        "Recojo desde tu alojamiento en Cusco entre las 6:30 y 7:00 a.m.",
+        "Visita al centro arqueológico de Chinchero y su iglesia colonial.",
+        "Parada en un centro textil tradicional para ver el proceso de hilado y teñido con tintes naturales.",
+        "Exploración de las terrazas circulares de Moray, antiguo laboratorio agrícola inca.",
+        "Visita a las Salineras de Maras, con más de 3,000 pozas de sal activas.",
+        "Almuerzo buffet en Urubamba con platos tradicionales.",
+        "Recorrido por la fortaleza de Ollantaytambo, con sus terrazas, templos y fuentes ceremoniales.",
+        "Visita al complejo arqueológico de Pisac, con terrazas agricolas, templos y vistas panoramicas.",
+        "Retorno a Cusco alrededor de las 7:00 p.m."
+      ],
       "blocks": []
     }
   ],
@@ -38,21 +48,41 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recojo de su hotel en Cusco",
+        "Transporte turístico",
+        "Guía profesional Inglés – Español",
+        "1 almuerzo buffet",
+        "kit de primero auxilios"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Boleto Turístico General o Parcial",
+        "Ingreso a Salineras  (S/15.00 nacionales, S/20.00 extranjeros)",
+        "Propinas y gastos adicionales",
+        "Cena"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Usar ropa ligera, cómoda y calzado adecuado para caminatas.",
+        "Llevar protector solar, gafas de sol y sombrero.",
+        "Llevar algo de dinero en soles para compras y snacks.",
+        "Usar repelente de insectos en zonas rurales.",
+        "Seguir las reglas locales y cuidar el medio ambiente.",
+        "Respetar las tradiciones y costumbres locales.",
+        "Llevar pasaporte o DNI original.",
+        "Comprar Boleto Turístico (General o Parcial)."
+      ],
       "blocks": []
     }
   ],

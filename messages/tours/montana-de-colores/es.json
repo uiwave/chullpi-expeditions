@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Embárcate en una emocionante aventura hacia la Montaña Arcoíris y Vinicunca, un tesoro natural en la cordillera de los Andes. Desde Cusco, recorrerás paisajes impresionantes, disfrutarás de vistas panorámicas de la montaña Ausangate y desafiarás tus límites en un trekking único a más de 5000 metros de altitud. Vive esta experiencia inolvidable y conecta con la majestuosidad de la naturaleza; ¡reserva tu lugar ahora!",
       "items": [],
       "blocks": []
     }
@@ -18,19 +18,35 @@
   "shortItinerary": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Empezaremos a las 4: 00 a.m. con el recojo desde tu alojamiento en Cusco hacia el Valle Sur.",
+        "Durante el trayecto, disfrutarás de paisajes andinos, valles fértiles y un delicioso desayuno.",
+        "Comenzarás la caminata en Llacto, ascendiendo por impresionantes paisajes hasta la Montaña Arcoíris.",
+        "Explorarás el mágico Valle Rojo, un lugar surrealista y tranquilo.",
+        "Descenderemos hacia Cusipata para disfrutar de un almuerzo buffet típico.",
+        "Regresaremos a Cusco y te dejaremos en tu alojamiento para descansar."
+      ],
       "blocks": []
     }
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Cusipata – Llacto – Montaña de Colores, Vinicunca – Mirador del valle rojo",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Recojo a las 4:00 a.m. desde tu alojamiento en Cusco en transporte privado equipado con mantas para mayor comodidad. Durante el viaje de tres horas hacia el Valle Sur, disfrutarás de vistas pintorescas, incluyendo pueblos andinos, valles fértiles y rebaños de llamas y alpacas. En el camino, nos detendremos para disfrutar de un desayuno continental nutritivo antes de iniciar la caminata.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Llegaremos al punto de inicio del trekking en Llacto, a 4,630 metros de altitud. Desde allí, comenzará una caminata de aproximadamente 1.5 horas por senderos serpenteantes, rodeados de montañas andinas y con vistas impresionantes de la montaña Ausangate. Durante el trayecto, tendrás la oportunidad de observar a las comunidades locales, aprender sobre su vestimenta tradicional y descubrir aspectos de su rica cultura."
+        },
+        {
+          "text": "Alcanzaremos la cima de la Montaña Arcoíris a 5,100 metros de altura, donde tendrás tiempo para explorar, tomar fotografías y conocer más sobre la historia y las teorías del origen de esta formación natural única. Después de admirar este sitio emblemático, continuaremos con una caminata de 30 minutos hacia el mirador del Valle Rojo, un lugar extraordinario que parece de otro planeta."
+        },
+        {
+          "text": "Tras explorar el Valle Rojo, iniciaremos el descenso de dos horas hacia el punto de partida, pasando por comunidades andinas y rebaños de llamas, con la posibilidad de avistar vicuñas. Al finalizar la caminata, nos dirigiremos a Cusipata, donde disfrutarás de un almuerzo buffet con platos típicos de la región. Finalmente, regresaremos en transporte privado a la ciudad de Cusco, dejándote en la puerta de tu alojamiento alrededor de las 5:00 p.m. para que descanses después de un día lleno de aventura y paisajes inolvidables."
         }
       ]
     }
@@ -38,27 +54,54 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recojo en hotel",
+        "Transporte",
+        "Desayuno",
+        "Almuerzo",
+        "Guía bilingüe (español e inglés)",
+        "Baston de trekking",
+        "Entrada a la montaña Vinicunca"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Caballo (S/ 100 por persona, sujeto a cambio, pago en efectivo el día del tour)",
+        "Cuatrimotos",
+        "Propinas"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Ropa abrigada",
+        "Ropa impermeable",
+        "Calzado de trekking",
+        "Gorro para el sol",
+        "Anteojos de sol",
+        "Bloqueador solar",
+        "Snack",
+        "Agua",
+        "Ropa cómoda",
+        "Bastones de trekking",
+        "Chaqueta",
+        "Mochila de 25 litros para las caminatas diarias",
+        "Gorro y guantes para el frío",
+        "Cubremochila impermeable y poncho de lluvia."
+      ],
       "blocks": []
     }
   ],
   "additionals": [
     {
-      "title": "",
+      "title": "Restricciones:",
       "subtitle": "",
       "items": [
         {
@@ -66,8 +109,44 @@
           "price": "",
           "description": [
             {
-              "text": "",
-              "items": [],
+              "text": "No permitido para personas con problemas producidos por la altitud, no permitido para embarazadas y edad mínima requerida de 12 años.",
+              "items": [""],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Política de anulación y reprogramación:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "3 días.",
+              "items": [""],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Clima:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Sujeto a condiciones meteorológicas.",
+              "items": [""],
               "blocks": []
             }
           ],

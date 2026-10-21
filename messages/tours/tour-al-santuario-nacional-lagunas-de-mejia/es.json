@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Embárcate en una experiencia única hacia uno de los espacios naturales más importantes de la costa peruana: el Santuario Nacional Lagunas de Mejía. Este tour de un día te permitirá descubrir la increíble diversidad ecológica de un santuario costero que, a pesar de su tamaño relativamente pequeño, alberga una gran variedad de hábitats y especies. Ideal para amantes de la naturaleza, la observación de aves o simplemente quienes buscan una conexión auténtica con la biodiversidad del sur del Perú. Prepárate para observar aves únicas, respirar aire puro y dejarte maravillar por un entorno natural incomparable.",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,25 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El recorrido comienza con el recojo desde tu hotel en Arequipa, dando inicio a una jornada dedicada a la naturaleza y la biodiversidad.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Tras aproximadamente dos horas de viaje, llegaremos al Santuario Nacional Lagunas de Mejía, ubicado en la costa sur del Perú, muy cerca del océano Pacífico. Este santuario, que se extiende por poco más de 690 hectáreas, resguarda una sorprendente variedad de ecosistemas como espejos de agua, pantanos, totorales, estuarios, áreas salinas, matorrales y amplias playas de arena. Es reconocido como uno de los humedales más relevantes de la costa occidental de Sudamérica."
+        },
+        {
+          "text": "Durante la visita, tendrás la oportunidad de observar algunas de las 195 especies de aves que habitan en el área. Entre ellas, destacan aves residentes que anidan en el santuario, así como migratorias que provienen de distintas regiones como América del Norte, el Ártico, Sudamérica, la Amazonía y los Andes. Además, varias especies están catalogadas en diferentes niveles de amenaza, incluyendo algunas en peligro de extinción, lo que convierte al santuario en un punto clave para su conservación."
+        },
+        {
+          "text": "Luego de esta fascinante experiencia de observación y conexión con la vida silvestre, haremos una pausa para el almuerzo."
+        },
+        {
+          "text": "Finalmente, emprenderemos el retorno a la ciudad de Arequipa, siguiendo una ruta escénica a través de la localidad de Cocachacra, con llegada por la tarde."
         }
       ]
     }
@@ -38,21 +50,32 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recojo desde su Hotel en el centro de Arequipa",
+        "Paradas turísticas durante todo el recorrido",
+        "Transporte Turístico para todo el recorrido",
+        "Guiado profesional durante todo el recorrido"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": ["Desayuno", "Almuerzo", "Entrada a Santuario"],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Zapatillas adecuadas para cortas caminatas",
+        "Sombrero",
+        "Lentes de sol",
+        "Bloqueador solar",
+        "Repelente contra mosquitos"
+      ],
       "blocks": []
     }
   ],

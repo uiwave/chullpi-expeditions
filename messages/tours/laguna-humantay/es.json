@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Embárcate en una aventura única hacia la Laguna Humantay, ubicada a 3,880 metros de altitud. Explora sus cristalinas aguas rodeadas de imponentes montañas, conecta con la tradición andina y disfruta de paisajes naturales únicos. Este viaje es perfecto para quienes buscan escapar del bullicio de la ciudad y respirar la pureza de los Andes.",
       "items": [],
       "blocks": []
     }
@@ -18,19 +18,37 @@
   "shortItinerary": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Comenzamos el día con el recojo a las 4:00 a.m. desde tu hotel en Cusco y nos dirigimos hacia Mollepata.",
+        "A las 7:00 a.m., disfrutamos de un delicioso desayuno en Mollepata.",
+        "A las 9:00 a.m., continuamos el viaje hacia Soraypampa (3,880 m.s.n.m.), donde iniciamos la caminata hacia la Laguna Humantay.",
+        "A las 10:30 a.m., llegamos a la Laguna Humantay (4,200 m.s.n.m.), disfrutamos del paisaje y exploramos el entorno.",
+        "A las 12:00 p.m., comenzamos el regreso a Soraypampa y nos trasladamos a Mollepata.",
+        "A la 1:00 p.m., disfrutamos de un almuerzo típico en Mollepata.",
+        "A las 2:30 p.m., emprendemos el retorno hacia Cusco.",
+        "A las 5:00 p.m., llegamos a Cusco, donde finaliza el tour cerca de la Plaza de Armas."
+      ],
       "blocks": []
     }
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Cusco – Soraypampa – Laguna Humantay",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Recojo entre las 4:00 y 4:50 a.m. desde tu hotel en Cusco. Partiremos a las 5:00 a.m. en transporte privado hacia el pueblo de Mollepata, donde tomaremos un delicioso desayuno que nos preparará para el día. Después del desayuno, continuaremos hacia Soraypampa, el punto de inicio de nuestra caminata, ubicado a 3,880 metros sobre el nivel del mar.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Alrededor de las 9:30 a.m., comenzaremos el ascenso hacia la Laguna Humantay. La caminata nos llevará a través de paisajes impresionantes de montaña, con vistas al majestuoso Apu Salkantay. Al llegar a la laguna, alrededor de las 10:30 a.m., tendrás tiempo para disfrutar de sus aguas cristalinas y aprender de nuestro guía sobre las tradiciones y creencias locales relacionadas con este lugar sagrado."
+        },
+        {
+          "text": "Explorarás los alrededores de la laguna, donde observarás apachetas, pequeñas pilas de piedras colocadas como ofrendas a la Pachamama. Disfrutarás del aire puro, la tranquilidad de la naturaleza y la energía espiritual del lugar. Alrededor del mediodía, emprenderemos el regreso hacia Soraypampa, donde tomaremos el transporte hacia Mollepata para disfrutar de un almuerzo nutritivo a la 1:00 p.m."
+        },
+        {
+          "text": "Finalmente, a las 2:30 p.m., iniciaremos el retorno en transporte privado hacia Cusco, llegando aproximadamente a las 5:00 p.m., donde te dejaremos cerca de la Plaza de Armas para culminar este día inolvidable."
         }
       ]
     }
@@ -38,27 +56,55 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recojo en tu alojamiento",
+        "Transporte compartido",
+        "Desayuno",
+        "Almuerzo",
+        "Guía bilingüe (español e inglés)",
+        "Bastones de trekking",
+        "Entrada a laguna Humantay",
+        "Kit de primeros auxilios"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Caballo (S/ 100 por persona, sujeto a cambio, pago en efectivo el día del tour)",
+        "Propinas",
+        "Gastos extras"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Ropa abrigada",
+        "Ropa impermeable",
+        "Calzado de trekking",
+        "Gorro para el sol",
+        "Anteojos de sol",
+        "Bloqueador solar",
+        "Snack",
+        "Agua",
+        "Ropa cómoda",
+        "Bastones de trekking",
+        "Chaqueta",
+        "Mochila de 25 litros para las caminatas diarias",
+        "Gorro y guantes para el frío",
+        "Cubremochila impermeable y poncho de lluvia."
+      ],
       "blocks": []
     }
   ],
   "additionals": [
     {
-      "title": "",
+      "title": "Restricciones:",
       "subtitle": "",
       "items": [
         {
@@ -66,7 +112,43 @@
           "price": "",
           "description": [
             {
-              "text": "",
+              "text": "No permitido para embarazadas, edad mínima requerida de 12 años, no apto para personas con problemas cardiacos, buen estado físico y aclimatación a la altitud.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Política de anulación y reprogramación:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "15 días.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Clima:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Sujeto a condiciones meteorológicas.",
               "items": [],
               "blocks": []
             }

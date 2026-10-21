@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "En esta emocionante excursión de un día exploraremos uno de los conjuntos de petroglifos más impresionantes y enigmáticos del mundo, grabados en piedra por la antigua cultura Wari. Estas expresiones artísticas milenarias nos conectan con el pasado y sus misterios aún sin descifrar. Además, visitaremos un sitio único donde se conservan auténticas huellas de dinosaurio, una rareza geológica que sorprende por su valor científico e histórico. Para completar la experiencia, disfrutaremos de un delicioso almuerzo preparado con productos frescos del río, destacando platos a base de camarón, que realzan la riqueza culinaria de la región.",
       "items": [],
       "blocks": []
     }
@@ -28,9 +28,18 @@
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Iniciaremos nuestra jornada muy temprano desde la ciudad de Arequipa, con destino al fascinante Valle de Majes. Tras unas horas de viaje, nuestra primera parada será en los mundialmente reconocidos Petroglifos de Toro Muerto. Este sitio arqueológico alberga más de 500 bloques de roca volcánica tallados con figuras zoomorfas que representan aves, mamíferos y reptiles, creadas durante la época de la cultura Wari. Con la guía de un especialista en arqueología, recorreremos esta vasta explanada mientras descubrimos los significados ocultos de estos antiguos grabados rupestres.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Continuando con nuestra aventura, nos dirigiremos a las Huellas de Dinosaurios de Querulpa. Para llegar a este sitio, realizaremos una caminata ascendente de aproximadamente 20 minutos. En el camino, podremos detenernos a fotografiar réplicas de dinosaurios a tamaño real y visitar un pequeño museo que exhibe fósiles y restos óseos. Al llegar a la cima, contemplaremos auténticas huellas de dinosaurios, una verdadera joya paleontológica y una de las pocas evidencias de este tipo en el país."
+        },
+        {
+          "text": "Después de la caminata, haremos una pausa para almorzar en un restaurante local de Corire, donde el plato estrella es el camarón fresco del cercano río Majes, preparado de diversas maneras para deleitar el paladar."
+        },
+        {
+          "text": "Finalmente, emprenderemos el viaje de regreso hacia Arequipa, llevando con nosotros la experiencia inolvidable de haber caminado entre petroglifos ancestrales y huellas de criaturas prehistóricas. Llegaremos a la ciudad por la tarde, cerrando un día lleno de historia, naturaleza y cultura."
         }
       ]
     }
@@ -38,7 +47,12 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recojo desde su hotel en el centro de Arequipa",
+        "Paradas turísticas durante todo el recorrido",
+        "Transporte turístico para todo el recorrido",
+        "Guiado profesional durante todo el recorrido"
+      ],
       "blocks": []
     }
   ],
@@ -52,7 +66,13 @@
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Zapatillas adecuadas para cortas caminatas",
+        "Sombrero",
+        "Lentes de sol",
+        "Bloqueador solar",
+        "Repelente para mosquitos"
+      ],
       "blocks": []
     }
   ],

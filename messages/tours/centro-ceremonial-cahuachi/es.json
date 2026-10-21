@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "El Centro Ceremonial Cahuachi se encuentra en el distrito de Nasca, en el departamento de Ica. Fue un importante centro religioso, considerado la capital teocrática de la cultura Nasca, donde los sacerdotes eran los únicos gobernantes. El sitio está compuesto por montículos de diversas dimensiones, que presentan ligeras modificaciones. Su propósito parece estar más enfocado en actividades rituales que en la vivienda.",
       "items": [],
       "blocks": []
     }
@@ -24,11 +24,11 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "El tour comienza con el traslado desde el hotel elegido por el cliente hacia el lugar de inicio de la excursión. Las salidas son diarias, permitiendo a los viajeros escoger el día que mejor se acomode a su agenda. La duración total de la excursión es de 2 horas y 30 minutos, tiempo que incluye tanto la visita a los destinos como los traslados internos durante el recorrido, asegurando una experiencia cómoda y enriquecedora para todos los participantes.",
           "items": [],
           "blocks": []
         }
@@ -52,7 +52,12 @@
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Ropa ligera para caminar",
+        "Bloqueador solar",
+        "Agua",
+        "Cámara – filmadora – baterías"
+      ],
       "blocks": []
     }
   ],

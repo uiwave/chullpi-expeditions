@@ -10,15 +10,27 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Este tour en cuatrimotos ofrece una experiencia única que fusiona aventura y cultura en los espectaculares paisajes del Valle Sagrado. Comenzaremos en Cruzpata, donde recibirás una breve orientación para manejar tu cuatrimoto. Durante el trayecto podrás apreciar magníficas vistas de montañas nevadas, zonas agrícolas y comunidades tradicionales andinas.",
       "items": [],
       "blocks": []
+    },
+    {
+      "text": "La ruta contempla la visita al complejo arqueológico de Moray, antiguo centro experimental agrícola con andenes circulares incas, y luego a las sorprendentes Salineras de Maras, explotadas desde tiempos preincaicos. Es la alternativa perfecta para quienes buscan descubrir la historia viva de los Andes de forma divertida, distinta y segura."
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
+      "text": "Cuatrimotos Moray – Salineras",
+      "items": [
+        "Recojo desde tu hotel en Cusco y salida hacia la comunidad de Cruzpata",
+        "Instrucción de seguridad y práctica breve con las cuatrimotos.",
+        "Inicio del recorrido en cuatrimoto atravesando caminos rurales con hermosas vistas panorámicas.",
+        "Llegada al complejo arqueológico de Moray, visita guiada y tiempo para fotografías.",
+        "Continuamos en cuatrimoto hacia las Salineras de Maras, ubicadas en las laderas de la montaña.",
+        "Visita al mirador para observar las más de 3,000 pozas de sal.",
+        "Retorno en cuatrimotos a Cruzpata.",
+        "Traslado de regreso a Cusco."
+      ],
       "blocks": []
     }
   ],
@@ -38,21 +50,28 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": ["Guía profesional Inglés – Español."],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": ["Otros servicios no mencionados"],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Casacas cortavientos.",
+        "Zapatillas o zapatos cómodos.",
+        "Bloqueador solar.",
+        "Botella de Agua.",
+        "Lentes de Sol.",
+        "Cámara."
+      ],
       "blocks": []
     }
   ],

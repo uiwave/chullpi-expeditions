@@ -10,9 +10,15 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Tambo Colorado es una de las fortalezas de adobe mejor preservadas del Perú, construida por los Incas, donde se pueden admirar sus muros adornados con hornacinas pintadas en tonos rojos, lo que le da su nombre.",
       "items": [],
       "blocks": []
+    },
+    {
+      "text": "Este complejo arqueológico alberga una amplia plaza central rodeada por imponentes estructuras como los palacios del Norte y del Sur, así como diversas plataformas ceremoniales."
+    },
+    {
+      "text": "Este complejo arqueológico alberga una amplia plaza central rodeada por imponentes estructuras como los palacios del Norte y del Sur, así como diversas plataformas ceremoniales."
     }
   ],
   "shortItinerary": [
@@ -38,14 +44,23 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recojo de su hotel en Paracas.",
+        "Transporte turístico.",
+        "Guía en ingles/español.",
+        "ticket de ingreso a las Ruinas de Tambo Colorado.",
+        "Asistencia permanente.",
+        "Movilidad turística.",
+        "Guia de Turismo.",
+        "Ticket de ingreso."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": ["Alimentos."],
       "blocks": []
     }
   ],

@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Pasa un día increíble en las dunas de la Huacachina, paseo en transporte tubular 4X4 y prácticas de sandboarding en el desierto de Huacachina. Esta travesía los llevará a recorrer por hermosas dunas donde disfrutaras una increíble adrenalina extrema. El conductor les brindará algunas técnicas importantes para poder deslizarse con las tablas, una vez abajo, el tubular irá por usted y continuar nuevamente practicando sobre diferentes dunas y tomar espectaculares fotografías del desierto que nos muestra un hermoso capricho de la naturaleza",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,31 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Nuestros clientes son recogidos de su hotel o estación de bus en la ciudad de Ica para ser llevados al Oasis de Huacachina.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Paseo en transporte tubular 4X4 y prácticas de sandboarding en el desierto de Huacachina."
+        },
+        {
+          "text": "Esta travesía los llevará a recorrer por hermosas dunas donde disfrutaras una increíble adrenalina extrema."
+        },
+        {
+          "text": "Por un tiempo de 1 horas aprox. Una vez arribado a la cima de las dunas, el conductor detendrá la máquina para brindarles algunas técnicas importantes para poder deslizarse con las tablas, una vez abajo, el tubular irá por usted y continuar nuevamente practicando sobre diferentes dunas y tomar espectaculares."
+        },
+        {
+          "text": "Fotografías del desierto que nos muestra un hermoso capricho de la naturaleza, al retorno el transporte realizará una última parada en la duna de Huacachina para poder apreciar y tomar las mejores fotografías al hermoso oasis desde lo alto."
+        },
+        {
+          "text": "Caminata por alrededores del Oasis. Además, usted podrá disfrutar de espectaculares fotografías de cualquier ángulo."
+        },
+        {
+          "text": "Final de nuestros servicios."
         }
       ]
     }
@@ -38,14 +56,26 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Traslados de su hotel en Ica / Huacachina.",
+        "Paseo en Buggies.",
+        "Tabla para la práctica del sandboarding.",
+        "Tickets de ingreso.",
+        "Instructor altamente experimentado.",
+        "Asistencia permanente."
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Retorno al hotel o terminal de bus.",
+        "Alimentación, agua: Snacks y bebidas durante el recorrido.",
+        "Regalos, souvenirs.",
+        "Propinas por servicio (a voluntad)."
+      ],
       "blocks": []
     }
   ],

@@ -10,7 +10,7 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "Explora el valle de los Volcanes y los yacimientos arqueológicos de Querulpa, Maucallacta y Toromuerto con este tour de 3 días desde Arequipa. ¡No te perderás nada",
       "items": [],
       "blocks": []
     }
@@ -24,13 +24,47 @@
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Arequipa – Andagua – Ayo",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Os recogeremos en vuestro hotel de Arequipa a las 5:00 horas para iniciar este tour de 3 días por el valle de los Volcanes. En primer lugar, haremos una parada para desayunar en Corire y continuaremos hasta llegar al Parque Jurásico de Querulpa. Aquí daremos un paseo de una hora para seguir las huellas de dinosaurio y las figuras a escala real.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Tras disfrutar de un almuerzo a base de carne, pasta y sopa, seguiremos con el trayecto hasta Andagua. Contemplaremos las cumbres nevadas del Coropuna y veremos las llamas, alpacas y vicuñas que pastan en las llanuras. Finalmente, llegaremos a nuestro destino sobre las 14:00 horas y nos detendremos en el pueblo de Ayo, donde tomaremos una cena, que incluirá una sopa, arroz con verduras y una bebida caliente, y pasaremos la noche."
+        }
+      ]
+    },
+    {
+      "title": "´Día 2",
+      "subtitle": "Ayo – Mamacocha – Andagua",
+      "paragraphs": [
+        {
+          "text": "A las 5:00 horas estaremos listos para seguir con el viaje desde Ayo. Pondremos rumbo a Maucallacta, donde os daremos tiempo para que desayunéis y después visitaremos la laguna de Mamacocha. ¿Sabíais que es el manantial más grande de toda Sudamérica?",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Tras tres horas de visita, iremos hasta Andagua y os dejaremos tiempo libre para almorzar. A continuación, nos dirigiremos a Antaymarca para visitar sus restos arqueológicos y subir al mirador, desde donde contemplaremos los más de 80 pequeños volcanes que rodean la zona. ¡Os parecerá que estáis en otro planeta!"
+        },
+        {
+          "text": "Caminaremos durante una hora hasta la catarata de Shankillay y haremos una caminata ascendiendo por uno de los volcanes. Tras una tarde de lo más completa, volveremos a Ayo para pasar la noche."
+        }
+      ]
+    },
+    {
+      "title": "Día 3",
+      "subtitle": "Valle de Majes – Arequipa",
+      "paragraphs": [
+        {
+          "text": "Por la mañana, nos levantaremos y tendréis tiempo para desayunar antes de iniciar el camino de vuelta a Arequipa. Durante el trayecto, haremos paradas en Machahuay y Viraco, antiguos pueblos agricultores situados en el valle del Coropuna. Después de daros tiempo para almorzar en un restaurante en Majes, haremos una visita de una hora por los petroglifos de Toromuerto, una de las muestras de arte rupestre más famosas del valle de los Volcanes.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Finalmente, concluiremos el tour dejándoos en vuestros hoteles en torno a las 18:00 horas."
         }
       ]
     }
@@ -38,7 +72,13 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recogida y traslado de regreso al hotel.",
+        "Transporte en autobús o minibús, según el tamaño del grupo.",
+        "Guía en español.",
+        "2 noches de alojamiento en la casa de una familia local de Ayo.",
+        "Desayuno, almuerzo y cena del primer día."
+      ],
       "blocks": []
     }
   ],

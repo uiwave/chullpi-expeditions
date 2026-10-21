@@ -11,8 +11,13 @@
   "description": [
     {
       "text": "",
-      "items": [],
-      "blocks": []
+      "items": [
+        "Recorre el cañón más profundo de Arequipa",
+        "Maravíllate ante los cóndores que se elevan sobre un vasto cañón",
+        "Caliéntate en relajantes aguas termales naturales.",
+        "Visita pintorescos pueblos andinos impregnados de tradición: Pinchollo, Maca y Yanque"
+      ],
+      "blocks": [""]
     }
   ],
   "shortItinerary": [
@@ -24,13 +29,19 @@
   ],
   "itinerary": [
     {
-      "title": "",
+      "title": "Día 1",
       "subtitle": "",
       "paragraphs": [
         {
-          "text": "",
+          "text": "Disfruta de una excursión de día completo desde Arequipa hacia el impresionante Cañón del Colca, considerado uno de los más profundos del mundo. Relájate en sus aguas termales, recorre los pintorescos pueblos de Maca y Yanque, y degusta la gastronomía local en Chivay.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "La travesía comienza por la extensa carretera de Yura, bordeando la imponente montaña Chachani en dirección a la Reserva Natural de Pampa Cañahuas. En el camino, haz una parada en el Mirador de los Volcanes, desde donde se pueden apreciar espectaculares vistas de la cordillera. Al llegar a Chivay, el recorrido continúa hasta un mirador ideal para observar el majestuoso vuelo de los cóndores."
+        },
+        {
+          "text": "Durante el retorno, aprovecha para visitar los pueblos de Maca y Yanque, conocidos por sus iglesias coloniales y bellos paisajes rodeados de andenes. Para cerrar la experiencia, disfruta de un baño termal de 30 minutos que te dejará renovado antes de regresar a Chivay para un almuerzo típico, y finalmente volver a Arequipa."
         }
       ]
     }
@@ -38,21 +49,36 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recogida en los hoteles situados cerca de la Plaza de Armas de Arequipa",
+        "Transporte",
+        "Guía profesional bilingüe (inglés/español).",
+        "Desayuno continental y almuerzo en Chivay"
+      ],
       "blocks": []
     }
   ],
   "notIncluded": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Entrada a los Baños Termales S/15 soles por persona",
+        "Ticket de entrada al Colca (BTC): S/70 Soles turistas extranjeros o 50 soles sudamericanos y S/20 Soles para peruanos. Sólo se paga en efectivo y se te cobrará a tu llegada a Chivay"
+      ],
       "blocks": []
     }
   ],
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Pasaporte",
+        "Calzado cómodo",
+        "Bañador",
+        "Protector solar",
+        "Repelente de insectos",
+        "Dinero en efectivo"
+      ],
       "blocks": []
     }
   ],

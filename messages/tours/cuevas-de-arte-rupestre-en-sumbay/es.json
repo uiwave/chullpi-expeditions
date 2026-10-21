@@ -10,9 +10,12 @@
   "popular": false,
   "description": [
     {
-      "text": "",
+      "text": "En este recorrido visitaremos las impresionantes Pinturas Rupestres de Sumbay, creadas por antiguos pobladores durante el período lítico, hace más de 8 mil años. Estas pinturas constituyen un testimonio valioso del desarrollo humano, desde su etapa como cazadores y recolectores hasta la domesticación de camélidos andinos. Se trata de un patrimonio arqueológico excepcional, accesible a solo unas horas de Arequipa.",
       "items": [],
       "blocks": []
+    },
+    {
+      "text": "Atrévete a vivir una experiencia única y llena de historia, observando en persona uno de los pocos vestigios de arte rupestre en el mundo que aún se conservan casi intactos, aunque su preservación podría no durar para siempre."
     }
   ],
   "shortItinerary": [
@@ -24,13 +27,25 @@
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Día 1",
+      "subtitle": "Itinerario – Tour Cuevas de Sumbay",
       "paragraphs": [
         {
-          "text": "",
+          "text": "A las 8:00 a.m. partiremos desde la ciudad de Arequipa rumbo a las enigmáticas cuevas de Sumbay. Nuestra primera parada será en Pampa Cañahuas, un mirador natural al borde de la carretera desde donde tendremos una vista distinta del imponente volcán Misti. Este lugar también es ideal para observar a las vicuñas pastando libremente en su hábitat natural.",
           "items": [],
           "blocks": []
+        },
+        {
+          "text": "Continuaremos hacia Patahuasi, un pequeño paradero donde podremos disfrutar de un refrigerio y tomar el tradicional mate de coca, recomendado para prevenir el mal de altura."
+        },
+        {
+          "text": "Luego llegaremos al tranquilo pueblo de Sumbay, desde donde realizaremos una caminata de aproximadamente 20 minutos hasta las cuevas de arte rupestre, que albergan pinturas con más de 8 mil años de antigüedad. Tendremos el tiempo necesario para apreciar de cerca este legado prehistórico y conocer más sobre la vida del hombre primitivo."
+        },
+        {
+          "text": "Al regresar, exploraremos el pueblo de Sumbay, donde encontraremos un pintoresco cementerio de trenes, ideal para capturar fotografías únicas, y visitaremos la iglesia del pueblo, que aún permanece en uso por la comunidad local."
+        },
+        {
+          "text": "Finalmente, emprenderemos el retorno a Arequipa, disfrutando durante el trayecto de los paisajes altoandinos y de la fauna local, como camélidos silvestres. Estaremos de regreso en la ciudad alrededor de las 4:00 p.m., con traslado a sus respectivos hoteles."
         }
       ]
     }
@@ -38,7 +53,13 @@
   "included": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Recojo desde su hotel en el centro de Arequipa",
+        "Paradas turísticas durante todo el recorrido",
+        "Entrada a Sumbay",
+        "Transporte turístico para todo el recorrido",
+        "Guiado profesional durante todo el recorrido"
+      ],
       "blocks": []
     }
   ],
@@ -52,7 +73,13 @@
   "recommendations": [
     {
       "text": "",
-      "items": [],
+      "items": [
+        "Ropa abrigadora",
+        "Zapatillas adecuadas para cortas caminatas",
+        "Sombrero",
+        "Lentes de sol",
+        "Bloqueador solar"
+      ],
       "blocks": []
     }
   ],
