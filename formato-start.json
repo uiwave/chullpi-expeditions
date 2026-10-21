@@ -8,17 +8,18 @@
   "typeKey": "",
   "duration": "",
   "popular": false,
-  "description": "",
+  "description": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
   "shortItinerary": [
     {
       "text": "",
       "items": [],
-      "blocks": [
-        {
-          "text": "",
-          "items": []
-        }
-      ]
+      "blocks": []
     }
   ],
   "itinerary": [
@@ -29,19 +30,32 @@
         {
           "text": "",
           "items": [],
-          "blocks": [
-            {
-              "text": "",
-              "items": []
-            }
-          ]
+          "blocks": []
         }
       ]
     }
   ],
-  "included": [],
-  "notIncluded": [],
-  "recommendations": [],
+  "included": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
   "additionals": [
     {
       "title": "",
@@ -50,14 +64,14 @@
         {
           "name": "",
           "price": "",
-          "description": "",
-          "blocks": [
+          "description": [
             {
-              "name": "",
-              "price": "",
-              "description": ""
+              "text": "",
+              "items": [],
+              "blocks": []
             }
-          ]
+          ],
+          "blocks": []
         }
       ]
     }

@@ -1,14 +1,21 @@
 import Image from "next/image";
 import PageHero from "@/components/uiwave/PageHero";
 import { notFound } from "next/navigation";
-import { CircleCheck, CircleX, Clock } from "lucide-react";
+import { Clock } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import ItineraryTabs from "@/components/sections/tours/ItineraryTabs";
 import ItineraryDay from "@/components/sections/tours/ItineraryDay";
-import ShortItinerary from "@/components/sections/tours/ShortItinerary";
+import ItineraryBlocks from "@/components/sections/tours/ItineraryBlocks";
 import AdditionalList from "@/components/sections/tours/AdditionalList";
 import BookingSidebar from "@/components/sections/tours/BookingSidebar";
 import SimilarTours from "@/components/sections/tours/SimilarTours";
+import {
+  hasAdditionalsContent,
+  hasContent,
+  hasItineraryContent,
+  toListBlocks,
+  toParagraphBlocks,
+} from "@/lib/tour-content";
 import { cn } from "cn";
 import {
   getTourBySlug,
@@ -41,9 +48,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {};
   }
 
-  const description = tour.description
-    ? tour.description.split(/\n+/)[0].slice(0, 160)
-    : undefined;
+  const firstParagraph = toParagraphBlocks(tour.description)
+    .map((block) => block.text?.trim() ?? "")
+    .find(Boolean);
+
+  const description = firstParagraph ? firstParagraph.slice(0, 160) : undefined;
 
   return {
     title: tour.title,
@@ -64,41 +73,6 @@ function SectionTitle({ children }: { children: React.ReactNode }) {
   );
 }
 
-type CheckVariant = "default" | "included" | "excluded";
-
-function CheckList({
-  items,
-  variant = "default",
-}: {
-  items: string[];
-  variant?: CheckVariant;
-}) {
-  const Icon = variant === "excluded" ? CircleX : CircleCheck;
-  const color =
-    variant === "included"
-      ? "text-[#27AE60]"
-      : variant === "excluded"
-        ? "text-[#EB5757]"
-        : "text-primary";
-
-  return (
-    <ul className="space-y-2.5">
-      {items.map((item) => (
-        <li
-          key={item}
-          className="text-foreground relative pl-10 text-base leading-relaxed"
-        >
-          <Icon
-            className={cn("absolute top-0.5 left-0 size-6", color)}
-            aria-hidden="true"
-          />
-          {item}
-        </li>
-      ))}
-    </ul>
-  );
-}
-
 export default async function TourDetailPage({ params }: Props) {
   const { slug, locale: localeValue } = await params;
 
@@ -116,9 +90,19 @@ export default async function TourDetailPage({ params }: Props) {
   const t = await getTranslations("tours.details");
   const tCommon = await getTranslations("common");
 
-  const paragraphs = tour.description ? tour.description.split(/\n+/) : [];
-  const hasIncluded = Boolean(tour.included?.length);
-  const hasNotIncluded = Boolean(tour.notIncluded?.length);
+  const descriptionBlocks = toParagraphBlocks(tour.description);
+  const shortItineraryBlocks = toListBlocks(tour.shortItinerary);
+  const includedBlocks = toListBlocks(tour.included);
+  const notIncludedBlocks = toListBlocks(tour.notIncluded);
+  const recommendationsBlocks = toListBlocks(tour.recommendations);
+
+  const hasDescription = hasContent(descriptionBlocks);
+  const hasShortItinerary = hasContent(shortItineraryBlocks);
+  const hasIncluded = hasContent(includedBlocks);
+  const hasNotIncluded = hasContent(notIncludedBlocks);
+  const hasRecommendations = hasContent(recommendationsBlocks);
+  const hasItinerary = hasItineraryContent(tour.itinerary);
+  const hasAdditionals = hasAdditionalsContent(tour.additionals);
 
   const allTours = await getTours(locale);
   const others = allTours.filter((item) => item.slug !== tour.slug);
@@ -178,32 +162,23 @@ export default async function TourDetailPage({ params }: Props) {
             </p>
 
             {/* Descripción */}
-            {paragraphs.length > 0 && (
+            {hasDescription && (
               <section className="mb-12">
                 <SectionTitle>{t("overview")}</SectionTitle>
-                <div className="space-y-4">
-                  {paragraphs.map((paragraph) => (
-                    <p
-                      key={paragraph}
-                      className="text-foreground text-lg leading-relaxed"
-                    >
-                      {paragraph}
-                    </p>
-                  ))}
-                </div>
+                <ItineraryBlocks blocks={descriptionBlocks} size="lg" />
               </section>
             )}
 
             {/* Itinerario corto */}
-            {tour.shortItinerary?.length ? (
+            {hasShortItinerary && (
               <section className="mb-12">
                 <SectionTitle>{t("shortItinerary")}</SectionTitle>
-                <ShortItinerary items={tour.shortItinerary} />
+                <ItineraryBlocks blocks={shortItineraryBlocks} />
               </section>
-            ) : null}
+            )}
 
             {/* Itinerario detallado */}
-            {tour.itinerary?.length ? (
+            {hasItinerary && tour.itinerary ? (
               <section className="mb-12">
                 <SectionTitle>{t("itinerary")}</SectionTitle>
                 {tour.itinerary.length > 1 ? (
@@ -231,7 +206,10 @@ export default async function TourDetailPage({ params }: Props) {
                   {hasIncluded && (
                     <div>
                       <SectionTitle>{t("included")}</SectionTitle>
-                      <CheckList items={tour.included!} variant="included" />
+                      <ItineraryBlocks
+                        blocks={includedBlocks}
+                        variant="included"
+                      />
                     </div>
                   )}
                   {hasNotIncluded && (
@@ -242,7 +220,10 @@ export default async function TourDetailPage({ params }: Props) {
                       )}
                     >
                       <SectionTitle>{t("notIncluded")}</SectionTitle>
-                      <CheckList items={tour.notIncluded!} variant="excluded" />
+                      <ItineraryBlocks
+                        blocks={notIncludedBlocks}
+                        variant="excluded"
+                      />
                     </div>
                   )}
                 </div>
@@ -250,15 +231,15 @@ export default async function TourDetailPage({ params }: Props) {
             )}
 
             {/* Recomendaciones */}
-            {tour.recommendations?.length ? (
+            {hasRecommendations && (
               <section className="mb-12">
                 <SectionTitle>{t("recommendations")}</SectionTitle>
-                <CheckList items={tour.recommendations} />
+                <ItineraryBlocks blocks={recommendationsBlocks} />
               </section>
-            ) : null}
+            )}
 
             {/* Adicionales */}
-            {tour.additionals?.length ? (
+            {hasAdditionals && tour.additionals ? (
               <section className="mb-12">
                 <SectionTitle>{t("additionals")}</SectionTitle>
                 <AdditionalList groups={tour.additionals} />

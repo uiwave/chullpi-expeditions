@@ -8,7 +8,18 @@
   "typeKey": "cultural",
   "duration": "Full Day",
   "popular": false,
-  "description": "Vive la experiencia definitiva hacia la ciudadela inca más emblemática del mundo. Este tour Full Day te lleva desde Cusco en tren panorámico hasta Aguas Calientes, y de ahí en bus hasta la entrada de Machu Picchu, donde un guía oficial te mostrará los templos, plazas y terrazas de esta Maravilla del Mundo.\nUn día inolvidable de historia, naturaleza y cultura andina.",
+  "description": [
+    {
+      "text": "Vive la experiencia definitiva hacia la ciudadela inca más emblemática del mundo. Este tour Full Day te lleva desde Cusco en tren panorámico hasta Aguas Calientes, y de ahí en bus hasta la entrada de Machu Picchu, donde un guía oficial te mostrará los templos, plazas y terrazas de esta Maravilla del Mundo.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Un día inolvidable de historia, naturaleza y cultura andina.",
+      "items": [],
+      "blocks": []
+    }
+  ],
   "shortItinerary": [
     {
       "text": "Jornada completa desde Cusco con tren panorámico hasta la ciudadela inca.",
@@ -17,7 +28,8 @@
         "Traslado en movilidad a la estación de tren",
         "Viaje en tren panorámico hasta Aguas Calientes",
         "Subida en bus por 25 minutos hasta la ciudadela"
-      ]
+      ],
+      "blocks": []
     },
     {
       "text": "Visita guiada por la ciudadela y retorno a Cusco.",
@@ -31,7 +43,8 @@
           "items": [
             "Plaza Principal e Intihuatana",
             "Templo del Sol y Templo de las Tres Ventanas"
-          ]
+          ],
+          "blocks": []
         }
       ]
     }
@@ -48,7 +61,8 @@
             "Traslado privado a la estación de tren en Ollantaytambo o Poroy",
             "Viaje en tren panorámico con desayuno a bordo hacia Aguas Calientes",
             "Subida en bus por la carretera serpenteante hasta la ciudadela"
-          ]
+          ],
+          "blocks": []
         },
         {
           "text": "Una vez dentro de la ciudadela comenzará el recorrido guiado por sus principales templos y plazas.\nDurante el tour tendrás tiempo para las fotos en los miradores oficiales.",
@@ -61,7 +75,8 @@
               "items": [
                 "Plaza Principal e Intihuatana",
                 "Templo del Sol y Templo de las Tres Ventanas"
-              ]
+              ],
+              "blocks": []
             }
           ]
         }
@@ -77,57 +92,121 @@
             "Tiempo libre para fotos en la Puerta del Sol y los miradores",
             "Bajada en bus a Aguas Calientes y almuerzo libre",
             "Retorno en tren hacia Cusco y traslado a tu hotel"
-          ]
+          ],
+          "blocks": []
         }
       ]
     }
   ],
   "included": [
-    "Recojo y traslado desde y hacia tu hotel en Cusco",
-    "Ticket de tren ida y vuelto (clase Expedition o similar)",
-    "Entrada oficial a la ciudadela de Machu Picchu",
-    "Bus de ida y vuelta Aguas Calientes - Machu Picchu",
-    "Guía oficial bilingüe durante todo el recorrido",
-    "Botella de agua a bordo del tren"
+    {
+      "text": "",
+      "items": [
+        "Recojo y traslado desde y hacia tu hotel en Cusco",
+        "Ticket de tren ida y vuelto (clase Expedition o similar)",
+        "Entrada oficial a la ciudadela de Machu Picchu",
+        "Bus de ida y vuelta Aguas Calientes - Machu Picchu",
+        "Guía oficial bilingüe durante todo el recorrido",
+        "Botella de agua a bordo del tren"
+      ],
+      "blocks": []
+    }
   ],
   "notIncluded": [
-    "Almuerzo en Aguas Calientes",
-    "Entradas adicionales: Huayna Picchu o Montaña Machu Picchu",
-    "Propinas para guía y chofer",
-    "Snacks y bebidas personales",
-    "Seguro de viaje"
+    {
+      "text": "",
+      "items": [
+        "Almuerzo en Aguas Calientes",
+        "Entradas adicionales: Huayna Picchu o Montaña Machu Picchu",
+        "Propinas para guía y chofer",
+        "Snacks y bebidas personales",
+        "Seguro de viaje"
+      ],
+      "blocks": []
+    }
   ],
   "recommendations": [
-    "Pasaporte o DNI original (obligatorio para el ingreso)",
-    "Ropa cómoda en capas y calzado de caminata",
-    "Bloqueador solar, gorra y lentes de sol",
-    "Repelente de insectos y botella reutilizable",
-    "Cámara fotográfica y efectivo en soles"
+    {
+      "text": "Lleva contigo ropa cómoda y protección solar.",
+      "items": [
+        "Pasaporte o DNI original (obligatorio para el ingreso)",
+        "Ropa cómoda en capas y calzado de caminata",
+        "Bloqueador solar, gorra y lentes de sol",
+        "Repelente de insectos y botella reutilizable",
+        "Cámara fotográfica y efectivo en soles"
+      ],
+      "blocks": []
+    }
   ],
   "additionals": [
     {
       "title": "Entradas oficiales",
+      "subtitle": "",
       "items": [
         {
-          "name": "Entrada a Huayna Picchu"
+          "name": "Entrada a Huayna Picchu",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
         },
         {
-          "name": "Entrada a Montaña Machu Picchu"
+          "name": "Entrada a Montaña Machu Picchu",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
         }
       ]
     },
     {
       "title": "Experiencias en Aguas Calientes",
+      "subtitle": "",
       "items": [
         {
           "name": "Almuerzo típico en Aguas Calientes",
-          "description": "Buffet típico andino en el centro de Aguas Calientes.\nOpciones vegetarianas y sin gluten disponibles.",
+          "price": "",
+          "description": [
+            {
+              "text": "Buffet típico andino en el centro de Aguas Calientes.",
+              "items": ["Opciones vegetarianas y sin gluten disponibles"],
+              "blocks": []
+            }
+          ],
           "blocks": [
             {
-              "name": "Bebidas calientes ilimitadas"
+              "name": "Bebidas calientes ilimitadas",
+              "price": "",
+              "description": [
+                {
+                  "text": "",
+                  "items": [],
+                  "blocks": []
+                }
+              ],
+              "blocks": []
             },
             {
-              "name": "Postre de la casa"
+              "name": "Postre de la casa",
+              "price": "",
+              "description": [
+                {
+                  "text": "",
+                  "items": [],
+                  "blocks": []
+                }
+              ],
+              "blocks": []
             }
           ]
         }

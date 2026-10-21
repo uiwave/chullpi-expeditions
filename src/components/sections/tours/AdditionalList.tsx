@@ -1,7 +1,11 @@
 import { CircleCheck } from "lucide-react";
+import ItineraryBlocks from "./ItineraryBlocks";
+import { hasContent, toParagraphBlocks } from "@/lib/tour-content";
 import type { AdditionalItem, TourAdditionalGroup } from "@/types/Tour";
 
 function Item({ item }: { item: AdditionalItem }) {
+  const descriptionBlocks = toParagraphBlocks(item.description);
+
   return (
     <div>
       <div className="text-foreground relative pl-10 text-base leading-relaxed">
@@ -18,10 +22,14 @@ function Item({ item }: { item: AdditionalItem }) {
           ) : null}
         </span>
       </div>
-      {item.description ? (
-        <p className="text-foreground/80 mt-1 pl-10 text-base leading-relaxed whitespace-pre-line">
-          {item.description}
-        </p>
+      {hasContent(descriptionBlocks) ? (
+        <div className="mt-1 pl-10">
+          <ItineraryBlocks
+            blocks={descriptionBlocks}
+            textClassName="text-foreground/80"
+            className="space-y-3"
+          />
+        </div>
       ) : null}
       {item.blocks?.length ? (
         <div className="mt-4 ml-4 space-y-4 border-l-2 border-[#E1E4E5] pl-5">

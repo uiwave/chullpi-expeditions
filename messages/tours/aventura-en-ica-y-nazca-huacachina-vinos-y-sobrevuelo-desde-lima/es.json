@@ -8,8 +8,20 @@
   "typeKey": "aventura",
   "duration": "2 Días - 1 Noche",
   "popular": false,
-  "description": "Vive una experiencia única de 2 días repletos de emoción, diversión y cultura. Disfruta de un impresionante atardecer en las dunas de Ica, prueba los mejores vinos y piscos locales, y conecta con la gente y tradiciones de la región. Pasa un día inolvidable en la Laguna de Huacachina y admira las enigmáticas líneas de Nasca en su máximo esplendor. ¡Aprovecha al máximo estos 2 días de aventura!",
-  "shortItinerary": [],
+  "description": [
+    {
+      "text": "Vive una experiencia única de 2 días repletos de emoción, diversión y cultura. Disfruta de un impresionante atardecer en las dunas de Ica, prueba los mejores vinos y piscos locales, y conecta con la gente y tradiciones de la región. Pasa un día inolvidable en la Laguna de Huacachina y admira las enigmáticas líneas de Nasca en su máximo esplendor. ¡Aprovecha al máximo estos 2 días de aventura!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
   "itinerary": [
     {
       "title": "Día 1",
@@ -27,12 +39,7 @@
             "Realizaremos un emocionante recorrido en transportes tubulares 4X4 y tendremos la oportunidad de practicar sandboarding en el desierto de Huacachina, viviendo una experiencia llena de adrenalina. Durante el recorrido, el conductor detendrá el vehículo para enseñar técnicas de deslizamiento, y una vez abajo, el tubular los recogerá para continuar la actividad en otras dunas.",
             "5:00 PM: Traslado al hotel (hora aproximada)."
           ],
-          "blocks": [
-            {
-              "text": "",
-              "items": []
-            }
-          ]
+          "blocks": []
         }
       ]
     },
@@ -49,29 +56,61 @@
             "Regreso a Ica y tiempo libre para almorzar.",
             "4:00 PM: Regreso a Lima en bus."
           ],
-          "blocks": [
-            {
-              "text": "",
-              "items": []
-            }
-          ]
+          "blocks": []
         }
       ]
     }
   ],
   "included": [
-    "Ticket de bus Lima / Ica / Lima.",
-    "Traslados / Terminal de bus – Hotel / Hotel – Aeródromo – Terminal de bus.",
-    "1 noche de alojamiento en Ica (Hotel 2 estrellas).",
-    "City Tour Ica + Bodega Catador + Huacachina +Tubulares + guiado.",
-    "Tickets de ingreso en Ica y nazca.",
-    "Sobrevuelo Líneas de Nazca.",
-    "Atención Personalizada"
+    {
+      "text": "",
+      "items": [
+        "Ticket de bus Lima / Ica / Lima.",
+        "Traslados / Terminal de bus – Hotel / Hotel – Aeródromo – Terminal de bus.",
+        "1 noche de alojamiento en Ica (Hotel 2 estrellas).",
+        "City Tour Ica + Bodega Catador + Huacachina +Tubulares + guiado.",
+        "Tickets de ingreso en Ica y nazca.",
+        "Sobrevuelo Líneas de Nazca.",
+        "Atención Personalizada"
+      ],
+      "blocks": []
+    }
   ],
   "notIncluded": [
-    "Desayuno, Almuerzos y cena.",
-    "Otros no especificados en el programa."
+    {
+      "text": "",
+      "items": [
+        "Desayuno, Almuerzos y cena.",
+        "Otros no especificados en el programa."
+      ],
+      "blocks": []
+    }
   ],
-  "recommendations": [],
-  "additionals": []
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }
