@@ -138,13 +138,13 @@ export default async function TourDetailPage({ params }: Props) {
 
   return (
     <>
-      <PageHero title={tour.title} bgImage={`/images/${tour.image}`} />
+      <PageHero title={tour.title} />
 
       <div className="uw-container pt-16 pb-12 lg:pt-30 lg:pb-20">
         <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-14">
           <div className="lg:col-span-8">
             {/* Imagen del tour */}
-            <div className="relative mb-10 aspect-[16/10] w-full overflow-hidden rounded-lg">
+            <div className="relative mb-10 aspect-16/10 w-full overflow-hidden rounded-lg">
               <Image
                 src={`/images/${tour.image}`}
                 alt={tour.title}

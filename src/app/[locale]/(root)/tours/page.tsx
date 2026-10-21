@@ -14,6 +14,7 @@ import {
 } from "@/lib/tour-filters";
 import ToursSidebar from "@/components/sections/tours/ToursSidebar";
 import ToursHeaderWrapper from "@/components/sections/tours/ToursHeaderWrapper";
+import { siteConfig } from "@/site";
 
 export async function generateMetadata({
   params,
@@ -24,8 +25,11 @@ export async function generateMetadata({
   if (!hasLocale(routing.locales, locale)) {
     return {};
   }
-  const t = await getTranslations({ locale, namespace: "meta" });
-  return { title: t("tours"), description: t("description") };
+  const t = await getTranslations({ locale, namespace: "tours.seo" });
+  return {
+    title: t("title", { siteName: siteConfig.name }),
+    description: t("description"),
+  };
 }
 
 interface Props {
@@ -82,7 +86,7 @@ export default async function ToursPage({ params, searchParams }: Props) {
   return (
     <>
       <PageHero title={t("hero.title")} />
-      <section className="relative w-full bg-[#F4F9FA] pt-16 pb-12 lg:pt-30 lg:pb-20">
+      <section className="relative w-full pt-16 pb-12 lg:pt-30 lg:pb-20">
         <div className="uw-container">
           <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-12 xl:gap-10">
             <main className="flex flex-col gap-8 lg:col-span-8 xl:col-span-9">

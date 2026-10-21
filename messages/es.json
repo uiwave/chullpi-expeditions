@@ -107,8 +107,17 @@
     }
   },
   "tours": {
+    "seo": {
+      "title": "Tours y Paquetes de Viaje | {siteName}",
+      "description": "Descubre nuestras experiencias, paquetes turísticos y aventuras. Reserva en línea con las mejores ofertas y guía especializada.",
+      "keywords": "tours, paquetes turisticos, trekking, viajes, reservas",
+      "og": {
+        "title": "Tours y Paquetes de Viaje - Explora con nosotros",
+        "description": "Encuentra el tour ideal para tu próxima aventura. Explora nuestros destinos y reserva hoy mismo."
+      }
+    },
     "hero": {
-      "title": "Explora Todos Nuestros Tours y Paquetes"
+      "title": "Destinos"
     },
     "header": {
       "searchPlaceholder": "Buscar tour por nombre...",

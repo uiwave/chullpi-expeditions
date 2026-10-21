@@ -78,6 +78,7 @@ export default function ToursHeaderWrapper() {
 
   const handleDestinationChange = (value: string) => {
     const params = new URLSearchParams(searchParamsRef.current.toString());
+    console.log(new URLSearchParams(searchParams.toString()));
     if (value) {
       params.set("destino", value);
     } else {

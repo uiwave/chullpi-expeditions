@@ -107,8 +107,17 @@
     }
   },
   "tours": {
+    "seo": {
+      "title": "Tours and Travel Packages | {siteName}",
+      "description": "Discover our experiences, tour packages, and adventures. Book online with the best deals and expert guides.",
+      "keywords": "tours, tour packages, trekking, travel, bookings",
+      "og": {
+        "title": "Tours and Travel Packages - Explore with Us",
+        "description": "Find the perfect tour for your next adventure. Explore our destinations and book today."
+      }
+    },
     "hero": {
-      "title": "Explore All Our Tours and Packages"
+      "title": "Destinations"
     },
     "header": {
       "searchPlaceholder": "Search tour by name...",

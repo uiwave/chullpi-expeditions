@@ -107,8 +107,17 @@
     }
   },
   "tours": {
+    "seo": {
+      "title": "Passeios e Pacotes de Viagem | {siteName}",
+      "description": "Descubra nossas experiências, pacotes turísticos e aventuras. Reserve online com as melhores ofertas e guias especializados.",
+      "keywords": "passeios, pacotes turísticos, trekking, viagens, reservas",
+      "og": {
+        "title": "Passeios e Pacotes de Viagem - Explore Conosco",
+        "description": "Encontre o passeio ideal para sua próxima aventura. Explore nossos destinos e reserve hoje mesmo."
+      }
+    },
     "hero": {
-      "title": "Explore Todos os Nossos Tours e Pacotes"
+      "title": "Destinos"
     },
     "header": {
       "searchPlaceholder": "Buscar tour por nome...",

@@ -61,7 +61,7 @@ export default function ToursHeader({
             value={destination}
             onChange={(e) => onDestinationChange(e.target.value)}
             aria-label={tFilter("filterByDestination")}
-            className="border-border/60 dark:bg-secondary/20 text-secondary focus:ring-primary h-11 max-w-[200px] cursor-pointer appearance-none rounded-xl border bg-white pr-10 pl-4 text-sm font-medium focus:ring-2 focus:outline-none sm:max-w-[220px]"
+            className="border-border/60 dark:bg-secondary/20 text-secondary focus:ring-primary h-11 max-w-50 cursor-pointer appearance-none rounded-xl border bg-white pr-10 pl-4 text-sm font-medium focus:ring-2 focus:outline-none sm:max-w-55"
           >
             <option value="">{tFilter("allDestinations")}</option>
             {DESTINATIONS.map((dest) => (

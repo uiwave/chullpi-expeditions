@@ -1,6 +1,7 @@
 ## Itinerario
 
 ## Paquete 1 general
+
 - Recojo del aeropuerto en Lima
 - City tour en Lima($35)
 - Islas Ballestas y Hacachina($85)
@@ -14,9 +15,9 @@
 
 $130 por persona ingresos a todos los citios turisticos
 $90 Hotel 3 estrellas
- 
-#### Adicionales
-Todos cuentan con hotel
 
+#### Adicionales
+
+Todos cuentan con hotel
 
 ## Paquete 2
