@@ -5,6 +5,7 @@ import { CircleCheck, CircleX, Clock } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import ItineraryTabs from "@/components/sections/tours/ItineraryTabs";
 import ItineraryDay from "@/components/sections/tours/ItineraryDay";
+import ShortItinerary from "@/components/sections/tours/ShortItinerary";
 import AdditionalList from "@/components/sections/tours/AdditionalList";
 import BookingSidebar from "@/components/sections/tours/BookingSidebar";
 import SimilarTours from "@/components/sections/tours/SimilarTours";
@@ -197,7 +198,7 @@ export default async function TourDetailPage({ params }: Props) {
             {tour.shortItinerary?.length ? (
               <section className="mb-12">
                 <SectionTitle>{t("shortItinerary")}</SectionTitle>
-                <CheckList items={tour.shortItinerary} />
+                <ShortItinerary items={tour.shortItinerary} />
               </section>
             ) : null}
 

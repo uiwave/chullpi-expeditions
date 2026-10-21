@@ -7,5 +7,74 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "2 Días - 1 Noche",
-  "popular": false
+  "popular": false,
+  "description": "El ascenso al volcán Chachani es una experiencia inolvidable para los amantes de la aventura y la montaña. Este imponente coloso, considerado uno de los guardianes de la ciudad de Arequipa, alcanza una altitud de 6.075 m s.n.m. y destaca por su belleza paisajística y su importancia cultural e histórica. Además, es fuente del famoso sillar, piedra volcánica blanca que da a Arequipa el nombre de “La Ciudad Blanca”. El Chachani no requiere experiencia técnica en escalada, pero sí una buena aclimatación y condición física. ¡Prepárate para conquistar una de las cumbres más altas del sur del Perú!",
+  "shortItinerary": [],
+  "itinerary": [
+    {
+      "title": "Día 1",
+      "subtitle": "Arequipa – Punto de inicio – Campo Base",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "A las 8:00 a.m. pasaremos a recogerte por tu hotel en Arequipa.",
+            "Viajaremos durante aproximadamente 3 horas hasta llegar al punto de inicio de la caminata, ubicado a 4.900 m s.n.m.",
+            "Iniciaremos una caminata tranquila de 2 horas en ascenso hacia el campamento base (5.200 m), disfrutando del impresionante paisaje andino y su biodiversidad.",
+            "Una vez en el campamento, almorzaremos, instalaremos nuestras carpas y descansaremos contemplando un hermoso atardecer."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Día 2",
+      "subtitle": "Campo Base – Cumbre del Chachani – Arequipa",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "Muy temprano, a las 2:00 a.m., tras un desayuno ligero, comenzaremos el ascenso hacia la cumbre del Chachani (6.075 m). La caminata tomará unas 7 horas, con vistas espectaculares del amanecer.",
+            "En la cima, disfrutaremos de una increíble panorámica de Arequipa y los volcanes vecinos como el Misti y Ampato. ¡Momento perfecto para fotos y descanso!",
+            "Luego, descenderemos hacia el campamento base (3 horas aprox.), donde tomaremos un snack y descansaremos brevemente.",
+            "Finalmente, continuaremos bajando por otras 2 horas hasta los 4.900 m, donde nos esperará el transporte de regreso a la ciudad.",
+            "Llegaremos a Arequipa aproximadamente a las 4:00 p.m."
+          ]
+        }
+      ]
+    }
+  ],
+  "included": [
+    "Recojo de su Hotel",
+    "Transporte privado",
+    "Guía de montaña",
+    "Equipo de camping (matraz, carpa)",
+    "Bolsa de dormir/Guantes",
+    "Equipo para escalar: crampones, picos de hielo, cuerda",
+    "1 almuerzo/cena, 1 desayuno y 1 Snack",
+    "Botiquín de primeros auxilios",
+    "Asistente de guía (para más de 5 pasajeros)",
+    "Botella de oxígeno",
+    "Equipo de comunicación",
+    "Opción de alimentación vegetariana"
+  ],
+  "notIncluded": [
+    "Zapatos de montaña",
+    "Linterna frontal",
+    "Mochila de 60 litros",
+    "Bastones de caminata"
+  ],
+  "recommendations": [
+    "1 mochila de 60 litros",
+    "Sombrero o gorro para el frio",
+    "Linterna frontal",
+    "Lentes para el sol",
+    "Bloqueador solar",
+    "1 casaca para la lluvia o poncho",
+    "1 casaca (polar para el frio)",
+    "1 par de guantes",
+    "Buenos zapatos de caminata",
+    "4 litros de agua mínimo por persona",
+    "Medicinas personales / Papel higiénico",
+    "Chocolates, frutas como Snacks"
+  ]
 }

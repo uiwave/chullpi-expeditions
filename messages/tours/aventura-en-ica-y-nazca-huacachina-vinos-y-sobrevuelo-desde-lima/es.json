@@ -7,5 +7,71 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "2 Días - 1 Noche",
-  "popular": false
+  "popular": false,
+  "description": "Vive una experiencia única de 2 días repletos de emoción, diversión y cultura. Disfruta de un impresionante atardecer en las dunas de Ica, prueba los mejores vinos y piscos locales, y conecta con la gente y tradiciones de la región. Pasa un día inolvidable en la Laguna de Huacachina y admira las enigmáticas líneas de Nasca en su máximo esplendor. ¡Aprovecha al máximo estos 2 días de aventura!",
+  "shortItinerary": [],
+  "itinerary": [
+    {
+      "title": "Día 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "6:00 AM: Salida desde Lima (Terminal Terrestre Cruz del Sur o Perú Bus VIP).",
+            "11:30 AM: Recogida de los pasajeros (desde el hotel o estación de bus) para iniciar el tour en Ica.",
+            "Visitaremos Cachiche, donde exploraremos la famosa palmera de siete cabezas y el Parque Temático de las Brujas, conociendo la parte más mística de la región.",
+            "Continuaremos en la Casa de las Tejas, donde podrán adquirir opcionalmente las tradicionales tejas y chocotejas de Ica.",
+            "A continuación, visitaremos una bodega vitivinícola artesanal en Ica, donde aprenderemos sobre el proceso de elaboración de vinos y piscos artesanales. Durante la visita, podrán degustar una variedad de vinos, piscos y cachinas, y disfrutar de la comida típica local en el almuerzo.",
+            "Haremos una parada en el Oasis de Huacachina, donde podrán admirar el impresionante paisaje de la laguna rodeada por grandes dunas.",
+            "Realizaremos un emocionante recorrido en transportes tubulares 4X4 y tendremos la oportunidad de practicar sandboarding en el desierto de Huacachina, viviendo una experiencia llena de adrenalina. Durante el recorrido, el conductor detendrá el vehículo para enseñar técnicas de deslizamiento, y una vez abajo, el tubular los recogerá para continuar la actividad en otras dunas.",
+            "5:00 PM: Traslado al hotel (hora aproximada)."
+          ],
+          "blocks": [
+            {
+              "text": "",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Día 2",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "7:00 AM: Traslado desde el hotel al Aeródromo María Reiche de Nasca (según coordinación previa).",
+            "En el aeródromo, seguirán los procedimientos de embarque, con un tiempo de espera de 1 a 2 horas aproximadamente, dependiendo de la demanda y el clima. Cada pasajero será pesado con los accesorios para abordar la avioneta. El peso máximo permitido es de 95 kg, y en caso de exceder este peso, se deberá pagar un asiento adicional.",
+            "Abordaremos la avioneta para realizar el sobrevuelo sobre las misteriosas Líneas de Nasca, donde se podrán apreciar figuras como la Araña, el Colibrí, el Mono, la Ballena, el Cóndor, las Manos y el enigmático Astronauta. El vuelo tendrá una duración aproximada de 30 minutos.",
+            "Regreso a Ica y tiempo libre para almorzar.",
+            "4:00 PM: Regreso a Lima en bus."
+          ],
+          "blocks": [
+            {
+              "text": "",
+              "items": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "included": [
+    "Ticket de bus Lima / Ica / Lima.",
+    "Traslados / Terminal de bus – Hotel / Hotel – Aeródromo – Terminal de bus.",
+    "1 noche de alojamiento en Ica (Hotel 2 estrellas).",
+    "City Tour Ica + Bodega Catador + Huacachina +Tubulares + guiado.",
+    "Tickets de ingreso en Ica y nazca.",
+    "Sobrevuelo Líneas de Nazca.",
+    "Atención Personalizada"
+  ],
+  "notIncluded": [
+    "Desayuno, Almuerzos y cena.",
+    "Otros no especificados en el programa."
+  ],
+  "recommendations": [],
+  "additionals": []
 }

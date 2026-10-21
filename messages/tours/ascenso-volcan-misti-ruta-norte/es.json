@@ -7,5 +7,68 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "2 Días - 1 Noche",
-  "popular": false
+  "popular": false,
+  "description": "",
+  "shortItinerary": [
+    {
+      "text": "El ascenso al volcán Misti es una de las experiencias más emocionantes y desafiantes que puedes vivir en Arequipa. Este imponente volcán, símbolo de la ciudad, no solo ofrece una vista impresionante desde su cima, sino también una conexión única con la historia natural y cultural de la región. A través de esta travesía de dos días, disfrutarás de paisajes espectaculares, cielos despejados, historias ancestrales, y la satisfacción de llegar a uno de los puntos más altos del sur del Perú."
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Día 1",
+      "subtitle": "Arequipa – Campo Base",
+      "paragraphs": [
+        {
+          "text": "Entre las 7:40 a.m. y 8:00 a.m., te recogeremos desde tu hotel en Arequipa para comenzar esta inolvidable aventura. Abordaremos un vehículo 4×4 que nos llevará durante tres horas hasta el punto de inicio de la caminata. En el camino, disfrutaremos de paisajes espectaculares, pasando por la represa de Aguada Blanca (4,300 m s.n.m.), una importante fuente de agua para Arequipa y hábitat de aves como flamencos y otras especies andinas."
+        },
+        {
+          "text": "Una vez en el punto de partida, comenzaremos un ascenso gradual durante aproximadamente 3 horas hasta llegar al campamento base, ubicado a 4,800 m s.n.m. Al llegar, nos instalaremos, disfrutaremos de un delicioso almuerzo y una cena ligera alrededor de las 5:00 p.m. Por la tarde, compartiremos experiencias con el grupo mientras el guía nos narra historias fascinantes sobre los volcanes Misti y Chachani. Recomendamos descansar temprano para estar listos para el gran día siguiente."
+        }
+      ]
+    },
+    {
+      "title": "Día 2",
+      "subtitle": "Campo Base – Cumbre – Arequipa",
+      "paragraphs": [
+        {
+          "text": "A la 1:00 a.m., tras un desayuno energético, iniciaremos el ascenso a la cumbre del Misti. La caminata nos tomará entre 6 a 7 horas hasta alcanzar el cráter, ubicado a 5,825 m s.n.m., donde podremos observar emisiones de vapor y fumarolas. Desde la cima, tendremos una vista privilegiada de la ciudad de Arequipa y de todo el paisaje andino, perfecto para tomar fotografías memorables."
+        },
+        {
+          "text": "Después de un merecido descanso, emprenderemos el descenso: nos tomará unas 2 horas volver al campamento base, y luego una hora adicional hasta el punto de encuentro con nuestro transporte. Finalmente, retornaremos a la ciudad, llegando alrededor de las 4:00 p.m., llenos de recuerdos inolvidables y una gran sensación de logro."
+        }
+      ]
+    }
+  ],
+  "included": [
+    "Guía especializado en alta montaña.",
+    "Transporte privado",
+    "Equipo de camping (Carpa / matras/ bolsa de dormir sintética)",
+    "Alimentación (01cena – 01 Desayuno)",
+    "Botella de Oxígeno (dentro del carro)",
+    "Botiquín de primeros auxilios",
+    "Equipo de comunicación"
+  ],
+  "notIncluded": [
+    "Bolsa de dormir de pluma",
+    "Bastones",
+    "Mochila de 60-70 litros",
+    "Linterna frontal",
+    "Zapatos de montaña",
+    "Casaca de sky"
+  ],
+  "recommendations": [
+    "Bolsa de Dormir",
+    "Mochila 70Lt mínimo",
+    "Zapatos de trekking.",
+    "5Lt de agua mínimo por persona",
+    "Snacks: Chocolates, frutas secas, etc.",
+    "Casaca impermeable o poncho (diciembre – abril)",
+    "Linterna frontal y baterías extras",
+    "Bastones de trekking",
+    "Lentes de Sol",
+    "Protector Solar",
+    "Papel Higiénico",
+    "Medicamentos personales"
+  ]
 }

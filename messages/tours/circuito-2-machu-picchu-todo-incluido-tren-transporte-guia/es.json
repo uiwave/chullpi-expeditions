@@ -8,98 +8,56 @@
   "typeKey": "ticket",
   "duration": "15 a 18 horas",
   "popular": true,
-  "description": "Asegura tu acceso a la ruta más emblemática de Machu Picchu: el Circuito 2 (Ruta Clásica). Este servicio todo incluido y 100% privado elimina el estrés logístico para ofrecerte la vista de postal garantizada con la máxima comodidad y elegancia.\nIncluye transporte privado en furgoneta desde tu hotel en Cusco, pasajes de tren turístico, tickets de bus Consettur, guía oficial privado y acceso exclusivo a un área de descanso VIP en Aguas Calientes.",
+  "description": "",
   "shortItinerary": [
-    "Recojo en furgoneta privada desde tu hotel en Cusco",
-    "Traslado privado hacia la estación de tren",
-    "Viaje en tren turístico hacia Aguas Calientes",
-    "Subida en bus lanzadera Consettur hasta la ciudadela",
-    "Tour guiado privado de 2.5 horas por el Circuito 2 (Vista Postal Clásica)",
-    "Bajada en bus a Aguas Calientes y descanso en lounge exclusivo",
-    "Retorno en tren y traslado privado de regreso a tu hotel en Cusco"
+    {
+      "text": "",
+      "items": [],
+      "blocks": [
+        {
+          "text": "",
+          "items": []
+        }
+      ]
+    }
   ],
   "itinerary": [
     {
-      "title": "Mañana",
-      "subtitle": "Cusco → Estación de Tren → Aguas Calientes",
+      "title": "",
+      "subtitle": "",
       "paragraphs": [
         {
-          "text": "El día inicia con un servicio de transporte totalmente privado para evitar filas y traslados grupales.",
-          "items": [
-            "Recojo directo en la puerta de tu hotel o Airbnb en Cusco en furgoneta privada",
-            "Traslado privado hacia la estación de trenes",
-            "Viaje en tren turístico disfrutando del paisaje andino hasta Machu Picchu Pueblo (Aguas Calientes)"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Tarde",
-      "subtitle": "Santuario Histórico de Machu Picchu - Circuito 2",
-      "paragraphs": [
-        {
-          "text": "Ascenso al santuario para disfrutar del recorrido principal y las mejores vistas panorámicas.",
-          "items": [
-            "Abordaje en bus lanzadera Consettur hacia la puerta de ingreso de la ciudadela",
-            "Recorrido VIP privado de 2 horas y 30 minutos acompañado por un guía oficial certificado",
-            "Parada estratégica en el punto fotográfico para capturar la clásica foto de postal"
-          ],
+          "text": "",
+          "items": [],
           "blocks": [
             {
-              "text": "Atractivos principales visitados:",
-              "items": [
-                "Templo del Sol",
-                "Plaza Sagrada",
-                "Intihuatana y sectores residenciales"
-              ]
+              "text": "",
+              "items": []
             }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Noche",
-      "subtitle": "Descanso en Aguas Calientes → Retorno a Cusco",
-      "paragraphs": [
-        {
-          "text": "Concluido el tour, retornarás a Aguas Calientes con tiempo para relajarte antes del viaje de vuelta.",
-          "items": [
-            "Descenso en bus hacia Aguas Calientes",
-            "Acceso exclusivo al área de descanso para relajarse y usar las instalaciones antes del tren",
-            "Retorno en tren turístico y recepción por tu movilidad privada para el traslado final hasta la puerta de tu hotel en Cusco"
           ]
         }
       ]
     }
   ],
-  "included": [
-    "Transporte privado en furgoneta (ida y vuelta) desde/hacia tu hotel o Airbnb en Cusco",
-    "Entrada oficial garantizada a Machu Picchu (Circuito 2 / Ruta Clásica)",
-    "Tickets de tren turístico ida y vuelta",
-    "Tickets de autobús lanzadera Consettur ida y vuelta (Aguas Calientes - Machu Picchu)",
-    "Guía oficial de turismo en servicio privado exclusivo (Español / Inglés)",
-    "Acceso exclusivo a área de descanso en Aguas Calientes"
-  ],
-  "notIncluded": [
-    "Alimentos y bebidas durante el tour o en el área de descanso",
-    "Propinas para el conductor privado y guía",
-    "Gastos personales y souvenirs"
-  ],
-  "recommendations": [
-    "Pasaporte o DNI original físico (imprescindible para el ingreso)",
-    "Contactar a la agencia previa reserva para verificar la disponibilidad de turnos del Circuito 2",
-    "Calzado cómodo para caminatas sobre empedrado",
-    "Ropa en capas (abrigo para la mañana/noche y ropa fresca para el día)",
-    "Bloqueador solar, gorra, repelente de insectos y poncho impermeable",
-    "Efectivo en soles para compras personales o alimentos en Aguas Calientes"
-  ],
+  "included": [],
+  "notIncluded": [],
+  "recommendations": [],
   "additionals": [
     {
-      "title": "Notas de Recogida y Coordinación",
+      "title": "",
+      "subtitle": "",
       "items": [
         {
-          "name": "Recogida Flexible en Hotel / Plaza de Armas",
-          "description": "Si tu alojamiento se encuentra en un pasaje con acceso vehicular restringido en el centro de Cusco, el conductor privado te recibirá en la puerta o en un punto de encuentro coordinado a pocos pasos."
+          "name": "",
+          "price": "",
+          "description": "",
+          "blocks": [
+            {
+              "name": "",
+              "price": "",
+              "description": ""
+            }
+          ]
         }
       ]
     }

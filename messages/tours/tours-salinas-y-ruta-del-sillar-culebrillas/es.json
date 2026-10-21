@@ -7,5 +7,59 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": "",
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": [
+        {
+          "text": "",
+          "items": []
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": [
+            {
+              "text": "",
+              "items": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "included": [],
+  "notIncluded": [],
+  "recommendations": [],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": "",
+          "blocks": [
+            {
+              "name": "",
+              "price": "",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

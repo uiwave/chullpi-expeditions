@@ -8,94 +8,56 @@
   "typeKey": "ticket",
   "duration": "5 horas",
   "popular": true,
-  "description": "Disfruta de una experiencia completa en Machu Picchu explorando tanto el Circuito 2 como el Circuito 3 con un guía privado bilingüe.\nEste itinerario te permite descubrir las icónicas vistas panorámicas, los templos sagrados y los sitios arqueológicos más emblemáticos de la ciudadela inca.\nIncluye asistencia personalizada en la estación de tren, traslado a tu hotel en Aguas Calientes, gestión de tickets y boletos de autobús Consettur de ida y vuelta al santuario.",
+  "description": "",
   "shortItinerary": [
-    "Recepción personalizada en la estación de tren de Aguas Calientes",
-    "Asistencia y traslado a tu hotel en Aguas Calientes",
-    "Traslado en autobús Consettur hacia el Santuario de Machu Picchu",
-    "Tour guiado privado por el Circuito 2 y Circuito 3 (5 horas en total)",
-    "Recorrido por la Casa del Guardián, Intihuatana, Templo del Sol y Templo del Cóndor",
-    "Retorno en autobús a Aguas Calientes y fin del servicio"
-  ],
-  "itinerary": [
     {
-      "title": "Día 1",
-      "subtitle": "Llegada y Recepción en Aguas Calientes",
-      "paragraphs": [
+      "text": "",
+      "items": [],
+      "blocks": [
         {
-          "text": "Bienvenida personalizada a tu llegada a Machu Picchu Pueblo.",
-          "items": [
-            "Recepción en la estación de tren por nuestro representante con cartel personalizado",
-            "Asistencia y acompañamiento hacia tu hotel seleccionado en Aguas Calientes",
-            "Coordinación de detalles y briefing para las visitas a la ciudadela"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Día 2",
-      "subtitle": "Exploración Completa de Machu Picchu (Circuito 2 y Circuito 3)",
-      "paragraphs": [
-        {
-          "text": "Ascenso al Santuario Histórico para realizar un recorrido integral y privado por los circuitos principales.",
-          "items": [
-            "Abordaje del autobús Consettur con destino a la puerta de ingreso a Machu Picchu",
-            "Tour guiado privado de 5 horas aprox. acompañado por un guía oficial bilingüe"
-          ],
-          "blocks": [
-            {
-              "text": "Atractivos principales incluidos en la ruta:",
-              "items": [
-                "Mirador panorámico clásico y Casa del Guardián",
-                "Caos Granítico, Foso Seco y Mirador del Templo del Sol",
-                "Plaza Sagrada, Templo Principal y Templo de las Tres Ventanas",
-                "Pirámide del Intihuatana y Roca Sagrada",
-                "Doce Vanos, Qolqas Orientales (Almacenes Incas) y Espejos de Agua",
-                "Templo del Cóndor, Plaza Pisonay y Reserva Arqueológica"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Fin del Servicio",
-      "subtitle": "Retorno a Aguas Calientes",
-      "paragraphs": [
-        {
-          "text": "Descenso en autobús Consettur hacia Aguas Calientes, finalizando la experiencia en el punto de encuentro inicial."
+          "text": "",
+          "items": []
         }
       ]
     }
   ],
-  "included": [
-    "Entradas oficiales a Machu Picchu (Circuito 2 y Circuito 3)",
-    "Guía privado oficial bilingüe (Español / Inglés) para ambos circuitos",
-    "Billetes de autobús Consettur ida y vuelta (Aguas Calientes - Machu Picchu)",
-    "Asistencia en la estación de tren de Aguas Calientes y traslado al hotel",
-    "Asistencia y soporte personalizado durante toda la visita"
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": [
+            {
+              "text": "",
+              "items": []
+            }
+          ]
+        }
+      ]
+    }
   ],
-  "notIncluded": [
-    "Billetes de tren ida y vuelta a Aguas Calientes",
-    "Alojamiento / Hotel en Aguas Calientes",
-    "Alimentos y bebidas",
-    "Gastos personales y propinas"
-  ],
-  "recommendations": [
-    "Pasaporte o DNI original físico (obligatorio para la emisión e ingreso)",
-    "Enviar foto clara del pasaporte/DNI con anticipación para la emisión de boletos",
-    "Calzado de trekking o caminata con buena tracción",
-    "Ropa cómoda en capas, cortavientos y poncho de lluvia",
-    "Protector solar, gorra, lentes de sol y repelente de insectos",
-    "Botella reutilizable para agua"
-  ],
+  "included": [],
+  "notIncluded": [],
+  "recommendations": [],
   "additionals": [
     {
-      "title": "Proceso de Compra de Tickets",
+      "title": "",
+      "subtitle": "",
       "items": [
         {
-          "name": "Gestión de Boletos Circuito 2 y Circuito 3",
-          "description": "La entrada para el Circuito 3B se emite 4 días antes de la visita. El boleto para el Circuito 2 se tramita de forma presencial en la oficina oficial de Machu Picchu Pueblo, sujeto a disponibilidad."
+          "name": "",
+          "price": "",
+          "description": "",
+          "blocks": [
+            {
+              "name": "",
+              "price": "",
+              "description": ""
+            }
+          ]
         }
       ]
     }

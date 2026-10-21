@@ -1,8 +1,11 @@
 export interface ItineraryBlock {
-  text: string;
+  text?: string;
   items?: string[];
   blocks?: ItineraryBlock[];
 }
+
+/** Bloque con párrafo + lista + sub-bloques, o un simple string heredado. */
+export type ShortItineraryEntry = ItineraryBlock | string;
 
 export interface TourItineraryDay {
   title: string;
@@ -34,7 +37,7 @@ export interface Tour {
   duration: string;
   popular: boolean;
   description?: string;
-  shortItinerary?: string[];
+  shortItinerary?: ShortItineraryEntry[];
   itinerary?: TourItineraryDay[];
   included?: string[];
   notIncluded?: string[];

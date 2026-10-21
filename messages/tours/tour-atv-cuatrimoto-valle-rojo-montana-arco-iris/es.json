@@ -8,91 +8,56 @@
   "typeKey": "ticket",
   "duration": "Mas de 6 horas",
   "popular": true,
-  "description": "Experimenta la aventura andina definitiva combinando un emocionante paseo en cuatrimoto (ATV) con paisajes naturales de más de 5,000 m s. n. m.\nExplora el impresionante Valle Rojo, la Montaña de Colores (Vinicunca) y admira la majestuosa cordillera del Ausangate.\nIncluye equipamiento de seguridad completo, entradas oficiales, desayuno reconfortante y almuerzo buffet para recargar energías.",
+  "description": "",
   "shortItinerary": [
-    "Recojo en hotel céntrico o punto de encuentro en Plaza de Armas",
-    "Traslado hacia el poblado base con desayuno buffet incluido",
-    "Instrucciones de manejo y entrega de equipo de seguridad",
-    "Recorrido en cuatrimoto (ATV) por el Valle Rojo y Vinicunca",
-    "Caminata corta hasta el mirador de la Montaña Arco Iris",
-    "Almuerzo buffet andino y retorno hacia el centro de Cusco"
+    {
+      "text": "",
+      "items": [],
+      "blocks": [
+        {
+          "text": "",
+          "items": []
+        }
+      ]
+    }
   ],
   "itinerary": [
     {
-      "title": "Mañana",
-      "subtitle": "Salida de Cusco y Preparación",
+      "title": "",
+      "subtitle": "",
       "paragraphs": [
         {
-          "text": "Partida muy temprano desde Cusco para aprovechar las mejores condiciones climáticas en la montaña.",
-          "items": [
-            "Recojo en hoteles céntricos seleccionados, aeropuerto o punto de encuentro en Plaza de Armas",
-            "Viaje en transporte turístico hacia la zona base en los Andes",
-            "Desayuno reconfortante antes de iniciar la actividad todoterreno",
-            "Charla de seguridad, prueba de cuatrimotos y entrega de casco y guantes"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Aventura en ATV",
-      "subtitle": "Ruta Todoterreno al Valle Rojo y Vinicunca",
-      "paragraphs": [
-        {
-          "text": "Conducción en cuatrimoto por senderos andinos rodeados de paisajes nevados y fauna local.",
-          "items": [
-            "Travesía en cuatrimoto hacia el Valle Rojo y las faldas de la Montaña Arco Iris",
-            "Caminata final hacia los miradores principales para tomar fotografías con la cordillera del Ausangate de fondo",
-            "Explicación cultural e histórica a cargo del guía local profesional"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Tarde",
-      "subtitle": "Almuerzo y Retorno",
-      "paragraphs": [
-        {
-          "text": "Luego de la exploración en las alturas, retornamos al punto base para el almuerzo.",
-          "items": [
-            "Almuerzo buffet con opciones locales",
-            "Traslado de retorno a Cusco, finalizando el tour cerca de la Plaza Regocijo"
+          "text": "",
+          "items": [],
+          "blocks": [
+            {
+              "text": "",
+              "items": []
+            }
           ]
         }
       ]
     }
   ],
-  "included": [
-    "Recojo en hoteles céntricos de Cusco o puntos autorizados (Plaza de Armas / Aeropuerto)",
-    "Transporte turístico de ida y vuelta",
-    "Cuatrimoto (ATV) equipada para la travesía",
-    "Equipo de seguridad completo (casco, guantes y protecciones)",
-    "Entradas oficiales a la Montaña Arco Iris (Vinicunca) y al Valle Rojo",
-    "Desayuno y almuerzo buffet",
-    "Guía local profesional bilingüe (Español / Inglés)"
-  ],
-  "notIncluded": [
-    "Propinas para el guía y el conductor",
-    "Gastos personales y snacks adicionales",
-    "Seguro de viaje"
-  ],
-  "recommendations": [
-    "Ropa abrigadora en capas (casaca impermeable, cortavientos, chullo y guantes térmicos)",
-    "Calzado cómodo de caminata con buena tracción",
-    "Bloqueador solar, lentes de sol y protector labial",
-    "Camiseta de cambio y dinero en efectivo en soles",
-    "Aclimatarse en Cusco al menos 1 o 2 días antes debido a la altitud (5,000+ m s. n. m.)"
-  ],
+  "included": [],
+  "notIncluded": [],
+  "recommendations": [],
   "additionals": [
     {
-      "title": "Políticas del Tour",
+      "title": "",
+      "subtitle": "",
       "items": [
         {
-          "name": "Edad y Condición Física",
-          "description": "Apto para participantes de 16 a 64 años con condición física media. No recomendado para embarazadas ni personas con afecciones cardíacas o hipertensión severa."
-        },
-        {
-          "name": "Condiciones Meteorológicas",
-          "description": "La actividad requiere condiciones climáticas adecuadas para un tránsito seguro en cuatrimoto. En caso de cancelación por mal tiempo, se reprogramará o reembolsará al 100%."
+          "name": "",
+          "price": "",
+          "description": "",
+          "blocks": [
+            {
+              "name": "",
+              "price": "",
+              "description": ""
+            }
+          ]
         }
       ]
     }

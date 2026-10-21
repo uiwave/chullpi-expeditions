@@ -10,12 +10,31 @@
   "popular": false,
   "description": "Vive la experiencia definitiva hacia la ciudadela inca más emblemática del mundo. Este tour Full Day te lleva desde Cusco en tren panorámico hasta Aguas Calientes, y de ahí en bus hasta la entrada de Machu Picchu, donde un guía oficial te mostrará los templos, plazas y terrazas de esta Maravilla del Mundo.\nUn día inolvidable de historia, naturaleza y cultura andina.",
   "shortItinerary": [
-    "Recojo en tu hotel en Cusco (4:00 - 4:30 a. m.)",
-    "Traslado en movilidad a la estación de tren",
-    "Viaje en tren panorámico hasta Aguas Calientes",
-    "Subida en bus por 25 minutos hasta la ciudadela",
-    "Tour guiado de 2 horas por Machu Picchu",
-    "Retorno en bus, tren y traslado a tu hotel"
+    {
+      "text": "Jornada completa desde Cusco con tren panorámico hasta la ciudadela inca.",
+      "items": [
+        "Recojo en tu hotel en Cusco (4:00 - 4:30 a. m.)",
+        "Traslado en movilidad a la estación de tren",
+        "Viaje en tren panorámico hasta Aguas Calientes",
+        "Subida en bus por 25 minutos hasta la ciudadela"
+      ]
+    },
+    {
+      "text": "Visita guiada por la ciudadela y retorno a Cusco.",
+      "items": [
+        "Tour guiado de 2 horas por Machu Picchu",
+        "Retorno en bus, tren y traslado a tu hotel"
+      ],
+      "blocks": [
+        {
+          "text": "Puntos destacados del recorrido:",
+          "items": [
+            "Plaza Principal e Intihuatana",
+            "Templo del Sol y Templo de las Tres Ventanas"
+          ]
+        }
+      ]
+    }
   ],
   "itinerary": [
     {
