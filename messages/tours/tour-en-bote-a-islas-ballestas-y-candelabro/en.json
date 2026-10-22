@@ -7,5 +7,95 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "2 Hours",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "On the Ballestas Islands Paracas Tour you will enjoy the impressive marine wildlife on a fantastic speedboat excursion; you will also get to know a mysterious symbol called the Candelabro, which was carved into the cliff of the Paracas peninsula centuries ago by an unknown civilization, and you will observe all the marine species that inhabit these islands.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "At the agreed time, pick-up from the bus station or your hotel in Paracas and transfer to the tourist pier.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "The Ballestas Islands Tour starts with boarding at the tourist pier of Paracas Chaco; you will board our speedboat and then sail across Paracas Bay to the Candelabro, a figure similar to the Nazca Lines carved into the slope of the Paracas peninsula. Our professional guide will explain the different theories that exist about it."
+        },
+        {
+          "text": "Next, we will sail out to open sea to reach the Ballestas Islands, where you will be able to get a very close look at fabulous marine wildlife, such as large colonies of sea lions on the beaches and rocks. It is also possible to see groups of Humboldt penguins in small caves, as well as a great variety of coastal birds."
+        },
+        {
+          "text": "Guano birds, such as cormorants, boobies, pelicans, gulls, and tropicbirds, and you will admire rock formations and the beauty of the Pacific Ocean, perfect for artistic photos."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Ballestas Islands Speedboat Tour",
+        "Life jacket",
+        "Boat with 2 outboard motors.",
+        "First aid kit",
+        "Insurance policy.",
+        "Port Captaincy operating permit",
+        "Official tourism guide in English and Spanish.",
+        "Pick-up from your hotel in Paracas or the bus station"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Bring a windbreaker sweater.",
+        "Sunscreen.",
+        "Do not eat heavy meals before taking the tour."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

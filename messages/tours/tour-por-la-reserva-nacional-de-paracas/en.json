@@ -7,5 +7,92 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "2 Hours",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "On this tour we will discover the wildlife and landscapes of the Paracas National Reserve, one of the most outstanding environmental areas in western Peru. You won't want to miss it!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "After picking you up at your hotel at the indicated time, we will head straight to the Paracas Nature Reserve. Ready to discover its extraordinary landscapes?",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Our first stop will be the Interpretation Center, where we will learn more in depth about the ecosystems of the reserve."
+        },
+        {
+          "text": "During a two-and-a-half-hour tour we will travel along the beaches, cliffs and dunes of the Paracas Nature Reserve. We will take a close look at La Catedral, a rock formation created by wind erosion."
+        },
+        {
+          "text": "We will also learn about the history of the Paracas culture: a pre-Columbian civilization with ancient traditions that inhabited these lands for several centuries."
+        },
+        {
+          "text": "Besides learning interesting facts about both the nature and the history of the Reserve, we will also spot the native wildlife of this protected natural space. We will pay special attention to the flamingos and plovers that live in these parts!"
+        },
+        {
+          "text": "Finally, we will return to your hotel in Paracas."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up and return transfer to the hotel.",
+        "Transportation by minibus.",
+        "Guide in Spanish."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Boarding fee to the Paracas National Reserve: S/ 15"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

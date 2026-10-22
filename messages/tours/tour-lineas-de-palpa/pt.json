@@ -7,5 +7,99 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "1 Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Neste passeio, você explorará as imponentes e enigmáticas linhas de Nasca, com figuras de perfeição extraordinária traçadas sobre uma vasta planície desértica, uma obra de uma antiga civilização peruana.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Além disso, você terá a oportunidade de desfrutar de uma nascente natural em pleno deserto, um oásis no meio dessa paisagem fascinante."
+    },
+    {
+      "text": "Acompanhe-nos para descobrir esse canto cheio de história e maravilhas!"
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O passeio começa às 07h00 com o recolhimento no hotel para iniciar o percurso. Às 08h00, visitaremos o setor de Río Grande, onde encontramos diferentes geoglifos como o Tupu, o Tumi, o Macaco e o Dançarino. Às 08h50, dirigiremos à Ponte Suspensa do Inca para conhecer essa impressionante estrutura. Às 09h20, teremos um tempo para desfrutar do café da manhã.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Às 11h00, continuaremos o passeio visitando os geoglifos mais representativos da região, como os Homenzinhos do Deserto, a Orca de Paracas, os animais do deserto, o Caman e seus aliados, o Deus de Paracas e o Santuário do Deus Paracas. Ao meio dia, às 13h20, desfrutaremos de um delicioso almoço no restaurante «El Mesón de Doña Natty»."
+        },
+        {
+          "text": "Às 14h30, visitaremos a Nascente La Maquina, um belo lugar com águas cor de turquesa, perfeito para relaxar após um dia cheio de aventuras. Em seguida, às 16h50, seguiremos para os petroglifos de Chichictara, onde também poderemos entrar na Fazenda de Chichictara para apreciar as plantas de manga."
+        },
+        {
+          "text": "Finalmente, às 17h10, iniciaremos o retorno a Lima, com uma pequena parada em Chincha para degustar vinhos e piscos. Chegaremos a Lima por volta das 22h00."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Visita à Nascente La Maquina",
+        "Visita ao Santuário do Deus Paracas",
+        "Visita à Ponte Suspensa do Inca",
+        "Visita aos Geoglifos Tumi e Macaco Dançarino",
+        "Visita aos Geoglifos Orca de Paracas e Homenzinhos do Deserto",
+        "Visita ao Petroglifo de Chichictara",
+        "Vista da Fazenda de Chichictara",
+        "Degustação de Vinhos e Pisco",
+        "Guia de turismo",
+        "Kit de primeiros socorros"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Alimentação, ingressos para os lugares a visitar."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

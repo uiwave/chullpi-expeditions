@@ -7,5 +7,104 @@
   "type": "Cultural",
   "typeKey": "cultural",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Desfrute de um roteiro único a Machu Picchu com um serviço personalizado em grupos pequenos. Você viajará de trem pelo Vale Sagrado, explorará o incrível santuário de Machu Picchu com visita guiada e voltará confortavelmente a Cusco. Uma experiência inesquecível no centro arqueológico mais importante da América do Sul.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [
+        "4:00: Recolhimento no seu hotel em Cusco",
+        "6:10: Trem turístico de Ollantaytambo para Aguas Calientes",
+        "8:00: Ônibus para Machu Picchu (30 min)",
+        "8:30: Entrada e visita guiada (2 horas)",
+        "10:30: Tempo livre para explorar por conta própria",
+        "12:30: Retorno para Aguas Calientes",
+        "13:00: Almoço (não incluído) e tempo livre",
+        "14:30: Trem de retorno a Ollantaytambo",
+        "16:30: Transporte em van até Cusco",
+        "20:00: Chegada aproximada a Cusco"
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transfer IN – OUT Hotel – Estação de Trens",
+        "Trem turístico Ollantaytambo – Machupicchu",
+        "Ônibus de subida e descida a Machupicchu (Consettur)",
+        "Ingresso de entrada a Machu Picchu",
+        "Guia profissional bilíngue",
+        "Transfer privativo Ollantaytambo – Hotel em Cusco."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Entrada na Montanha de Machupicchu ou Waynapicchu",
+        "Alimentação não mencionada no programa",
+        "Despesas pessoais",
+        "Gorjetas"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "DNI ou passaporte original",
+        "Roupa leve e calçado confortável",
+        "Chapéu ou boné",
+        "Câmera com a bateria carregada",
+        "Lanches e garrafa de água",
+        "Protetor solar",
+        "Dinheiro em espécie para souvenirs e outras despesas"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

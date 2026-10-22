@@ -7,5 +7,115 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "1 Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "The full-day Colca Canyon tour takes you on a magical journey to the Colca Valley. Walk to the famous Cruz del Cóndor viewpoint to enjoy the widest views of the Colca Canyon and an otherworldly sighting of the majestic Andean condor."
+    },
+    {
+      "text": "Later, enjoy a relaxing soak in the nearby serene hot springs. Visit an incredible National Park to interact with the even more famous llamas, alpacas, and vicuñas."
+    },
+    {
+      "text": "This full-day tour provides incomparable views of the Colca Canyon and valley. Experience incredible wildlife and interact with these amazing animals and local people along the way."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Arequipa – Pampa Cañahuas – Patapampa (4850M) – Chivay – Mirador Cruz del Cóndor",
+      "paragraphs": [
+        {
+          "text": "The Colca Canyon tour begins before dawn at 3 a.m. We prepare for a 3-hour journey in our private transport to the small town of Chivay, located on the left side of the Colca Canyon. It is the central point for any hike to the numerous canyon viewpoints, and we will also find many activities nearby.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "We stop in the town center for a quick breakfast before setting off on our hike to the “Cruz del Cóndor” Viewpoint. The hike will start early to arrive at the perfect time to possibly see dozens of these magnificent birds at very close range. The Andean condor is the second-largest bird in the world, and the images you capture here will make your friends envious. Along the way, enjoy the local “wititi” dancers and the views of the terraces covering the valley. We will also witness the Antahuilque viewpoints and the Tombs of Choquetico. Upon arriving at Cruz del Cóndor, we spend time delighting in an incredible view of the Andean condors and the valley."
+        },
+        {
+          "text": "Then, we return to Chivay to visit the small town of Maca, known for its 16th-century colonial church. We can also observe the daily life of the locals who work tirelessly on their agricultural terraces. Upon arriving in Chivay, we head to the La Calera hot springs to soak in their therapeutic pools. This is followed by a trip back to town for a gourmet lunch before heading back to Arequipa. On the way, we stop at the highest point between the Colca Canyon and Arequipa, Patapampa (4,800 m). We will obtain stunning views of the volcanic mountain range that encloses the essence of this region."
+        },
+        {
+          "text": "Later we head to Toqrapampa, to visit small crystalline lagoons, with a variety of unique Andean birds swirling around. Finally, we arrive at Pampa Cañahuas National Park, to spend some time with llamas, alpacas, and Peru’s national animal, the vicuñas."
+        },
+        {
+          "text": "We head to our hotels in Arequipa, arriving at around 5:00 p.m."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Private transport in our modern, comfortable vehicles.",
+        "Small groups: maximum 8 people (average of 4-6 people)",
+        "Colca Canyon entrance fee",
+        "Meals: Breakfast and lunch",
+        "La Calera hot springs entrance fee",
+        "A bilingual guide (English and Spanish)"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Meals, as indicated in the itinerary.",
+        "Tips for the driver and guide from Sam Corporation",
+        "Drinks"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "A light, waterproof backpack",
+        "Comfortable footwear",
+        "Light clothing for the heat, and warm layers when the weather changes",
+        "Camera with extra batteries",
+        "Sun protection: sunscreen, sun hat, sunglasses",
+        "Insect repellent",
+        "Waterproof clothing and/or rain poncho",
+        "Water bottle",
+        "Personal first aid kit",
+        "Extra money for souvenirs, drinks, tips",
+        "Bring snacks",
+        "Hand sanitizer",
+        "Toilet paper",
+        "Copy of passport and student ID if applicable"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

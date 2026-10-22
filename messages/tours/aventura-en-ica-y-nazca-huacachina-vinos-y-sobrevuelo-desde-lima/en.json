@@ -7,5 +7,110 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Live a unique 2-day experience full of excitement, fun and culture. Enjoy a stunning sunset over the dunes of Ica, taste the best local wines and piscos, and connect with the people and traditions of the region. Spend an unforgettable day at Huacachina Lagoon and admire the enigmatic Nazca Lines in all their glory. Make the most of these 2 days of adventure!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "6:00 AM: Departure from Lima (Cruz del Sur or Perú Bus VIP land terminal).",
+            "11:30 AM: Passenger pick-up (from the hotel or bus station) to start the tour in Ica.",
+            "We will visit Cachiche, where we will explore the famous seven-headed palm tree and the Witches Theme Park, getting to know the most mystical part of the region.",
+            "We will continue to the Casa de las Tejas, where you can optionally buy the traditional tejas and chocotejas of Ica.",
+            "Next, we will visit an artisanal winery in Ica, where we will learn about the process of making artisanal wines and piscos. During the visit you will be able to sample a variety of wines, piscos and cachinas, and enjoy the typical local food at lunch.",
+            "We will make a stop at the Huacachina Oasis, where you can admire the stunning landscape of the lagoon surrounded by giant dunes.",
+            "We will take an exciting ride in 4X4 tubular vehicles and have the chance to try sandboarding in the desert of Huacachina, living an experience full of adrenaline. Along the ride the driver will stop the vehicle to show sliding techniques, and once at the bottom the tubular will pick you up to continue the activity on other dunes.",
+            "5:00 PM: Transfer to the hotel (approximate time)."
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Day 2",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "7:00 AM: Transfer from the hotel to the María Reiche Aerodrome in Nazca (according to prior coordination).",
+            "At the aerodrome, boarding procedures will follow, with a waiting time of approximately 1 to 2 hours, depending on demand and weather. Each passenger will be weighed along with their accessories to board the small aircraft. The maximum allowed weight is 95 kg, and if this weight is exceeded, an additional seat must be paid for.",
+            "We will board the aircraft to fly over the mysterious Nazca Lines, where you can see figures such as the Spider, the Hummingbird, the Monkey, the Whale, the Condor, the Hands and the enigmatic Astronaut. The flight will last approximately 30 minutes.",
+            "Return to Ica and free time for lunch.",
+            "4:00 PM: Return to Lima by bus."
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Bus ticket Lima / Ica / Lima.",
+        "Transfers / Bus terminal – Hotel / Hotel – Aerodrome – Bus terminal.",
+        "1 night of accommodation in Ica (2-star hotel).",
+        "Ica City Tour + Winery Tasting + Huacachina + Tubulars + guide.",
+        "Admission tickets in Ica and Nazca.",
+        "Nazca Lines flyover.",
+        "Personalized service"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Breakfast, lunches and dinner.",
+        "Anything else not specified in the program."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

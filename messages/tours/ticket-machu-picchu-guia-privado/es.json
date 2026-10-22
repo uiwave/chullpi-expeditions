@@ -10,70 +10,72 @@
   "popular": true,
   "description": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "A diferencia de las entradas estándar, esta opción incluye un guía privado con licencia que lo acompañará dentro de Machu Picchu. No solo entrarás en la ciudadela, sino que también disfrutarás de un recorrido personalizado de 2 horas adaptado a tus intereses y ritmo."
+    },
+    {
+      "text": "La admisión está confirmada para el Circuito 1, 2 o 3 (sujeto a disponibilidad), lo que garantiza el acceso garantizado a una de las Nuevas Siete Maravillas del Mundo. Con asistencia prioritaria en la puerta principal y la información exclusiva de su guía, esta experiencia convierte su visita en un viaje memorable más allá de un simple boleto."
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Itinerario del tour:",
+      "items": [
+        "Encuentro con el guía privado y asistencia prioritaria en la puerta principal de Machu Picchu.",
+        "Recorrido guiado privado de 2 horas por el Circuito 1, 2 o 3 (según disponibilidad).",
+        "Exploración de áreas icónicas: Templo del Sol, Plaza Principal, terrazas agrícolas, recintos ceremoniales y miradores panorámicos.",
+        "Explicación de historia, arquitectura y espiritualidad inca a ritmo personalizado y tiempo para fotografías.",
+        "Finalización del recorrido guiado dentro de la ciudadela."
+      ]
     }
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Machu Picchu",
+      "subtitle": "Machu Picchu, Peru",
       "paragraphs": [
         {
-          "text": "",
-          "items": [],
-          "blocks": []
+          "text": "Los viajeros explorarán la majestuosa ciudadela inca de Machu Picchu acompañados por un guía privado. Dependiendo de la disponibilidad, se confirmará la admisión para el Circuito 1, 2 o 3, cada uno ofreciendo una perspectiva única de este Patrimonio de la Humanidad de la UNESCO."
+        },
+        {
+          "text": "En la caminata guiada, los visitantes descubrirán áreas icónicas como el Templo del Sol, la Plaza Principal, terrazas agrícolas, recintos ceremoniales e impresionantes miradores con vistas a toda la ciudadela. Su guía privado le explicará la historia, arquitectura e importancia espiritual de Machu Picchu, respondiendo a todas sus preguntas a su propio ritmo."
+        },
+        {
+          "text": "Esta experiencia proporciona aproximadamente 2 horas de guía personalizada, lo que le asegura aprovechar al máximo su visita y capturar fotos inolvidables de una de las Nuevas Siete Maravillas del Mundo."
         }
       ]
     }
   ],
   "included": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios incluidos:",
+      "items": [
+        "Entrada Machu Picchu (Circuito 1, 2 o 3, sujeto a disponibilidad)",
+        "Guía privado"
+      ]
     }
   ],
   "notIncluded": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios no incluidos:",
+      "items": ["Comidas y bebidas (almuerzo no incluido)"]
     }
   ],
   "recommendations": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
-    }
-  ],
-  "additionals": [
-    {
-      "title": "",
-      "subtitle": "",
+      "text": "Información adicional e importante:",
       "items": [
-        {
-          "name": "",
-          "price": "",
-          "description": [
-            {
-              "text": "",
-              "items": [],
-              "blocks": []
-            }
-          ],
-          "blocks": []
-        }
+        "Edad permitida: De 3 a 85 años.",
+        "Duración: 2 h. Hora de inicio según disponibilidad.",
+        "Se ofrece en idiomas: Español e Inglés.",
+        "Se ofrece entrada para dispositivos móviles.",
+        "Accesibilidad: No es accesible para sillas de ruedas, los bebés deben ir sentados en el regazo, se admiten animales de asistencia, hay transporte público cerca.",
+        "Condición física y restricciones: Se requiere condición física media. No es recomendable para viajeros con problemas de espalda, embarazadas o personas con afecciones cardíacas u otros problemas médicos graves.",
+        "Obligatorio tras reservar: Enviar fotos claras de los pasaportes de todos los participantes a través del sistema de mensajería Viator, WhatsApp (+51 940 468 520) o correo electrónico (reservas@chullpiexpeditions.com) para emitir correctamente las entradas.",
+        "Disponibilidad de circuitos y horarios: Los circuitos (Circuito 1, 2 o 3) están sujetos a disponibilidad en el momento de la compra. Los horarios de entrada disponibles son únicamente a las 6:00am, 7:00am, 8:00am y 9:00am.",
+        "Coordinación de trenes: Se requiere verificar o coordinar el horario de trenes ANTES de comprar billetes de tren, ya que la entrada a Machu Picchu debe asegurarse primero (se recomienda contactar por WhatsApp al +51 940 468 520 antes de reservar).",
+        "Condiciones meteorológicas: Esta experiencia requiere buen tiempo. Si se cancela por malas condiciones meteorológicas, se ofrecerá otra fecha o el reembolso total del importe abonado."
       ]
     }
-  ]
+  ],
+  "additionals": []
 }

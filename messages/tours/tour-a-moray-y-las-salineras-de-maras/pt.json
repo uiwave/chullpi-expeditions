@@ -7,5 +7,92 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "1 Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Este tour em quadriciclos oferece uma experiência única que une aventura e cultura nos espetaculares paisagens do Vale Sagrado. Começaremos em Cruzpata, onde você receberá uma breve orientação para pilotar seu quadriciclo. Ao longo do trajeto, você poderá apreciar magníficas vistas de montanhas nevadas, áreas agrícolas e comunidades andinas tradicionais.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "O roteiro contempla a visita ao complexo arqueológico de Moray, antigo centro experimental agrícola com terraços circulares incas, e depois às surpreendentes Salinas de Maras, exploradas desde os tempos pré-incas. É a alternativa perfeita para quem busca descobrir a história viva dos Andes de forma divertida, diferente e segura."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Quadriciclos Moray – Salinas",
+      "items": [
+        "Recolhimento do seu hotel em Cusco e partida para a comunidade de Cruzpata.",
+        "Instruções de segurança e breve prática com os quadriciclos.",
+        "Início do passeio de quadriciclo por estradas rurais com belas vistas panorâmicas.",
+        "Chegada ao complexo arqueológico de Moray, visita guiada e tempo para fotos.",
+        "Continuação de quadriciclo até as Salinas de Maras, localizadas nas encostas da montanha.",
+        "Visita ao mirante para observar as mais de 3.000 poças de sal.",
+        "Retorno de quadriciclo até Cruzpata.",
+        "Transfer de volta para Cusco."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": ["Guia profissional Inglês – Espanhol."],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Outros serviços não mencionados"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Jaqueta corta-vento.",
+        "Tênis ou sapatos confortáveis.",
+        "Protetor solar.",
+        "Garrafa de água.",
+        "Óculos de sol.",
+        "Câmera."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

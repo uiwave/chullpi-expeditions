@@ -7,5 +7,122 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "2 Dias - 1 Noite",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "A ascensão ao Vulcão Misti é uma das experiências mais emocionantes e desafiadoras que se pode viver em Arequipa. Esse imponente vulcão, símbolo da cidade, não oferece apenas uma vista impressionante do seu cume, mas também uma conexão única com a história natural e cultural da região. Ao longo desta travessia de dois dias, você desfrutará de paisagens espetaculares, céus limpos, histórias ancestrais e da satisfação de chegar a um dos pontos mais altos do sul do Peru.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "Arequipa – Campo Base",
+      "paragraphs": [
+        {
+          "text": "Entre as 7h40 e as 8h00, iremos buscá-lo no seu hotel em Arequipa para começar esta inesquecível aventura. Embarcaremos em um veículo 4×4 que nos levará por três horas até o ponto de partida da caminhada. No caminho, desfrutaremos de paisagens espetaculares, passando pela represa de Aguada Blanca (4.300 m n.m.), uma importante fonte de água para Arequipa e habitat de aves como flamingos e outras espécies andinas.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Uma vez no ponto de partida, começaremos uma subida gradual de aproximadamente 3 horas até o campo base, localizado a 4.800 m n.m. Ao chegar, nos instalaremos, desfrutaremos de um delicioso almoço e de um jantar leve por volta das 17h00. À tarde, compartilharemos experiências com o grupo enquanto o guia nos conta histórias fascinantes sobre os vulcões Misti e Chachani. Recomendamos dormir cedo para estar pronto para o grande dia seguinte.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Dia 2",
+      "subtitle": "Campo Base – Cume – Arequipa",
+      "paragraphs": [
+        {
+          "text": "Às 1h00, após um café da manhã energético, iniciaremos a subida ao cume do Misti. A caminhada levará de 6 a 7 horas até alcançar a cratera, localizada a 5.825 m n.m., donde poderemos observar emissões de vapor e fumarolas. Do topo, teremos uma vista privilegiada da cidade de Arequipa e de toda a paisagem andina, perfeita para tirar fotografias memoráveis.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Após um descanso merecido, empreenderemos a descida: levará cerca de 2 horas para retornar ao campo base e mais uma hora até o ponto de encontro com nosso transporte. Finalmente, voltaremos à cidade, chegando por volta das 16h00, cheios de lembranças inesquecíveis e de uma ótima sensação de realização.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Guia especializado em alta montanha.",
+        "Transporte privativo",
+        "Equipamento de camping (Barraca / colchonete / saco de dormir sintético)",
+        "Alimentação (01 jantar – 01 café da manhã)",
+        "Frasco de oxigênio (dentro do veículo)",
+        "Kit de primeiros socorros",
+        "Equipamento de comunicação"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Saco de dormir de pena",
+        "Bastões",
+        "Mochila de 60-70 litros",
+        "Lanterna de cabeça",
+        "Botas de montanha",
+        "Jaqueta de esqui"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Saco de dormir",
+        "Mochila de 70L no mínimo",
+        "Sapatos de trekking.",
+        "5L de água no mínimo por pessoa",
+        "Lanches: chocolates, frutas secas, etc.",
+        "Jaqueta impermeável ou poncho (dezembro – abril)",
+        "Lanterna de cabeça e pilhas extras",
+        "Bastões de trekking",
+        "Óculos de sol",
+        "Protetor solar",
+        "Papel higiênico",
+        "Medicamentos pessoais"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

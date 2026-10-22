@@ -7,5 +7,103 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Spend an incredible day in the dunes of Huacachina, with a ride in a 4X4 tubular vehicle and sandboarding sessions in the Huacachina desert. This journey will take you across beautiful dunes where you will enjoy incredible extreme adrenaline. The driver will share some key techniques to help you ride the boards; once you reach the bottom, the tubular will come to pick you up and you can keep practicing on different dunes and take spectacular photographs of the desert, a beautiful whim of nature.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Our guests are picked up from their hotel or bus station in the city of Ica and taken to the Huacachina Oasis.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Ride in a 4X4 tubular vehicle and sandboarding sessions in the Huacachina desert."
+        },
+        {
+          "text": "This journey will take you across beautiful dunes where you will enjoy incredible extreme adrenaline."
+        },
+        {
+          "text": "For approximately 1 hour. Once at the top of the dunes, the driver will stop the machine to share some key techniques to help you ride the boards; once at the bottom, the tubular will come to pick you up and you can keep practicing on different dunes and take spectacular"
+        },
+        {
+          "text": "Photographs of the desert, which show us a beautiful whim of nature; on the return, the vehicle will make one last stop at the Huacachina dune so you can admire and take the best photographs of the beautiful oasis from above."
+        },
+        {
+          "text": "Walk around the Oasis. You will also be able to enjoy spectacular photographs from any angle."
+        },
+        {
+          "text": "End of our services."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transfers from your hotel in Ica / Huacachina.",
+        "Buggy rides.",
+        "Board for sandboarding practice.",
+        "Entrance tickets.",
+        "Highly experienced instructor.",
+        "Constant assistance."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Return to the hotel or bus terminal.",
+        "Meals, water: Snacks and drinks during the tour.",
+        "Gifts, souvenirs.",
+        "Service tips (gratuity)."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

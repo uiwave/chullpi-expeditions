@@ -7,5 +7,99 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "Meio Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Viva um dia diferente explorando os cantos mais enigmáticos e surpreendentes de Cusco. Este tour convida você a descobrir espaços repletos de simbolismo, arte tallada e paisagens que parecem saídas de uma lenda andina. De imponentes esculturas fundidas com a montanha a bosques encantados e refúgios naturais, cada parada conectará você com a energia ancestral do lugar.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Você percorrerá cenários mágicos onde a imaginação desperta, a espiritualidade é sentida e o meio natural ganha vida com formas únicas. Ideal para quem procura uma experiência fora do comum, cercada de cultura, mistério e tranquilidade."
+    },
+    {
+      "text": "Uma aventura visual e sensorial que você nunca esquecerá."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Viva um dia mágico entre arte, natureza e espiritualidade.",
+      "items": [
+        "Início do tour: Recolhemos você no seu hotel entre as 9:40 e as 10:00 para partir rumo à Tica Tica.",
+        "Morada de los Dioses: Após 40 minutos de viagem, visitamos este lugar sagrado repleto de esculturas talladas em pedra, perfeitas para fotos e conexão espiritual.",
+        "Valle de los Duendes: Continuamos para este vale mágico onde duendes e figuras fantásticas emergem entre rochas e árbores, criando uma atmosfera de conto de fadas.",
+        "Humedal de Huasao: Um espaço natural cheio de vida e tranquilidade, ideal para relaxar e apreciar a biodiversidade local.",
+        "Parque de los Ents: Encerramos em um bosque encantado onde raíces e troncos tallados se integram à paisagem.",
+        "Retorno a Cusco: Finalizamos por volta das 18:00 na Plaza de Armas, após um dia cheio de misticismo e beleza natural."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhimento e transfer de retorno",
+        "Transporte em minibus.",
+        "Guia em espanhol e inglês."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Ingressos para os 3 sítios",
+        "Atividade em quadriciclos (opcional, com custo adicional).",
+        "Alimentação e outras despesas pessoais.",
+        "Almoço e jantar",
+        "Gorjetas"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Leve roupa adequada e confortável, calçado resistente para caminhar",
+        "Leve consigo lanches leves e água suficiente para manter sua energia e hidratação ao longo do dia."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

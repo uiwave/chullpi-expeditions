@@ -7,5 +7,113 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "3 Dias / 2 Noites",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Explore o Vale dos Vulcões e os sítios arqueológicos de Querulpa, Maucallacta e Toro Muerto neste tour de 3 dias a partir de Arequipa. Você não perderá nada!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "Arequipa – Andagua – Ayo",
+      "paragraphs": [
+        {
+          "text": "Buscaremos você em seu hotel em Arequipa às 5:00 para iniciar este tour de 3 dias pelo Vale dos Vulcões. Primeiro, faremos uma parada para café da manhã em Corire e continuaremos até chegar ao Parque Jurássico de Querulpa. Aqui faremos um passeio de uma hora para seguir as pegadas de dinossauros e as figuras em tamanho real.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Após desfrutar de um almoço à base de carne, massas e sopa, continuaremos o trajeto até Andagua. Contemplaremos os picos nevados do Coropuna e veremos as lamas, alpacas e vicunhas pastando nas planícies. Finalmente, chegaremos ao nosso destino por volta das 14:00 e faremos uma parada na vila de Ayo, onde tomaremos o jantar — uma sopa, arroz com legumes e uma bebida quente — e passaremos a noite."
+        }
+      ]
+    },
+    {
+      "title": "Dia 2",
+      "subtitle": "Ayo – Mamacocha – Andagua",
+      "paragraphs": [
+        {
+          "text": "Às 5:00 estaremos prontos para continuar a viagem a partir de Ayo. Rumo a Maucallacta, onde lhe daremos tempo para tomar café da manhã e, depois, visitaremos a lagoa de Mamacocha. Você sabia que é a nascente maior de toda a América do Sul?",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Após três horas de visita, iremos até Andagua e deixaremos tempo livre para almoçar. Em seguida, iremos a Antaymarca para visitar seus vestígios arqueológicos e subir ao mirante, de onde contemplaremos os mais de 80 pequenos vulcões que rodeiam a região. Parecerá que você está em outro planeta!"
+        },
+        {
+          "text": "Caminharemos por uma hora até a cachoeira Shankillay e faremos uma caminhada subindo um dos vulcões. Após a tarde mais completa, voltaremos a Ayo para passar a noite."
+        }
+      ]
+    },
+    {
+      "title": "Dia 3",
+      "subtitle": "Vale de Majes – Arequipa",
+      "paragraphs": [
+        {
+          "text": "Pela manhã acordaremos e você terá tempo para tomar café da manhã antes de iniciar o caminho de volta a Arequipa. Durante o trajeto, faremos paradas em Machahuay e Viraco, antigas vilas agrícolas situadas no vale do Coropuna. Depois de lhe dar tempo para almoçar em um restaurante em Majes, faremos uma visita de uma hora aos petroglifos de Toro Muerto, uma das amostras de arte rupestre mais famosas do Vale dos Vulcões.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Finalmente, concluiremos o tour deixando você em seu hotel por volta das 18:00."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhida e traslado de volta ao hotel.",
+        "Transporte em ônibus ou minibus, conforme o tamanho do grupo.",
+        "Guia em espanhol.",
+        "2 noites de hospedagem na casa de uma família local de Ayo.",
+        "Café da manhã, almoço e jantar do primeiro dia."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

@@ -7,5 +7,155 @@
   "type": "Trekking",
   "typeKey": "trekking",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embarque em uma aventura única até a Laguna Humantay, localizada a 3.880 metros de altitude. Explore suas águas cristalinas cercadas por montanhas imponentes, conecte-se com a tradição andina e desfrute de paisagens naturais únicas. Esta viagem é perfeita para quem busca escapar do burburinho da cidade e respirar a pureza dos Andes.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [
+        "Começamos o dia com a retirada às 4h00 no seu hotel em Cusco e seguimos rumo a Mollepata.",
+        "Às 7h00, desfrutamos de um delicioso café da manhã em Mollepata.",
+        "Às 9h00, continuamos a viagem até Soraypampa (3.880 m.n.m.), onde iniciamos a caminhada até a Laguna Humantay.",
+        "Às 10h30, chegamos à Laguna Humantay (4.200 m.n.m.), desfrutamos da paisagem e exploramos o entorno.",
+        "Às 12h00, iniciamos o retorno a Soraypampa e nos trasladamos a Mollepata.",
+        "Às 13h00, desfrutamos de um almoço típico em Mollepata.",
+        "Às 14h30, iniciamos o retorno rumo a Cusco.",
+        "Às 17h00, chegamos a Cusco, onde o tour termina perto da Plaza de Armas."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "Cusco – Soraypampa – Laguna Humantay",
+      "paragraphs": [
+        {
+          "text": "Retirada entre as 4h00 e 4h50 no seu hotel em Cusco. Partiremos às 5h00 em transporte privado rumo à vila de Mollepata, onde tomaremos um delicioso café da manhã que nos preparará para o dia. Depois do café da manhã, continuaremos até Soraypampa, o ponto de partida de nossa caminhada, situado a 3.880 metros acima do nível do mar.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Por volta das 9h30, iniciaremos a subida até a Laguna Humantay. A caminhata nos levará por paisagens impressionantes de montanha, com vistas para o majestoso Apu Salkantay. Ao chegar à lagoa, por volta das 10h30, você terá tempo para desfrutar de suas águas cristalinas e aprender com nosso guia sobre as tradições e crenças locais relacionadas a este lugar sagrado."
+        },
+        {
+          "text": "Você explorará os arredores da lagoa, onde observará apachetas, pequenas pilhas de pedras colocadas como oferendas à Pachamama. Desfrutará do ar puro, da tranquilidade da natureza e da energia espiritual do lugar. Por volta do meio-dia, iniciaremos o retorno a Soraypampa, onde pegaremos o transporte até Mollepata para desfrutar de um almoço nutritivo às 13h00."
+        },
+        {
+          "text": "Finalmente, às 14h30, iniciaremos o retorno em transporte privado a Cusco, chegando aproximadamente às 17h00, onde deixaremos você perto da Plaza de Armas para concluir este dia inesquecível."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Retirada na sua hospedagem",
+        "Transporte compartilhado",
+        "Café da manhã",
+        "Almoço",
+        "Guia bilíngue (espanhol e inglês)",
+        "Bastões de trekking",
+        "Entrada na Laguna Humantay",
+        "Kit de primeiros socorros"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Cavalo (S/ 100 por pessoa, sujeito a alteração, pagamento em espécie no dia do tour)",
+        "Gorjetas",
+        "Despesas extras"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Roupa quente",
+        "Roupa impermeável",
+        "Calçado de trekking",
+        "Chapéu de sol",
+        "Óculos de sol",
+        "Protetor solar",
+        "Lanches",
+        "Água",
+        "Roupa confortável",
+        "Bastões de trekking",
+        "Jaqueta",
+        "Mochila de 25 litros para as caminhadas diárias",
+        "Chapéu e luvas para o frio",
+        "Capa de mochila impermeável e chuva de plástico."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "Restrições:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Não permitido para gestantes, idade mínima exigida de 12 anos, não indicado para pessoas com problemas cardíacos, é necessário bom estado físico e aclimatação à altitude.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Política de cancelamento e remarcação:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "15 dias.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Clima:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Sujeito às condições climáticas.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

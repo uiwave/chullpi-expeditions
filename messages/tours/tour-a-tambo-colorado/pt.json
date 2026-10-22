@@ -7,5 +7,88 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "1 Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Tambo Colorado é uma das fortalezas de adobe mais bem preservadas do Peru, construída pelos Incas, onde é possível admirar suas paredes adornadas com nichos pintados em tons avermelhados, que lhe dão o nome.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Este complexo arqueológico abriga uma ampla praça central cercada por imponentes estruturas como os palácios do Norte e do Sul, além de diversas plataformas cerimoniais."
+    },
+    {
+      "text": "Este complexo arqueológico abriga uma ampla praça central cercada por imponentes estruturas como os palácios do Norte e do Sul, além de diversas plataformas cerimoniais."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhimento no seu hotel em Paracas.",
+        "Transporte turístico.",
+        "Guia em inglês/espanhol.",
+        "Ingresso de entrada às Ruínas de Tambo Colorado.",
+        "Assistência permanente.",
+        "Transporte turístico.",
+        "Guia de turismo.",
+        "Ingresso de entrada."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Alimentação."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

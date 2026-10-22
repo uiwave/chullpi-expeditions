@@ -7,5 +7,99 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "1 Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "On this tour, you will explore the imposing and enigmatic Nasca lines, with figures of extraordinary perfection drawn across a vast desert plain, a work dating back to an ancient Peruvian civilization.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "In addition, you will have the opportunity to enjoy a natural spring in the middle of the desert, an oasis amid this fascinating landscape."
+    },
+    {
+      "text": "Join us to discover this corner full of history and wonders!"
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The tour begins at 07:00 AM with pick-up from the hotel to start the journey. At 08:00 AM we will visit the Río Grande sector, where we can find different geoglyphs such as Tupu, Tumi, the Monkey and the Dancer. At 08:50 AM we will head to the Inca Hanging Bridge to see this impressive structure. At 09:20 AM we will take some time to enjoy breakfast.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "At 11:00 AM we will continue the tour visiting the most representative geoglyphs of the area, such as the Desert Little Men, the Paracas Orca, the desert animals, the Caman and its allies, the Paracas God and the Sanctuary of the Paracas God. At midday, at 01:20 PM, we will enjoy a delicious lunch at the restaurant «El Mesón de Doña Natty»."
+        },
+        {
+          "text": "At 02:30 PM we will visit the La Maquina Spring, a beautiful place with turquoise waters, perfect for relaxing after a day full of adventures. Then, at 04:50 PM, we will head to the Chichictara petroglyphs, where we can also enter the Chichictara Farm to see the mango trees."
+        },
+        {
+          "text": "Finally, at 05:10 PM we will begin the return to Lima, with a short stop in Chincha to taste wines and piscos. We will arrive in Lima at around 10:00 PM."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Visit to La Maquina Spring",
+        "Visit to the Sanctuary of the Paracas God",
+        "Visit to the Inca Hanging Bridge",
+        "Visit to the Tumi and Dancing Monkey Geoglyphs",
+        "Visit to the Paracas Orca and Desert Little Men Geoglyphs",
+        "Visit to the Chichictara Petroglyph",
+        "View of Chichictara Farm",
+        "Wine and Pisco tasting",
+        "Tour guide",
+        "First aid kit"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Meals, entrance tickets to the places visited."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

@@ -7,5 +7,88 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "2.5 Hours",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Chauchilla Cemetery is located about 30 km from the city of Nasca. It is the only cemetery in Peru that allows you to observe mummies in their original graves, preserved in excellent condition despite their age. This preservation is largely due to the extremely arid and dry climate of the Nasca desert, which has allowed many of the mummies to retain even remnants of hair and some skin.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "After prior coordination, you will be transferred from your hotel in Nasca or the bus station to Chauchilla Cemetery, located about 30 km from the city.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "This is the only cemetery in Peru where it is possible to see the mummies in their original graves. Despite their age, many of them still retain remnants of hair and even some skin."
+        },
+        {
+          "text": "Looters mainly took valuable objects such as ceramics, textiles, and precious metals, leaving the bodies scattered across the desert, which are still visible today."
+        },
+        {
+          "text": "At the end of the tour, you will be transferred back to your hotel."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transfer from your hotel in Nasca",
+        "Tourist transport.",
+        "Guide in English/Spanish",
+        "Permanent assistance",
+        "Cemetery entrance fee"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Meals."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

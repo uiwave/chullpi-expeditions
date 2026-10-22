@@ -7,5 +7,100 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "Meio Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Aramu Muru – Hayu Marca, também conhecido como Willka Uta, fica a 70 km ao sul de Puno. É um portal de rocha com quase 7 metros de altura, esculpido pelos descendentes da cultura Tiahuanaco e inspirado na famosa Portal do Sol. Este lugar é um dos mais enigmáticos e místicos da região, cercado por uma paisagem impressionante com formações rochosas que acrescentam à aura espiritual do local, conhecido como a floresta de pedras.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "No percurso, também visitaremos Chucuito, onde exploraremos o Inca Uyo (templo da fertilidade), um complexo ceremonial inca com monumentos fálicos utilizados em rituais dedicados à Pachamama e ao sol, além de servir como observatório astronômico."
+    },
+    {
+      "text": "Finalmente, antes de retornar, teremos uma opção de visita ao Museu da Totora, localizado a 7 km de Puno, onde são expostas impressionantes artesanias feitas com totora, material utilizado pelos habitantes de Chimú."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Manhã",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O tour começa com o recolhimento nos hotéis às 07:30 a.m., para iniciar a viagem até Aramu Muru. A primeira parada será em Chucuito, onde visitaremos o Inca Uyo, as Igrejas Santo Domingo e Assunção, além de aproveitar um mirante com vistas panorâmicas. Também é possível fazer uma visita opcional à Piscicultura. Após essa visita, sairemos para Aramu Muru, com chegada prevista para as 09:00 a.m.. Em Aramu Muru, exploraremos o portal interdimensional durante uma hora e meia. Às 11:30 a.m., sairemos rumo a Puno, fazendo uma última parada opcional no Museu da Totora às 12:15 p.m.. Após a visita, continuaremos o traslado e chegaremos a Puno às 12:45 p.m., onde será realizado o transfer de volta aos hotéis às 01:00 p.m..",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Tarde",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "À tarde, o tour começará com o recolhimento às 02:00 p.m., e sairemos rumo a Aramu Muru. Chegaremos às 03:00 p.m. para visitar o portal interdimensional de Aramu Muru por aproximadamente uma hora. Em seguida, às 04:00 p.m., sairemos para Chucuito, onde exploraremos novamente o Inca Uyo, a Igreja Santo Domingo e Assunção, além do mirante local. Às 06:00 p.m., retornaremos a Puno, com chegada aproximada às 06:30 p.m., onde será realizado o transfer de volta aos hotéis.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transporte privativo Puno – Chucuito – Aramu Muru – Puno.",
+        "Ingressos do Inca Uyo e Aramu Muru.",
+        "Guia Espanhol/Inglês."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Almoço.", "Outros serviços não mencionados."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Levar roupas leves e também abrigadoras; o clima é frio pela manhã, quente ao meio-dia e ventoso à tarde.",
+        "Levar boné e/ou protetor solar.",
+        "Sapatos confortáveis para a caminhada.",
+        "Dinheiro em espécie caso queira comprar souvenirs/lembranças; não aceitam cartões de crédito/débito.",
+        "Bebidas e/ou lanches."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

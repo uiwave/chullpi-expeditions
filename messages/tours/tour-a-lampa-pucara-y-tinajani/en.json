@@ -7,5 +7,94 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "1 Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Enjoy a unique cultural and natural experience in the surroundings of Puno. We start by visiting the pink city of Lampa, famous for its colonial architecture and the majestic Temple of Santiago Apóstol, home to a replica of Michelangelo's Pietà and ancient catacombs. Next we head to Pukara, birthplace of an ancient pre-Inca culture known for its monumental sculptures and the traditional Torito de Pukara. Finally, we explore the stunning Tinajani canyon, with rock formations that evoke an enchanted citadel, ideal for contemplation and spiritual rest.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The tour starts at 7:00 AM with pick-up from your hotel in downtown Puno. At 8:30 AM we reach the charming city of Lampa, where a guided visit of about an hour and a half takes place.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Then, at 9:30 AM, we set off along a dirt road towards Pukará, arriving at around 10:45 AM to explore its archaeological museum and the ancient temple of Kalasasaya during a one-hour visit."
+        },
+        {
+          "text": "At 11:45 AM we continue the journey by paved road towards Ayaviri, finally arriving at 1:45 PM at the impressive Tinajani canyon, where you can admire its unique rock formations in a mystical natural setting. At 3:30 PM we begin the return to Puno, with an estimated arrival at 6:00 PM and transfer to your hotel."
+        },
+        {
+          "text": "Note: This itinerary's times can be adjusted for private tours according to travelers' preferences."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Guidance the day before the tour.",
+        "Entrance fees to the Church of Lampa, Pucará Museum and Tinajani Canyon.",
+        "Spanish/English guide.",
+        "Tourist transport."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Lunch.", "Others not mentioned in the tour"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Camera, toilet paper and extra batteries.",
+        "A water bottle (1 liter).",
+        "Comfortable shoes for the hike.",
+        "Backpack with the essentials.",
+        "Snacks, cookies, candy, etc.",
+        "Light and warm clothing."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

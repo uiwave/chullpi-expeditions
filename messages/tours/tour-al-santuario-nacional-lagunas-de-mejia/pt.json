@@ -7,5 +7,96 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embarque em uma experiência única até um dos espaços naturais mais importantes do litoral peruano: o Santuário Nacional Lagunas de Mejía. Este tour de um dia permitirá você descobrir a incrível diversidade ecológica de um santuário costeiro que, apesar de seu tamanho relativamente pequeno, abriga uma grande variedade de habitats e espécies. Ideal para amantes da natureza, observação de aves ou simplesmente para quem procura uma conexão autêntica com a biodiversidade do sul do Peru. Prepare-se para observar aves únicas, respirar ar puro e se maravilhar com um ambiente natural incomparável.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O percurso começa com a recolha no seu hotel em Arequipa, dando início a uma jornada dedicada à natureza e à biodiversidade.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Após aproximadamente duas horas de viagem, chegaremos ao Santuário Nacional Lagunas de Mejía, localizado no litoral sul do Perú, muito perto do oceano Pacífico. Este santuário, que se estende por pouco mais de 690 hectares, resguarda uma surpreendente variedade de ecossistemas, como espelhos d'água, pântanos, totorais, estuários, áreas salinas, matagais e extensas praias de areia. É reconhecido como um dos umidais mais relevantes do litoral ocidental da América do Sul."
+        },
+        {
+          "text": "Durante a visita, você terá a oportunidade de observar algumas das 195 espécies de aves que habitam a área. Entre elas, destacam-se aves residentes que nidificam no santuário, além de aves migratórias vindas de diferentes regiões, como a América do Norte, o Ártico, a América do Sul, a Amazônia e os Andes. Além disso, várias espécies estão catalogadas em diferentes níveis de ameaça, incluindo algumas em perigo de extinção, o que torna o santuário um ponto-chave para sua conservação."
+        },
+        {
+          "text": "Depois dessa fascinante experiência de observação e conexão com a vida selvagem, faremos uma pausa para o almoço."
+        },
+        {
+          "text": "Finalmente, iniciaremos o retorno à cidade de Arequipa, seguindo uma rota cênica pela localidade de Cocachacra, com chegada à tarde."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhimento no seu hotel no centro de Arequipa",
+        "Paradas turísticas durante todo o percurso",
+        "Transporte turístico para todo o percurso",
+        "Guia profissional durante todo o percurso"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Café da manhã", "Almoço", "Entrada no Santuário"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Calçado adequado para curtas caminhadas",
+        "Chapéu",
+        "Óculos de sol",
+        "Protetor solar",
+        "Repelente de mosquitos"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

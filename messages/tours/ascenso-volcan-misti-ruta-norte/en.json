@@ -7,5 +7,122 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Climbing Misti Volcano is one of the most exciting and challenging experiences you can have in Arequipa. This imposing volcano, a symbol of the city, not only offers a stunning view from its summit, but also a unique connection with the natural and cultural history of the region. Over the course of this two-day journey, you will enjoy spectacular landscapes, clear skies, ancestral stories, and the satisfaction of reaching one of the highest points in southern Peru.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Arequipa – Base Camp",
+      "paragraphs": [
+        {
+          "text": "Between 7:40 AM and 8:00 AM, we will pick you up from your hotel in Arequipa to begin this unforgettable adventure. We will board a 4×4 vehicle that will take us three hours to the starting point of the hike. Along the way we will enjoy spectacular scenery, passing the Aguada Blanca reservoir (4,300 m a.s.l.), an important water source for Arequipa and habitat for birds such as flamingos and other Andean species.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Once at the starting point, we will begin a gradual ascent of approximately 3 hours until we reach base camp, located at 4,800 m a.s.l. Upon arrival we will settle in, enjoy a delicious lunch and a light dinner at around 5:00 PM. In the afternoon we will share experiences with the group while the guide tells us fascinating stories about the Misti and Chachani volcanoes. We recommend resting early to be ready for the big day ahead.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Day 2",
+      "subtitle": "Base Camp – Summit – Arequipa",
+      "paragraphs": [
+        {
+          "text": "At 1:00 AM, after an energizing breakfast, we will start the climb to the summit of Misti. The hike will take us between 6 and 7 hours to reach the crater, located at 5,825 m a.s.l., where we will be able to observe steam emissions and fumaroles. From the top we will have a privileged view of the city of Arequipa and the entire Andean landscape, perfect for taking memorable photographs.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "After a well-deserved rest, we will begin the descent: it will take us about 2 hours to return to base camp, and then one more hour to the meeting point with our transport. Finally, we will head back to the city, arriving at around 4:00 PM, full of unforgettable memories and a great sense of achievement.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Specialized high-altitude mountain guide.",
+        "Private transport",
+        "Camping gear (Tent / sleeping mat / synthetic sleeping bag)",
+        "Meals (01 dinner – 01 breakfast)",
+        "Oxygen bottle (inside the vehicle)",
+        "First aid kit",
+        "Communications equipment"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Down sleeping bag",
+        "Trekking poles",
+        "60-70 liter backpack",
+        "Headlamp",
+        "Hiking boots",
+        "Ski jacket"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Sleeping bag",
+        "70L backpack minimum",
+        "Trekking shoes.",
+        "5L of water minimum per person",
+        "Snacks: Chocolate, dried fruit, etc.",
+        "Waterproof jacket or poncho (December – April)",
+        "Headlamp and extra batteries",
+        "Trekking poles",
+        "Sunglasses",
+        "Sunscreen",
+        "Toilet paper",
+        "Personal medication"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

@@ -7,5 +7,96 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "Half Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "On this tour, you will discover the life of María Reiche through photographs, personal belongings and her old work cabin in the Nazca desert. You will also be able to see the figures of the hands and the Nazca tree. The museum, inaugurated in 1994, houses studies, maps and archaeological material related to the famous Nazca lines. Next to the museum is her tomb. In addition, the Nazca Lines Viewpoint offers a panoramic view of the figures and lines from a 13-meter-high tower.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Nazca – María Reiche Museum – Nazca Lines Viewpoint – Nazca",
+      "paragraphs": [
+        {
+          "text": "The tour begins with pick-up at your hotel in Nazca at 8:45 AM. At 9:00 AM, we will visit the María Reiche Museum, located 25 minutes north of the city, where we will explore the life and work of María Reiche, who dedicated her life to the study and protection of the mysterious Nazca lines. At the museum, we will see her old study cabin, along with her cameras, measuring instruments and other personal belongings.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Then, we will head to the Metallic Viewpoint, a 12-meter-high tower from which the figures of the tree and the hands can be clearly seen, as well as other geometric shapes and straight lines that cross the desert. A few kilometers from the viewpoint, we will find a natural viewpoint that offers views of the lines and trapezoids of Nazca."
+        },
+        {
+          "text": "At 12:00 PM, the tour will end with the transfer back to your hotel."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "IN/OUT transfer in Nazca",
+        "Tourist transportation",
+        "Professional bilingual guide",
+        "Metallic Viewpoint entrance fee"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Meals not mentioned in the program",
+        "Personal expenses",
+        "Tips Meals not mentioned",
+        "Tips"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Hat or cap for the sun",
+        "Sun protection (SPF 35)",
+        "Comfortable shoes",
+        "Mineral water and snacks",
+        "Camera and video camera",
+        "Batteries"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

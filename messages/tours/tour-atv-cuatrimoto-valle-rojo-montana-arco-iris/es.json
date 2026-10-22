@@ -10,70 +10,69 @@
   "popular": true,
   "description": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Experimente la aventura andina definitiva combinando emocionantes paseos en ATV con impresionantes paisajes naturales. Explora el Valle Rojo, Rainbow Mountain y Vinicunca mientras disfrutas de entradas incluidas, almuerzo buffet y desayuno. Viaja con seguridad a grandes alturas con un guía local profesional que comparte conocimientos culturales y garantiza una experiencia memorable. Perfecto para los amantes de la aventura y la naturaleza, este tour ofrece una manera única de conectarse con los Andes y crear recuerdos inolvidables."
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Itinerario del tour:",
+      "items": [
+        "Recogida en hoteles céntricos en Cusco, punto de encuentro en la Plaza de Armas o desde el Aeropuerto Velazco Astete.",
+        "Transporte hacia los puntos de partida en los Andes.",
+        "Desayuno antes de iniciar la actividad.",
+        "Aventura en ATV por el Valle Rojo, Rainbow Mountain y Vinicunca (con vistas panorámicas de la montaña Ausangate a más de 5.000 m s. n. m.).",
+        "Almuerzo buffet durante el tour.",
+        "Retorno y finalización del recorrido con desembarque en la Plaza Regocijo."
+      ]
     }
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Rainbow Mountain Peru",
+      "subtitle": "Suecia 348, Cusco 08000 Peru",
       "paragraphs": [
         {
-          "text": "",
-          "items": [],
-          "blocks": []
+          "text": "Embárcate en una emocionante aventura en ATV al Valle Rojo, la Montaña Arco Iris y Vinicunca, un tesoro natural en los Andes. Desde Cusco, explorará paisajes impresionantes, disfrutará de vistas panorámicas de la montaña Ausangate y experimentará la emoción de montar en su vehículo todoterreno a más de 5.000 metros sobre el nivel del mar. El tour incluye desayuno, almuerzo buffet y la guía de un guía local profesional que compartirá información sobre la zona y su cultura. Conecta con la majestuosidad de la naturaleza y crea recuerdos inolvidables. ¡Reserva tu plaza ahora y vive esta aventura única!"
         }
       ]
     }
   ],
   "included": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios incluidos:",
+      "items": [
+        "Recogida en hoteles céntricos en Cusco",
+        "Transporte a los puntos de partida del tour",
+        "Aventura en ATV por el Valle Rojo, Rainbow Mountain y Vinicunca",
+        "Entradas a Red Valley y Rainbow Mountain",
+        "Desayuno antes de la actividad",
+        "Almuerzo buffet durante el tour",
+        "Guía local profesional en Español e Inglés",
+        "Equipo de seguridad : casco, guantes, y equipo de protección",
+        "Entrada - Rainbow Mountain Peru"
+      ]
     }
   ],
   "notIncluded": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios no incluidos:",
+      "items": ["Consejos para el guía o conductor", "Gastos personales"]
     }
   ],
   "recommendations": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
-    }
-  ],
-  "additionals": [
-    {
-      "title": "",
-      "subtitle": "",
+      "text": "Información adicional y condiciones del servicio:",
       "items": [
-        {
-          "name": "",
-          "price": "",
-          "description": [
-            {
-              "text": "",
-              "items": [],
-              "blocks": []
-            }
-          ],
-          "blocks": []
-        }
+        "Edad permitida: De 16 a 64 años. Máximo 15 viajeros por grupo.",
+        "Duración total: 12 h 10 m (Duración de la actividad en Rainbow Mountain: 6 horas). Hora de inicio según disponibilidad.",
+        "Idiomas: Español, Inglés y 1 más.",
+        "Política de cancelación: Cancelación gratuita con reembolso completo si se cancela hasta 24 horas antes del inicio de la experiencia (hora local). Opción de reserva ahora y paga después.",
+        "Detalles de recogida e inicio: Se ofrece recogida en hoteles céntricos en Cusco y en el Aeropuerto Velazco Astete. Si el hotel está fuera del rango, el punto de encuentro es en la Plaza de Armas de Cusco. Estar listo 15 minutos antes. El guía llevará una placa fotográfica con el logotipo de la agencia.",
+        "Punto de finalización: Plaza Regocijo (F2M9+5X2, Cusco 08002, Perú).",
+        "Accesibilidad y salud: No es accesible para sillas de ruedas. Hay transporte público cerca. No es recomendable para embarazadas ni adecuado para viajeros con afecciones cardíacas u otros problemas médicos graves. Se requiere condición física media.",
+        "Clima: La experiencia requiere buen tiempo. En caso de cancelación por malas condiciones meteorológicas, se ofrecerá otra fecha o el reembolso total del importe abonado."
       ]
     }
-  ]
+  ],
+  "additionals": []
 }

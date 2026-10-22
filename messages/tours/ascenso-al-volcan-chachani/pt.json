@@ -7,5 +7,126 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "2 Dias - 1 Noite",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "A ascensão ao Vulcão Chachani é uma experiência inesquecível para os amantes da aventura e da montanha. Esse imponente coloso, considerado um dos guardiões da cidade de Arequipa, alcança 6.075 m n.m. e destaca-se por sua beleza paisagística e por sua importância cultural e histórica. Além disso, é a fonte do famoso sillar, a pedra vulcânica branca que dá a Arequipa o nome de “Cidade Branca”. O Chachani não exige experiência técnica em escalada, mas requer boa aclimatação e condicionamento físico. Prepare-se para conquistar um dos picos mais altos do sul do Peru!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "Arequipa – Ponto de partida – Campo Base",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "Às 8h00 iremos buscá-lo no seu hotel em Arequipa.",
+            "Viajaremos por aproximadamente 3 horas até o ponto de partida da caminhada, localizado a 4.900 m n.m.",
+            "Iniciaremos uma caminhada tranquila de 2 horas em subida até o campo base (5.200 m), aproveitando a impressionante paisagem andina e sua biodiversidade.",
+            "Chegando ao acampamento, almoçaremos, montaremos as barracas e descansaremos contemplando um lindo pôr do sol."
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Dia 2",
+      "subtitle": "Campo Base – Cume do Chachani – Arequipa",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "Muito cedo, às 2h00, após um café da manhã leve, começaremos a subida ao cume do Chachani (6.075 m). A caminhada levará cerca de 7 horas, com vistas espetaculares do nascer do sol.",
+            "No topo, desfrutaremos de uma incrível panorâmica de Arequipa e dos vulcões vizinhos, como o Misti e o Ampato. Momento perfeito para fotos e descanso!",
+            "Em seguida, descemos até o campo base (cerca de 3 horas), onde faremos um lanche e uma breve pausa.",
+            "Por fim, continuaremos a descida por mais 2 horas até os 4.900 m, onde o transporte nos esperará para o retorno à cidade.",
+            "Chegaremos a Arequipa por volta das 16h00."
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhimento no seu hotel",
+        "Transporte privativo",
+        "Guia de montanha",
+        "Equipamento de camping (colchonete, barraca)",
+        "Saco de dormir / Luvas",
+        "Equipamento de escalada: grampons, picos de gelo, cordas",
+        "1 almoço/jantar, 1 café da manhã e 1 lanche",
+        "Kit de primeiros socorros",
+        "Assistente do guia (para mais de 5 passageiros)",
+        "Frasco de oxigênio",
+        "Equipamento de comunicação",
+        "Opção de refeição vegetariana"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Botas de montanha",
+        "Lanterna de cabeça",
+        "Mochila de 60 litros",
+        "Bastões de caminhada"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "1 mochila de 60 litros",
+        "Boné ou touca para o frio",
+        "Lanterna de cabeça",
+        "Óculos de sol",
+        "Protetor solar",
+        "1 jaqueta de chuva ou poncho",
+        "1 jaqueta (fleece para o frio)",
+        "1 par de luvas",
+        "Bons sapatos de caminhada",
+        "4 litros de água no mínimo por pessoa",
+        "Medicamentos pessoais / Papel higiênico",
+        "Chocolates, frutas como lanches"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

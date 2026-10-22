@@ -10,70 +10,74 @@
   "popular": true,
   "description": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Asegure su acceso a la ruta más emblemática de Machu Picchu : Circuito 2. Al reservar esta experiencia premium, garantizas la vista clásica de la postal mientras disfrutas de un viaje perfecto y de alta gama. Eliminamos las aglomeraciones y la logística, sustituyéndolas por un servicio refinado a medida para aquellos que demandan lo mejor."
+    },
+    {
+      "text": "¿Qué nos diferencia?\n\nTransporte 100% Privado : Disfrute de una camioneta cómoda, privada desde su hotel en Cusco directamente a la estación—no espere a grupos grandes.\n\nCircuito 2 Garantizado : Aseguramos la entrada más solicitada para las mejores vistas de la ciudadela.\n\nÁrea de Descanso Exclusiva : Acceso a un espacio dedicado en Aguas Calientes donde podrá utilizar las instalaciones y relajarse cómodamente mientras espera su tren de regreso.\n\nLogística Todo Incluido : Manejamos sus trenes turísticos, billetes de autobús, y proporcionamos un guía experto privado.\n\nNo solo vendemos un tour; le brindamos tranquilidad para que pueda concentrarse en la Maravilla del Mundo."
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Itinerario del tour:",
+      "items": [
+        "Recogida en furgoneta privada directamente en su hotel o Airbnb en Cusco con dirección a la estación de tren.",
+        "Viaje en tren turístico de ida hacia Aguas Calientes.",
+        "Tránsito en autobús lanzadera de subida a la ciudadela de Machu Picchu.",
+        "Recorrido guiado privado de 2.5 horas por el Circuito 2 (Ruta Clásica) en Machu Picchu.",
+        "Autobús lanzadera de bajada hacia Aguas Calientes y acceso a un área de descanso exclusiva.",
+        "Viaje en tren turístico de regreso y traslado en transporte privado de retorno a Cusco."
+      ]
     }
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Historic Sanctuary of Machu Picchu",
+      "subtitle": "Machu Picchu Peru",
       "paragraphs": [
         {
-          "text": "",
-          "items": [],
-          "blocks": []
+          "text": "Explora el famoso sitio arqueológico de Machu Picchu a través del exclusivo Circuito 2 (Ruta Clásica). Acompañado por su guía experto privado, disfrutará de un recorrido de 2.5 horas visitando los sectores más importantes de la ciudadela, incluyendo el Templo del Sol, la Plaza Sagrada y la Intihuatana. Esta ruta es cuidadosamente elegida para garantizar la vista de postal icónica que todo traveler sueña con capturar. Aprenderás sobre la fascinante historia e ingeniería de los Incas mientras disfrutas de las mejores perspectivas panorámicas sin las multitudes."
         }
       ]
     }
   ],
   "included": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios incluidos:",
+      "items": [
+        "Transporte Privado : Furgoneta privada de ida y vuelta desde su hotel en Cusco.",
+        "Visita Oficial : Entrada garantizada Circuito 2 para la vista clásica de postal.",
+        "Billetes de Tren : Billetes de tren turístico ida y vuelta incluidos.",
+        "Billetes de Autobús : Autobús lanzadera completa de ida y vuelta a la ciudadela de Machu Picchu.",
+        "Guía Privado : Guía profesional certificado para un tour privado de 2,5 horas.",
+        "Área de Descanso : Acceso a un espacio cómodo en Aguas Calientes para relajarse.",
+        "Entrada - Historic Sanctuary of Machu Picchu"
+      ]
     }
   ],
   "notIncluded": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios no incluidos:",
+      "items": [
+        "Comidas y Bebidas : Comidas y bebidas en el área de descanso o restaurantes.",
+        "Propinas : Consejos para su conductor privado y guía experto.",
+        "Gastos Personales : Cualquier snack, souvenir, o compra adicional"
+      ]
     }
   ],
   "recommendations": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
-    }
-  ],
-  "additionals": [
-    {
-      "title": "",
-      "subtitle": "",
+      "text": "Información adicional e importante:",
       "items": [
-        {
-          "name": "",
-          "price": "",
-          "description": [
-            {
-              "text": "",
-              "items": [],
-              "blocks": []
-            }
-          ],
-          "blocks": []
-        }
+        "Edad permitida: De 3 a 85 años.",
+        "Duración: De 15 a 18 horas. Hora de inicio según disponibilidad.",
+        "Se ofrece en idiomas: Español e Inglés.",
+        "Se ofrece entrada para dispositivos móviles.",
+        "Detalles de recogida: Servicio 100% privado en su hotel o Airbnb en Cusco (o punto cercano en calles de acceso restringido) o Plaza de Armas, Cusco. El conductor llevará un cartel con su nombre o logotipo de la empresa.",
+        "Accesibilidad y salud: No es accesible para sillas de ruedas, los bebés deben ir sentados en el regazo. No es recomendable para viajeros con problemas de espalda, embarazadas o con afecciones cardíacas u otros problemas médicos graves. Se requiere condición física media.",
+        "Coordinación previa obligatoria: Los horarios de entrada para el Circuito 2 están estrictamente sujetos a disponibilidad en el sitio web oficial del gobierno. Debe ponerse en contacto para verificar disponibilidad y confirmar el número total de pasajeros antes de reservar a fin de sincronizar la entrada con los horarios de tren.",
+        "Modalidad: Excursión o actividad privada exclusiva para su grupo."
       ]
     }
-  ]
+  ],
+  "additionals": []
 }

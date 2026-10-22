@@ -7,5 +7,100 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embarque em um tour único que levará você a explorar alguns dos paisagens mais impressionantes da região, como a Floresta de Pedras e a Cachoeira Pillones. Ao longo do percurso, você poderá aproveitar formações rochosas surpreendentes, cachoeiras espetaculares e uma conexão direta com a natureza. Da famosa vila de Pampa de Arrieros até a majestosa descida às cachoeiras, você viverá uma experiência inesquecível.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Às 06:00 a.m. iniciamos com o recolhimento nos hotéis localizados no centro histórico de Arequipa, para dar início ao nosso passeio.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "A primeira parada será a pitoresca vila de Pampa de Arrieros, conhecida por ser a entrada histórica da Cidade Branca para aqueles que chegavam de trem."
+        },
+        {
+          "text": "Continuaremos até Patahuasi, onde aproveitaremos um tradicional Mate de Coca, essencial para evitar os efeitos do mal de altitude, além de um breve café da manhã."
+        },
+        {
+          "text": "Nossa próxima parada será a fascinante Floresta de Pedras. Aqui, faremos uma caminhada de aproximadamente 40 minutos para admirar as singulares formações rochosas e colunas pétreas que parecem surgir da terra em uma maravilha natural."
+        },
+        {
+          "text": "Em cerca de uma hora, chegaremos à impressionante Cachoeira Pillones. De lá, empreenderemos uma breve descida de cerca de 15 minutos até as cachoeiras. Você terá tempo para aproveitar a paisagem, tirar fotos e observar as formações rochosas moldadas pela erosão da água ao longo dos anos."
+        },
+        {
+          "text": "Após esse contato próximo com a natureza, dirigiremos a Patahuasi para aproveitar um delicioso almoço."
+        },
+        {
+          "text": "Finalmente, após viver uma experiência inesquecível, iniciaremos nosso retorno a Arequipa, com chegada estimada às 05:30 p.m., onde deixaremos você perto da Plaza de Armas."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhimento do hotel (Centro histórico)",
+        "Transporte turístico",
+        "Guia de turismo (espanhol / inglês)",
+        "Café da manhã continental"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Entrada Floresta de Pedras S/5.00",
+        "Entrada Cachoeira S/5.00",
+        "Almoço"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

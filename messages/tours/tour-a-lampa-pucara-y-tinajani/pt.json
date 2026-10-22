@@ -7,5 +7,94 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "1 Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Desfrute de uma experiência cultural e natural única nos arredores de Puno. Começamos visitando a cidade rosada de Lampa, famosa por sua arquitetura colonial e pelo majestoso Templo de Santiago Apóstol, que abriga uma réplica da Pietà de Miguel Ângelo e antigas catacumbas. Em seguida, seguimos para Pukara, berço de uma antiga cultura pré-inca conhecida por suas esculturas monumentais e pelo tradicional Torito de Pukara. Por fim, exploramos o impressionante cânion de Tinajani, com formações rochosas que evocam uma cidadela encantada, ideal para a contemplação e o descanso espiritual.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O tour começa às 07:00 com a recolha no seu hotel no centro da cidade de Puno. Às 08:30, chegamos à encantadora cidade de Lampa, onde é realizada uma visita guiada de aproximadamente uma hora e meia.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Logo depois, às 09:30, partimos por uma estrada de terra rumo a Pukará, chegando por volta das 10:45 para explorar seu museu arqueológico e o antigo templo de Kalasasaya, durante uma visita de uma hora."
+        },
+        {
+          "text": "Às 11:45, continuamos a viagem por estrada asfaltada em direção a Ayaviri, para finalmente chegar às 13:45 ao impressionante cânion de Tinajani, onde é possível apreciar suas formações rochosas únicas em um ambiente místico e natural. Às 15:30, iniciamos o retorno a Puno, com chegada estimada às 18:00 e transfer para o seu hotel."
+        },
+        {
+          "text": "Nota: Os horários deste itinerário podem ser adaptados para excursões privadas, conforme as preferências dos viajantes."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Orientação um dia antes do tour.",
+        "Ingressos para a Igreja de Lampa, Museu de Pucará e Cânion de Tinajani.",
+        "Guia Espanhol/Inglês.",
+        "Transporte turístico."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Almoço.", "Outros não mencionados no tour"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Câmera fotográfica, papel higiênico e baterias extras.",
+        "Uma garrafa de água (1 litro).",
+        "Tênis confortáveis para a caminhada.",
+        "Mochila com o indispensável.",
+        "Lanche, biscoitos, balas etc.",
+        "Roupa leve e abrigada."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

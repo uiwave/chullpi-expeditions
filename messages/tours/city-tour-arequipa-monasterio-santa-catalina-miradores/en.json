@@ -7,5 +7,119 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "6 Hours",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Arequipa is the second most populous city in Peru and one of the most beautiful in the country. With its fascinating colonial architecture, wandering through its historic center is a must when visiting Arequipa. What's more, being located in a volcanic zone, the Misti, Chachani and Pichu Pichu volcanoes frame the city's landscapes like nowhere else.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Itinerary of the Arequipa City Tour + Santa Catalina Monastery + Viewpoints",
+      "paragraphs": [
+        {
+          "text": "The tour begins at 08:00 AM when our transport picks up passengers from the hotel. (The schedule can be adjusted to passengers' preferences)*",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "The first place to visit will be the Carmen Alto Viewpoint, from which we can enjoy a wonderful view of the city, framed by the Misti, Chachani and Pichu Pichu volcanoes. From here you can also take in an incomparable landscape of the fields that still keep their Inca agricultural terraces and, of course, the Chili River."
+        },
+        {
+          "text": "Next, we will head to the district of Yanahuara, which also boasts an iconic viewpoint offering beautiful postcard views of the landscape. But what stands out most at this viewpoint are its 9 arches built of white sillar, engraved with popular sayings and quotes from illustrious figures inspired by the philosophy of life of the people of Arequipa."
+        },
+        {
+          "text": "While in the district of Yanahuara, we will visit its lovely main square and see the small parish church of San Juan Bautista de Yanahuara, which features a beautiful Baroque facade built in 1750."
+        },
+        {
+          "text": "Afterwards, our vehicle will drop us off in the San Lazaro neighborhood to begin a walking tour of important spots in the city, such as the Centro Artesanal Fundo el Fierro artisan center, San Francisco Square, the Mario Vargas Llosa Library and the Museo Santuarios Andino (Juanita mummy)."
+        },
+        {
+          "text": "We will then head to the Plaza de Armas to stroll around it, and next visit the Church of the Society of Jesus, located beside the square."
+        },
+        {
+          "text": "Inside the church we will visit its cloisters, which were built in the 18th century."
+        },
+        {
+          "text": "Next, we will visit the Tristán del Pozo mansion, a colonial house built in 1738 whose facade stands out as one of the greatest examples of the typical ornamental style of Arequipa."
+        },
+        {
+          "text": "The last stop on the tour is the Monastery of Santa Catalina, located in the historic center of the city."
+        },
+        {
+          "text": "Here we can appreciate four centuries of Arequipan architecture. Inside the monastery we will find cloisters, cells, small interior streets full of flowers, sitting and resting areas, and walls painted in fresh hues."
+        },
+        {
+          "text": "The tour will end at approximately 2:00 PM at the Monastery (historic center)."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Bilingual professional guide (English/Spanish; Portuguese guide available at an additional cost, subject to availability)",
+        "Transport for the viewpoints."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Snacks.",
+        "Personal expenses.",
+        "Tips.",
+        "Admission to the Monastery of Santa Catalina. (45 soles)",
+        "Admission to the Carmen Alto viewpoint. (5 soles)",
+        "Admission to the Museo de los Santuarios Andinos (25 soles)"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Passport",
+        "Sun hat",
+        "Sunscreen.",
+        "Comfortable clothing.",
+        "Cash (soles) to pay for admissions."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

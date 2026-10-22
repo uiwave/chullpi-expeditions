@@ -7,5 +7,122 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "4 Horas",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Chamado assim por ser o principal fornecedor de alimentos do Império Inca, o Vale Sagrado dos Incas fica às margens do Rio Urubamba. Esse rio, em seu início, recebe o nome de Vilcanota, proveniente da palavra quechua Wilcamayu, ou «Rio Sagrado». Os incas construíram impressionantes centros arqueológicos ao longo de suas margens, replicando as constelações do céu andino, o que agrega ainda mais misticismo e beleza a este encantador vale sagrado.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [
+        "Mirante de Taray",
+        "Complexo arqueológico de Pisaq",
+        "Feira artesanal de Pisaq",
+        "Urubamba (almoço buffet)",
+        "Complexo arqueológico de Ollantaytambo",
+        "Complexo arqueológico e centro têxtil de Chinchero"
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Para começar este Tour no Vale Sagrado dos Incas, nosso motorista o recolherá aproximadamente às 07:00 a.m. no seu hotel. Faremos uma viagem de 01 hora até Pisac. No trajeto, teremos a oportunidade de observar a beleza do Vale Sagrado e a importância que teve e tem atualmente para a humanidade.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Continuando o roteiro, visitaremos o centro arqueológico de Pisac, situado na parte alta da cidade. Também poderemos apreciar como os moradores utilizam as técnicas agrícolas incas para resolver o problema de semear nas encostas dos morros e assim alcançar a melhor produtividade. Em seguida, visitaremos a feira artesanal de Pisac, repleta de cor, na qual podemos encontrar uma diversidade de trabalhos artesanais à venda. Ao meio-dia, teremos um delicioso almoço buffet em um restaurante turístico na localidade de Urubamba, no vale."
+        },
+        {
+          "text": "Terminado o almoço, seguiremos para Ollantaytambo, localizado a 76 km da cidade de Cusco, onde observaremos grandes peças líticas de blocos de pedra finamente esculpidos, com peso de mais de 100 toneladas, que foram levados a essa montanha para serem utilizados com fins astronômicos e que causam espanto a moradores e visitantes. Está estrategicamente situado no meio de três vales, que dá acesso à ceja de selva onde, seguindo o curso do rio, encontra-se Machu Picchu, uma das 7 Maravilhas do Mundo. Ollantaytambo possui lugares de controle estratégicos, convertendo o sítio arqueológico em uma fortaleza."
+        },
+        {
+          "text": "Além disso, a cidade de Ollantaytambo é reconhecida como “Melhor cidade turística do Mundo”, considerada uma cidade suspensa no tempo pelo adequamento urbano inca-colonial, com grande uso da engenharia hidráulica, distribuindo a água por canais que cruzam suas ruas mantendo sua paisagem original."
+        },
+        {
+          "text": "De volta à cidade de Cusco, visitaremos Chinchero: localizado a noroeste da cidade de Cusco, durante o Tahuantinsuyo, o inca Túpac Yupanqui planejou a construção de palácios para a elite."
+        },
+        {
+          "text": "Atualmente, é possível observar os restos do palácio sobre os quais se ergue a igreja colonial; na atualidade é um atrativo turístico porque mantém vivas as tradições ancestrais na agricultura, mantendo a maior variedade de produção de batatas andinas e o manejo do tecido com iconografia e simbologia inca, sendo um ponto importante para a visita dos viajantes."
+        },
+        {
+          "text": "O recorrido conclui aproximadamente às 18:30 em Cusco, depois de ter desfrutado dessa experiência inesquecível do Tour no Vale Sagrado dos Incas."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhimento na sua hospedagem ou hotel em Cusco. Aplica-se se estiver localizado no centro da cidade.",
+        "Transporte turístico.",
+        "Guia profissional bilíngue",
+        "Almoço buffet em Urubamba.",
+        "O traslado de retorno termina no centro da cidade de Cusco."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Ingresso Turístico Geral BTG S/. 130.00 (Utilizado para dois ou mais circuitos turísticos).",
+        "Ingresso Turístico Parcial BTG S/. 70.00 (Utilizado para um único circuito turístico).",
+        "Entrada nas Salinas de Maras (S/20 estrangeiros, S/15 nacionais)",
+        "Água ou bebidas alcoólicas.",
+        "Gorjetas, apreciação pessoal (opcional).",
+        "Hospedagem ou hotel na cidade de Cusco.",
+        "Seguro de viagem, recomendável durante sua viagem (contrate-o desde o seu país)."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Levar DNI ou passaporte.",
+        "Comprar o Ingresso Turístico (Geral ou Parcial)",
+        "Mochila pequena para carregar seus pertences pessoais.",
+        "Sapatos confortáveis.",
+        "Roupa confortável e uma jaqueta leve para mudanças de clima.",
+        "Gorro ou chapéu.",
+        "Óculos de sol.",
+        "Protetor solar.",
+        "Água"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

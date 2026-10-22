@@ -7,5 +7,115 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "1 Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "O tour de um dia inteiro ao Cânion do Colca leva você em uma viagem mágica ao Vale do Colca. Caminhe até o famoso mirante Cruz del Cóndor para aproveitar as vistas mais amplas do Cânion do Colca e uma vislumbrança sobrenatural do imponente cóndor andino."
+    },
+    {
+      "text": "Mais tarde, aproveite um banho relaxante nas serenas águas termais próximas. Visite um incrível Parque Nacional para interagir com as ainda mais famosas lhamas, alpacas e vicunhas."
+    },
+    {
+      "text": "Este tour completo de um dia oferece vistas incomparáveis do Cânion do Colca e do vale. Experimente uma fauna incrível e interaja com esses animais surpreendentes e com as pessoas locais pelo caminho."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "Arequipa – Pampa Cañahuas – Patapampa (4850M) – Chivay – Mirante Cruz del Cóndor",
+      "paragraphs": [
+        {
+          "text": "O tour ao Cânion do Colca começa antes do amanhecer, às 3 a.m. Nos preparamos para uma viagem de 3 horas em nosso transporte privado até a pequena vila de Chivay, localizada na margem esquerda do Cânion do Colca. É o ponto central para qualquer caminhada aos inúmeros mirantes do cânion, e também encontraremos muitas atividades por perto.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Paramos no centro da vila para um café da manhã rápido antes de partirmos para nossa caminhada até o mirante “Cruz del Cóndor”. A caminhada começará cedo para chegar no momento perfeito e, possivelmente, ver dezenas dessas magníficas aves a pouca distância. O cóndor andino é a segunda maior ave do mundo, e as imagens que você capturar aqui farão seus amigos terem inveja. Pelo caminho, aproveite os dançarinos locais “wititi” e as vistas dos terraços que cobrem o vale. Também testemunharemos os mirantes de Antahuilque e as Tumbas de Choquetico. Ao chegar à Cruz del Cóndor, passamos um tempo nos deleitando com uma vista incrível dos cóndores andinos e do vale."
+        },
+        {
+          "text": "Em seguida, retornamos a Chivay para visitar a pequena vila de Maca, conhecida por sua igreja colonial do século XVI. Também podemos observar o dia a dia dos moradores que trabalham incansavelmente em seus terraços agrícolas. Ao chegar a Chivay, dirigimos-nos às águas termais de La Calera para mergulhar em suas poças terapêuticas. Em seguida, fazemos a viagem de volta à vila para um almoço gourmet antes de retornar a Arequipa. Pelo caminho, paramos no ponto mais alto entre o Cânion do Colca e Arequipa, Patapampa (4.800 m). Obteremos vistas impressionantes da cordilheira volcânica que encerra a essência desta região."
+        },
+        {
+          "text": "Mais tarde, dirigimo-nos a Toqrapampa, para visitar pequenas lagoas cristalinas, com uma variedade de aves andinas únicas girando ao redor. Finalmente, chegamos ao Parque Nacional Pampa Cañahuas, para passar um tempo com lhamas, alpacas e o animal nacional do Peru, as vicunhas."
+        },
+        {
+          "text": "Dirigimo-nos aos nossos hotéis em Arequipa, chegando por volta das 17:00 horas."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transporte privado em nossas unidades, modernas e confortáveis.",
+        "Grupos pequenos: máximo de 8 pessoas (média de 4-6 pessoas)",
+        "Entrada ao Cânion do Colca",
+        "Refeições: Café da manhã e almoço",
+        "Entrada às águas termais La Calera",
+        "Um guia bilíngue (inglês e espanhol)"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Alimentação, conforme indicado no itinerário.",
+        "Gorjetas para o motorista e guia da Sam Corporation",
+        "Bebidas"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Uma mochila leve e impermeável",
+        "Calçado confortável",
+        "Roupas leves para o calor, e abrigadoras quando o clima mudar",
+        "Câmera com baterias extras",
+        "Proteção solar: protetor solar, chapéu de sol, óculos de sol",
+        "Repelente de insetos",
+        "Roupa impermeável e/ou poncho de chuva",
+        "Garrafa de água",
+        "Kit de primeiros socorros pessoal",
+        "Dinheiro extra para souvenirs, bebidas, gorjetas",
+        "Levar lanches",
+        "Desinfetante de mãos",
+        "Papel higiênico",
+        "Cópia do passaporte e carteirinha de estudante, se aplicável"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

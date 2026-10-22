@@ -7,5 +7,99 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "1 Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "",
+      "items": [
+        "Travel through the deepest canyon in Arequipa",
+        "Marvel at the condors soaring over a vast canyon",
+        "Warm up in relaxing natural hot springs.",
+        "Visit picturesque Andean villages steeped in tradition: Pinchollo, Maca and Yanque"
+      ],
+      "blocks": [""]
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Enjoy a full-day excursion from Arequipa to the impressive Colca Canyon, considered one of the deepest in the world. Relax in its hot springs, stroll through the picturesque villages of Maca and Yanque, and taste the local cuisine in Chivay.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "The journey begins along the long Yura highway, hugging the imposing Chachani mountain toward the Pampa Cañahuas Natural Reserve. Along the way, stop at the Mirador de los Volcanes, from which you can take in spectacular views of the mountain range. Upon arrival in Chivay, the tour continues to a viewpoint ideal for observing the majestic flight of the condors."
+        },
+        {
+          "text": "On the way back, take the opportunity to visit the villages of Maca and Yanque, known for their colonial churches and beautiful landscapes framed by agricultural terraces. To close out the experience, enjoy a 30-minute soak in the thermal waters that will leave you refreshed before returning to Chivay for a typical lunch, and finally heading back to Arequipa."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up from hotels located near the Plaza de Armas of Arequipa",
+        "Transport",
+        "Bilingual professional guide (English/Spanish).",
+        "Continental breakfast and lunch in Chivay"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Admission to the Hot Springs S/15 soles per person",
+        "Colca entrance ticket (BTC): S/70 Soles for foreign tourists or 50 soles for South American visitors and S/20 Soles for Peruvians. Payable in cash only and charged upon your arrival in Chivay"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Passport",
+        "Comfortable footwear",
+        "Swimsuit",
+        "Sunscreen",
+        "Insect repellent",
+        "Cash"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

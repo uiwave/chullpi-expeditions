@@ -7,5 +7,99 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "1 Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "",
+      "items": [
+        "Percorra o cânion mais profundo de Arequipa",
+        "Maravilhe-se com os condores que se elevam sobre um vasto cânion",
+        "Aqueça-se em relaxantes águas termais naturais.",
+        "Visite pitorescas vilas andinas impregnadas de tradição: Pinchollo, Maca e Yanque"
+      ],
+      "blocks": [""]
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Aprecie uma excursão de dia inteiro a partir de Arequipa até o impressionante Cânion do Colca, considerado um dos mais profundos do mundo. Relaxe nas suas águas termais, percorra as pitorescas vilas de Maca e Yanque e prove a gastronomia local em Chivay.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "A travessia começa pela extensa estrada de Yura, contornando a imponente montanha Chachani em direção à Reserva Natural de Pampa Cañahuas. No caminho, faça uma parada no Mirante dos Vulcões, de onde se pode apreciar vistas espetaculares da cordilheira. Ao chegar em Chivay, o passeio segue até um mirante ideal para observar o majestoso voo dos condores."
+        },
+        {
+          "text": "No retorno, aproveite para visitar as vilas de Maca e Yanque, conhecidas por suas igrejas coloniais e belas paisagens cercadas de terraços. Para encerrar a experiência, desfrute de um banho termal de 30 minutos, que o deixará renovado, antes de retornar a Chivay para um almoço típico e, por fim, voltar a Arequipa."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhimento nos hotéis situados perto da Plaza de Armas de Arequipa",
+        "Transporte",
+        "Guia profissional bilíngue (inglês/espanhol).",
+        "Café da manhã continental e almoço em Chivay"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Entrada nas Águas Termais S/15 soles por pessoa",
+        "Ingresso de entrada no Colca (BTC): S/70 Soles para turistas estrangeiros ou 50 soles para sul-americanos e S/20 Soles para peruanos. Pago apenas em dinheiro, cobrado na sua chegada a Chivay"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Passaporte",
+        "Calçado confortável",
+        "Traje de banho",
+        "Protetor solar",
+        "Repelente de insetos",
+        "Dinheiro em espécie"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

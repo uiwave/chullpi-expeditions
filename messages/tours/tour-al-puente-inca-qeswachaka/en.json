@@ -7,5 +7,114 @@
   "type": "Cultural",
   "typeKey": "cultural",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "This tour will take you to explore the beautiful lakes of Acomayo province and the impressive Inca bridge of Qeswachaka in Canas province. You will enjoy natural landscapes, local wildlife and the unique chance to cross a rope bridge traditionally rebuilt by the community. A cultural and adventure experience you will never forget.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Q'eswachaka Inca Bridge",
+      "items": [
+        "We start the tour with pick-up from your hotel at 4:00 AM or 5:00 AM and travel to Acomayo.",
+        "We will visit the four lakes: Pomacanchi, Acopia, Asnaqocha and Pampa Marca, observing their flora and fauna.",
+        "Then we head to Canas province to explore the famous Inca bridge of Qeswachaka.",
+        "You will have the chance to cross the bridge and take photos.",
+        "At the end of the day we return to Cusco and drop you off at your hotel."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The tour begins with pick-up from your hotel at 4:00 AM or 5:00 AM in private transport. We head to Acomayo province, where we will explore a series of four beautiful lakes: Pomacanchi, Acopia, Asnaqocha and Pampa Marca. Along the way you can admire the stunning natural scenery, the local wildlife and the flora surrounding these crystal-clear lakes.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "After visiting the lakes, we continue to Canas province, home to the famous Inca bridge of Qeswachaka, at 3,700 meters above sea level. The bridge is 33 meters long and 1.20 meters wide. Every June, local communities rebuild the bridge using ichu, a native grass of the region, as part of an ancestral tradition."
+        },
+        {
+          "text": "You will have the unique opportunity to cross the bridge on foot, an exciting experience and an unforgettable memory of Inca architecture and traditions. After this incredible adventure we return to Cusco, where we will drop you off at your hotel to rest after a day full of nature and culture."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Private transport",
+        "Experienced professional guide.",
+        "Boxed breakfast and lunch.",
+        "First aid kit and oxygen."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Entrance to the Qeswachaka bridge (10 soles)"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "A warm jacket",
+        "Hat",
+        "Water",
+        "Sun protection",
+        "Some money for souvenirs."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "Cancellation and rescheduling policy:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "3 days.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Weather:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Subject to weather conditions.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

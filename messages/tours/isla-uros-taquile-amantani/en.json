@@ -7,5 +7,114 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embark on an unforgettable experience on the majestic Lake Titicaca, exploring three of its most representative islands: Uros, Amantani and Taquile. For two days you will live an authentic cultural immersion, sharing moments with local communities, enjoying Andean cuisine, exploring sacred sites and admiring spectacular landscapes. This tour combines nature, tradition and hospitality in one of the most magical destinations of the Peruvian altiplano.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Uros and Amantani: Cultural connection on Lake Titicaca",
+      "paragraphs": [
+        {
+          "text": "The day begins with pick-up from hotels in central Puno at 7:40 AM, followed by boat departure from the main port at 8:00 AM. Our first stop will be the Uros Floating Islands, where we will explore two traditional islands and meet their inhabitants starting at 8:30 AM.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "We will then continue sailing to Amantani Island at 10:00 AM, enjoying unique landscapes for approximately 3 hours. We will arrive at the port of Amantani around 1:00 PM, where you will be welcomed by a local family who will provide you with accommodation and a typical lunch at 2:00 PM."
+        },
+        {
+          "text": "In the afternoon, we will take a hike to the top of the island, visiting the ceremonial temples of Pachamama and Pachatata. From this point, you will be able to contemplate one of the most beautiful sunsets of Lake Titicaca, around 4:00 PM. On returning, you will enjoy a homemade dinner at 6:00 PM, and if you wish, you can take part in a local celebration with traditional music and dance starting at 8:00 PM."
+        }
+      ]
+    },
+    {
+      "title": "Day 2",
+      "subtitle": "Taquile: Living tradition and unforgettable landscapes",
+      "paragraphs": [
+        {
+          "text": "The second day begins with an early breakfast in Amantani at 7:00 AM, before boarding the boat to Taquile Island at 8:00 AM. We disembark on the north of the island at 9:00 AM and start a scenic hike to the main plaza of the town, arriving around 10:30 AM.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "After exploring the plaza and learning more about local customs, we will share a typical lunch at 12:00 PM, prepared by the inhabitants of Taquile themselves. We wrap up this cultural experience with the return boat to Puno at 1:30 PM, arriving at the port around 3:30 PM, where transfers to hotels in the center will take place."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Hotel – Port – Hotel transfers.",
+        "Motor boat.",
+        "Spanish/English guide.",
+        "Tourist entrance fees to Uros, Amantani and Taquile.",
+        "Basic accommodation and 03 meals (Lunch, Dinner and breakfast) in Amantani, purely Andean food (potato, rice, egg, quinoa soup, oca, cheese, etc.)",
+        "Folk show in Amantani.",
+        "Lunch in Taquile"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Tips.",
+        "Local boat ride (Totora Raft) in Uros, optional service, lasts approximately 10 to 15 minutes, the price is (S/10.00 soles) or ($3.00 Dollars) per person and payment is made to the local inhabitant.",
+        "Others not mentioned."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Bring light clothing as well as warm clothing; the weather is cold in the mornings, hot at midday and windy in the afternoons.",
+        "Bring a hat, sunscreen and sunglasses.",
+        "Comfortable shoes/sneakers for the hike.",
+        "Cash (Soles) in case you wish to buy souvenirs/mementos; credit/debit cards are not accepted.",
+        "Drinks and snacks (Water, rehydrates, etc.).",
+        "Bring personal hygiene items.",
+        "Waterproof jacket or plastic poncho, only for the rainy season (November – March).",
+        "Important: Try to bring only the bare minimum, as it is only 1 night; you can leave large suitcases at your hotel (one backpack per person or one small suitcase is recommended)."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

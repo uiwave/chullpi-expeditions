@@ -7,5 +7,84 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "5 horas",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embarque em uma fascinante viagem a Sillustani, localizado a apenas 40 minutos de Puno. Esse antigo cemitério pré-inca e inca, famoso por suas imponentes chullpas ou torres funerárias, oferece uma vista única da história e da arquitetura dessas culturas. Durante este passeio de 3 horas e meia, você explorará a península cercada pela lagoa Umayo, admirando tanto a beleza natural quanto os restos de nobres enterrados com ofertas valiosas, como o tesouro encontrado perto da chullpa do lagarto. Ideal para quem está de passagem, este tour privativo se ajusta ao horário do seu voo.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O tour começa com o recolhimento nos hotéis do centro de Puno às 14h00. Em seguida, seguiremos para o complexo arqueológico de Sillustani, com saída programada às 14h15. Depois de aproximadamente uma hora de viagem, chegaremos a Sillustani por volta das 15h00, onde desfrutaremos de uma visita guiada de 1 hora e 45 minutos para conhecer melhor as chullpas e a fascinante história do lugar. Após a visita, iniciaremos o retorno à cidade de Puno, com chegada estimada por volta das 17h45.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transporte turístico Puno – Sillustani – Puno.",
+        "Guia Espanhol/Inglês.",
+        "Ingressos turísticos."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Gorjetas.", "Outros não mencionados."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Leve roupa leve e abrigada; o clima é frio pela manhã, quente ao meio-dia e ventoso à tarde.",
+        "Leve boné, protetor solar e óculos de sol.",
+        "Sapatos/tênis confortáveis para a caminhada.",
+        "Dinheiro em espécie (Soles) caso queira comprar lembranças; não aceitam cartões de crédito/débito.",
+        "Bebidas e lanches (água, bebidas reidratantes, etc.).",
+        "Jaqueta impermeável ou poncho de plástico, apenas na temporada de chuvas (novembro – março)."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

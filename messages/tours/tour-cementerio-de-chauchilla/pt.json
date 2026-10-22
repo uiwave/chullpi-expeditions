@@ -7,5 +7,88 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "2,5 Horas",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "O Cemitério de Chauchilla fica localizado a cerca de 30 km da cidade de Nasca. É o único cemitério no Peru que permite observar múmias em suas sepulturas originais, conservadas em excelente estado apesar de sua antiguidade. Essa preservação deve-se em grande parte ao clima extremamente árido e seco do deserto de Nasca, o que permitiu que, em muitas das múmias, se mantenham até restos de cabelo e alguma pele.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Após uma coordenação prévia, você será trasladado do seu hotel em Nasca ou da estação de ônibus até o Cemitério de Chauchilla, localizado a cerca de 30 km da cidade.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Este é o único cemitério no Peru onde é possível ver as múmias em suas sepulturas originais. Apesar de sua antiguidade, muitas delas ainda preservam restos de cabelo e até mesmo alguma pele."
+        },
+        {
+          "text": "Os saqueadores levaram principalmente objetos valiosos, como cerâmicas, tecidos e metais preciosos, deixando os espalhados pelo deserto, os quais ainda são visíveis atualmente."
+        },
+        {
+          "text": "Ao finalizar o passeio, será realizado o retorno ao seu hotel."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transfer do seu hotel em Nasca",
+        "Transporte turístico.",
+        "Guia em inglês/espanhol",
+        "Assistência permanente",
+        "Entrada ao Cemitério"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Alimentação."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

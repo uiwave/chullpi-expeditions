@@ -7,5 +7,133 @@
   "type": "Trekking",
   "typeKey": "trekking",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embark on a unique adventure to Waqrapukara, an impressive fortress on the edge of the Apurímac Canyon. Explore this enigmatic archaeological site, enjoy the beautiful landscapes of the lagoons and cliffs, and learn about pre-Inca and Inca history on a tour that will leave you breathless.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Waqrapukara",
+      "items": [
+        "04:00 a.m. Departure from the hotel towards Quiquijana for breakfast.",
+        "We continue along the edge of the Pomacanchi lagoon and travel to Santa Lucía.",
+        "1.5-hour hike to the Waqrapukara viewpoint.",
+        "Explore the archaeological complex for 1.5 hours.",
+        "Return along the same trail and head back to Cusco, arriving at 5:00 p.m."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Cusco – Quiquijana – Pomacanchi – Waqrapukara",
+      "paragraphs": [
+        {
+          "text": "The day begins very early with pick-up from your hotel at 04:00 a.m., and then we will take private transport to the town of Quiquijana, where you can enjoy breakfast to recharge your batteries. After that, we will continue our journey along the edge of the Pomacanchi lagoon, one of the largest in the area, surrounded by meadows and farmland.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "After approximately one hour of travel, we will arrive at the town of Santa Lucía, where we will follow an unpaved road for another hour, crossing spectacular landscapes with the Pomacanchi lagoon in the distance. Finally, we will reach the starting point of the hike, where you will have time to get everything ready."
+        },
+        {
+          "text": "The initial hike lasts 1.5 hours, crossing cliffs and enjoying stunning views of the Apurímac Canyon, one of the deepest in Peru. As we go on, you will be amazed by the beauty of the landscape until we reach the Waqrapukara viewpoint, where you can rest and take the first photos of the fortress, which rises majestically on the edge of the canyon."
+        },
+        {
+          "text": "From the viewpoint, we will descend along a steep trail to the Waqrapukara archaeological complex, while watching the Apurímac River flowing in the distance. You will have 1.5 hours to explore this mysterious site, known for its pre-Inca and Inca constructions, terraces, and the famous horn-shaped rock formation. The complex is an ideal place to learn about the rich Andean history and enjoy the stunning views."
+        },
+        {
+          "text": "When everyone is ready, we will begin the return along the same trail, which will take us about 1.5 hours. Finally, we will reach the private transport that will take us back to Cusco, with an estimated arrival at 5:00 p.m. to conclude this incredible adventure."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Tourist transport",
+        "Bilingual guide",
+        "Breakfast and Lunch",
+        "First Aid Kit",
+        "Oxygen",
+        "Blankets and trekking poles"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Meals not mentioned in the program",
+        "Personal expenses",
+        "Tips"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Small backpack",
+        "Rain jacket or poncho",
+        "Sweater or fleece for the cold",
+        "Sunscreen",
+        "Insect repellent",
+        "Camera with extra battery",
+        "Hat or cap",
+        "Sunglasses",
+        "Comfortable hiking shoes",
+        "Mineral water",
+        "Snacks: chocolates, dried fruit, granola bars",
+        "Toilet paper"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "Cancellation and rescheduling policy:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "3 days.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Weather:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Subject to weather conditions.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

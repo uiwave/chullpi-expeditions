@@ -7,5 +7,114 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "2 Dias - 1 Noite",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Descubra a única ilha privada do Lago Titicaca, um lugar exclusivo cercado por paisagens de sonho. Este destino é perfeito para quem busca relaxar e desfrutar de uma experiência única, com vistas espetaculares e atendimento personalizado. O tour também inclui uma visita às ilhas flutuantes dos Uros, onde você conhecerá seu fascinante modo de vida, e à ilha de Taquile, reconhecida pela riqueza cultural de seus habitantes e suas tecelagens artesanais.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Uma viagem imperdível para quem chega a Puno e deseja viver a magia do Titicaca com um toque especial."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "De Puno para Uros, Taquile e Ilha Suasi",
+      "paragraphs": [
+        {
+          "text": "Iniciamos o dia com o traslado do seu hotel em Puno às 6h45 rumo ao porto, onde embarcaremos em uma lancha rápida que nos levará às impressionantes ilhas flutuantes dos Uros. Após essa experiência cultural, seguimos para a Ilha de Taquile, conhecida por sua comunidade que soube preservar com orgulho suas tradições ancestrais, especialmente sua reconhecida tecelagem artesanal. Depois de percorrer esses fascinantes destinos, por volta do meio-dia chegamos à exclusiva Ilha Suasi, onde teremos a tarde livre para desfrutar de diversas atividades opcionais sem custo adicional.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Entre as atividades recomendadas está a visita à Cabana Cultural da Martha, um espaço educativo que revela a riqueza do ecossistema do altiplano e a relação do ser humano com a terra através da pecuária, agricultura, cerâmica e tecelagem. Você também pode optar por uma caminhada até o morro Itapilluni, ideal para observar a flora e a fauna local, e admirar um entardecer único com vistas espetaculares do Lago Titicaca."
+        },
+        {
+          "text": "À noite, você terá uma experiência mágica sob o céu estrelado do altiplano: uma sessão de observação astronômica, acompanhada de uma explicação sobre a cosmovisão andina, seguida de uma fogueira com vinho à luz da lua. O dia termina com um merecido descanso em acolhedoras cabanas de frente para o lago."
+        }
+      ]
+    },
+    {
+      "title": "Dia 2",
+      "subtitle": "De Puno para Uros, Taquile e Ilha Suasi",
+      "paragraphs": [
+        {
+          "text": "Depois de desfrutar de um café da manhã buffet entre as 7h00 e as 10h00, você terá a manhã livre para relaxar ou participar de outra atividade opcional: canoa ou caiaque no Lago Titicaca. Durante essa travessia, navegará entre junco-de-totora e terá a oportunidade de observar aves nativas como mergulhões, caracaras, gaivotas e andorinhas-de-rio, além de viscas e camelídeos que habitam a ilha.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Ao meio-dia, pegaremos novamente a lancha rápida para retornar à cidade, chegando a Puno por volta das 15h00, onde finalizaremos o tour com o traslado ao centro ou à Plaza de Armas."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "INCLUI DURANTE O PRIMEIRO DIA",
+      "items": [
+        "Traslado do hotel em Puno ao porto",
+        "Embarcação rápida Puno – Uros – Taquile – Suasi",
+        "Entradas nas ilhas de Uros, Taquile e Suasi",
+        "Atividades opcionais compartilhadas com outros hóspedes do hotel com guia"
+      ],
+      "blocks": []
+    },
+    {
+      "text": "INCLUI DURANTE O SEGUNDO DIA",
+      "items": [
+        "Café da manhã buffet",
+        "Atividade opcional compartilhada com outros hóspedes do hotel com guia",
+        "Embarcação rápida Suasi – Puno",
+        "Traslado porto – centro de Puno"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Almoço do primeiro e segundo dia",
+        "Jantar do primeiro dia",
+        "Hospedagem em Puno no primeiro dia"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

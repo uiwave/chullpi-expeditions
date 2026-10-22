@@ -7,5 +7,121 @@
   "type": "Trekking",
   "typeKey": "trekking",
   "duration": "12 hours 45 min",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Discover the natural beauty of Palcoyo Rainbow Mountain, a hidden gem in the Peruvian Andes.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "This trek is a unique experience for those seeking spectacular landscapes without the crowds. Along the way you will enjoy views of multicolored mountains, an impressive stone forest and the tranquility of a less-explored destination. Ideal for nature and photography lovers, Palcoyo offers an accessible hike with unforgettable panoramas of the Andes, alpacas and ancient colonial bridges."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "We will leave Cusco very early to begin the journey to Cusipata. Here you will have time to have breakfast, and then continue along the route where you will see alpacas and the snow-capped mountains of the Peruvian Andes.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "In Checacupe you will visit the three Inca, Colonial and Republican bridges. You will arrive at the community of Palcoyo, where the Palcoyo Rainbow Mountain Trek begins — a 1-hour hike that will let you see the three colorful mountains and reach the stone forest. During the walk you will have wonderful views of the colors of the earth and the surrounding mountains."
+        },
+        {
+          "text": "This is a less demanding and less visited activity than Rainbow Mountain Vinicunca, so you will surely have more space and time to take photographs. After this, you will return to the vehicle to head to Cusipata, where you will enjoy your lunch. Lastly, you will visit the Mano de Huaro, before finally returning to Cusco, where the activity ends."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up at your accommodation (urban area)",
+        "Shared transportation",
+        "Guide (Spanish or English)",
+        "Breakfast",
+        "Lunch",
+        "Drop-off in downtown Cusco."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Palcoyo Mountain entrance fee (S/ 10 for residents in Peru, S/ 20 for non-residents, paid in cash on the day of the tour)",
+        "Travel insurance (recommended)"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Warm clothing",
+        "Waterproof clothing",
+        "Trekking footwear",
+        "Sun hat",
+        "Sunglasses",
+        "Sunscreen",
+        "Snacks",
+        "Water",
+        "Comfortable clothing and a hat",
+        "Gloves for the cold"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "Restrictions:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Not permitted for people with altitude-related problems, not permitted for pregnant women, and a minimum age of 14 years is required.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Cancellation and rescheduling policy:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "3 days.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

@@ -7,5 +7,103 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "10 hours",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "The tour starts between 6:30 and 7:00 a.m. with hotel pick-up. We will visit Chinchero (agricultural terraces, colonial temple and textile workshop), Moray (Inca agricultural laboratory) and the Maras Salt Flats, and then have lunch in Urubamba. In the afternoon we will tour the fortress of Ollantaytambo and the archaeological complex of Pisac, finishing in Cusco at around 7:00 p.m., on a journey full of history and culture.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Sacred Valley VIP – Full Day",
+      "items": [
+        "Pick-up from your accommodation in Cusco between 6:30 and 7:00 a.m.",
+        "Visit to the archaeological site of Chinchero and its colonial church.",
+        "Stop at a traditional textile center to watch the spinning and dyeing process with natural dyes.",
+        "Exploration of the circular terraces of Moray, an ancient Inca agricultural laboratory.",
+        "Visit to the Maras Salt Flats, with more than 3,000 active salt pools.",
+        "Buffet lunch in Urubamba with traditional dishes.",
+        "Tour of the fortress of Ollantaytambo, with its terraces, temples and ceremonial fountains.",
+        "Visit to the archaeological complex of Pisac, with agricultural terraces, temples and panoramic views.",
+        "Return to Cusco at around 7:00 p.m."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up from your hotel in Cusco",
+        "Tourist transportation",
+        "Professional guide English – Spanish",
+        "1 buffet lunch",
+        "First aid kit"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "General or Partial Tourist Ticket",
+        "Entrance to the Maras Salt Flats (S/15.00 Peruvian nationals, S/20.00 foreign visitors)",
+        "Tips and additional expenses",
+        "Dinner"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Wear light, comfortable clothing and suitable footwear for walking.",
+        "Bring sunscreen, sunglasses and a hat.",
+        "Bring some cash in soles for shopping and snacks.",
+        "Use insect repellent in rural areas.",
+        "Follow local rules and take care of the environment.",
+        "Respect local traditions and customs.",
+        "Bring your original passport or national ID (DNI).",
+        "Purchase a Tourist Ticket (General or Partial)."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

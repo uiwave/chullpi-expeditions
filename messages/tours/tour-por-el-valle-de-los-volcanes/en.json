@@ -7,5 +7,113 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "3 Days / 2 Nights",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Explore the Valley of the Volcanoes and the archaeological sites of Querulpa, Maucallacta and Toro Muerto on this 3-day tour from Arequipa. You won't miss a thing!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Arequipa – Andagua – Ayo",
+      "paragraphs": [
+        {
+          "text": "We will pick you up at your hotel in Arequipa at 5:00 AM to start this 3-day tour of the Valley of the Volcanoes. First, we will stop for breakfast in Corire and continue until we reach the Querulpa Jurassic Park. Here we will take a one-hour walk to follow the dinosaur footprints and the life-size figures.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "After enjoying a lunch of meat, pasta and soup, we will continue on to Andagua. We will contemplate the snow-capped peaks of the Coropuna and see the llamas, alpacas and vicuñas grazing on the plains. Finally, we will arrive at our destination at around 2:00 PM and stop in the town of Ayo, where we will have dinner — a soup, rice with vegetables and a hot drink — and spend the night."
+        }
+      ]
+    },
+    {
+      "title": "Day 2",
+      "subtitle": "Ayo – Mamacocha – Andagua",
+      "paragraphs": [
+        {
+          "text": "At 5:00 AM we will be ready to continue the journey from Ayo. We will head to Maucallacta, where we will give you time to have breakfast, and afterwards we will visit the Mamacocha lagoon. Did you know it is the largest spring in all of South America?",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "After three hours of touring, we will head to Andagua and leave you free time for lunch. Next, we will go to Antaymarca to visit its archaeological remains and climb to the viewpoint, from where we will contemplate the more than 80 small volcanoes surrounding the area. It will feel like you are on another planet!"
+        },
+        {
+          "text": "We will walk for an hour to the Shankillay waterfall and take a hike up one of the volcanoes. After a most complete afternoon, we will return to Ayo to spend the night."
+        }
+      ]
+    },
+    {
+      "title": "Day 3",
+      "subtitle": "Majes Valley – Arequipa",
+      "paragraphs": [
+        {
+          "text": "In the morning we will get up and you will have time to have breakfast before starting the road back to Arequipa. Along the way, we will stop in Machahuay and Viraco, ancient farming towns located in the Coropuna valley. After giving you time for lunch at a restaurant in Majes, we will take a one-hour visit to the Toro Muerto petroglyphs, one of the most famous examples of rock art in the Valley of the Volcanoes.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Finally, we will conclude the tour by dropping you off at your hotels at around 6:00 PM."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up and return transfer to the hotel.",
+        "Transportation by bus or minibus, depending on the group size.",
+        "Guide in Spanish.",
+        "2 nights of accommodation at a local family home in Ayo.",
+        "Breakfast, lunch and dinner on the first day."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

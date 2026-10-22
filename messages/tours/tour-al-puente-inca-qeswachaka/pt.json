@@ -7,5 +7,114 @@
   "type": "Cultural",
   "typeKey": "cultural",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Este tour levará você a explorar os lindos lagos da província de Acomayo e a impressionante ponte inca de Qeswachaka, na província de Canas. Você desfrutará de paisagens naturais, fauna local e da oportunidade única de atravessar uma ponte de corda reconstruída tradicionalmente pela comunidade. Uma experiência cultural e de aventura que você nunca esquecerá.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Ponte Inca Q'eswachaka",
+      "items": [
+        "Iniciamos o tour com a recolha no seu hotel às 4:00 ou às 5:00 e viajamos até Acomayo.",
+        "Visitaremos os quatro lagos: Pomacanchi, Acopia, Asnaqocha e Pampa Marca, observando sua flora e fauna.",
+        "Em seguida, seguimos para a província de Canas para explorar a famosa ponte inca de Qeswachaka.",
+        "Você terá a oportunidade de atravessar a ponte e tirar fotos.",
+        "No final do dia, retornamos a Cusco e deixamos você no seu hotel."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O tour começa com a recolha no seu hotel às 4:00 ou às 5:00, em transporte privativo. Seguimos para a província de Acomayo, onde exploraremos uma série de quatro lindos lagos: Pomacanchi, Acopia, Asnaqocha e Pampa Marca. Ao longo do percurso, você poderá admirar as impressionantes vistas naturais, a fauna local e a flora que rodeia esses lagos de água cristalina.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Depois de visitar os lagos, continuamos para a província de Canas, onde fica a famosa ponte inca de Qeswachaka, a 3.700 metros acima do nível do mar. A ponte tem 33 metros de comprimento e 1,20 metro de largura. A cada mês de junho, as comunidades locais realizam a reconstrução da ponte utilizando o ichu, uma planta nativa da região, como parte de uma tradição ancestral."
+        },
+        {
+          "text": "Você terá a oportunidade única de atravessar a ponte a pé, uma experiência emocionante e uma lembrança inesquecível da arquitetura e das tradições incas. Após esta incrível aventura, retornamos a Cusco, onde deixaremos você no seu hotel para descansar depois de um dia cheio de natureza e cultura."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transporte privativo",
+        "Guia profissional experiente.",
+        "Café da manhã e almoço em marmita.",
+        "Kit de primeiros socorros e oxigênio."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Entrada na ponte de Qeswachaka (10 soles)"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Uma jaqueta abrigada",
+        "Chapéu",
+        "Água",
+        "Protetor solar",
+        "Um dinheiro para lembrancinhas."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "Política de cancelamento e reagendamento:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "3 dias.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Clima:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Sujeito às condições climáticas.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

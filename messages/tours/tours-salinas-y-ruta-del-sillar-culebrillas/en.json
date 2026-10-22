@@ -7,5 +7,102 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "This tour is a complete immersion in the natural and cultural history of Arequipa, taking you to discover stunning landscapes, ancestral traditions and the geological richness of the region. From the guardian volcanoes to the sillar quarries, you will experience first-hand the beauty of nature and the historical heritage that has shaped the city of Arequipa. Covering everything from the Salinas and Aguada Blanca National Reserve to the Sillar Route, this tour will give you a complete view of what makes this wonderful city unique.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The tour begins at 6:00 AM, when we will pick you up at your respective hotels in the historic center of Arequipa. From there, we will head southeast of the city; our first stop will be the Volcanoes Viewpoint. From this point, we will enjoy an impressive view of the volcanoes surrounding the city, as well as the pre-Inca terraces of Chiguata, a traditional village of the region.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "We continue to the traditional village of Chiguata, where we will visit its historic \"Espíritu Santo\" church and its main square. Here, we can also enjoy a typical breakfast of the area before continuing our journey."
+        },
+        {
+          "text": "Next, we will make a brief stop at the entrance to the Salinas and Aguada Blanca National Reserve. In this place, we will explore the Queñuas forest, home of the yareta, a plant used as fuel in ancient times. We will also be able to see the common flora of the country's high desert zones."
+        },
+        {
+          "text": "Our next destination will be Ojo de Agua Zimbral, a natural spring where we can observe its impressive water filtrations. We then ascend to the Qaqa Wasi viewpoint, from which there is a majestic view of the Salinas lagoon. In the rainy season (January to March), this is an excellent spot for bird watching and photographing the mirrors of water. During the rest of the year, visitors can see the salt extraction centers used by the locals."
+        },
+        {
+          "text": "The next stop will be the Salar de Chilitia, an incredible place to take photographs and admire this natural phenomenon in all its magnificence. Afterwards, we will head to the hot springs at the foot of Ubinas Volcano, in the province of Sánchez Cerro, Moquegua."
+        },
+        {
+          "text": "At 1:30 PM, we will begin the return to Arequipa, with a brief stop for lunch. We resume the tour at 2:00 PM towards the Sillar Route, starting at the Yanahuara viewpoint, where you can get a panoramic view of the city. We will then head to the Añas Huayco quarry, where our guide will explain the process of extracting sillar, the stone used to build most of the buildings on the Plaza de Armas of Arequipa. We will also learn about the carving and mega-carving carried out by the master stonemasons."
+        },
+        {
+          "text": "The next destination is the Culebrillas ravine, a quarry that is no longer in operation, but which we can walk through for about 20 minutes. During this walk through a small canyon formed by water erosion, we will have the opportunity to see and photograph some petroglyphs, while the guide provides us with information about their origin and meaning."
+        },
+        {
+          "text": "Finally, we will return to Arequipa, concluding the tour at around 6:30 PM."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up and return from/to your hotel in Arequipa",
+        "Tourist transportation throughout the tour",
+        "Professional guide during the tour",
+        "Typical breakfast in Chiguata",
+        "Visits to viewpoints and tourist sites",
+        "Access to the quarries and areas of interest",
+        "Detailed information about the petroglyphs and sillar"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

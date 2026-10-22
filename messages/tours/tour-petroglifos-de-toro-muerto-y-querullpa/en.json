@@ -7,5 +7,93 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "12 Hours",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "On this exciting full-day excursion we will explore one of the most impressive and enigmatic petroglyph sites in the world, carved into stone by the ancient Wari culture. These thousand-year-old artistic expressions connect us with the past and its mysteries still unsolved. We will also visit a unique site where genuine dinosaur footprints are preserved, a geological rarity that surprises for its scientific and historical value. To complete the experience, we will enjoy a delicious lunch prepared with fresh products from the river, featuring shrimp dishes that highlight the culinary richness of the region.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "We will begin our journey very early from the city of Arequipa, heading to the fascinating Majes Valley. After a few hours of travel, our first stop will be the world-renowned Toro Muerto Petroglyphs. This archaeological site houses more than 500 blocks of volcanic rock carved with zoomorphic figures representing birds, mammals and reptiles, created during the Wari culture period. Guided by an archaeology specialist, we will tour this vast esplanade while discovering the hidden meanings of these ancient rock carvings.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Continuing our adventure, we will head to the Dinosaur Footprints of Querullpa. To reach this site, we will take an uphill walk of approximately 20 minutes. Along the way, we can stop to photograph life-size dinosaur replicas and visit a small museum exhibiting fossils and bone remains. Upon reaching the top, we will contemplate genuine dinosaur footprints, a true paleontological treasure and one of the few evidences of this kind in the country."
+        },
+        {
+          "text": "After the walk, we will take a break for lunch at a local restaurant in Corire, where the star dish is fresh shrimp from the nearby Majes River, prepared in various ways to delight the palate."
+        },
+        {
+          "text": "Finally, we will begin the journey back to Arequipa, carrying with us the unforgettable experience of having walked among ancestral petroglyphs and footprints of prehistoric creatures. We will arrive in the city in the afternoon, closing a day full of history, nature and culture."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up from your hotel in downtown Arequipa",
+        "Tourist stops throughout the trip",
+        "Tourist transportation for the entire route",
+        "Professional guide throughout the trip"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Suitable shoes for short walks",
+        "Hat",
+        "Sunglasses",
+        "Sunscreen",
+        "Insect repellent"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

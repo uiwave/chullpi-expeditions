@@ -7,5 +7,155 @@
   "type": "Trekking",
   "typeKey": "trekking",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embark on a unique adventure to Humantay Lagoon, located at 3,880 meters above sea level. Explore its crystal-clear waters surrounded by towering mountains, connect with Andean tradition and enjoy unique natural landscapes. This trip is perfect for those looking to escape the hustle and bustle of the city and breathe the purity of the Andes.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [
+        "We start the day with pick-up at 4:00 AM from your hotel in Cusco and head towards Mollepata.",
+        "At 7:00 AM, we enjoy a delicious breakfast in Mollepata.",
+        "At 9:00 AM, we continue the trip to Soraypampa (3,880 m.a.s.l.), where we begin the hike to Humantay Lagoon.",
+        "At 10:30 AM, we arrive at Humantay Lagoon (4,200 m.a.s.l.), enjoy the landscape and explore the surroundings.",
+        "At 12:00 PM, we begin the return to Soraypampa and transfer to Mollepata.",
+        "At 1:00 PM, we enjoy a typical lunch in Mollepata.",
+        "At 2:30 PM, we begin the return to Cusco.",
+        "At 5:00 PM, we arrive in Cusco, where the tour ends near the Plaza de Armas."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Cusco – Soraypampa – Humantay Lagoon",
+      "paragraphs": [
+        {
+          "text": "Pick-up between 4:00 and 4:50 AM from your hotel in Cusco. We will depart at 5:00 AM by private transport to the town of Mollepata, where we will have a delicious breakfast to prepare us for the day. After breakfast, we will continue to Soraypampa, the starting point of our hike, located at 3,880 meters above sea level.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Around 9:30 AM, we will begin the ascent to Humantay Lagoon. The hike will take us through stunning mountain landscapes, with views of the majestic Apu Salkantay. Upon arriving at the lagoon, around 10:30 AM, you will have time to enjoy its crystal-clear waters and learn from our guide about local traditions and beliefs related to this sacred place."
+        },
+        {
+          "text": "You will explore the surroundings of the lagoon, where you will see apachetas, small stacks of stones placed as offerings to Pachamama. You will enjoy the pure air, the tranquility of nature and the spiritual energy of the place. Around midday, we will begin the return to Soraypampa, where we will take the transport to Mollepata to enjoy a nutritious lunch at 1:00 PM."
+        },
+        {
+          "text": "Finally, at 2:30 PM, we will begin the return by private transport to Cusco, arriving approximately at 5:00 PM, where we will leave you near the Plaza de Armas to conclude this unforgettable day."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up at your accommodation",
+        "Shared transportation",
+        "Breakfast",
+        "Lunch",
+        "Bilingual guide (Spanish and English)",
+        "Trekking poles",
+        "Humantay Lagoon entrance fee",
+        "First aid kit"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Horse (S/ 100 per person, subject to change, cash payment on the day of the tour)",
+        "Tips",
+        "Extra expenses"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Warm clothing",
+        "Waterproof clothing",
+        "Trekking footwear",
+        "Sun hat",
+        "Sunglasses",
+        "Sunscreen",
+        "Snacks",
+        "Water",
+        "Comfortable clothing",
+        "Trekking poles",
+        "Jacket",
+        "25-liter backpack for daily hikes",
+        "Hat and gloves for the cold",
+        "Waterproof backpack cover and rain poncho."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "Restrictions:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Not permitted for pregnant women, minimum required age of 12 years, not suitable for people with heart problems, good physical condition and altitude acclimatization required.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Cancellation and rescheduling policy:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "15 days.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Weather:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Subject to weather conditions.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

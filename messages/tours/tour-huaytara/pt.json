@@ -7,5 +7,90 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "1 Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Huaytará, conhecida como a capital arqueológica de Huancavelica, é um pintoresco povoado cujo nome provém da palavra “Waytaraq”, que significa “florescer”, simbolizando a esperança de seus habitantes de prosperar economicamente. Entre suas principais atrações está a Igreja de San Juan Bautista, construída no século XVI sobre uma base inca, que reflete o sincretismo religioso ao fundir divindades pré-hispânicas com figuras cristãs.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "A cerca de 25 km da cidade, encontra-se o complexo arqueológico Inka Wasi, famoso por seu Templo Inca ou Palácio das Duas Janelas, seus banhos, o ushnu e as moradias, tudo construído sobre plataformas de pedra. Este sítio foi declarado patrimônio cultural da nação. Além disso, o Museu de Arqueologia Samuel Humbert de Huaytará abriga uma valiosa coleção de têxteis e artesanatos dos complexos arqueológicos da província."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O passeio começa às 7h00 com a saída de Huancavelica, em direção à Lagoa Choclococha, um belo lugar que oferece uma vista panorâmica impressionante. Depois de desfrutar dessa paisagem, visitaremos a Cidade Fantasma de Choclococha, um lugar que guarda a memória dos antigos moradores. Continuamos nosso percurso até os restos arqueológicos de Inka Wasi, um complexo que se destaca por suas estruturas e pela história que carrega."
+        },
+        {
+          "text": "Em seguida, chegaremos ao Templo do Inca de Huaytará, um local significativo na região. Também visitaremos o Palácio Inca e a Igreja “San Juan Bautista”, um lugar onde a arquitetura inca se combina com a influência colonial. Posteriormente, iremos ao Museu de Sítio “Humberto Espinoza”, onde poderemos apreciar uma importante coleção de peças arqueológicas."
+        },
+        {
+          "text": "Finalmente, iniciaremos o retorno a Huancavelica, onde este fascinante percurso se encerra, chegando por volta das 18h30."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transporte: serviço compartilhado.",
+        "O motorista também atua como guia turístico.",
+        "Ingressos de entrada."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Passagem de ônibus: Lima – Huancavelica – Lima.",
+        "Alimentação.",
+        "Bebidas e lanches.",
+        "Presentes, lembranças e compras pessoais.",
+        "Gorjetas por serviço (opcionais, voluntárias)."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

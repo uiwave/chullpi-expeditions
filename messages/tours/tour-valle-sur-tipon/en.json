@@ -7,5 +7,97 @@
   "type": "Cultural",
   "typeKey": "cultural",
   "duration": "7 hours",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "This cultural tour will take you through stunning archaeological sites and colonial gems of the southern valley. From the agricultural terraces of Tipón, through the ancient Wari ruins of Pikillaqta, to the majestic temple of Andahuaylillas, known as the Sistine Chapel of America, every stop is a window onto the history of Peru. Ideal for those looking for an enriching experience close to the city, this tour combines archaeology, architecture and religious art in just half a day.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "South Valley Cusco – Half Day",
+      "items": [
+        "Pick-up from your hotel or from the Plaza de Armas of Cusco at approximately 9:00 AM.",
+        "We visit Tipón, an Inca complex with agricultural terraces and an irrigation system that still works, considered a jewel of hydraulic engineering.",
+        "We continue to Pikillaqta, a pre-Inca city belonging to the Wari culture, where we observe its urban organization with straight streets, adobe constructions and ceremonial enclosures.",
+        "Panoramic stop at the Huacarpay Lagoon, a natural wetland that is home to migratory birds and offers a beautiful view of the valley.",
+        "We finish with the visit to Andahuaylillas, home to the church of San Pedro Apóstol, famous for its mural art, gilded ceilings and works of the Cusco School.",
+        "Return to the city of Cusco at approximately 2:30 PM."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Tourist transportation",
+        "Pick-up at your hotel or downtown Cusco",
+        "Guide (Spanish or English)."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Purchase of the Partial Tourist Ticket (S/70.00 foreign visitors / S/40.00 Peruvian nationals).",
+        "Lunch.",
+        "Entrance to the church of Andahuaylillas (S/ 15 per person, paid on site on the day of the tour, in cash in soles).",
+        "Entrance to the Ritos Andinos Museum (S/ 3 per person, paid on site on the day of the tour, in cash in soles).",
+        "Food and drinks",
+        "Tips."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Bring your original passport or national ID (DNI).",
+        "Purchase the Partial Tourist Ticket.",
+        "Bring sunscreen, a hat or cap and sunglasses.",
+        "Wear comfortable clothing and suitable footwear for short walks.",
+        "Bring water, snacks and cash for entrance fees or purchases."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

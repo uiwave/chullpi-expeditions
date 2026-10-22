@@ -7,5 +7,152 @@
   "type": "Trekking",
   "typeKey": "trekking",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embarque em uma aventura emocionante até a Montanha Arco-íris e Vinicunca, um tesouro natural na cordilheira dos Andes. A partir de Cusco, você percorrerá paisagens impressionantes, desfrutará de vistas panorâmicas da montanha Ausangate e desafiará seus limites em um trekking único acima de 5.000 metros de altitude. Viva essa experiência inesquecível e conecte-se com a majestosidade da natureza; reserve seu lugar agora!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [
+        "Começaremos às 4h00 com a retirada na sua hospedagem em Cusco rumo ao Vale Sul.",
+        "Durante o trajeto, você desfrutará de paisagens andinas, vales férteis e um delicioso café da manhã.",
+        "Você iniciará a caminhada em Llacto, subindo por paisagens impressionantes até a Montanha Arco-íris.",
+        "Você explorará o mágico Vale Vermelho, um lugar surreal e tranquilo.",
+        "Desceremos até Cusipata para desfrutar de um almoço buffet típico.",
+        "Retornaremos a Cusco e deixaremos você na sua hospedagem para descansar."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "Cusipata – Llacto – Montanha das Cores, Vinicunca – Mirante do vale vermelho",
+      "paragraphs": [
+        {
+          "text": "Retirada às 4h00 na sua hospedagem em Cusco em transporte privado equipado com mantas para maior conforto. Durante a viagem de três horas até o Vale Sul, você desfrutará de vistas pitorescas, incluindo vilarejos andinos, vales férteis e rebanhos de lamas e alpacas. No caminho, pararemos para desfrutar de um café da manhã continental nutritivo antes de iniciar a caminhata.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Chegaremos ao ponto de partida do trekking em Llacto, a 4.630 metros de altitude. De lá, começará uma caminhada de aproximadamente 1,5 hora por trilhas sinuosas, cercadas por montanhas andinas e com vistas impressionantes da montanha Ausangate. Durante o trajeto, você terá a oportunidade de observar comunidades locais, aprender sobre sua vestimenta tradicional e descobrir aspectos de sua rica cultura."
+        },
+        {
+          "text": "Alcançaremos o topo da Montanha Arco-íris a 5.100 metros de altura, onde você terá tempo para explorar, tirar fotos e saber mais sobre a história e as teorias da origem dessa formação natural única. Depois de admirar esse lugar emblemático, continuaremos com uma caminhada de 30 minutos até o mirante do Vale Vermelho, um lugar extraordinário que parece de outro planeta."
+        },
+        {
+          "text": "Após explorar o Vale Vermelho, iniciaremos a descida de duas horas até o ponto de partida, passando por comunidades andinas e rebanhos de lamas, com a possibilidade de avistar vicunhas. Ao final da caminhada, seguiremos para Cusipata, onde você desfrutará de um almoço buffet com pratos típicos da região. Finalmente, retornaremos em transporte privado à cidade de Cusco, deixando você na porta da sua hospedagem por volta das 17h00 para descansar após um dia cheio de aventura e paisagens inesquecíveis."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Retirada no hotel",
+        "Transporte",
+        "Café da manhã",
+        "Almoço",
+        "Guia bilíngue (espanhol e inglês)",
+        "Bastão de trekking",
+        "Entrada na montanha Vinicunca"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Cavalo (S/ 100 por pessoa, sujeito a alteração, pagamento em espécie no dia do tour)",
+        "Quatriciclos",
+        "Gorjetas"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Roupa quente",
+        "Roupa impermeável",
+        "Calçado de trekking",
+        "Chapéu de sol",
+        "Óculos de sol",
+        "Protetor solar",
+        "Lanches",
+        "Água",
+        "Roupa confortável",
+        "Bastões de trekking",
+        "Jaqueta",
+        "Mochila de 25 litros para as caminhadas diárias",
+        "Chapéu e luvas para o frio",
+        "Capa de mochila impermeável e chuva de plástico."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "Restrições:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Não permitido para pessoas com problemas causados pela altitude, não permitido para gestantes e idade mínima exigida de 12 anos.",
+              "items": [""],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Política de cancelamento e remarcação:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "3 dias.",
+              "items": [""],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Clima:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Sujeito às condições climáticas.",
+              "items": [""],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

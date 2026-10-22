@@ -7,5 +7,92 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "1 Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Huaytará, known as the archaeological capital of Huancavelica, is a picturesque town whose name comes from the word \"Waytaraq\", meaning \"to flourish\", symbolizing its inhabitants' hope of prospering economically. Among its main attractions is the Church of San Juan Bautista, built in the 16th century on an Inca base, which reflects religious syncretism by fusing pre-Hispanic deities with Christian figures.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "About 25 km from the city lies the Inka Wasi archaeological complex, famous for its Inca Temple or Palace of the Two Windows, its baths, the ushnu and the dwellings, all built on stone platforms. This site has been declared a cultural heritage of the nation. In addition, the Samuel Humbert Museum of Archaeology of Huaytará houses a valuable collection of textiles and crafts from the archaeological complexes of the province."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The tour begins at 7:00 AM with departure from Huancavelica, heading toward Lake Choclococha, a beautiful place that offers an impressive panoramic view. After enjoying this landscape, we will visit the Ghost Town of Choclococha, a place that holds the memory of its former inhabitants. We continue our journey to the archaeological remains of Inka Wasi, a complex that stands out for its structures and the history it holds.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Next, we will arrive at the Inca Temple of Huaytará, a significant site in the region. We will also visit the Inka Palace and the \"San Juan Bautista\" Church, a place where Inca architecture combines with colonial influence. Afterwards, we will head to the \"Humberto Espinoza\" Site Museum, where we can admire an important collection of archaeological pieces."
+        },
+        {
+          "text": "Finally, we will begin the return to Huancavelica, where this fascinating journey comes to an end, arriving at around 6:30 PM."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transport: Shared service.",
+        "The driver also acts as a Tour Guide.",
+        "Entrance tickets."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Bus ticket: Lima – Huancavelica – Lima.",
+        "Meals.",
+        "Drinks and snacks.",
+        "Gifts, souvenirs, personal purchases.",
+        "Service tips (Optional, voluntary)."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

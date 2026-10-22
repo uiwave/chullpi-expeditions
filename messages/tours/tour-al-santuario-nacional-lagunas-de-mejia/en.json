@@ -7,5 +7,96 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embark on a unique experience to one of the most important natural areas on the Peruvian coast: the Mejía Lagoons National Sanctuary. This full-day tour will let you discover the incredible ecological diversity of a coastal sanctuary that, despite its relatively small size, is home to a great variety of habitats and species. Ideal for nature lovers, bird watchers or anyone seeking an authentic connection with the biodiversity of southern Peru. Get ready to spot unique birds, breathe pure air and be amazed by an incomparable natural environment.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The journey begins with pick-up from your hotel in Arequipa, starting a day dedicated to nature and biodiversity.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "After approximately two hours of travel we will reach the Mejía Lagoons National Sanctuary, located on the southern coast of Peru, very close to the Pacific Ocean. This sanctuary, covering just over 690 hectares, protects a surprising variety of ecosystems such as open water, marshes, totora reed beds, estuaries, salt flats, scrubland and wide sandy beaches. It is recognized as one of the most important wetlands on the western coast of South America."
+        },
+        {
+          "text": "During the visit you will have the chance to observe some of the 195 bird species that live in the area. Among them are resident birds that nest in the sanctuary, as well as migratory birds that arrive from different regions such as North America, the Arctic, South America, the Amazon and the Andes. Several species are also listed at different threat levels, including some in danger of extinction, which makes the sanctuary a key site for their conservation."
+        },
+        {
+          "text": "After this fascinating experience of watching and connecting with wildlife, we will take a break for lunch."
+        },
+        {
+          "text": "Finally, we will head back to the city of Arequipa, following a scenic route through the town of Cocachacra, arriving in the afternoon."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up from your hotel in downtown Arequipa",
+        "Tourist stops throughout the trip",
+        "Tourist transport for the entire trip",
+        "Professional guide throughout the trip"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Breakfast", "Lunch", "Sanctuary entrance fee"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Suitable shoes for short walks",
+        "Hat",
+        "Sunglasses",
+        "Sunscreen",
+        "Insect repellent"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

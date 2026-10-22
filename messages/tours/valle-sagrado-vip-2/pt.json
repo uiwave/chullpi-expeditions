@@ -7,5 +7,103 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "10 horas",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "O tour inicia entre 6:30 e 7:00 a.m. com recolha no hotel. Serão visitados Chinchero (terraços agrícolas, templo colonial e oficina têxtil), Moray (laboratório agrícola inca), as Salinas de Maras e, em seguida, será servido o almoço em Urubamba. À tarde será percorrida a fortaleza de Ollantaytambo e o complexo arqueológico de Pisac, finalizando em Cusco por volta das 7:00 p.m., em um percurso cheio de história e cultura.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Vale Sagrado VIP – Dia Inteiro",
+      "items": [
+        "Recolha na sua hospedagem em Cusco entre 6:30 e 7:00 a.m.",
+        "Visita ao centro arqueológico de Chinchero e à sua igreja colonial.",
+        "Parada em um centro têxtil tradicional para ver o processo de fiação e tingimento com tintes naturais.",
+        "Exploração dos terraços circulares de Moray, antigo laboratório agrícola inca.",
+        "Visita às Salinas de Maras, com mais de 3.000 poças de sal ativas.",
+        "Almoço buffet em Urubamba com pratos tradicionais.",
+        "Passeio pela fortaleza de Ollantaytambo, com seus terraços, templos e fontes cerimoniais.",
+        "Visita ao complexo arqueológico de Pisac, com terraços agrícolas, templos e vistas panorâmicas.",
+        "Retorno a Cusco por volta das 7:00 p.m."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolha no seu hotel em Cusco",
+        "Transporte turístico",
+        "Guia profissional Inglês – Espanhol",
+        "1 almoço buffet",
+        "Kit de primeiros socorros"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Bilhete Turístico Geral ou Parcial",
+        "Entrada nas Salinas de Maras (S/15.00 nacionais, S/20.00 estrangeiros)",
+        "Gorjetas e despesas adicionais",
+        "Jantar"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Usar roupas leves, confortáveis e calçado adequado para caminhadas.",
+        "Levar protetor solar, óculos de sol e chapéu.",
+        "Levar um pouco de dinheiro em soles para compras e lanches.",
+        "Usar repelente de insetos em zonas rurais.",
+        "Seguir as regras locais e cuidar do meio ambiente.",
+        "Respeitar as tradições e costumes locais.",
+        "Levar passaporte ou DNI original.",
+        "Comprar Bilhete Turístico (Geral ou Parcial)."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

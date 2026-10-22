@@ -10,70 +10,91 @@
   "popular": true,
   "description": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Disfrute una experiencia completa en Machu Picchu con un itinerario de 2 días, que le permite explorar el Circuito 2 y el Circuito 3 en un solo día con un guía privado de habla inglesa fluido. Descubre las clásicas vistas panorámicas, los templos importantes, las plazas sagradas y los sitios arqueológicos más icónicos de la ciudadela inca."
+    },
+    {
+      "text": "Su experiencia incluye asistencia en la estación de tren de Machu Picchu, traslado a su hotel, apoyo con la organización de su boleto del Circuito 2, transporte en autobús de ida y vuelta con Consettur entre el Pueblo de Machu Picchu y el Santuario, y asistencia personalizada durante toda su visita."
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Itinerario del tour:",
+      "items": [
+        "Recepción en la estación de tren de Machu Picchu por representante con cartel con nombre del viajero y traslado al hotel.",
+        "Abordaje del autobús Consettur desde Machu Picchu Pueblo hasta el Santuario.",
+        "Recorrido de 5 horas con guía privado visitando los puntos destacados del Circuito 2 y Circuito 3 (Mirador panorámico, Casa del Guardián, Templo del Sol, Templo Principal, Templo de las Tres Ventanas, Pirámide del Intihuatana, Roca Sagrada, Templo del Cóndor, entre otros).",
+        "Retorno en autobús Consettur a Machu Picchu Pueblo y finalización en el punto de encuentro inicial."
+      ]
     }
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Machupicchu",
+      "subtitle": "Machu Picchu Peru",
       "paragraphs": [
         {
-          "text": "",
-          "items": [],
-          "blocks": []
+          "text": "Lugares y atracciones que se visitan durante la excursión de 5 horas:"
+        },
+        {
+          "items": [
+            "Mirador panorámico clásico (Vista panorámica clásica de Machu Picchu)",
+            "Casa del Guardián",
+            "Foso Seco",
+            "Granite Chaos (Caos Granítico)",
+            "Mirador del Templo del Sol",
+            "Temple Plaza (Plaza Sagrada / Plaza de los Templos)",
+            "Templo Principal",
+            "Temple of the Three Windows (Templo de las Tres Ventanas)",
+            "Pirámide del Intihuatana",
+            "Sacred Rock (Roca Sagrada)",
+            "Doce Vanos",
+            "Qolqas Orientales (Almacenes Incas)",
+            "Espejos de Agua",
+            "Templo del Cóndor",
+            "Plaza Pisonay (Plaza Pisonay)",
+            "Reserva Arqueológica"
+          ]
         }
       ]
     }
   ],
   "included": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios incluidos:",
+      "items": [
+        "Guía privada fluente en inglés para el Circuito 2 y el Circuito 3",
+        "Entradas para Machu Picchu (Circuito 2 y Circuito 3)",
+        "Asistencia en la estación de tren de Machu Picchu, traslado al hotel",
+        "Billetes de autobús Consettur (ida y vuelta: Pueblo de Machu Picchu – Santuario)",
+        "Entrada - Machupicchu"
+      ]
     }
   ],
   "notIncluded": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios no incluidos:",
+      "items": [
+        "Comidas y bebidas",
+        "Alojamiento en hotel de 2 estrellas",
+        "Gastos personales y compras adicionales"
+      ]
     }
   ],
   "recommendations": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
-    }
-  ],
-  "additionals": [
-    {
-      "title": "",
-      "subtitle": "",
+      "text": "Información adicional e importante:",
       "items": [
-        {
-          "name": "",
-          "price": "",
-          "description": [
-            {
-              "text": "",
-              "items": [],
-              "blocks": []
-            }
-          ],
-          "blocks": []
-        }
+        "Edad permitida: De 3 a 68 años.",
+        "Duración: 5 h. Hora de inicio según disponibilidad.",
+        "Se ofrece en idiomas: Español e Inglés.",
+        "Se ofrece entrada para dispositivos móviles.",
+        "Punto de encuentro/recogida: Al llegar a la estación de tren Machu Picchu (KM 110), Ca. Contisuyo, Aguas Calientes, será recibido por un representante con un cartel con el nombre y apellido del viajero principal. Se ofrece recogida en hoteles seleccionados.",
+        "La actividad finaliza en el punto de encuentro inicial.",
+        "Accesibilidad y salud: No es accesible para sillas de ruedas. Hay transporte público cerca. Los bebés deben ir sentados en el regazo. No es recomendable para viajeros con problemas de espalda, embarazadas o con afecciones cardíacas u otros problemas médicos graves. Se requiere condición física media.",
+        "Emisión de entradas e información de boletos: La entrada al Circuito 3B se proporcionará 4 días antes de la fecha de su visita. Posteriormente, se procederá con el proceso de compra presencial para el Circuito 2 en la oficina de venta de boletos oficial en Machu Picchu Pueblo, sujeto a disponibilidad.",
+        "Requisito obligatorio de pasaporte: Para emitir sus entradas, debe enviar una foto clara del pasaporte con la información visible y legible a reservas@chullpiexpeditions.com o por WhatsApp al +51 940 468 520."
       ]
     }
-  ]
+  ],
+  "additionals": []
 }

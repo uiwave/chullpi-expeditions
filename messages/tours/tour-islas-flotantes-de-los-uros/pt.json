@@ -7,5 +7,109 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "Meio Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Viva uma experiência única navegando até as Ilhas Flutuantes dos Uros, um canto fascinante localizado a apenas 20 a 30 minutos do porto de Puno.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Durante este passeio de aproximadamente 3 horas, você mergulhará no legado ancestral de um dos povos mais antigos do altiplano andino, descobrindo seu modo de vida em harmonia com o lago Titicaca."
+    },
+    {
+      "text": "Estas ilhas flutuantes, verdadeiras obras da sabedoria ancestral, são feitas inteiramente de Totora, uma planta aquática fundamental para os Uros. Com ela constroem suas moradias, jangadas e até a própria ilha, usando-a também como alimento e combustível. Sua elaboração consiste em entrelaçar blocos de raízes de Totora, cujas propriedades permitem que flutuem naturalmente. Para mantê-las habitáveis, as comunidades precisam renovar constantemente a camada superficial, adicionando nova Totora a cada 20 dias."
+    },
+    {
+      "text": "Ao explorar as ilhas, você não apenas conhecerá um modo de vida que sobreviveu ao passar do tempo, mas também fará parte de uma vivência cultural autêntica. Aprenderá sobre suas práticas de pesca e caça, e como preservam sua identidade enquanto se adaptam respeitosamente ao entorno do majestoso lago Titicaca."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Manhã",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Iniciamos a aventura com o recolhimento nos hotéis do centro de Puno às 08h45, seguindo em direção ao porto principal. Às 09h15, partimos de barco rumbo ao impressionante mundo flotante dos Uros. Por volta das 10h00, chegamos para visitar duas de suas ilhas, onde você poderá conhecer de perto sua cultura, arquitetura e modo de vida. Após essa experiência enriquecedora, retornamos à cidade, chegando aos hotéis do centro de Puno por volta das 12h30.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Meio Dia",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O passeio de meio dia começa com o recolhimento nos hotéis do centro de Puno às 11h50. Em seguida, dirigimos ao porto para embarcar às 12h15 rumo às ilhas flutuantes. Às 12h45, chegamos ao nosso destino para explorar duas ilhas, interagir com as famílias locais e admirar a singular construção feita com Totora. Encerrada a visita, retornamos ao centro de Puno, com chegada estimada aos hotéis às 15h15.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Traslado hotel – porto – hotel.",
+        "Barco turístico a motor.",
+        "Guia espanhol/inglês.",
+        "Ingressos de entrada."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Gorjetas.",
+        "Passeio de barco local (Jangada de Totora) nos Uros, serviço opcional, dura aproximadamente de 10 a 15 minutos, o preço é de (S/10.00 sois) ou (US$3.00) por pessoa e o pagamento é feito ao morador.",
+        "Outros não mencionados."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Levar roupas leves e também abrigadas, o clima é frio pela manhã, quente ao meio dia e ventoso à tarde.",
+        "Levar chapéu, protetor solar e óculos de sol.",
+        "Sapatos/tênis confortáveis para a caminhada.",
+        "Dinheiro em espécie (Sois) caso deseje comprar souvenirs/lembranças, não aceitam cartões de crédito/débito.",
+        "Bebidas e lanches (Água, reidratantes, etc.).",
+        "Casaco impermeável ou poncho de plástico, apenas na temporada de chuva (Novembro – Março)."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

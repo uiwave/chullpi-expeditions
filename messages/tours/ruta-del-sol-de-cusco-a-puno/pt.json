@@ -7,5 +7,111 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "1 Dia",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "No Tour Rota do Sol, você percorrerá os fascinantes destinos do sul de Cusco, seguindo rotas ancestrais repletas de história e magia. Começamos com a visita ao Templo de San Pedro de Andahuaylillas, conhecido como a Capela Sistina das Américas, e depois seguimos para Raqchi, o Templo de Wiracocha, e La Raya, com uma parada no Museu de Pucará. O percurso termina na cidade de Puno, oferecendo a você uma oportunidade única de explorar a cultura andina e desfrutar de paisagens impressionantes ao longo do trajeto de Cusco a Puno.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "Tour Rota do Sol – Cusco, Andahuaylillas, Raqchi, La Raya, Pucará e Puno",
+      "paragraphs": [
+        {
+          "text": "Nosso percurso pela Rota do Sol começa às 06:00, com a recolha no seu hotel. Ao longo desta fascinante viagem de Cusco a Puno, faremos várias paradas em pontos-chave para fotografar e explorar diversos atrativos naturais e culturais. A estrada nos leva por paisagens tranquilas de campos, montanhas e lagos, começando com a visita à Capela de Andahuaylillas, conhecida como a Capela Sistina das Américas e famosa por seus lindos murais e detalhes em folha de ouro da Escola Cusquenha.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Continuamos com uma parada no imponente sítio arqueológico de Raqchi, famoso por suas enormes estruturas de adobe que chegam a 15 metros de altura, testemunho do planejamento urbano antigo. Em seguida, seguimos para o Passo de La Raya, o ponto que marca a fronteira entre Cusco e Puno, cercado pelos majestosos Andes e pela neve de Chimboya — um excelente lugar para fotos."
+        },
+        {
+          "text": "A caminho de Puno, visitaremos Pucará, berço de uma antiga cultura pré-colombiana que deixou importantes vestígios, como cerâmicas, estruturas piramidais e obras hidráulicas. Finalmente, chegamos a Puno, onde fica o impressionante Lago Titicaca, o lago navegável mais alto do mundo, para encerrar este maravilhoso tour."
+        },
+        {
+          "text": "Lugares que visitaremos:",
+          "items": [
+            "Cusco (3400 m.n.m.) – Saída às 06:00",
+            "Andahuaylillas (3122 m.n.m.) – Visita às 08:30",
+            "Raqchi (3450 m.n.m.) – Visita às 11:00",
+            "Passo de La Raya (4335 m.n.m.) – Visita às 14:15",
+            "Museu de Pucará (3900 m.n.m.) – Visita às 15:30",
+            "Puno (3800 m.n.m.) – Chegada às 18:30"
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transfers.",
+        "Ingressos de entrada.",
+        "Guia profissional bilíngue (inglês-espanhol).",
+        "Almoço."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Hotel em Puno.",
+        "Café da manhã e jantar.",
+        "Outros serviços não mencionados."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Leve seu passaporte.",
+        "Dinheiro em espécie em soles e em dólares.",
+        "Tênis confortáveis e adequados.",
+        "Roupa abrigada.",
+        "Jeans ou roupa confortável.",
+        "Gorro ou chapéu.",
+        "Protetor solar.",
+        "Óculos de sol.",
+        "Lanches (barras energéticas, frutas secas, chocolates, biscoitos etc.).",
+        "Água."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

@@ -7,5 +7,84 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "5 hours",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embark on a fascinating journey to Sillustani, located just 40 minutes from Puno. This ancient pre-Inca and Inca cemetery, famous for its imposing chullpas or funerary towers, offers a unique view into the history and architecture of these cultures. During this three-and-a-half-hour tour you will explore the peninsula surrounded by Lake Umayo, admiring both its natural beauty and the remains of nobles buried with valuable offerings, such as the treasure found near the chullpa of the lizard. Ideal for travelers passing through, this private tour is adjusted to your flight schedule.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The tour begins with pick-up from hotels in central Puno at 2:00 PM. We will then head to the Sillustani archaeological complex, with a scheduled departure at 2:15 PM. After approximately one hour of travel, we will arrive in Sillustani at around 3:00 PM, where we will enjoy a 1 hour and 45 minute guided visit to learn more about the chullpas and the fascinating history of the place. After the visit we will begin the return to the city of Puno, with an estimated arrival at around 5:45 PM.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Tourist transport Puno – Sillustani – Puno.",
+        "Spanish/English guide.",
+        "Tourist entrance tickets."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Tips.", "Anything else not mentioned."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Bring light, warm clothing: the weather is cold in the mornings, hot at midday and windy in the afternoon.",
+        "Bring a cap, sunscreen and sunglasses.",
+        "Comfortable shoes/sneakers for the hike.",
+        "Cash (Soles) in case you want to buy souvenirs; credit/debit cards are not accepted.",
+        "Drinks and snacks (water, rehydration drinks, etc.).",
+        "Waterproof jacket or plastic poncho, only for the rainy season (November – March)."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

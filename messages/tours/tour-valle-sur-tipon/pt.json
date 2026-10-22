@@ -7,5 +7,97 @@
   "type": "Cultural",
   "typeKey": "cultural",
   "duration": "7 horas",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Este passeio cultural levará você por sítios arqueológicos impressionantes e joias coloniais do sul do vale. Desde os terraços agrícolas de Tipón, passando pelas ancestrais ruínas Wari de Pikillaqta, até o majestoso templo de Andahuaylillas, conhecido como a Capela Sistina da América, cada parada é uma janela para a história do Peru. Ideal para quem deseja uma experiência enriquecedora e próxima à cidade, este tour combina arqueologia, arquitetura e arte religiosa em apenas meio dia.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Vale Sul Cusco – Meio Dia",
+      "items": [
+        "Recolha no seu hotel ou na Plaza de Armas de Cusco por volta das 9:00 a.m.",
+        "Visitamos Tipón, um complexo inca com terraços agrícolas e um sistema de irrigação que ainda funciona, considerado uma joia da engenharia hidráulica.",
+        "Continuamos para Pikillaqta, cidade pré-inca pertencente à cultura Wari, onde observamos sua organização urbana com ruas retas, construções de adobe e recintos cerimoniais.",
+        "Parada panorâmica na Lagoa de Huacarpay, uma área úmida natural que abriga aves migratórias e oferece uma vista linda do vale.",
+        "Finalizamos com a visita a Andahuaylillas, onde se encontra a igreja de San Pedro Apóstolo, célebre por seu arte mural, tetos dourados e obras da Escola Cusqueña.",
+        "Retorno à cidade de Cusco por volta das 14:30."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transporte turístico",
+        "Recolha no hotel ou no centro de Cusco",
+        "Guia (espanhol ou inglês)."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Comprar o Bilhete Turístico Parcial (S/70.00 estrangeiros / S/40.00 nacionais).",
+        "Almoço.",
+        "Entrada na igreja de Andahuaylillas (S/ 15 por pessoa, pagamento no local no dia do tour, em dinheiro em soles).",
+        "Entrada no Museu Ritos Andinos (S/ 3 por pessoa, pagamento no local no dia do tour, em dinheiro em soles).",
+        "Alimentação e bebidas",
+        "Gorjetas."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Levar passaporte ou DNI original.",
+        "Comprar o Bilhete Turístico Parcial.",
+        "Levar protetor solar, chapéu ou boné e óculos de sol.",
+        "Usar roupas confortáveis e calçado adequado para caminhadas curtas.",
+        "Levar água, lanches e dinheiro em espécie para entradas ou compras."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

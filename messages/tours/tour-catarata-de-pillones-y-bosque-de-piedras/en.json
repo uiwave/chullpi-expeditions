@@ -7,5 +7,100 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embark on a unique tour that will take you to explore some of the most impressive landscapes in the region, such as the Stone Forest and Pillones Waterfall. Along the way, you can enjoy stunning rock formations, spectacular waterfalls, and a direct connection with nature. From the famous town of Pampa de Arrieros to the majestic descent to the waterfalls, you will live an unforgettable experience.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "At 06:00 a.m. we begin with pick-up from hotels located in the historic center of Arequipa, to start our tour.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "The first stop will be the picturesque town of Pampa de Arrieros, known as the historic gateway to the White City for those who arrived by train."
+        },
+        {
+          "text": "We will continue to Patahuasi, where we will enjoy a traditional Mate de Coca, essential to avoid the effects of altitude sickness, along with a brief breakfast."
+        },
+        {
+          "text": "Our next stop will be the fascinating Stone Forest. Here, we will take a walk of approximately 40 minutes to admire the unique rock formations and stone pillars that seem to rise from the earth in a natural wonder."
+        },
+        {
+          "text": "In about an hour, we will arrive at the impressive Pillones Waterfall. From there, we will take a short descent of about 15 minutes to reach the waterfalls. You will have time to enjoy the landscape, take photos, and observe the rock formations shaped by water erosion over the years."
+        },
+        {
+          "text": "After this close contact with nature, we will head to Patahuasi to enjoy a delicious lunch."
+        },
+        {
+          "text": "Finally, after living an unforgettable experience, we will begin our return to Arequipa, with an estimated arrival at 05:30 p.m., where we will drop you off near the Plaza de Armas."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Hotel pick-up (Historic center)",
+        "Tourist transport",
+        "Tour guide (Spanish / English)",
+        "Continental breakfast"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Stone Forest entrance S/5.00",
+        "Waterfall entrance S/5.00",
+        "Lunch"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

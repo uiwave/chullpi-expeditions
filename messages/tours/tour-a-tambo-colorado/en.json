@@ -7,5 +7,88 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "1 Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Tambo Colorado is one of the best-preserved adobe fortresses in Peru, built by the Incas, where you can admire its walls adorned with niches painted in reddish tones, which give it its name.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "This archaeological complex houses a wide central plaza surrounded by imposing structures such as the North and South palaces, as well as various ceremonial platforms."
+    },
+    {
+      "text": "This archaeological complex houses a wide central plaza surrounded by imposing structures such as the North and South palaces, as well as various ceremonial platforms."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up from your hotel in Paracas.",
+        "Tourist transport.",
+        "Guide in English/Spanish.",
+        "Admission ticket to the Tambo Colorado Ruins.",
+        "Permanent assistance.",
+        "Tourist transport.",
+        "Tour guide.",
+        "Admission ticket."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Meals."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

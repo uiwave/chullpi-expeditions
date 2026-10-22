@@ -7,5 +7,114 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Discover the only private island on Lake Titicaca, an exclusive place surrounded by dreamlike landscapes. This destination is perfect for those looking to relax and enjoy a unique experience, with spectacular views and personalized attention. The tour also includes a visit to the Uros floating islands, where you will learn about their fascinating way of life, and to Taquile Island, known for the cultural wealth of its inhabitants and their artisan textiles.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "A must-do trip for those arriving in Puno and wanting to experience the magic of Titicaca with a special touch."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "From Puno to Uros, Taquile and Suasi Island",
+      "paragraphs": [
+        {
+          "text": "We begin the day with the transfer from your hotel in Puno at 6:45 AM to the port, where we will board a speedboat that will take us to the stunning Uros floating islands. After this cultural experience, we continue to Taquile Island, known for its community that has proudly preserved its ancestral traditions, especially its renowned artisan weaving. After visiting these fascinating destinations, around midday we arrive at exclusive Suasi Island, where we will have the afternoon free to enjoy various optional activities at no additional cost.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Among the recommended activities is a visit to Martha's Cultural Cabin, an educational space that reveals the richness of the altiplano ecosystem and the relationship between human beings and the land through livestock, agriculture, ceramics and weaving. You can also choose to hike to Itapilluni hill, ideal for observing local flora and fauna, and admire a unique sunset with spectacular views of Lake Titicaca."
+        },
+        {
+          "text": "At night, a magical experience awaits you under the starry altiplano sky: an astronomical observation session, accompanied by an explanation of the Andean cosmovision, followed by a bonfire with wine by moonlight. The day ends with a well-deserved rest in cozy cabins facing the lake."
+        }
+      ]
+    },
+    {
+      "title": "Day 2",
+      "subtitle": "From Puno to Uros, Taquile and Suasi Island",
+      "paragraphs": [
+        {
+          "text": "After enjoying a buffet breakfast between 7:00 AM and 10:00 AM, you will have the morning free to relax or take part in another optional activity: canoeing or kayaking on Lake Titicaca. During this crossing, you will navigate among totora reeds and have the opportunity to observe native birds such as grebes, caracaras, seagulls and Andean gulls, as well as vizcachas and camels that inhabit the island.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "At midday, we will take the speedboat again to return to the city, arriving in Puno around 3:00 PM, where we will end the tour with the transfer to the center or the Plaza de Armas."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "INCLUDES DURING THE FIRST DAY",
+      "items": [
+        "Transfer from hotel in Puno to the port",
+        "Speedboat Puno – Uros – Taquile – Suasi",
+        "Entrance fees to Uros Taquile and Suasi islands",
+        "Optional activities shared with other hotel guests with guide"
+      ],
+      "blocks": []
+    },
+    {
+      "text": "INCLUDES DURING THE SECOND DAY",
+      "items": [
+        "Buffet breakfast",
+        "Optional activity shared with other hotel guests with guide",
+        "Speedboat Suasi – Puno",
+        "Transfer port – center of Puno"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Lunch on the first and second day",
+        "Dinner on the first day",
+        "Accommodation in Puno on the first day"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

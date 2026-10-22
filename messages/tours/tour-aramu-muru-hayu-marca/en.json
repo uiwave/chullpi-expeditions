@@ -7,5 +7,100 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "Half Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Aramu Muru – Hayu Marca, also known as Willka Uta, is located 70 km south of Puno. It is a rock gateway nearly 7 meters high, carved by the descendants of the Tiahuanaco culture and inspired by the famous Gateway of the Sun. This place is one of the most enigmatic and mystical in the region, surrounded by a stunning landscape with rock formations that add to the spiritual aura of the site, known as the stone forest.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Along the way, we will also visit Chucuito, where we will explore the Inca Uyo (fertility temple), an Inca ceremonial complex with phallic monuments used in rituals dedicated to Pachamama and the sun, as well as serving as an astronomical observatory."
+    },
+    {
+      "text": "Finally, before returning, we will have an optional visit to the Totora Museum, located 7 km from Puno, where impressive crafts made from totora — a material used by the people of Chimú — are on display."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Morning",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The tour begins with hotel pick-up at 07:30 a.m., to start the journey to Aramu Muru. The first stop will be in Chucuito, where we will visit the Inca Uyo, the Iglesias Santo Domingo and Asunción, as well as enjoy a viewpoint with panoramic views. An optional visit to the fish farm is also available. After this visit, we will head to Aramu Muru, with an expected arrival at 09:00 a.m. In Aramu Muru, we will explore the interdimensional gateway for an hour and a half. At 11:30 a.m., we will depart towards Puno, making a final optional stop at the Totora Museum at 12:15 p.m.. After the visit, we will continue the transfer and arrive in Puno at 12:45 p.m., where the return transfer to the hotels will take place at 01:00 p.m..",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Afternoon",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "In the afternoon, the tour will begin with pick-up at 02:00 p.m., and we will depart towards Aramu Muru. We will arrive at 03:00 p.m. to visit the interdimensional gateway of Aramu Muru for approximately one hour. Then, at 04:00 p.m., we will head to Chucuito, where we will once again explore the Inca Uyo, the Iglesia Santo Domingo and Asunción, as well as the local viewpoint. At 06:00 p.m., we will return to Puno, with an approximate arrival at 06:30 p.m., where the return transfer to the hotels will take place.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Private transport Puno – Chucuito – Aramu Muru – Puno.",
+        "Entrance fees to Inca Uyo and Aramu Muru.",
+        "Spanish/English guide."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Lunch.", "Other services not mentioned."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Bring light clothing as well as warm layers; the weather is cold in the mornings, hot at midday, and windy in the afternoon.",
+        "Bring a hat and/or sunscreen.",
+        "Comfortable shoes for the walk.",
+        "Cash if you wish to buy souvenirs/mementos; credit/debit cards are not accepted.",
+        "Drinks and/or snacks."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

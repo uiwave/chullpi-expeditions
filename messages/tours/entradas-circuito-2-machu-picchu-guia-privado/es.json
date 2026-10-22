@@ -10,70 +10,79 @@
   "popular": true,
   "description": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "¿No encuentras boletos para Circuit 2? ¡Te tenemos cubierto! Proporcionamos exclusivamente el codiciado Circuito 2 (Ruta Clásica), el único camino que garantiza la icónica foto panorámica de Machu Picchu con la que sueña todo viajero. Mientras que los tours estándar lo apresuran en 90 minutos, ofrecemos una inmersión privada premium de 2 horas y 30 minutos dirigida por un guía oficial de primera clase."
+    },
+    {
+      "text": "Su viaje privado está meticulosamente diseñado para explorar el corazón del Imperio Inca a su propio ritmo. Te maravillarás con el majestuoso Templo del Sol, las Tres Ventanas sagradas y los Templos Principales, descubriendo secretos históricos que los grandes grupos simplemente pierden. Esta es una experiencia VIP, hecha a medida, centrada en la calidad, la comodidad y la narración. Manejamos las entradas oficiales y la logística para que puedas disfrutar de una visita perfecta y sin estrés. Si estás buscando la forma más completa y profesional de ver la Maravilla del Mundo, aquí está."
     }
   ],
   "shortItinerary": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Itinerario del tour:",
+      "items": [
+        "Recogida y recepción en la estación de tren de Aguas Calientes / Machu Picchu Pueblo por un representante con cartel o logotipo.",
+        "Tiempo de descanso y uso gratuito de instalaciones (baños y asientos) en un restaurante turístico local mientras se espera la hora de entrada.",
+        "Recorrido privado de 2.5 horas por el Circuito Clásico 2 de Machu Picchu (Casa del Guardián, foto panorámica, Templo del Sol, Plaza Sagrada, Templo de las Tres Ventanas, Templo Principal, historias de la pirámide Intihuatana y sectores residenciales).",
+        "Finalización del recorrido en el punto de encuentro inicial."
+      ]
     }
   ],
   "itinerary": [
     {
-      "title": "",
-      "subtitle": "",
+      "title": "Machu Picchu HotSprings / Santuario de Machu Picchu",
+      "subtitle": "Avenida Hermanos Ayar, Aguas Calientes, Machu Picchu 08681 Peru",
       "paragraphs": [
         {
-          "text": "",
-          "items": [],
-          "blocks": []
+          "text": "En este exclusivo tour privado de 2.5 horas, experimentarás lo mejor de Machu Picchu a través del Circuito Clásico 2."
+        },
+        {
+          "text": "Su viaje comienza en el icónico sector de la casa del guardián, el lugar preciso donde capturará la famosa foto panorámica de la ciudadela con Huayna Picchu al fondo. Después de asegurar sus recuerdos, su guía experto lo guiará a través del corazón de la ciudad inca. Te maravillarás con la precisión del Templo del Sol, te asombrarás ante la Plaza Sagrada y explorarás el Templo de las Tres Ventanas y el Templo Principal."
+        },
+        {
+          "text": "A diferencia de los tours en grupo llenos de gente, esta experiencia privada le permite profundizar en la historia, espiritualidad y genio arquitectónico de los incas a su propio ritmo. Su guía compartirá historias ocultas y detalles de la pirámide Intihuatana y los sectores residenciales, asegurando una visita de alta calidad e inmersiva a la Nueva Maravilla del Mundo."
         }
       ]
     }
   ],
   "included": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios incluidos:",
+      "items": [
+        "Entrada/Admisión - Machu Picchu (Circuito 2)",
+        "Guía oficial privada",
+        "Recepción y Traslado en Aguas Calientes",
+        "Acceso a un restaurante turístico con uso gratuito de las instalaciones (baños y zona de estar)",
+        "Entrada - Machu Picchu HotSprings"
+      ]
     }
   ],
   "notIncluded": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
+      "text": "Servicios no incluidos:",
+      "items": [
+        "Billetes de tren ida y vuelta desde/hacia Aguas Calientes",
+        "Billetes de autobús ida y vuelta entre Aguas Calientes y Machu Picchu (Consettur)",
+        "Gastos personales, comida y bebidas no mencionados",
+        "Recogida de hoteles en Cusco"
+      ]
     }
   ],
   "recommendations": [
     {
-      "text": "",
-      "items": [],
-      "blocks": []
-    }
-  ],
-  "additionals": [
-    {
-      "title": "",
-      "subtitle": "",
+      "text": "Información adicional e importante:",
       "items": [
-        {
-          "name": "",
-          "price": "",
-          "description": [
-            {
-              "text": "",
-              "items": [],
-              "blocks": []
-            }
-          ],
-          "blocks": []
-        }
+        "Edad permitida: De 3 a 85 años.",
+        "Duración: 3 h. Hora de inicio según disponibilidad.",
+        "Se ofrece en idiomas: Español e Inglés.",
+        "Se ofrece entrada para dispositivos móviles.",
+        "Punto de encuentro/recogida: Estación de tren Machu Picchu en Aguas Calientes. Un representante estará esperando con un cartel con su nombre o logotipo de Chullpi Expeditions para guiarle a un restaurante local.",
+        "La actividad finaliza en el punto de encuentro inicial.",
+        "Consejos y requisitos físicos: No es accesible para sillas de ruedas, los bebés deben ir sentados en el regazo. No es recomendable para viajeros con problemas de espalda, embarazadas o personas con afecciones cardíacas u otros problemas médicos graves. Se requiere condición física media.",
+        "Información sobre el ingreso a Machu Picchu: Durante todo el mes de junio y hasta el 15 de julio estará disponible el Circuito 3 – Ruta Diseñada como alternativa muy similar al Circuito 2 tradicional (permite foto clásica desde zona agrícola y visitar ruinas principales, plazas, templos, Casa del Inca, Casa del Cóndor, mirador de la Sagrada Pirámide y Tres Ventanas con duración aprox. de 2h 50m). El Circuito 3B ofrece una ruta más extensa dentro de la ciudadela.",
+        "Obligatorio tras reservar: Enviar fotos claras de los pasaportes de todos los participantes a través del sistema de mensajería Viator para emitir los boletos de entrada sin errores.",
+        "Coordinación de horarios: La hora de inicio es orientativa y está sujeta a disponibilidad de entradas del Ministerio de Cultura. Se recomienda verificar o coordinar horarios de trenes ANTES de comprar billetes de tren."
       ]
     }
-  ]
+  ],
+  "additionals": []
 }

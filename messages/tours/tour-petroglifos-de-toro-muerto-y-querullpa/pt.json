@@ -7,5 +7,93 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "12 Horas",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Nesta emocionante excursão de um dia exploraremos um dos conjuntos de petroglifos mais impressionantes e enigmáticos do mundo, gravados em pedra pela antiga cultura Wari. Essas expressões artísticas milenares nos conectam com o passado e seus mistérios ainda por decifrar. Também visitaremos um local único onde se conservam autênticas pegadas de dinossauro, uma raridade geológica que surpreende por seu valor científico e histórico. Para completar a experiência, desfrutaremos de um delicioso almoço preparado com produtos frescos do rio, destacando pratos à base de camarão, que realçam a riqueza culinária da região.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Iniciaremos nossa jornada muito cedo na cidade de Arequipa, com destino ao fascinante Vale de Majes. Após algumas horas de viagem, nossa primeira parada será nos mundialmente reconhecidos Petroglifos de Toro Muerto. Este sítio arqueológico abriga mais de 500 blocos de rocha vulcânica esculpidos com figuras zoomorfas que representam aves, mamíferos e répteis, criadas durante a época da cultura Wari. Com a orientação de um especialista em arqueologia, percorreremos esta vasta explanada enquanto descobrimos os significados ocultos dessas antigas gravuras rupestres.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Continuando nossa aventura, diremo-nos às Pegadas de Dinossauros de Querullpa. Para chegar a este local, faremos uma caminhada de subida de aproximadamente 20 minutos. No caminho, poderemos parar para fotografar réplicas de dinossauros em tamanho real e visitar um pequeno museu que exibe fósseis e restos ósseos. Ao chegar ao topo, contemplaremos autênticas pegadas de dinossauro, um verdadeiro tesouro paleontológico e uma das poucas evidências desse tipo no país."
+        },
+        {
+          "text": "Após a caminhada, faremos uma pausa para almoçar em um restaurante local de Corire, onde o prato estrela é o camarão fresco do próximo rio Majes, preparado de diversas maneiras para deleitar o paladar."
+        },
+        {
+          "text": "Finalmente, empreenderemos a viagem de volta a Arequipa, levando consigo a experiência inesquecível de ter caminhado entre petroglifos ancestrais e pegadas de criaturas pré-históricas. Chegaremos à cidade à tarde, encerrando um dia cheio de história, natureza e cultura."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolha no seu hotel no centro de Arequipa",
+        "Paradas turísticas durante todo o percurso",
+        "Transporte turístico para todo o percurso",
+        "Guia profissional durante todo o percurso"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Calçados adequados para curtas caminhadas",
+        "Chapéu",
+        "Óculos de sol",
+        "Protetor solar",
+        "Repelente de mosquitos"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

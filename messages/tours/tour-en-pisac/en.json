@@ -7,5 +7,122 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "4 Hours",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Named for being the main food supplier of the Inca Empire, the Sacred Valley of the Incas sits on the banks of the Urubamba River. In its upper course this river is known as Vilcanota, from the Quechua word Wilcamayu, or \"Sacred River\". The Incas built impressive archaeological centers along its banks, replicating the constellations of the Andean sky, which adds even more mysticism and beauty to this enchanting sacred valley.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [
+        "Taray Viewpoint",
+        "Pisac archaeological complex",
+        "Pisac artisan market",
+        "Urubamba (buffet lunch)",
+        "Ollantaytambo archaeological complex",
+        "Chinchero archaeological complex and textile center"
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "To begin this Sacred Valley of the Incas Tour, our transfer driver will pick you up at your hotel at approximately 07:00 AM. We will travel for 01 hour to reach Pisac. Along the way we will have the opportunity to admire the beauty of the Sacred Valley and the importance it has had and continues to have for humanity.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Continuing along the route, we will visit the Pisac archaeological site located in the upper part of the town. We will also get to see how local residents use Inca farming techniques to solve the challenge of planting on hillsides and thus achieve the best productivity. Next we will visit the Pisac artisan market, which is full of color, where you can find a wide variety of crafts for sale. At midday we will enjoy a delicious buffet lunch at a tourist restaurant in the town of Urubamba in the valley."
+        },
+        {
+          "text": "After lunch we will head to Ollantaytambo, located 76 km from the city of Cusco, where we will see large lithic blocks of finely carved stone weighing more than 100 tons that were brought to this mountain to be used for astronomical purposes, a source of wonder for locals and visitors alike. It sits strategically in the middle of three valleys, giving way to the edge of the jungle where, following the course of the river, lies Machu Picchu, one of the 7 Wonders of the World. Ollantaytambo has strategic control points, turning the archaeological site into a fortress."
+        },
+        {
+          "text": "In addition, the town of Ollantaytambo is recognized as the \"Best Tourist Town in the World\", considered a city suspended in time thanks to its Inca-colonial urban layout, with extensive use of hydraulic engineering, distributing water through channels that cross its streets while keeping its original landscape."
+        },
+        {
+          "text": "On our way back to the city of Cusco we will visit Chinchero: located northwest of the city of Cusco, during the Tahuantinsuyo the Inca Túpac Yupanqui planned the construction of palaces for the elite."
+        },
+        {
+          "text": "Today, the remains of the palace can still be seen, upon which the colonial church stands; it is now a tourist attraction because it keeps ancestral traditions alive in agriculture, maintaining the greatest variety of Andean potato production and the practice of weaving with Inca iconography and symbolism, making it an important stop for travelers."
+        },
+        {
+          "text": "The tour concludes at approximately 6:30 PM in Cusco, after enjoying this unforgettable experience of the Sacred Valley of the Incas Tour."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up from your accommodation or hotel in Cusco. Applies if located in the city center.",
+        "Tourist transportation.",
+        "Bilingual professional guide",
+        "Buffet lunch in Urubamba.",
+        "The return transfer ends in the city center of Cusco."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "General Tourist Ticket BTG S/. 130.00 (Used for two or more tourist circuits).",
+        "Partial Tourist Ticket BTG S/. 70.00 (Used for a single tourist circuit).",
+        "Entrance to the Salinas de Maras (S/20 foreign visitors, S/15 national visitors)",
+        "Water or alcoholic beverages.",
+        "Tips, at your discretion (optional).",
+        "Accommodation or hotel in the city of Cusco.",
+        "Travel insurance, recommended for your trip (purchase it from your country)."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Bring your national ID or passport.",
+        "Purchase the Tourist Ticket (General or Partial)",
+        "Small backpack to carry your personal belongings.",
+        "Comfortable shoes.",
+        "Comfortable clothing and a light jacket for changes in weather.",
+        "Hat or cap.",
+        "Sunglasses.",
+        "Sunscreen.",
+        "Water"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

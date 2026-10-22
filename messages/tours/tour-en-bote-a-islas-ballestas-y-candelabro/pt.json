@@ -7,5 +7,95 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "2 Horas",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "No Tour de Barco às Ilhas Ballestas e Candelabro você desfrutará da impressionante fauna marina em uma fantástica excursão de lancha; também conhecerá um símbolo misterioso chamado Candelabro, esculpido no penhasco da península de Paracas há séculos por uma civilização desconhecida, e observará todas as espécies marinhas que habitam essas ilhas.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "No horário combinado, retirada na estação de ônibus ou no seu hotel em Paracas e traslado para o pier turístico.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "O Tour às Ilhas Ballestas começa com o embarque no pier turístico do Chaco Paracas; você embarcará em nossa lancha e, em seguida, navegaremos pela Baía de Paracas até o Candelabro, uma figura semelhante às Linhas de Nazca esculpida na encosta da península de Paracas. Nosso guia profissional explicará as diferentes teorias existentes."
+        },
+        {
+          "text": "Depois, navegaremos mar adentro até chegar às Ilhas Ballestas, onde você poderá apreciar de muito perto uma fabulosa fauna marina, como grandes colônias de leões-marinhos nas praias e rochas. Também é possível ver grupos de pinguins-de-humboldt em pequenas cavernas, além de uma grande variedade de aves costeiras."
+        },
+        {
+          "text": "Aves guaneras, como corvos-marinhos, atobás, pelicanos, gaivotas e faetontes, e você apreciará formações rochosas e a beleza do Oceano Pacífico, perfeitas para fotos artísticas."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Tour às Ilhas Ballestas de lancha",
+        "Colete salva-vidas",
+        "Lancha com 2 motores fora-de-borda.",
+        "Kit de primeiros socorros",
+        "Apólice de seguro.",
+        "Permissão de operação da Capitania dos Portos",
+        "Guia oficial de turismo em inglês e espanhol.",
+        "Retirada no seu hotel em Paracas ou na estação de ônibus"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Leve um suéter corta-vento.",
+        "Protetor solar.",
+        "Não consuma alimentos pesados antes de realizar o tour."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

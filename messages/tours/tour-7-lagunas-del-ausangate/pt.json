@@ -7,5 +7,100 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Descubra um dos cantos mais impressionantes da cordilheira dos Andes. Este tour de um dia levará você a explorar as 7 lagunas mais espetaculares localizadas aos pés do majestoso Nevado Ausangate, parte da cadeia montanhosa de Vilcanota. Durante a caminhada, você desfrutará de paisagens andinas únicas, verá lagunas de tons intensos — do esmeralda ao turquesa — e terá a oportunidade de relaxar em águas termais naturais com vista para as montanhas sagradas de Ausangate e Ayangate. É uma experiência que combina natureza, cultura e bem-estar em um único dia.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Principais atrativos",
+      "items": [
+        "Laguna Azulcocha",
+        "Laguna Otorongo",
+        "Laguna Pucacocha",
+        "Laguna Alqacocha",
+        "Laguna Q’omercocha",
+        "Laguna Orqo Otorongo",
+        "Laguna China Otorongo",
+        "Águas Termais de Pacchanta"
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "04:30 – 05:00\nRecolhimento no seu hospedagem em Cusco e partida para a povoação de Pacchanta, localizada a mais de 4.000 m.n.m. nas encostas do Ausangate. A viagem dura aproximadamente 3 horas de carro.",
+            "08:00\nChegada a Pacchanta, onde você desfrutará de um café da manhã tradicional andino antes de começar a caminhada.",
+            "09:00 – Início da caminhada\nComeçamos o trekking rumo às 7 lagunas. Ao longo de aproximadamente 5 horas (ida e volta), você visitará as lindas lagunas Azulcocha, Otorongo, Pucacocha, Alqacocha, Q’omercocha, Orqo Otorongo e China Otorongo, cada uma com uma cor e um encanto especial.",
+            "Durante o percurso, você também poderá observar a fauna local, como alpacas, lamas, vizcachas e aves alto-andinas, além de vistas espetaculares do Nevado Ausangate.",
+            "14:00\nRetorno a Pacchanta, onde você desfrutará de um delicioso almoço preparado com produtos da região.",
+            "15:00\nMomento de relaxar nas águas termais de Pacchanta, com vista para as neves — o fechamento perfeito depois de uma caminhada andina.",
+            "16:00\nRetorno em transporte turístico para a cidade do Cusco.",
+            "Por volta das 19:30\nChegada a Cusco e transfer para o hotel."
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhimento do seu hotel em Cusco",
+        "Transporte turístico",
+        "1 café da manhã",
+        "1 almoço",
+        "Entrada nas 7 Lagunas",
+        "Guia profissional Inglês – Espanhol",
+        "Kit de primeiros socorros",
+        "Balão de oxigênio"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Entrada nas Termas S/ 5.00", "Cavalo", "Jantar"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

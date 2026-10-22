@@ -7,5 +7,99 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "Half Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Live a different kind of day exploring the most enigmatic and surprising corners of Cusco. This tour invites you to discover spaces full of symbolism, carved art and landscapes that seem taken from an Andean legend. From imposing sculptures fused with the mountain to enchanted forests and natural refuges, every stop will connect you with the ancestral energy of the place.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "You will travel through magical settings where imagination awakens, spirituality is felt and the natural surroundings come to life with unique shapes. Ideal for those looking for an experience beyond the ordinary, surrounded by culture, mystery and tranquility."
+    },
+    {
+      "text": "A visual and sensory adventure you will never forget."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Live a magical day of art, nature and spirituality.",
+      "items": [
+        "Tour start: We pick you up at your hotel between 9:40 AM and 10:00 AM to head to Tica Tica.",
+        "Morada de los Dioses: After a 40-minute drive, we visit this sacred place full of sculptures carved in stone, perfect for photos and spiritual connection.",
+        "Valle de los Duendes: We continue to this magical valley where goblins and fantastic figures emerge among rocks and trees, creating a fairy-tale atmosphere.",
+        "Humedal de Huasao: A natural space full of life and calm, ideal for relaxing and appreciating the local biodiversity.",
+        "Parque de los Ents: We wrap up in an enchanted forest where carved roots and trunks blend into the landscape.",
+        "Return to Cusco: We finish around 6:00 PM at the Plaza de Armas, after a day full of mysticism and natural beauty."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up and return transfer",
+        "Minibus transport.",
+        "Guide in Spanish and English."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Entrance fees to the 3 sites",
+        "Quad bike activity (optional, additional cost).",
+        "Meals and other personal expenses.",
+        "Lunch and dinner",
+        "Tips"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Wear suitable, comfortable clothing and sturdy walking shoes",
+        "Bring light snacks and enough water with you to keep your energy and hydration up throughout the day."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

@@ -7,5 +7,109 @@
   "type": "Arqueológico",
   "typeKey": "arqueologico",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Damos as boas-vindas a Cusco, o coração do mundo! Junte-se a nós neste incrível tour de meio dia para explorar os principais pontos históricos da cidade. Você desfrutará de uma experiência única enquanto caminha pelas ruas antigas e lindas praças de Qosqo.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Percorrer a cidade imperial será como viajar no tempo, explorando cada uma de suas épocas, pois é a cidade mais antiga das Américas habitada continuamente. Você poderá viajar pela história, desde a era dos povos nativos, passando pelos incas e espanhóis, até os atuais habitantes de Cusco."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "City Tour de Cusco",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "12h40 – 13h00: Retirada na sua hospedagem.",
+            "Catedral de Cusco: Admire as pinturas da Escola de Arte de Cusqueña e o trabalho em folha de ouro e prata.",
+            "Qoricancha (Templo do Sol): Explore a arquitetura e as construções em pedra incaicas.",
+            "Sacsayhuamán: Observe as enormes pedras talhadas com precisão.",
+            "Qenqo: Visite o sítio religioso de grande importância histórica.",
+            "Puca Pucara: Descubra a antiga fortaleza defensiva de Cusco.",
+            "Tambomachay: Aproveite as fontes de água em funcionamento, dedicadas ao culto da água.",
+            "18h30: Retorno à sua hospedagem. Fim do tour"
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Guia turístico experiente: Um guia oficial, bilíngue em inglês e espanhol, acompanhará você durante todo o percurso. Ele explicará tudo sobre a cultura e o entorno, e garantirá que você esteja seguro e confortável durante a viagem, para que possa desfrutar sem preocupações.",
+        "Guia bilíngue em serviço grupal ou compartilhado (inglês e espanhol).",
+        "Kit médico ou de primeiros socorros",
+        "Atendimento ao cliente 24/7",
+        "Oferecemos suporte telefônico 24 horas",
+        "Todo o transporte está incluído no tour. Buscaremos você no seu hotel e, ao final do passeio, levaremos de volta à porta da sua hospedagem em Cusco."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Bilhete turístico ou Cusco Tourist Ticket",
+        "Ingresso para a Catedral de Cusco",
+        "Seguro de viagem",
+        "Gorjetas para nossa equipe",
+        "Custos adicionais ou atrasos fora do nosso controle"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Passaporte válido",
+        "Dinheiro extra (recomenda-se sóis)",
+        "Medicamentos pessoais",
+        "Garrafa de água ou camelback",
+        "Protetor solar FPS 70 ou superior",
+        "Calçado leve ou sandálias",
+        "Casaco térmico",
+        "Casaco impermeável",
+        "Chuva de plástico (poncho)",
+        "Chapéu que proteja o rosto e o pescoço"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

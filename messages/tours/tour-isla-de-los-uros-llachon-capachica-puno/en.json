@@ -7,5 +7,100 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Llachón is a charming community located on the Capachica Peninsula, within the district of the same name, in the province of Puno, at an altitude of 3,820 m a.s.l. This destination is recognized for its focus on community-based rural tourism, which gives visitors an authentic and close-up experience with the local residents.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Travelers have the opportunity to connect deeply with the community's living culture, taking part in traditional activities such as farming, livestock raising, herding, fishing, and the making of handmade textiles with the typical clothing of the area. All of this is framed by an ancestral way of life that remains alive to this day, and that is proudly shared with both national and international visitors."
+    },
+    {
+      "text": "Llachón's landscape is as impressive as its culture. Its rugged geography, situated on a peninsula that reaches out into Lake Titicaca, offers light-sand beaches and panoramic views of crystal-clear waters, in a natural setting of great beauty and tranquility."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The day begins at 7:30 AM with the transfer from the hotels to the port of Puno. At 8:00 AM, the boat sets off for the Uros Floating Islands, where a guided visit of approximately one hour introduces you to the history, culture and daily life of this unique community. Then, at 10:00 AM, we depart for Llachón, on the Capachica Peninsula, arriving at around 12:00 PM, where visitors are warmly welcomed by a local family.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "A traditional lunch is served at the hosts' home and, in the afternoon, a guided visit of the surroundings and the typical cultural activities of the community takes place. At the end of the day, visitors enjoy a homemade dinner and stay overnight at the host family's home, living an authentic rural tourism experience."
+        }
+      ]
+    },
+    {
+      "title": "Day 2",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The day starts with breakfast at 7:00 AM, followed by complementary activities alongside the local family, which allow for a deeper immersion in their way of life. At 12:00 PM, the return transfer begins from Llachón, passing through Capachica, until arriving back in Puno at 2:30 PM, thus concluding an enriching and unforgettable experience.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transfer from hotels (city center) to the lakeside port of Puno.",
+        "Entrance tickets to the islands.",
+        "Tourist boat.",
+        "Official tour guide.",
+        "Accommodation and meals in Llachón (home stay: 01 lunch, 01 dinner and 01 breakfast).",
+        "Transportation (exclusive vehicle for the return to Puno)."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Others not mentioned in the tour."],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

@@ -7,5 +7,102 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Este tour é uma imersão completa na história natural e cultural de Arequipa, levando você a descobrir paisagens impressionantes, tradições ancestrais e a riqueza geológica da região. Dos vulcões tutelares às pedreiras de sillar, você experimentará de perto a beleza da natureza e o legado histórico que forjou a cidade de Arequipa. Com um percurso que vai da Reserva Nacional de Salinas e Aguada Blanca até a Rota do Sillar, este tour oferecerá uma visão completa do que torna esta maravilhosa cidade única.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O tour começa às 6:00 a.m., quando passaremos a recolhê-los em seus respectivos hotéis no centro histórico de Arequipa. Dali, diremo-nos para o sudeste da cidade; nossa primeira parada será no Mirante dos Vulcões. Desse ponto, teremos uma vista impressionante dos vulcões que rodeiam a cidade, além dos terraços pré-incaicos de Chiguata, um povoado tradicional da região.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Continuamos para o povoado tradicional de Chiguata, onde visitaremos sua histórica igreja \"Espíritu Santo\" e sua praça principal. Aqui, também poderemos desfrutar de um café da manhã típico da região, antes de continuar nossa viagem."
+        },
+        {
+          "text": "A seguir, faremos uma breve parada na entrada da Reserva Nacional de Salinas e Aguada Blanca. Neste lugar, exploraremos a floresta de Queñuas, lar da yareta, uma planta usada como combustível em tempos antigos. Também poderemos apreciar a flora comum das altas zonas desérticas do país."
+        },
+        {
+          "text": "Nosso próximo destino será o Ojo de Agua Zimbral, uma fonte natural de água onde poderemos observar suas impressionantes filtrações. Em seguida, subimos até o mirante Qaqa Wasi, de onde se desfruta de uma vista majestosa da lagoa de Salinas. Na estação chuvosa (de janeiro a março), este é um excelente ponto para observação de aves e fotografia dos espelhos de água. Durante o resto do ano, os visitantes podem conhecer os centros de extração de sal utilizados pelos locais."
+        },
+        {
+          "text": "A próxima parada será o Salar de Chilitia, um lugar incrível para tirar fotografias e admirar este fenômeno natural em toda a sua magnitude. Depois, diremo-nos para as águas termais situadas aos pés do Vulcão Ubinas, na província de Sánchez Cerro, Moquegua."
+        },
+        {
+          "text": "Às 1:30 p.m. iniciaremos o retorno a Arequipa, com uma breve parada para o almoço. Retomamos o tour às 2:00 p.m. rumo à Rota do Sillar, começando no mirante de Yanahuara, onde você pode obter uma vista panorâmica da cidade. Em seguida, diremo-nos à pedreira Añas Huayco, onde nosso guia nos explicará o processo de extração do sillar, a pedra utilizada na construção da maioria dos edifícios da Plaza de Armas de Arequipa. Além disso, aprenderemos sobre o talhamento e o mega talhamento realizados pelos mestres pedreiros."
+        },
+        {
+          "text": "O próximo destino é a quebrada de Culebrillas, uma pedreira que não está mais em exploração, mas que poderemos percorrer por cerca de 20 minutos. Durante esse percurso por um pequeno cânion formado pela erosão da água, teremos a oportunidade de ver e fotografar alguns petroglifos, enquanto o guia nos fornece informações sobre sua origem e significado."
+        },
+        {
+          "text": "Finalmente, retornaremos a Arequipa, concluindo o tour por volta das 6:30 p.m."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Recolhida e retorno do/para o hotel em Arequipa",
+        "Transporte turístico durante todo o percurso",
+        "Guia profissional durante o tour",
+        "Café da manhã típico em Chiguata",
+        "Visitas aos mirantes e lugares turísticos",
+        "Acesso às pedreiras e áreas de interesse",
+        "Informações detalhadas sobre os petroglifos e o sillar"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

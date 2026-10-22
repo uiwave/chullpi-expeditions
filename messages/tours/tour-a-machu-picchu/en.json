@@ -7,5 +7,104 @@
   "type": "Cultural",
   "typeKey": "cultural",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Enjoy a unique trip to Machu Picchu with a personalized small-group service. You will travel by train through the Sacred Valley, explore the incredible sanctuary of Machu Picchu on a guided visit and return comfortably to Cusco. An unforgettable experience at the most important archaeological site in South America.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [
+        "4:00 AM: Pick-up from your hotel in Cusco",
+        "6:10 AM: Tourist train from Ollantaytambo to Aguas Calientes",
+        "8:00 AM: Bus to Machu Picchu (30 min)",
+        "8:30 AM: Entrance and guided visit (2 hours)",
+        "10:30 AM: Free time to explore on your own",
+        "12:30 PM: Return to Aguas Calientes",
+        "1:00 PM: Lunch (not included) and free time",
+        "2:30 PM: Return train to Ollantaytambo",
+        "4:30 PM: Van transfer to Cusco",
+        "8:00 PM: Approximate arrival in Cusco"
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Hotel – Train station round-trip transfer",
+        "Ollantaytambo – Machupicchu tourist train",
+        "Bus up and down to Machupicchu (Consettur)",
+        "Machu Picchu entrance ticket",
+        "Bilingual professional guide",
+        "Private transfer Ollantaytambo – Hotel in Cusco."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Entrance to Machupicchu Mountain or Waynapicchu",
+        "Meals not mentioned in the program",
+        "Personal expenses",
+        "Tips"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Original ID or passport",
+        "Light clothing and comfortable shoes",
+        "Hat or cap",
+        "Camera with a charged battery",
+        "Snacks and a bottle of water",
+        "Sun protection",
+        "Cash for souvenirs and other expenses"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

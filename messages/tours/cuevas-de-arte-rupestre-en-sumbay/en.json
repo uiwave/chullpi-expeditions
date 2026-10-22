@@ -7,5 +7,100 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "On this tour we will visit the stunning Sumbay Rock Paintings, created by ancient settlers during the Lithic period, more than 8,000 years ago. These paintings are a valuable testament to human development, from their stage as hunters and gatherers to the domestication of Andean camels. It is an exceptional archaeological heritage, accessible just a few hours from Arequipa.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "Dare to live a unique experience full of history, seeing in person one of the few rock art remains in the world that are still almost intact, although their preservation may not last forever."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Itinerary – Sumbay Caves Tour",
+      "paragraphs": [
+        {
+          "text": "At 8:00 AM we will depart from the city of Arequipa towards the enigmatic Sumbay caves. Our first stop will be Pampa Cañahuas, a natural viewpoint by the roadside from where we will have a different view of the imposing Misti volcano. This place is also ideal for observing vicuñas grazing freely in their natural habitat.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "We will continue to Patahuasi, a small stop where we can enjoy a snack and drink traditional coca tea, recommended to prevent altitude sickness."
+        },
+        {
+          "text": "We will then arrive at the quiet town of Sumbay, from where we will take a roughly 20-minute hike to the rock art caves, which house paintings over 8,000 years old. We will have enough time to closely appreciate this prehistoric legacy and learn more about the life of primitive man."
+        },
+        {
+          "text": "On the way back, we will explore the town of Sumbay, where we will find a picturesque train cemetery, perfect for capturing unique photographs, and we will visit the town church, which is still in use by the local community."
+        },
+        {
+          "text": "Finally, we will begin the return to Arequipa, enjoying the highland landscapes and local wildlife, such as wild camels, along the way. We will be back in the city around 4:00 PM, with transfer to your respective hotels."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up from your hotel in central Arequipa",
+        "Tourist stops throughout the tour",
+        "Sumbay entrance fee",
+        "Tourist transportation for the entire tour",
+        "Professional guide throughout the tour"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Warm clothing",
+        "Proper footwear for short walks",
+        "Hat",
+        "Sunglasses",
+        "Sunscreen"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

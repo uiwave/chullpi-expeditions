@@ -7,5 +7,78 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "2,5 Horas",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "O Centro Ceremonial Cahuachi fica no distrito de Nazca, no departamento de Ica. Foi um importante centro religioso, considerado a capital teocrática da cultura Nazca, onde os sacerdotes eram os únicos governantes. O sítio é composto por montes de diversas dimensões, que apresentam ligeiras modificações. Seu propósito parece estar mais voltado a atividades rituais do que à moradia.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "O tour começa com o transfer do hotel escolhido pelo cliente até o local de partida da excursão. As saídas são diárias, permitindo que os viajantes escolham o dia que melhor se adequa à sua agenda. A duração total da excursão é de 2 horas e 30 minutos, tempo que inclui tanto a visita aos destinos quanto os transfers internos durante o percurso, garantindo uma experiência confortável e enriquecedora para todos os participantes.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Roupa leve para caminhar",
+        "Protetor solar",
+        "Água",
+        "Câmera – filmadora – pilhas"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

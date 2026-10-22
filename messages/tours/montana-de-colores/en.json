@@ -7,5 +7,152 @@
   "type": "Trekking",
   "typeKey": "trekking",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embark on an exciting adventure to Rainbow Mountain and Vinicunca, a natural treasure in the Andes mountain range. From Cusco, you will travel through stunning landscapes, enjoy panoramic views of the Ausangate mountain and challenge your limits on a unique trek above 5,000 meters of altitude. Live this unforgettable experience and connect with the majesty of nature; book your spot now!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [
+        "We will start at 4:00 AM with pick-up from your accommodation in Cusco towards the South Valley.",
+        "During the drive, you will enjoy Andean landscapes, fertile valleys and a delicious breakfast.",
+        "You will begin the hike in Llacto, ascending through stunning landscapes to Rainbow Mountain.",
+        "You will explore the magical Red Valley, a surreal and peaceful place.",
+        "We will descend to Cusipata to enjoy a typical buffet lunch.",
+        "We will return to Cusco and leave you at your accommodation to rest."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Cusipata – Llacto – 7 Colors Mountain, Vinicunca – Red Valley Viewpoint",
+      "paragraphs": [
+        {
+          "text": "Pick-up at 4:00 AM from your accommodation in Cusco in private transport equipped with blankets for greater comfort. During the three-hour drive to the South Valley, you will enjoy scenic views, including Andean villages, fertile valleys and herds of llamas and alpacas. Along the way, we will stop to enjoy a nutritious continental breakfast before starting the hike.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "We will arrive at the starting point of the trek in Llacto, at 4,630 meters of altitude. From there, a hike of approximately 1.5 hours will begin along winding trails, surrounded by Andean mountains and with stunning views of the Ausangate mountain. During the journey, you will have the opportunity to observe local communities, learn about their traditional clothing and discover aspects of their rich culture."
+        },
+        {
+          "text": "We will reach the summit of Rainbow Mountain at 5,100 meters of height, where you will have time to explore, take photographs and learn more about the history and theories of the origin of this unique natural formation. After admiring this iconic site, we will continue with a 30-minute hike to the Red Valley viewpoint, an extraordinary place that looks like another planet."
+        },
+        {
+          "text": "After exploring the Red Valley, we will begin the two-hour descent to the starting point, passing through Andean communities and herds of llamas, with the possibility of spotting vicuñas. At the end of the hike, we will head to Cusipata, where you will enjoy a buffet lunch with typical dishes from the region. Finally, we will return by private transport to the city of Cusco, leaving you at the door of your accommodation around 5:00 PM so you can rest after a day full of adventure and unforgettable landscapes."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Hotel pick-up",
+        "Transportation",
+        "Breakfast",
+        "Lunch",
+        "Bilingual guide (Spanish and English)",
+        "Trekking pole",
+        "Vinicunca mountain entrance fee"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Horse (S/ 100 per person, subject to change, cash payment on the day of the tour)",
+        "ATVs",
+        "Tips"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Warm clothing",
+        "Waterproof clothing",
+        "Trekking footwear",
+        "Sun hat",
+        "Sunglasses",
+        "Sunscreen",
+        "Snacks",
+        "Water",
+        "Comfortable clothing",
+        "Trekking poles",
+        "Jacket",
+        "25-liter backpack for daily hikes",
+        "Hat and gloves for the cold",
+        "Waterproof backpack cover and rain poncho."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "Restrictions:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Not permitted for people with altitude-related conditions, not permitted for pregnant women and minimum required age of 12 years.",
+              "items": [""],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Cancellation and rescheduling policy:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "3 days.",
+              "items": [""],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Weather:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Subject to weather conditions.",
+              "items": [""],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

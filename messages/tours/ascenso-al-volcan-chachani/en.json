@@ -7,5 +7,126 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "2 Days - 1 Night",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Climbing Chachani Volcano is an unforgettable experience for lovers of adventure and the mountains. This imposing colossus, considered one of the guardians of the city of Arequipa, rises to 6,075 m a.s.l. and stands out for its scenic beauty as well as its cultural and historical importance. It is also the source of the famous sillar, the white volcanic stone that gives Arequipa its name, “The White City”. Chachani does not require technical climbing experience, but it does demand good acclimatization and physical fitness. Get ready to conquer one of the highest peaks in southern Peru!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "Arequipa – Starting Point – Base Camp",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "At 8:00 AM we will pick you up from your hotel in Arequipa.",
+            "We will travel for approximately 3 hours to reach the starting point of the hike, located at 4,900 m a.s.l.",
+            "We will begin a relaxed 2-hour uphill hike to base camp (5,200 m), enjoying the stunning Andean landscape and its biodiversity.",
+            "Once at camp, we will have lunch, set up our tents and rest while taking in a beautiful sunset."
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Day 2",
+      "subtitle": "Base Camp – Chachani Summit – Arequipa",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "Very early, at 2:00 AM, after a light breakfast, we will begin the ascent to the summit of Chachani (6,075 m). The hike will take about 7 hours, with spectacular sunrise views.",
+            "At the top we will enjoy an incredible panorama of Arequipa and the neighboring volcanoes such as Misti and Ampato. The perfect moment for photos and a rest!",
+            "We will then descend to base camp (about 3 hours), where we will have a snack and a short break.",
+            "Finally, we will continue down for another 2 hours to 4,900 m, where the transport back to the city will be waiting for us.",
+            "We will arrive in Arequipa at approximately 4:00 PM."
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Hotel pick-up",
+        "Private transport",
+        "Mountain guide",
+        "Camping gear (sleeping mat, tent)",
+        "Sleeping bag / Gloves",
+        "Climbing equipment: crampons, ice axes, ropes",
+        "1 lunch/dinner, 1 breakfast and 1 snack",
+        "First aid kit",
+        "Guide's assistant (for more than 5 passengers)",
+        "Oxygen bottle",
+        "Communications equipment",
+        "Vegetarian meal option"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Hiking boots",
+        "Headlamp",
+        "60-liter backpack",
+        "Trekking poles"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "1 60-liter backpack",
+        "Hat or beanie for the cold",
+        "Headlamp",
+        "Sunglasses",
+        "Sunscreen",
+        "1 rain jacket or poncho",
+        "1 jacket (fleece for the cold)",
+        "1 pair of gloves",
+        "Good hiking shoes",
+        "At least 4 liters of water per person",
+        "Personal medication / Toilet paper",
+        "Chocolate, fruit as snacks"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

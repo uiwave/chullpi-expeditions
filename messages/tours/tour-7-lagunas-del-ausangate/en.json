@@ -7,5 +7,100 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "Full Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Discover one of the most breathtaking corners of the Andes mountain range. This full-day tour will take you to explore the 7 most spectacular lakes at the foot of the majestic Ausangate snow peak, part of the Vilcanota mountain chain. Along the hike you will enjoy unique Andean landscapes, lakes in intense shades — from emerald to turquoise — and the chance to relax in natural hot springs with views of the sacred mountains of Ausangate and Ayangate. It is an experience that combines nature, culture and wellbeing in a single day.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Main highlights",
+      "items": [
+        "Azulcocha Lake",
+        "Otorongo Lake",
+        "Pucacocha Lake",
+        "Alqacocha Lake",
+        "Q’omercocha Lake",
+        "Orqo Otorongo Lake",
+        "China Otorongo Lake",
+        "Pacchanta Hot Springs"
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Day 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "4:30 AM – 5:00 AM\nPick-up from your accommodation in Cusco and departure to the village of Pacchanta, located at more than 4,000 m.a.s.l. on the slopes of Ausangate. The drive takes approximately 3 hours.",
+            "8:00 AM\nArrival in Pacchanta, where you will enjoy a traditional Andean breakfast before starting the hike.",
+            "9:00 AM – Start of the hike\nWe begin the trek to the 7 lakes. Over approximately 5 hours (round trip) you will visit the beautiful Azulcocha, Otorongo, Pucacocha, Alqacocha, Q’omercocha, Orqo Otorongo and China Otorongo lakes, each with its own special color and charm.",
+            "Along the way you will also be able to observe local wildlife such as alpacas, llamas, viscachas and high-Andean birds, as well as spectacular views of the Ausangate snow peak.",
+            "2:00 PM\nReturn to Pacchanta, where you will enjoy a delicious lunch prepared with local produce.",
+            "3:00 PM\nTime to relax in the Pacchanta hot springs, with views of the snow peaks — the perfect ending after an Andean hike.",
+            "4:00 PM\nReturn by tourist transport to the city of Cusco.",
+            "Around 7:30 PM\nArrival in Cusco and transfer to your hotel."
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Pick-up from your hotel in Cusco",
+        "Tourist transport",
+        "1 breakfast",
+        "1 lunch",
+        "Entrance to the 7 Lakes",
+        "Professional guide English – Spanish",
+        "First aid kit",
+        "Oxygen tank"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Entrance to the Hot Springs S/ 5.00", "Horse", "Dinner"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

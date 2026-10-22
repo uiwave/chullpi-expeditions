@@ -7,5 +7,119 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "6 Horas",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Arequipa é a segunda cidade mais populosa do Peru e uma das mais belas do país. Com sua fascinante arquitetura colonial, percorrer o centro histórico é algo que não pode deixar de fazer ao visitar Arequipa. Além disso, por estar em zona vulcânica, os vulcões Misti, Chachani e Pichu Pichu dão um enquadramento inigualável às paisagens que a cidade oferece.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "Roteiro do City Tour de Arequipa + Mosteiro de Santa Catalina + Mirantes",
+      "paragraphs": [
+        {
+          "text": "O passeio começa às 08h00, quando nosso transporte recolhe os passageiros no hotel. (O horário pode ser adaptado às preferências dos passageiros)*",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "O primeiro lugar a ser visitado será o Mirante Carmen Alto, de onde poderemos observar uma vista maravilhosa da cidade, enquadreada pelos vulcões Misti, Chachani e Pichu Pichu. Também dali se aprecia uma paisagem incomparável dos campos que ainda conservam terraços agrícolas incas e, claro, o rio Chili."
+        },
+        {
+          "text": "Em seguida, iremos até o distrito de Yanahuara, que também conta com um mirante emblemático de onde se apreciam belas vistas do paisagem. Mas o que mais se destaca nesse mirante são os seus 9 arcos construídos em sillar branco, nos quais foram gravadas frases populares e citações de personagens ilustres inspiradas na filosofia de vida do povo arequipeño."
+        },
+        {
+          "text": "Estando no distrito de Yanahuara, visitaremos a sua bonita praça principal e ali apreciaremos a pequena paróquia de San Juan Bautista de Yanahuara, que possui uma linda fachada em estilo barroco, construída no ano de 1750."
+        },
+        {
+          "text": "Posteriormente, o veículo nos deixará no bairro San Lazaro para começar o passeio a pé por pontos importantes da cidade, como o Centro Artesanal Fundo el Fierro, a praça San Francisco, a Biblioteca Mario Vargas Llosa e o Museo Santuarios Andino (momia Juanita)."
+        },
+        {
+          "text": "Logo depois, iremos até a Plaza de Armas para percorrê-la e, em seguida, visitaremos a Igreja da Companhia de Jesus, que fica ao lado da praça."
+        },
+        {
+          "text": "No interior da igreja, visitaremos os seus claustros, construídos no século XVIII."
+        },
+        {
+          "text": "Posteriormente, visitaremos a casona Tristán del Pozo, uma casa colonial construída no ano de 1738 e cuja fachada se destaca por ser um dos maiores exponentes da ornamentação típica arequipeña."
+        },
+        {
+          "text": "O último ponto a ser visitado no passeio é o Mosteiro de Santa Catalina, localizado no centro histórico da cidade."
+        },
+        {
+          "text": "Aqui poderemos apreciar quatro séculos de arquitetura arequipeña. Dentro do mosteiro encontraremos claustros, celas, pequenas ruas internas cheias de flores, espaços de estar e descanso e muralhas pintadas com tintes frescos."
+        },
+        {
+          "text": "O passeio terminará por volta das 14h00 no Mosteiro (centro histórico)."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Guia profissional bilíngue (inglês/espanhol; guia em português com custo adicional, sujeito à disponibilidade)",
+        "Transporte para visitar os mirantes."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Lanches.",
+        "Despesas pessoais.",
+        "Gorjetas.",
+        "Entrada no Mosteiro de Santa Catalina. (45 soles)",
+        "Entrada no mirante de Carmen Alto. (5 soles)",
+        "Entrada no Museu dos Santuários Andinos (25 soles)"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Passaporte",
+        "Boné para o sol",
+        "Protetor solar.",
+        "Roupa confortável.",
+        "Dinheiro em espécie (soles) para o pagamento das entradas."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

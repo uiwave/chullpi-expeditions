@@ -7,5 +7,109 @@
   "type": "Adventure",
   "typeKey": "aventura",
   "duration": "Half Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Live a unique experience sailing to the Uros Floating Islands, a fascinating corner located just 20 to 30 minutes from the port of Puno.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "During this approximately 3-hour tour, you will delve into the ancestral legacy of one of the oldest peoples of the Andean altiplano, discovering their way of life in harmony with Lake Titicaca."
+    },
+    {
+      "text": "These floating islands, true works of ancestral wisdom, are made entirely of Totora, a water plant essential to the Uros. With it they build their homes, their rafts, and even the island itself, also using it as food and fuel. Their construction consists of intertwining blocks of Totora roots, whose properties allow them to float naturally. To keep them habitable, the communities must constantly renew the surface layer, adding new Totora every 20 days."
+    },
+    {
+      "text": "As you explore the islands, you will not only get to know a way of life that has survived the passage of time, but you will also become part of an authentic cultural experience. You will learn about their fishing and hunting practices, and how they preserve their identity while respectfully adapting to the environment of the majestic Lake Titicaca."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Morning",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "We start the adventure with pick-up from hotels in central Puno at 8:45 AM, then head to the main port. At 9:15 AM, we set off by boat toward the stunning floating world of the Uros. At approximately 10:00 AM, we arrive to visit two of its islands, where you can get to know their culture, architecture and way of life up close. After this enriching experience, we return to the city, arriving at hotels in central Puno at around 12:30 PM.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Half Day",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "The half-day tour begins with pick-up at hotels in central Puno at 11:50 AM. We then head to the port to board at 12:15 PM bound for the floating islands. At 12:45 PM we reach our destination to explore two islands, interact with local families and admire the singular construction made with Totora. Once the visit is over, we return to central Puno, with an estimated arrival at the hotels at 3:15 PM.",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Hotel – Port – Hotel transfer.",
+        "Motorized tourist boat.",
+        "Spanish/English guide.",
+        "Entrance tickets."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Tips.",
+        "Local boat ride (Totora Raft) in Uros, optional service, lasts approximately 10 to 15 minutes, the price is (S/10.00 soles) or ($3.00 Dollars) per person and payment is made to the local inhabitant.",
+        "Others not mentioned."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Bring light clothing as well as warm clothing, the weather is cold in the mornings, hot at midday and windy in the afternoons.",
+        "Bring a hat, sunscreen and sunglasses.",
+        "Comfortable shoes/sneakers for the walk.",
+        "Cash (Soles) in case you wish to buy souvenirs/mementos, they do not accept credit/debit cards.",
+        "Drinks and snacks (Water, rehydrates, etc.).",
+        "Waterproof jacket or plastic poncho, only for the rainy season (November – March)."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

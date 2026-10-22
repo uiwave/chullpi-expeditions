@@ -7,5 +7,110 @@
   "type": "Aventura",
   "typeKey": "aventura",
   "duration": "2 Dias - 1 Noite",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Viva uma experiência única de 2 dias repletos de emoção, diversão e cultura. Aprecie um impressionante pôr do sol nas dunas de Ica, prove os melhores vinhos e piscos da região e conecte-se com as pessoas e tradições locais. Passe um dia inesquecível na Lagoa de Huacachina e admire as enigmáticas Linhas de Nazca em todo o seu esplendor. Aproveite ao máximo esses 2 dias de aventura!",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "6h00: Saída de Lima (terminal terrestre Cruz del Sur ou Perú Bus VIP).",
+            "11h30: Recolhimento dos passageiros (no hotel ou na rodoviária) para iniciar o tour em Ica.",
+            "Visitaremos Cachiche, onde exploraremos a famosa palmeira de sete cabeças e o Parque Temático das Bruxas, conhecendo a parte mais mística da região.",
+            "Continuaremos até a Casa de las Tejas, onde você poderá adquirir, opcionalmente, as tradicionais tejas e chocotejas de Ica.",
+            "Em seguida, visitaremos uma vinícola artesanal em Ica, onde aprenderemos sobre o processo de elaboração de vinhos e piscos artesanais. Durante a visita, você poderá degustar uma variedade de vinhos, piscos e cachinas e desfrutar da comida típica local no almoço.",
+            "Faremos uma parada no Oásis de Huacachina, onde você poderá admirar a impressionante paisagem da lagoa cercada por grandes dunas.",
+            "Faremos um empolgante passeio em veículos tubulares 4x4 e teremos a oportunidade de praticar sandboard no deserto de Huacachina, vivendo uma experiência cheia de adrenalina. Durante o percurso, o motorista parará o veículo para ensinar técnicas de deslize e, uma vez lá embaixo, o tubular o buscará para continuar a atividade em outras dunas.",
+            "17h00: Transfer para o hotel (horário aproximado)."
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Dia 2",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [
+            "7h00: Transfer do hotel para o Aeródromo María Reiche, em Nazca (conforme coordenação prévia).",
+            "No aeródromo, serão seguidos os procedimentos de embarque, com tempo de espera de 1 a 2 horas, aproximadamente, dependendo da demanda e do clima. Cada passageiro será pesado com seus acessórios para embarcar na avioneta. O peso máximo permitido é de 95 kg e, caso seja excedido, deverá ser pago um assento adicional.",
+            "Embarcaremos na avioneta para fazer o sobrevoo sobre as misteriosas Linhas de Nazca, onde poderão ser apreciadas figuras como a Aranha, o Beija-flor, o Macaco, a Baleia, o Condor, as Mãos e o enigmático Astronauta. O voo terá duração aproximada de 30 minutos.",
+            "Retorno a Ica e tempo livre para o almoço.",
+            "16h00: Retorno a Lima de ônibus."
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Bilhete de ônibus Lima / Ica / Lima.",
+        "Transfers / Rodoviária – Hotel / Hotel – Aeródromo – Rodoviária.",
+        "1 diária de hospedagem em Ica (hotel 2 estrelas).",
+        "City Tour de Ica + Vinícola com degustação + Huacachina + Tubulares + guia.",
+        "Ingressos de entrada em Ica e Nazca.",
+        "Sobrevoo das Linhas de Nazca.",
+        "Atendimento personalizado"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Café da manhã, almoços e jantar.",
+        "Outros não especificados no programa."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

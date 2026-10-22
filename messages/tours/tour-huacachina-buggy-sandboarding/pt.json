@@ -7,5 +7,103 @@
   "type": "Tour Diário",
   "typeKey": "daily-tour",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Passe um dia incrível nas dunas de Huacachina, com passeio em transporte tubular 4X4 e práticas de sandboarding no deserto de Huacachina. Esta travessia o levará por belas dunas onde você desfrutará de uma incrível adrenalina extrema. O motorista lhe oferecerá algumas técnicas importantes para poder deslizar com as tábuas; uma vez embaixo, o tubular irá até você e você poderá continuar praticando sobre diferentes dunas e tirar fotografias espetaculares do deserto, que nos mostra um belo capricho da natureza.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "Nossos clientes são recolhidos no seu hotel ou estação de ônibus na cidade de Ica para serem levados ao Oásis de Huacachina.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Passeio em transporte tubular 4X4 e práticas de sandboarding no deserto de Huacachina."
+        },
+        {
+          "text": "Esta travessia o levará por belas dunas onde você desfrutará de uma incrível adrenalina extrema."
+        },
+        {
+          "text": "Por um tempo de aproximadamente 1 hora. Uma vez no topo das dunas, o motorista parará a máquina para oferecer-lhe algumas técnicas importantes para poder deslizar com as tábuas; uma vez embaixo, o tubular irá até você e você poderá continuar praticando sobre diferentes dunas e tirar espetaculares"
+        },
+        {
+          "text": "Fotografias do deserto que nos mostram um belo capricho da natureza; na volta, o transporte fará uma última parada na duna de Huacachina para poder apreciar e tirar as melhores fotografias do belo oásis do alto."
+        },
+        {
+          "text": "Caminhada pelos arredores do Oásis. Além disso, você poderá desfrutar de fotografias espetaculares de qualquer ângulo."
+        },
+        {
+          "text": "Fim dos nossos serviços."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Traslados do seu hotel em Ica / Huacachina.",
+        "Passeios de buggy.",
+        "Tábua para a prática do sandboarding.",
+        "Ingressos de entrada.",
+        "Instrutor altamente experiente.",
+        "Assistência permanente."
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Retorno ao hotel ou terminal de ônibus.",
+        "Alimentação, água: Lanches e bebidas durante o percurso.",
+        "Presentes, lembranças.",
+        "Gorjetas por serviço (a voluntário)."
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

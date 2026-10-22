@@ -7,5 +7,92 @@
   "type": "Day Tour",
   "typeKey": "daily-tour",
   "duration": "1 Day",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "This ATV tour offers a unique experience that blends adventure and culture in the spectacular landscapes of the Sacred Valley. We begin in Cruzpata, where you will receive a brief orientation on how to ride your ATV. Along the way, you can enjoy magnificent views of snow-capped mountains, farmland, and traditional Andean communities.",
+      "items": [],
+      "blocks": []
+    },
+    {
+      "text": "The route includes a visit to the Moray archaeological complex, an ancient Inca agricultural experimental site with circular terraces, and then to the surprising Salt Mines of Maras, which have been exploited since pre-Inca times. It is the perfect alternative for those looking to discover the living history of the Andes in a fun, different, and safe way."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "ATV Moray – Salt Mines",
+      "items": [
+        "Pick-up from your hotel in Cusco and departure to the community of Cruzpata.",
+        "Safety instructions and a brief ATV practice session.",
+        "Start of the ATV ride along rural roads with beautiful panoramic views.",
+        "Arrival at the Moray archaeological complex, guided visit, and time for photos.",
+        "Continue by ATV to the Salt Mines of Maras, located on the mountainside.",
+        "Visit to the viewpoint to observe the more than 3,000 salt pools.",
+        "Return by ATV to Cruzpata.",
+        "Transfer back to Cusco."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "text": "",
+          "items": [],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": ["Professional English – Spanish guide."],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": ["Other services not mentioned"],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Windbreaker jacket.",
+        "Sneakers or comfortable shoes.",
+        "Sunscreen.",
+        "Water bottle.",
+        "Sunglasses.",
+        "Camera."
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }

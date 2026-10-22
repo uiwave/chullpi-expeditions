@@ -7,5 +7,133 @@
   "type": "Trekking",
   "typeKey": "trekking",
   "duration": "Dia Inteiro",
-  "popular": false
+  "popular": false,
+  "description": [
+    {
+      "text": "Embarque numa aventura única a Waqrapukara, uma fortaleza impressionante às margens do cânion do Apurímac. Explore este enigmático sítio arqueológico, aproveite as belas paisagens das lagoonas e penhascos, e aprenda sobre a história pré-inca e inca em um passeio que vai deixar você sem fôlego.",
+      "items": [],
+      "blocks": []
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Waqrapukara",
+      "items": [
+        "04:00 a.m. Saída do hotel rumo a Quiquijana para o café da manhã.",
+        "Continuamos contornando a lagoa de Pomacanchi e viajamos até Santa Lucía.",
+        "Caminhada de 1,5 horas até o mirante de Waqrapukara.",
+        "Explore o complexo arqueológico por 1,5 horas.",
+        "Retorno pelo mesmo trilho e volta a Cusco, chegando às 5:00 p.m."
+      ],
+      "blocks": []
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Dia 1",
+      "subtitle": "Cusco – Quiquijana – Pomacanchi – Waqrapukara",
+      "paragraphs": [
+        {
+          "text": "O dia começa muito cedo com o recolhimento no seu hotel às 04:00 a.m., e em seguida pegaremos um transporte privado até a vila de Quiquijana, onde você poderá aproveitar um café da manhã para recarregar as energias. Depois disso, continuaremos nossa viagem contornando a lagoa de Pomacanchi, uma das maiores da região, cercada por pradarias e campos de cultivo.",
+          "items": [],
+          "blocks": []
+        },
+        {
+          "text": "Após aproximadamente uma hora de viagem, chegaremos à vila de Santa Lucía, onde seguiremos uma estrada não asfaltada por mais uma hora, atravessando paisagens espetaculares, com a lagoa de Pomacanchi ao longe. Finalmente, chegaremos ao ponto de partida da caminhada, onde você terá tempo para se preparar."
+        },
+        {
+          "text": "A caminhada inicial tem duração de 1,5 horas, atravessando penhascos e aproveitando vistas impressionantes do cânion do Apurímac, um dos mais profundos do Peru. Conforme avançamos, você se surpreenderá com a beleza da paisagem até chegar ao mirante de Waqrapukara, onde poderá descansar e tirar as primeiras fotos da fortaleza, que se ergue majesticamente às margens do cânion."
+        },
+        {
+          "text": "A partir do mirante, descaremos por um trilho íngreme até o complexo arqueológico de Waqrapukara, enquanto observamos o rio Apurímac fluindo ao longe. Você terá 1,5 horas para explorar este misterioso local, conhecido por suas construções pré-incas e incas, terraços e a famosa formação rochosa em forma de chifres. O complexo é um lugar ideal para aprender sobre a rica história andina e aproveitar as vistas impressionantes."
+        },
+        {
+          "text": "Quando todos estiverem prontos, começaremos o retorno pelo mesmo trilho, o que levará cerca de 1,5 horas. Finalmente, chegaremos ao transporte privado que nos levará de volta a Cusco, com chegada estimada às 5:00 p.m. para concluir esta incrível aventura."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "",
+      "items": [
+        "Transporte turístico",
+        "Guia bilíngue",
+        "Café da manhã e Almoço",
+        "Kit de primeiros socorros",
+        "Oxigênio",
+        "Mantas e bastões"
+      ],
+      "blocks": []
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "",
+      "items": [
+        "Alimentação não mencionada no programa",
+        "Despesas pessoais",
+        "Gorjetas"
+      ],
+      "blocks": []
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "",
+      "items": [
+        "Mochila pequena",
+        "Jaqueta de chuva ou poncho",
+        "Suéter ou moleton para o frio",
+        "Protetor solar",
+        "Repelente de insetos",
+        "Câmera com bateria extra",
+        "Chapéu ou boné",
+        "Óculos de sol",
+        "Sapatos confortáveis para caminhadas",
+        "Água mineral",
+        "Lanches: chocolates, frutas secas, barras de cereais",
+        "Papel higiênico"
+      ],
+      "blocks": []
+    }
+  ],
+  "additionals": [
+    {
+      "title": "Política de cancelamento e remarcação:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "3 dias.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "title": "Clima:",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "",
+          "price": "",
+          "description": [
+            {
+              "text": "Sujeito a condições meteorológicas.",
+              "items": [],
+              "blocks": []
+            }
+          ],
+          "blocks": []
+        }
+      ]
+    }
+  ]
 }
