@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { useTranslations } from "next-intl";
 import { ArrowRight, Send, X } from "lucide-react";
 import { cn } from "cn";
@@ -118,145 +119,150 @@ export default function BookingSidebar({
         </button>
       </div>
 
-      {open && (
-        <div className="fixed inset-0 z-50 overflow-y-auto p-4 sm:flex sm:items-center sm:justify-center sm:p-6">
-          <div
-            onClick={() => setOpen(false)}
-            className="fixed inset-0 bg-black/70"
-            aria-hidden="true"
-          />
-          <div
-            ref={dialogRef}
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="booking-modal-title"
-            className="relative z-10 my-6 w-full max-w-lg rounded-2xl bg-white p-6 shadow-2xl sm:p-8"
-          >
-            <div className="mb-6 flex items-start justify-between gap-4">
-              <div>
-                <h2
-                  id="booking-modal-title"
-                  className="text-secondary font-heading text-2xl font-semibold"
-                >
-                  {t("title")}
-                </h2>
-                <p className="text-foreground mt-1 text-sm">{tourTitle}</p>
-              </div>
-              <button
-                type="button"
-                onClick={() => setOpen(false)}
-                aria-label={t("closeAria")}
-                className="text-foreground hover:text-primary -mt-1 -mr-1 inline-flex size-10 shrink-0 cursor-pointer items-center justify-center rounded-full transition-colors"
-              >
-                <X className="size-5" aria-hidden="true" />
-              </button>
-            </div>
-
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-              <div>
-                <label htmlFor="booking-tour" className={labelClass}>
-                  {t("tourLabel")}
-                </label>
-                <input
-                  id="booking-tour"
-                  name="tour"
-                  type="text"
-                  value={tourTitle}
-                  readOnly
-                  className={cn(fieldClass, "bg-muted/50 cursor-not-allowed")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="booking-name" className={labelClass}>
-                  {t("nameLabel")}
-                </label>
-                <input
-                  id="booking-name"
-                  name="name"
-                  type="text"
-                  required
-                  autoComplete="name"
-                  className={fieldClass}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="booking-email" className={labelClass}>
-                  {t("emailLabel")}
-                </label>
-                <input
-                  id="booking-email"
-                  name="email"
-                  type="email"
-                  required
-                  autoComplete="email"
-                  className={fieldClass}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="booking-phone" className={labelClass}>
-                  {t("whatsappLabel")}
-                </label>
-                <input
-                  id="booking-phone"
-                  name="phone"
-                  type="tel"
-                  required
-                  inputMode="tel"
-                  autoComplete="tel"
-                  placeholder="+51 999 888 777"
-                  className={fieldClass}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="booking-date" className={labelClass}>
-                  {t("selectDate")}
-                </label>
-                <input
-                  id="booking-date"
-                  name="date"
-                  type="date"
-                  required
-                  min={minDate}
-                  onFocus={() =>
-                    setMinDate(new Date().toISOString().split("T")[0])
-                  }
-                  className={fieldClass}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="booking-message" className={labelClass}>
-                  {t("messageLabel")}
-                </label>
-                <textarea
-                  id="booking-message"
-                  name="message"
-                  rows={4}
-                  placeholder={t("messagePlaceholder")}
-                  className={cn(fieldClass, "h-auto resize-none pt-3.5 pb-3.5")}
-                />
-              </div>
-
-              <div className="pt-2">
+      {open &&
+        createPortal(
+          <div className="fixed inset-0 z-[100] overflow-y-auto p-4 sm:flex sm:items-center sm:justify-center sm:p-6">
+            <div
+              onClick={() => setOpen(false)}
+              className="fixed inset-0 bg-black/70"
+              aria-hidden="true"
+            />
+            <div
+              ref={dialogRef}
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="booking-modal-title"
+              className="relative z-10 my-6 w-full max-w-lg rounded-2xl bg-white p-6 shadow-2xl sm:p-8"
+            >
+              <div className="mb-6 flex items-start justify-between gap-4">
+                <div>
+                  <h2
+                    id="booking-modal-title"
+                    className="text-secondary font-heading text-2xl font-semibold"
+                  >
+                    {t("title")}
+                  </h2>
+                  <p className="text-foreground mt-1 text-sm">{tourTitle}</p>
+                </div>
                 <button
-                  type="submit"
-                  className="bg-secondary group relative inline-flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full px-8 py-[14px]"
+                  type="button"
+                  onClick={() => setOpen(false)}
+                  aria-label={t("closeAria")}
+                  className="text-foreground hover:text-primary -mt-1 -mr-1 inline-flex size-10 shrink-0 cursor-pointer items-center justify-center rounded-full transition-colors"
                 >
-                  <div className="bg-primary absolute inset-0 -translate-x-full rounded-full transition-transform duration-300 ease-out group-hover:translate-x-0" />
-                  <span className="relative z-10 inline-flex items-center gap-2 text-base font-medium text-white">
-                    {t("submitButton")}
-                    <Send className="size-4 -rotate-12" aria-hidden="true" />
-                  </span>
+                  <X className="size-5" aria-hidden="true" />
                 </button>
               </div>
-            </form>
-          </div>
-        </div>
-      )}
+
+              <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+                <div>
+                  <label htmlFor="booking-tour" className={labelClass}>
+                    {t("tourLabel")}
+                  </label>
+                  <input
+                    id="booking-tour"
+                    name="tour"
+                    type="text"
+                    value={tourTitle}
+                    readOnly
+                    className={cn(fieldClass, "bg-muted/50 cursor-not-allowed")}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="booking-name" className={labelClass}>
+                    {t("nameLabel")}
+                  </label>
+                  <input
+                    id="booking-name"
+                    name="name"
+                    type="text"
+                    required
+                    autoComplete="name"
+                    className={fieldClass}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="booking-email" className={labelClass}>
+                    {t("emailLabel")}
+                  </label>
+                  <input
+                    id="booking-email"
+                    name="email"
+                    type="email"
+                    required
+                    autoComplete="email"
+                    className={fieldClass}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="booking-phone" className={labelClass}>
+                    {t("whatsappLabel")}
+                  </label>
+                  <input
+                    id="booking-phone"
+                    name="phone"
+                    type="tel"
+                    required
+                    inputMode="tel"
+                    autoComplete="tel"
+                    placeholder="+51 999 888 777"
+                    className={fieldClass}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="booking-date" className={labelClass}>
+                    {t("selectDate")}
+                  </label>
+                  <input
+                    id="booking-date"
+                    name="date"
+                    type="date"
+                    required
+                    min={minDate}
+                    onFocus={() =>
+                      setMinDate(new Date().toISOString().split("T")[0])
+                    }
+                    className={fieldClass}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="booking-message" className={labelClass}>
+                    {t("messageLabel")}
+                  </label>
+                  <textarea
+                    id="booking-message"
+                    name="message"
+                    rows={4}
+                    placeholder={t("messagePlaceholder")}
+                    className={cn(
+                      fieldClass,
+                      "h-auto resize-none pt-3.5 pb-3.5",
+                    )}
+                  />
+                </div>
+
+                <div className="pt-2">
+                  <button
+                    type="submit"
+                    className="bg-secondary group relative inline-flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full px-8 py-[14px]"
+                  >
+                    <div className="bg-primary absolute inset-0 -translate-x-full rounded-full transition-transform duration-300 ease-out group-hover:translate-x-0" />
+                    <span className="relative z-10 inline-flex items-center gap-2 text-base font-medium text-white">
+                      {t("submitButton")}
+                      <Send className="size-4 -rotate-12" aria-hidden="true" />
+                    </span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>,
+          document.body,
+        )}
     </>
   );
 }
