@@ -7,5 +7,72 @@
   "type": "Ingresso",
   "typeKey": "ticket",
   "duration": "Mais de 6 horas",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Viva a aventura andina definitiva combinando emocionantes passeios de ATV com impressionantes paisagens naturais. Explore o Vale Vermelho, a Montanha Arco-Íris e o Vinicunca enquanto desfruta de ingressos incluídos, almoço buffet e café da manhã. Viaje com segurança em grandes altitudes com um guia local profissional que compartilha conhecimentos culturais e garante uma experiência memorável. Perfeito para amantes da aventura e da natureza, este passeio oferece uma maneira única de se conectar com os Andes e criar memórias inesquecíveis."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Itinerário do passeio:",
+      "items": [
+        "Recolhimento em hotéis do centro de Cusco, ponto de encontro na Plaza de Armas ou no Aeroporto Velazco Astete.",
+        "Transporte até os pontos de partida nos Andes.",
+        "Café da manhã antes de iniciar a atividade.",
+        "Aventura de ATV pelo Vale Vermelho, Montanha Arco-Íris e Vinicunca (com vistas panorâmicas da montanha Ausangate a mais de 5.000 m n.m.).",
+        "Almoço buffet durante o passeio.",
+        "Retorno e encerramento do percurso com desembarque na Plaza Regocijo."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Rainbow Mountain Peru",
+      "subtitle": "Suecia 348, Cusco 08000 Peru",
+      "paragraphs": [
+        {
+          "text": "Embarque numa emocionante aventura de ATV ao Vale Vermelho, à Montanha Arco-Íris e ao Vinicunca, um tesouro natural nos Andes. A partir de Cusco, você explorará paisagens impressionantes, desfrutará de vistas panorâmicas da montanha Ausangate e experimentará a emoção de pilotar seu veículo todo-terreno a mais de 5.000 metros acima do nível do mar. O passeio inclui café da manhã, almoço buffet e a orientação de um guia local profissional que compartilhará informações sobre a região e sua cultura. Conecte-se com a majestosidade da natureza e crie memórias inesquecíveis. Reserve sua vaga agora e viva esta aventura única!"
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Serviços incluídos:",
+      "items": [
+        "Recolhimento em hotéis do centro de Cusco",
+        "Transporte até os pontos de partida do passeio",
+        "Aventura de ATV pelo Vale Vermelho, Montanha Arco-Íris e Vinicunca",
+        "Ingressos para Vale Vermelho e Montanha Arco-Íris",
+        "Café da manhã antes da atividade",
+        "Almoço buffet durante o passeio",
+        "Guia local profissional em Espanhol e Inglês",
+        "Equipamento de segurança: capacete, luvas e equipamento de proteção",
+        "Entrada - Rainbow Mountain Peru"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Serviços não incluídos:",
+      "items": ["Gorjetas para o guia ou motorista", "Despesas pessoais"]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Informações adicionais e condições do serviço:",
+      "items": [
+        "Idade permitida: De 16 a 64 anos. Máximo de 15 viajantes por grupo.",
+        "Duração total: 12h10 (Duração da atividade na Montanha Arco-Íris: 6 horas). Horário de início sujeito à disponibilidade.",
+        "Idiomas: Espanhol, Inglês e 1 mais.",
+        "Política de cancelamento: Cancelamento gratuito com reembolso total se cancelado até 24 horas antes do início da experiência (horário local). Opção de reserve agora e pague depois.",
+        "Detalhes do recolhimento e início: Recolhimento oferecido em hotéis do centro de Cusco e no Aeroporto Velazco Astete. Se o hotel estiver fora do raio, o ponto de encontro é na Plaza de Armas de Cusco. Esteja pronto 15 minutos antes. O guia carregará uma placa fotográfica com o logotipo da agência.",
+        "Ponto de término: Plaza Regocijo (F2M9+5X2, Cusco 08002, Peru).",
+        "Acessibilidade e saúde: Não é acessível para cadeiras de rodas. Há transporte público nas proximidades. Não é recomendado para gestantes nem adequado para viajantes com condições cardíacas ou outros problemas médicos graves. É necessário nível físico médio.",
+        "Clima: A experiência requer bom tempo. Em caso de cancelamento por más condições climáticas, será oferecida outra data ou o reembolso total do valor pago."
+      ]
+    }
+  ],
+  "additionals": []
 }

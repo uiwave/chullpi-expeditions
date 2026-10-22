@@ -7,5 +7,72 @@
   "type": "Ticket",
   "typeKey": "ticket",
   "duration": "More than 6 hours",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Experience the ultimate Andean adventure combining thrilling ATV rides with stunning natural landscapes. Explore the Red Valley, Rainbow Mountain and Vinicunca while enjoying included entrance tickets, buffet lunch and breakfast. Travel safely at high altitudes with a professional local guide who shares cultural knowledge and ensures a memorable experience. Perfect for adventure and nature lovers, this tour offers a unique way to connect with the Andes and create unforgettable memories."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Tour itinerary:",
+      "items": [
+        "Pick-up at central hotels in Cusco, meeting point at Plaza de Armas or from Velazco Astete Airport.",
+        "Transportation to the starting points in the Andes.",
+        "Breakfast before starting the activity.",
+        "ATV adventure through the Red Valley, Rainbow Mountain and Vinicunca (with panoramic views of Mount Ausangate at over 5,000 m.a.s.l.).",
+        "Buffet lunch during the tour.",
+        "Return and end of the tour with drop-off at Plaza Regocijo."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Rainbow Mountain Peru",
+      "subtitle": "Suecia 348, Cusco 08000 Peru",
+      "paragraphs": [
+        {
+          "text": "Embark on an exciting ATV adventure to the Red Valley, Rainbow Mountain and Vinicunca, a natural treasure in the Andes. From Cusco, you will explore stunning landscapes, enjoy panoramic views of Mount Ausangate and experience the thrill of riding your off-road vehicle at over 5,000 meters above sea level. The tour includes breakfast, buffet lunch and the guidance of a professional local guide who will share information about the area and its culture. Connect with the majesty of nature and create unforgettable memories. Book your spot now and live this unique adventure!"
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Services included:",
+      "items": [
+        "Pick-up at central hotels in Cusco",
+        "Transportation to the tour starting points",
+        "ATV adventure through the Red Valley, Rainbow Mountain and Vinicunca",
+        "Entrance tickets to Red Valley and Rainbow Mountain",
+        "Breakfast before the activity",
+        "Buffet lunch during the tour",
+        "Professional local guide in Spanish and English",
+        "Safety equipment: helmet, gloves and protective gear",
+        "Entrance - Rainbow Mountain Peru"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Services not included:",
+      "items": ["Tips for the guide or driver", "Personal expenses"]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Additional information and service conditions:",
+      "items": [
+        "Allowed age: From 16 to 64 years old. Maximum 15 travelers per group.",
+        "Total duration: 12h 10m (Rainbow Mountain activity duration: 6 hours). Start time subject to availability.",
+        "Languages: Spanish, English and 1 more.",
+        "Cancellation policy: Free cancellation with full refund if cancelled up to 24 hours before the experience starts (local time). Book now, pay later option available.",
+        "Pick-up and start details: Pick-up is offered at central hotels in Cusco and at Velazco Astete Airport. If the hotel is outside the range, the meeting point is at Plaza de Armas in Cusco. Be ready 15 minutes early. The guide will carry a photo placard with the agency's logo.",
+        "End point: Plaza Regocijo (F2M9+5X2, Cusco 08002, Peru).",
+        "Accessibility and health: Not wheelchair accessible. Public transportation nearby. Not recommended for pregnant women or suitable for travelers with heart conditions or other serious medical issues. Medium fitness level required.",
+        "Weather: This experience requires good weather. In case of cancellation due to poor weather conditions, another date or a full refund of the amount paid will be offered."
+      ]
+    }
+  ],
+  "additionals": []
 }

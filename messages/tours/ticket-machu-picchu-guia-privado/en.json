@@ -7,5 +7,75 @@
   "type": "Ticket",
   "typeKey": "ticket",
   "duration": "2 hours",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Unlike standard tickets, this option includes a licensed private guide who will accompany you inside Machu Picchu. Not only will you enter the citadel, but you will also enjoy a personalized 2-hour tour tailored to your interests and pace."
+    },
+    {
+      "text": "Admission is confirmed for Circuit 1, 2 or 3 (subject to availability), guaranteeing access to one of the New Seven Wonders of the World. With priority assistance at the main gate and exclusive insights from your guide, this experience turns your visit into a memorable journey beyond a simple ticket."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Tour itinerary:",
+      "items": [
+        "Meet your private guide and receive priority assistance at the main entrance of Machu Picchu.",
+        "2-hour private guided tour of Circuit 1, 2 or 3 (subject to availability).",
+        "Exploration of iconic areas: Temple of the Sun, Main Plaza, agricultural terraces, ceremonial enclosures and panoramic viewpoints.",
+        "Explanation of Inca history, architecture and spirituality at a personalized pace, with time for photographs.",
+        "Guided tour ends inside the citadel."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Machu Picchu",
+      "subtitle": "Machu Picchu, Peru",
+      "paragraphs": [
+        {
+          "text": "Travelers will explore the majestic Inca citadel of Machu Picchu accompanied by a private guide. Depending on availability, admission will be confirmed for Circuit 1, 2 or 3, each offering a unique perspective of this UNESCO World Heritage Site."
+        },
+        {
+          "text": "On the guided walk, visitors will discover iconic areas such as the Temple of the Sun, the Main Plaza, agricultural terraces, ceremonial enclosures and stunning viewpoints overlooking the entire citadel. Your private guide will explain the history, architecture and spiritual importance of Machu Picchu, answering all your questions at your own pace."
+        },
+        {
+          "text": "This experience provides approximately 2 hours of personalized guidance, ensuring you make the most of your visit and capture unforgettable photos of one of the New Seven Wonders of the World."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Services included:",
+      "items": [
+        "Machu Picchu entrance ticket (Circuit 1, 2 or 3, subject to availability)",
+        "Private guide"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Services not included:",
+      "items": ["Meals and drinks (lunch not included)"]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Additional and important information:",
+      "items": [
+        "Allowed age: From 3 to 85 years old.",
+        "Duration: 2 hours. Start time subject to availability.",
+        "Available in languages: Spanish and English.",
+        "Mobile ticket available.",
+        "Accessibility: Not wheelchair accessible, babies must sit on a lap, service animals allowed, public transportation nearby.",
+        "Fitness level and restrictions: Medium fitness level required. Not recommended for travelers with back problems, pregnant women, or people with heart conditions or other serious medical issues.",
+        "Mandatory after booking: Send clear photos of all participants' passports through the Viator messaging system, WhatsApp (+51 940 468 520) or email (reservas@chullpiexpeditions.com) to correctly issue the entry tickets.",
+        "Circuit and schedule availability: Circuits (Circuit 1, 2 or 3) are subject to availability at the time of purchase. Available entry times are only at 6:00am, 7:00am, 8:00am and 9:00am.",
+        "Train coordination: You must verify or coordinate train schedules BEFORE purchasing train tickets, as Machu Picchu entry must be secured first (it is recommended to contact via WhatsApp at +51 940 468 520 before booking).",
+        "Weather conditions: This experience requires good weather. If cancelled due to poor weather conditions, another date or a full refund of the amount paid will be offered."
+      ]
+    }
+  ],
+  "additionals": []
 }

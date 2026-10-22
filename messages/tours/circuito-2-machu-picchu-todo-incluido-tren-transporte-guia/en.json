@@ -7,5 +7,77 @@
   "type": "Ticket",
   "typeKey": "ticket",
   "duration": "15 to 18 hours",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Secure your access to the most iconic route of Machu Picchu: Circuit 2. By booking this premium experience, you guarantee the classic postcard view while enjoying a seamless, high-end journey. We eliminate the crowds and logistics, replacing them with a refined, tailored service for those who demand the best."
+    },
+    {
+      "text": "What sets us apart?\n\n100% Private Transport: Enjoy a comfortable private vehicle from your hotel in Cusco directly to the train station—no waiting for large groups.\n\nCircuit 2 Guaranteed: We secure the most sought-after entry for the best views of the citadel.\n\nExclusive Rest Area: Access to a dedicated space in Aguas Calientes where you can use the facilities and relax comfortably while waiting for your return train.\n\nAll-Inclusive Logistics: We handle your tourist trains, bus tickets, and provide an expert private guide.\n\nWe don't just sell a tour; we give you peace of mind so you can focus on the Wonder of the World."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Tour itinerary:",
+      "items": [
+        "Private van pick-up directly at your hotel or Airbnb in Cusco, heading to the train station.",
+        "Outbound tourist train journey to Aguas Calientes.",
+        "Shuttle bus transfer up to the Machu Picchu citadel.",
+        "2.5-hour private guided tour of Circuit 2 (Classic Route) in Machu Picchu.",
+        "Shuttle bus ride down to Aguas Calientes and access to an exclusive rest area.",
+        "Return tourist train journey and private transfer back to Cusco."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Historic Sanctuary of Machu Picchu",
+      "subtitle": "Machu Picchu Peru",
+      "paragraphs": [
+        {
+          "text": "Explore the famous archaeological site of Machu Picchu through the exclusive Circuit 2 (Classic Route). Accompanied by your expert private guide, you will enjoy a 2.5-hour tour visiting the most important sectors of the citadel, including the Temple of the Sun, the Sacred Plaza and the Intihuatana. This route is carefully chosen to guarantee the iconic postcard view that every traveler dreams of capturing. You will learn about the fascinating history and engineering of the Incas while enjoying the best panoramic perspectives without the crowds."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Services included:",
+      "items": [
+        "Private Transport: Private round-trip vehicle from your hotel in Cusco.",
+        "Official Visit: Guaranteed Circuit 2 entry for the classic postcard view.",
+        "Train Tickets: Round-trip tourist train tickets included.",
+        "Bus Tickets: Full round-trip shuttle bus to the Machu Picchu citadel.",
+        "Private Guide: Certified professional guide for a 2.5-hour private tour.",
+        "Rest Area: Access to a comfortable space in Aguas Calientes to relax.",
+        "Entrance - Historic Sanctuary of Machu Picchu"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Services not included:",
+      "items": [
+        "Meals and Drinks: Meals and drinks at the rest area or restaurants.",
+        "Tips: Gratuities for your private driver and expert guide.",
+        "Personal Expenses: Any snack, souvenir, or additional purchase."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Additional and important information:",
+      "items": [
+        "Allowed age: From 3 to 85 years old.",
+        "Duration: 15 to 18 hours. Start time subject to availability.",
+        "Available in languages: Spanish and English.",
+        "Mobile ticket available.",
+        "Pick-up details: 100% private service at your hotel or Airbnb in Cusco (or a nearby point on streets with restricted access) or Plaza de Armas, Cusco. The driver will carry a sign with your name or the company logo.",
+        "Accessibility and health: Not wheelchair accessible, babies must sit on a lap. Not recommended for travelers with back problems, pregnant women, or those with heart conditions or other serious medical issues. Medium fitness level required.",
+        "Advance coordination mandatory: Entry times for Circuit 2 are strictly subject to availability on the official government website. You must contact us to verify availability and confirm the total number of passengers before booking in order to sync entry with train schedules.",
+        "Modality: Private exclusive tour or activity for your group only."
+      ]
+    }
+  ],
+  "additionals": []
 }

@@ -7,5 +7,94 @@
   "type": "Ingresso",
   "typeKey": "ticket",
   "duration": "5 horas",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Desfrute de uma experiência completa em Machu Picchu com um itinerário de 2 dias, que permite explorar o Circuito 2 e o Circuito 3 em um único dia com um guia privativo fluente em inglês. Descubra as clássicas vistas panorâmicas, os templos importantes, as praças sagradas e os sítios arqueológicos mais icônicos da cidadela inca."
+    },
+    {
+      "text": "Sua experiência inclui assistência na estação de trem de Machu Picchu, traslado ao seu hotel, apoio com a organização do seu ingresso do Circuito 2, transporte de ônibus Consettur de ida e volta entre o Povoado de Machu Picchu e o Santuário, e assistência personalizada durante toda a sua visita."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Itinerário do passeio:",
+      "items": [
+        "Recepção na estação de trem de Machu Picchu por representante com placa com o nome do viajante e traslado ao hotel.",
+        "Embarque no ônibus Consettur de Machu Picchu Pueblo até o Santuário.",
+        "Passeio de 5 horas com guia privativo visitando os pontos principais do Circuito 2 e Circuito 3 (Mirante Panorâmico, Casa do Guardião, Templo do Sol, Templo Principal, Templo das Três Janelas, Pirâmide do Intihuatana, Rocha Sagrada, Templo da Condor, entre outros).",
+        "Retorno de ônibus Consettur a Machu Picchu Pueblo e encerramento no ponto de encontro inicial."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Machupicchu",
+      "subtitle": "Machu Picchu Peru",
+      "paragraphs": [
+        {
+          "text": "Lugares e atrações visitados durante o excursão de 5 horas:"
+        },
+        {
+          "items": [
+            "Mirante panorâmico clássico (Vista panorâmica clássica de Machu Picchu)",
+            "Casa do Guardião",
+            "Fosso Seco",
+            "Caos Granítico",
+            "Mirante do Templo do Sol",
+            "Plaza Sagrada / Plaza dos Templos",
+            "Templo Principal",
+            "Templo das Três Janelas",
+            "Pirâmide do Intihuatana",
+            "Rocha Sagrada",
+            "Doze Niches",
+            "Qolqas Orientais (Celeiros Incas)",
+            "Espelhos d'Água",
+            "Templo da Condor",
+            "Plaza Pisonay",
+            "Reserva Arqueológica"
+          ]
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Serviços incluídos:",
+      "items": [
+        "Guia privativo fluente em inglês para o Circuito 2 e o Circuito 3",
+        "Ingressos para Machu Picchu (Circuito 2 e Circuito 3)",
+        "Assistência na estação de trem de Machu Picchu, traslado ao hotel",
+        "Bilhetes de ônibus Consettur (ida e volta: Povoado de Machu Picchu – Santuário)",
+        "Entrada - Machupicchu"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Serviços não incluídos:",
+      "items": [
+        "Comidas e bebidas",
+        "Hospedagem em hotel de 2 estrelas",
+        "Despesas pessoais e compras adicionais"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Informações adicionais e importantes:",
+      "items": [
+        "Idade permitida: De 3 a 68 anos.",
+        "Duração: 5 horas. Horário de início sujeito à disponibilidade.",
+        "Disponível nos idiomas: Espanhol e Inglês.",
+        "Ingresso para dispositivo móvel disponível.",
+        "Ponto de encontro/recolhimento: Ao chegar à estação de trem de Machu Picchu (KM 110), Ca. Contisuyo, Aguas Calientes, você será recebido por um representante com uma placa com o nome e sobrenome do viajante principal. Recolhimento oferecido em hotéis selecionados.",
+        "A atividade termina no ponto de encontro inicial.",
+        "Acessibilidade e saúde: Não é acessível para cadeiras de rodas. Há transporte público nas proximidades. Bebés devem ir sentados no colo. Não é recomendado para viajantes com problemas nas costas, gestantes ou pessoas com condições cardíacas ou outros problemas médicos graves. É necessário nível físico médio.",
+        "Emissão de ingressos e informações de bilhetes: A entrada do Circuito 3B será fornecida 4 dias antes da data da sua visita. Em seguida, será realizado o processo de compra presencial para o Circuito 2 na bilheteria oficial no Povoado de Machu Picchu, sujeito à disponibilidade.",
+        "Requisito obrigatório de passaporte: Para emitir seus ingressos, você deve enviar uma foto clara do passaporte com as informações visíveis e legíveis para reservas@chullpiexpeditions.com ou pelo WhatsApp +51 940 468 520."
+      ]
+    }
+  ],
+  "additionals": []
 }

@@ -7,5 +7,77 @@
   "type": "Ingresso",
   "typeKey": "ticket",
   "duration": "15 a 18 horas",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Garanta seu acesso à rota mais emblemática de Machu Picchu: o Circuito 2. Ao reservar esta experiência premium, você garante a vista clássica de cartão-postal enquanto desfruta de uma viagem impecável e de alto padrão. Eliminamos as filas e a logística, substituindo-as por um serviço refinado e sob medida para aqueles que exigem o melhor."
+    },
+    {
+      "text": "O que nos diferencia?\n\nTransporte 100% Privado: Desfrute de uma van confortável e privativa do seu hotel em Cusco diretamente até a estação de trem — sem esperar por grandes grupos.\n\nCircuito 2 Garantido: Garantimos a entrada mais disputada para as melhores vistas da cidadela.\n\nÁrea de Descanso Exclusiva: Acesso a um espaço dedicado em Aguas Calientes, onde você poderá utilizar as instalações e relaxar confortavelmente enquanto espera seu trem de retorno.\n\nLogística Tudo Incluido: Cuidamos dos seus trens turísticos, bilhetes de ônibus e fornecemos um guia privativo experiente.\n\nNão vendemos apenas um passeio; oferecemos tranquilidade para que você possa se concentrar na Maravilha do Mundo."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Itinerário do passeio:",
+      "items": [
+        "Recolhimento em van privativa diretamente no seu hotel ou Airbnb em Cusco, com destino à estação de trem.",
+        "Viagem de trem turístico de ida até Aguas Calientes.",
+        "Traslado em ônibus executivo de subida até a cidadela de Machu Picchu.",
+        "Passeio privativo guiado de 2,5 horas pelo Circuito 2 (Rota Clássica) em Machu Picchu.",
+        "Descida de ônibus executivo até Aguas Calientes e acesso a uma área de descanso exclusiva.",
+        "Viagem de trem turístico de retorno e traslado em transporte privativo de volta a Cusco."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Santuário Histórico de Machu Picchu",
+      "subtitle": "Machu Picchu Peru",
+      "paragraphs": [
+        {
+          "text": "Explore o famoso sítio arqueológico de Machu Picchu pelo exclusivo Circuito 2 (Rota Clássica). Acompanhado pelo seu guia privativo experiente, você desfrutará de um passeio de 2,5 horas visitando os setores mais importantes da cidadela, incluindo o Templo do Sol, a Plaza Sagrada e a Intihuatana. Esta rota é cuidadosamente escolhida para garantir a vista icônica de cartão-postal que todo viajante sonha em capturar. Você aprenderá sobre a fascinante história e engenharia dos Incas enquanto desfruta das melhores perspectivas panorâmicas sem as multidões."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Serviços incluídos:",
+      "items": [
+        "Transporte Privativo: Van privativa de ida e volta do seu hotel em Cusco.",
+        "Visita Oficial: Entrada garantida no Circuito 2 para a vista clássica de cartão-postal.",
+        "Bilhetes de Trem: Bilhetes de trem turístico de ida e volta incluídos.",
+        "Bilhetes de Ônibus: Ônibus executivo completo de ida e volta até a cidadela de Machu Picchu.",
+        "Guia Privativo: Guia profissional certificado para um passeio privativo de 2,5 horas.",
+        "Área de Descanso: Acesso a um espaço confortável em Aguas Calientes para relaxar.",
+        "Entrada - Santuário Histórico de Machu Picchu"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Serviços não incluídos:",
+      "items": [
+        "Comidas e Bebidas: Comidas e bebidas na área de descanso ou restaurantes.",
+        "Gorjetas: Gratificações para o seu motorista privativo e guia experiente.",
+        "Despesas Pessoais: Qualquer lanche, lembrança ou compra adicional."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Informações adicionais e importantes:",
+      "items": [
+        "Idade permitida: De 3 a 85 anos.",
+        "Duração: 15 a 18 horas. Horário de início sujeito à disponibilidade.",
+        "Disponível nos idiomas: Espanhol e Inglês.",
+        "Ingresso para dispositivo móvel disponível.",
+        "Detalhes do recolhimento: Serviço 100% privativo no seu hotel ou Airbnb em Cusco (ou ponto próximo em ruas de acesso restrito) ou Plaza de Armas, Cusco. O motorista carregará uma placa com seu nome ou o logotipo da empresa.",
+        "Acessibilidade e saúde: Não é acessível para cadeiras de rodas, bebés devem ir sentados no colo. Não é recomendado para viajantes com problemas nas costas, gestantes ou pessoas com condições cardíacas ou outros problemas médicos graves. É necessário nível físico médio.",
+        "Coordenação prévia obrigatória: Os horários de entrada para o Circuito 2 estão estritamente sujeitos à disponibilidade no site oficial do governo. Você deve entrar em contato para verificar a disponibilidade e confirmar o número total de passageiros antes de reservar, a fim de sincronizar a entrada com os horários dos trens.",
+        "Modalidade: Passeio ou atividade privativa exclusiva para o seu grupo."
+      ]
+    }
+  ],
+  "additionals": []
 }

@@ -7,5 +7,82 @@
   "type": "Ticket",
   "typeKey": "ticket",
   "duration": "3 hours",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Can't find tickets for Circuit 2? We've got you covered! We exclusively provide the coveted Circuit 2 (Classic Route), the only path that guarantees the iconic panoramic photo of Machu Picchu that every traveler dreams of. While standard tours rush through it in 90 minutes, we offer a premium 2-hour-and-30-minute private immersion led by a first-class official guide."
+    },
+    {
+      "text": "Your private journey is meticulously designed to explore the heart of the Inca Empire at your own pace. You will marvel at the majestic Temple of the Sun, the sacred Three Windows and the Main Temples, discovering historical secrets that large groups simply miss. This is a VIP, tailored experience focused on quality, comfort and storytelling. We handle the official tickets and logistics so you can enjoy a seamless, stress-free visit. If you're looking for the most complete and professional way to see the Wonder of the World, this is it."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Tour itinerary:",
+      "items": [
+        "Pick-up and reception at the Aguas Calientes / Machu Picchu Pueblo train station by a representative holding a sign or logo.",
+        "Rest time and free use of facilities (restrooms and seating) at a local tourist restaurant while waiting for entry time.",
+        "2.5-hour private tour of the Classic Circuit 2 of Machu Picchu (Guardian's House, panoramic photo, Temple of the Sun, Sacred Plaza, Temple of the Three Windows, Main Temple, stories of the Intihuatana pyramid and residential sectors).",
+        "Tour ends at the initial meeting point."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Machu Picchu Hot Springs / Machu Picchu Sanctuary",
+      "subtitle": "Avenida Hermanos Ayar, Aguas Calientes, Machu Picchu 08681 Peru",
+      "paragraphs": [
+        {
+          "text": "On this exclusive 2.5-hour private tour, you will experience the best of Machu Picchu through the Classic Circuit 2."
+        },
+        {
+          "text": "Your journey begins at the iconic Guardian's House sector, the exact spot where you will capture the famous panoramic photo of the citadel with Huayna Picchu in the background. After securing your memories, your expert guide will lead you through the heart of the Inca city. You will marvel at the precision of the Temple of the Sun, be amazed by the Sacred Plaza and explore the Temple of the Three Windows and the Main Temple."
+        },
+        {
+          "text": "Unlike crowded group tours, this private experience allows you to delve into the history, spirituality and architectural genius of the Incas at your own pace. Your guide will share hidden stories and details of the Intihuatana pyramid and the residential sectors, ensuring a high-quality, immersive visit to the New Wonder of the World."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Services included:",
+      "items": [
+        "Entrance/Admission - Machu Picchu (Circuit 2)",
+        "Official private guide",
+        "Reception and transfer in Aguas Calientes",
+        "Access to a tourist restaurant with free use of facilities (restrooms and lounge area)",
+        "Entrance - Machu Picchu Hot Springs"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Services not included:",
+      "items": [
+        "Round-trip train tickets from/to Aguas Calientes",
+        "Round-trip bus tickets between Aguas Calientes and Machu Picchu (Consettur)",
+        "Personal expenses, food and drinks not mentioned",
+        "Hotel pick-up in Cusco"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Additional and important information:",
+      "items": [
+        "Allowed age: From 3 to 85 years old.",
+        "Duration: 3 hours. Start time subject to availability.",
+        "Available in languages: Spanish and English.",
+        "Mobile ticket available.",
+        "Meeting point/pick-up: Machu Picchu train station in Aguas Calientes. A representative will be waiting with a sign bearing your name or the Chullpi Expeditions logo to guide you to a local restaurant.",
+        "The activity ends at the initial meeting point.",
+        "Tips and physical requirements: Not wheelchair accessible, babies must sit on a lap. Not recommended for travelers with back problems, pregnant women, or people with heart conditions or other serious medical issues. Medium fitness level required.",
+        "Machu Picchu entry information: Throughout the entire month of June and until July 15, Circuit 3 – Designed Route will be available as a very similar alternative to the traditional Circuit 2 (allows the classic photo from the agricultural zone and visiting the main ruins, plazas, temples, Casa del Inca, Casa del Cóndor, the Sacred Pyramid viewpoint and Three Windows with an approximate duration of 2h 50m). Circuit 3B offers a longer route within the citadel.",
+        "Mandatory after booking: Send clear photos of all participants' passports through the Viator messaging system to issue entry tickets without errors.",
+        "Schedule coordination: The start time is indicative and subject to Ministry of Culture ticket availability. It is recommended to verify or coordinate train schedules BEFORE purchasing train tickets."
+      ]
+    }
+  ],
+  "additionals": []
 }

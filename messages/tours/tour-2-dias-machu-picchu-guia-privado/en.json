@@ -7,5 +7,94 @@
   "type": "Ticket",
   "typeKey": "ticket",
   "duration": "5 hours",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Enjoy a complete Machu Picchu experience with a 2-day itinerary, allowing you to explore Circuit 2 and Circuit 3 in a single day with a fluent English-speaking private guide. Discover the classic panoramic views, important temples, sacred plazas and the most iconic archaeological sites of the Inca citadel."
+    },
+    {
+      "text": "Your experience includes assistance at the Machu Picchu train station, transfer to your hotel, support with organizing your Circuit 2 ticket, round-trip Consettur bus transportation between Machu Picchu Pueblo and the Sanctuary, and personalized assistance throughout your visit."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Tour itinerary:",
+      "items": [
+        "Reception at the Machu Picchu train station by a representative holding a sign with the traveler's name, and transfer to the hotel.",
+        "Board the Consettur bus from Machu Picchu Pueblo to the Sanctuary.",
+        "5-hour tour with a private guide visiting the highlights of Circuit 2 and Circuit 3 (Panoramic Viewpoint, Guardian's House, Temple of the Sun, Main Temple, Temple of the Three Windows, Intihuatana Pyramid, Sacred Rock, Temple of the Condor, among others).",
+        "Return by Consettur bus to Machu Picchu Pueblo, ending at the initial meeting point."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Machupicchu",
+      "subtitle": "Machu Picchu Peru",
+      "paragraphs": [
+        {
+          "text": "Places and attractions visited during the 5-hour excursion:"
+        },
+        {
+          "items": [
+            "Classic panoramic viewpoint (Classic panoramic view of Machu Picchu)",
+            "Guardian's House",
+            "Dry Moat",
+            "Granite Chaos",
+            "Temple of the Sun Viewpoint",
+            "Sacred Plaza / Plaza of the Temples",
+            "Main Temple",
+            "Temple of the Three Windows",
+            "Intihuatana Pyramid",
+            "Sacred Rock",
+            "Twelve Niches",
+            "Eastern Qolqas (Inca Storehouses)",
+            "Water Mirrors",
+            "Temple of the Condor",
+            "Pisonay Plaza",
+            "Archaeological Reserve"
+          ]
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Services included:",
+      "items": [
+        "Private guide fluent in English for Circuit 2 and Circuit 3",
+        "Machu Picchu entrance tickets (Circuit 2 and Circuit 3)",
+        "Assistance at the Machu Picchu train station, transfer to hotel",
+        "Consettur bus tickets (round-trip: Machu Picchu Pueblo – Sanctuary)",
+        "Entrance - Machupicchu"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Services not included:",
+      "items": [
+        "Meals and drinks",
+        "2-star hotel accommodation",
+        "Personal expenses and additional shopping"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Additional and important information:",
+      "items": [
+        "Allowed age: From 3 to 68 years old.",
+        "Duration: 5 hours. Start time subject to availability.",
+        "Available in languages: Spanish and English.",
+        "Mobile ticket available.",
+        "Meeting point/pick-up: Upon arrival at the Machu Picchu train station (KM 110), Ca. Contisuyo, Aguas Calientes, you will be greeted by a representative holding a sign with the first and last name of the main traveler. Pick-up is offered at selected hotels.",
+        "The activity ends at the initial meeting point.",
+        "Accessibility and health: Not wheelchair accessible. Public transportation nearby. Babies must sit on a lap. Not recommended for travelers with back problems, pregnant women, or those with heart conditions or other serious medical issues. Medium fitness level required.",
+        "Ticket issuance and booking information: The Circuit 3B entrance will be provided 4 days before your visit date. Subsequently, the in-person purchase process for Circuit 2 will proceed at the official ticket office in Machu Picchu Pueblo, subject to availability.",
+        "Mandatory passport requirement: To issue your tickets, you must send a clear photo of the passport with visible and legible information to reservas@chullpiexpeditions.com or via WhatsApp at +51 940 468 520."
+      ]
+    }
+  ],
+  "additionals": []
 }

@@ -7,5 +7,75 @@
   "type": "Ingresso",
   "typeKey": "ticket",
   "duration": "2 horas",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Diferente dos ingressos padrão, esta opção inclui um guia privativo licenciado que o acompanhará dentro de Machu Picchu. Você não apenas entrará na cidadela, mas também desfrutará de um passeio personalizado de 2 horas adaptado aos seus interesses e ritmo."
+    },
+    {
+      "text": "A admissão é confirmada para o Circuito 1, 2 ou 3 (sujeito à disponibilidade), o que garante o acesso a uma das Novas Sete Maravilhas do Mundo. Com assistência prioritária no portão principal e informações exclusivas do seu guia, esta experiência transforma sua visita em uma viagem memorável além de um simples ingresso."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Itinerário do passeio:",
+      "items": [
+        "Encontro com o guia privativo e assistência prioritária no portão principal de Machu Picchu.",
+        "Passeio guiado privativo de 2 horas pelo Circuito 1, 2 ou 3 (conforme disponibilidade).",
+        "Exploração de áreas icônicas: Templo do Sol, Plaza Principal, terraços agrícolas, recintos cerimoniais e mirantes panorâmicos.",
+        "Explicação sobre a história, arquitetura e espiritualidade inca em ritmo personalizado, com tempo para fotografias.",
+        "Encerramento do passeio guiado dentro da cidadela."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Machu Picchu",
+      "subtitle": "Machu Picchu, Peru",
+      "paragraphs": [
+        {
+          "text": "Os viajantes explorarão a majestosa cidadela inca de Machu Picchu acompanhados por um guia privativo. Dependendo da disponibilidade, a admissão será confirmada para o Circuito 1, 2 ou 3, cada um oferecendo uma perspectiva única deste Patrimônio Mundial da UNESCO."
+        },
+        {
+          "text": "No passeio guiado, os visitantes descobrirão áreas icônicas como o Templo do Sol, a Plaza Principal, terraços agrícolas, recintos cerimoniais e impressionantes mirantes com vistas para toda a cidadela. Seu guia privativo explicará a história, a arquitetura e a importância espiritual de Machu Picchu, respondendo a todas as suas perguntas no seu próprio ritmo."
+        },
+        {
+          "text": "Esta experiência proporciona aproximadamente 2 horas de orientação personalizada, garantindo que você aproveite ao máximo sua visita e capture fotos inesquecíveis de uma das Novas Sete Maravilhas do Mundo."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Serviços incluídos:",
+      "items": [
+        "Ingresso de Machu Picchu (Circuito 1, 2 ou 3, sujeito à disponibilidade)",
+        "Guia privativo"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Serviços não incluídos:",
+      "items": ["Comidas e bebidas (almoço não incluído)"]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Informações adicionais e importantes:",
+      "items": [
+        "Idade permitida: De 3 a 85 anos.",
+        "Duração: 2 horas. Horário de início sujeito à disponibilidade.",
+        "Disponível nos idiomas: Espanhol e Inglês.",
+        "Ingresso para dispositivo móvel disponível.",
+        "Acessibilidade: Não é acessível para cadeiras de rodas, bebés devem ir sentados no colo, animais de serviço são permitidos, há transporte público nas proximidades.",
+        "Condição física e restrições: É necessário nível físico médio. Não é recomendado para viajantes com problemas nas costas, gestantes ou pessoas com condições cardíacas ou outros problemas médicos graves.",
+        "Obrigatório após reservar: Envie fotos claras dos passaportes de todos os participantes pelo sistema de mensagens da Viator, WhatsApp (+51 940 468 520) ou e-mail (reservas@chullpiexpeditions.com) para emitir corretamente os ingressos.",
+        "Disponibilidade de circuitos e horários: Os circuitos (Circuito 1, 2 ou 3) estão sujeitos à disponibilidade no momento da compra. Os horários de entrada disponíveis são somente às 6h00, 7h00, 8h00 e 9h00.",
+        "Coordenação de trens: É necessário verificar ou coordenar os horários dos trens ANTES de comprar bilhetes de trem, pois a entrada em Machu Picchu deve ser garantida primeiro (recomenda-se contatar pelo WhatsApp +51 940 468 520 antes de reservar).",
+        "Condições meteorológicas: Esta experiência requer bom tempo. Em caso de cancelamento por más condições climáticas, será oferecida outra data ou o reembolso total do valor pago."
+      ]
+    }
+  ],
+  "additionals": []
 }

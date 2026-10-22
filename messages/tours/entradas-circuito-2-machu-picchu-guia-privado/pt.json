@@ -7,5 +7,82 @@
   "type": "Ingresso",
   "typeKey": "ticket",
   "duration": "3 horas",
-  "popular": true
+  "popular": true,
+  "description": [
+    {
+      "text": "Não encontra ingressos para o Circuito 2? Nós temos a solução! Fornecemos exclusivamente o cobiçado Circuito 2 (Rota Clássica), o único caminho que garante a icônica foto panorâmica de Machu Picchu que todo viajante sonha. Enquanto os passeios padrão correm em 90 minutos, oferecemos uma imersão privativa premium de 2 horas e 30 minutos conduzida por um guia oficial de primeira classe."
+    },
+    {
+      "text": "Sua viagem privativa é meticulosamente projetada para explorar o coração do Império Inca no seu próprio ritmo. Você se maravilará com o majestoso Templo do Sol, as sagradas Três Janelas e os Templos Principais, descobrindo segredos históricos que os grandes grupos simplesmente perdem. Esta é uma experiência VIP, sob medida, focada em qualidade, conforto e narrativa. Cuidamos dos ingressos oficiais e da logística para que você desfrute de uma visita perfeita e sem estresse. Se você procura a forma mais completa e profissional de ver a Maravilha do Mundo, esta é a oportunidade."
+    }
+  ],
+  "shortItinerary": [
+    {
+      "text": "Itinerário do passeio:",
+      "items": [
+        "Recolhimento e recepção na estação de trem de Aguas Calientes / Machu Picchu Pueblo por um representante com placa ou logotipo.",
+        "Tempo de descanso e uso gratuito das instalações (banheiros e assentos) em um restaurante turístico local enquanto aguarda o horário de entrada.",
+        "Passeio privativo de 2,5 horas pelo Circuito Clássico 2 de Machu Picchu (Casa do Guardião, foto panorâmica, Templo do Sol, Plaza Sagrada, Templo das Três Janelas, Templo Principal, histórias da pirâmide Intihuatana e setores residenciais).",
+        "Encerramento do passeio no ponto de encontro inicial."
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "title": "Águas Termais de Machu Picchu / Santuário de Machu Picchu",
+      "subtitle": "Avenida Hermanos Ayar, Aguas Calientes, Machu Picchu 08681 Peru",
+      "paragraphs": [
+        {
+          "text": "Neste exclusivo passeio privativo de 2,5 horas, você experimentará o melhor de Machu Picchu através do Circuito Clássico 2."
+        },
+        {
+          "text": "Sua viagem começa no icônico setor da Casa do Guardião, o lugar exato onde você capturará a famosa foto panorâmica da cidadela com o Huayna Picchu ao fundo. Depois de garantir suas memórias, seu guia experiente o guiará pelo coração da cidade inca. Você se maravilará com a precisão do Templo do Sol, ficará impressionado com a Plaza Sagrada e explorará o Templo das Três Janelas e o Templo Principal."
+        },
+        {
+          "text": "Diferente dos passeios em grupo lotados, esta experiência privativa permite mergulhar na história, espiritualidade e genio arquitetônico dos Incas no seu próprio ritmo. Seu guia compartilhará histórias ocultas e detalhes da pirâmide Intihuatana e dos setores residenciais, garantindo uma visita de alta qualidade e imersiva à Nova Maravilha do Mundo."
+        }
+      ]
+    }
+  ],
+  "included": [
+    {
+      "text": "Serviços incluídos:",
+      "items": [
+        "Entrada/Admissão - Machu Picchu (Circuito 2)",
+        "Guia oficial privativo",
+        "Recepção e traslado em Aguas Calientes",
+        "Acesso a um restaurante turístico com uso gratuito das instalações (banheiros e área de estar)",
+        "Entrada - Águas Termais de Machu Picchu"
+      ]
+    }
+  ],
+  "notIncluded": [
+    {
+      "text": "Serviços não incluídos:",
+      "items": [
+        "Bilhetes de trem de ida e volta de/para Aguas Calientes",
+        "Bilhetes de ônibus de ida e volta entre Aguas Calientes e Machu Picchu (Consettur)",
+        "Despesas pessoais, comidas e bebidas não mencionadas",
+        "Recolhimento em hotéis em Cusco"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Informações adicionais e importantes:",
+      "items": [
+        "Idade permitida: De 3 a 85 anos.",
+        "Duração: 3 horas. Horário de início sujeito à disponibilidade.",
+        "Disponível nos idiomas: Espanhol e Inglês.",
+        "Ingresso para dispositivo móvel disponível.",
+        "Ponto de encontro/recolhimento: Estação de trem de Machu Picchu em Aguas Calientes. Um representante estará esperando com uma placa com seu nome ou o logotipo da Chullpi Expeditions para guiá-lo a um restaurante local.",
+        "A atividade termina no ponto de encontro inicial.",
+        "Dicas e requisitos físicos: Não é acessível para cadeiras de rodas, bebés devem ir sentados no colo. Não é recomendado para viajantes com problemas nas costas, gestantes ou pessoas com condições cardíacas ou outros problemas médicos graves. É necessário nível físico médio.",
+        "Informações sobre a entrada em Machu Picchu: Durante todo o mês de junio e até 15 de julho, o Circuito 3 – Rota Desenhada estará disponível como alternativa muito semelhante ao Circuito 2 tradicional (permite a foto clássica da zona agrícola e visita às principais ruínas, praças, templos, Casa do Inca, Casa da Condor, mirante da Sagrada Pirâmide e Três Janelas com duração aprox. de 2h50). O Circuito 3B oferece uma rota mais extensa dentro da cidadela.",
+        "Obrigatório após reservar: Envie fotos claras dos passaportes de todos os participantes pelo sistema de mensagens da Viator para emitir os ingressos sem erros.",
+        "Coordenação de horários: O horário de início é indicativo e sujeito à disponibilidade de ingressos do Ministério da Cultura. Recomenda-se verificar ou coordenar os horários dos trens ANTES de comprar bilhetes de trem."
+      ]
+    }
+  ],
+  "additionals": []
 }
